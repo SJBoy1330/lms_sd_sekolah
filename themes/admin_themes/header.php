@@ -35,6 +35,10 @@
     <link href="<?= base_url(); ?>assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
     <link href="<?= base_url(); ?>assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
     <!--end::Global Stylesheets Bundle-->
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/86bfabf1f4.js" crossorigin="anonymous"></script>
+
 </head>
 <!--end::Head-->
 <!--begin::Body-->
