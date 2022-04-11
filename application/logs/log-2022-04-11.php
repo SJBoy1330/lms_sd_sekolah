@@ -1,4 +1,4 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+<?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
 
 ERROR - 2022-04-11 00:01:06 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
 ERROR - 2022-04-11 00:01:06 --> Unable to connect to the database
@@ -210,201 +210,23 @@ ERROR - 2022-04-11 00:38:22 --> Severity: Warning --> mysqli::real_connect(): (H
 ERROR - 2022-04-11 00:38:22 --> Unable to connect to the database
 ERROR - 2022-04-11 00:38:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
 ERROR - 2022-04-11 00:38:22 --> Unable to connect to the database
-ERROR - 2022-04-11 10:24:10 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
- C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
-ERROR - 2022-04-11 10:24:10 --> Unable to connect to the database
-ERROR - 2022-04-11 10:24:14 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
- C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
-ERROR - 2022-04-11 10:24:14 --> Unable to connect to the database
-ERROR - 2022-04-11 10:55:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 10:55:16 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:19:03 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> Severity: Notice --> Undefined variable: jumlah_siswa C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 65
-ERROR - 2022-04-11 11:30:15 --> Severity: Notice --> Undefined variable: jumlah_paket C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 73
-ERROR - 2022-04-11 11:30:15 --> Severity: Notice --> Undefined variable: jumlah_sekolah C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 81
-ERROR - 2022-04-11 11:30:15 --> Severity: Notice --> Undefined variable: testimoni C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 118
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:15 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:44 --> Severity: Notice --> Undefined variable: jumlah_siswa C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 65
-ERROR - 2022-04-11 11:30:44 --> Severity: Notice --> Undefined variable: jumlah_paket C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 73
-ERROR - 2022-04-11 11:30:44 --> Severity: Notice --> Undefined variable: jumlah_sekolah C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 81
-ERROR - 2022-04-11 11:30:44 --> Severity: Notice --> Undefined variable: testimoni C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 118
-ERROR - 2022-04-11 11:30:44 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:44 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:44 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:44 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:44 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:44 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:44 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:44 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:44 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:30:44 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:31:14 --> Severity: Notice --> Undefined variable: jumlah_siswa C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 65
-ERROR - 2022-04-11 11:31:14 --> Severity: Notice --> Undefined variable: jumlah_paket C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 73
-ERROR - 2022-04-11 11:31:14 --> Severity: Notice --> Undefined variable: jumlah_sekolah C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 81
-ERROR - 2022-04-11 11:31:14 --> Severity: Notice --> Undefined variable: testimoni C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 118
-ERROR - 2022-04-11 11:31:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:31:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:31:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:31:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:31:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:31:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:31:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:31:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:31:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:31:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:31:22 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:31:22 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:31:22 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:12 --> Severity: Notice --> Undefined variable: jumlah_siswa C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 65
-ERROR - 2022-04-11 11:33:12 --> Severity: Notice --> Undefined variable: jumlah_paket C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 73
-ERROR - 2022-04-11 11:33:12 --> Severity: Notice --> Undefined variable: jumlah_sekolah C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 81
-ERROR - 2022-04-11 11:33:12 --> Severity: Notice --> Undefined variable: testimoni C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 118
-ERROR - 2022-04-11 11:33:12 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:12 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:12 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:12 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:12 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:12 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:12 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:12 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:12 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:12 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:12 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:12 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:29 --> Severity: Notice --> Undefined variable: jumlah_siswa C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 65
-ERROR - 2022-04-11 11:33:29 --> Severity: Notice --> Undefined variable: jumlah_paket C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 73
-ERROR - 2022-04-11 11:33:29 --> Severity: Notice --> Undefined variable: jumlah_sekolah C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 81
-ERROR - 2022-04-11 11:33:29 --> Severity: Notice --> Undefined variable: testimoni C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 118
-ERROR - 2022-04-11 11:33:29 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:29 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:29 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:29 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:29 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:29 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:29 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:29 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:29 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:29 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:29 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:33:30 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:39:14 --> Severity: Notice --> Undefined variable: jumlah_siswa C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 65
-ERROR - 2022-04-11 11:39:14 --> Severity: Notice --> Undefined variable: jumlah_paket C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 73
-ERROR - 2022-04-11 11:39:14 --> Severity: Notice --> Undefined variable: jumlah_sekolah C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 81
-ERROR - 2022-04-11 11:39:14 --> Severity: Notice --> Undefined variable: testimoni C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 118
-ERROR - 2022-04-11 11:39:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:39:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:39:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:39:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:39:14 --> 404 Page Not Found: /index
-ERROR - 2022-04-11 11:39:55 --> Severity: Notice --> Undefined variable: jumlah_siswa C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 65
-ERROR - 2022-04-11 11:39:55 --> Severity: Notice --> Undefined variable: jumlah_paket C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 73
-ERROR - 2022-04-11 11:39:55 --> Severity: Notice --> Undefined variable: jumlah_sekolah C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 81
-ERROR - 2022-04-11 11:39:55 --> Severity: Notice --> Undefined variable: testimoni C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 118
-ERROR - 2022-04-11 11:40:18 --> Severity: Notice --> Undefined variable: jumlah_siswa C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 65
-ERROR - 2022-04-11 11:40:18 --> Severity: Notice --> Undefined variable: jumlah_paket C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 73
-ERROR - 2022-04-11 11:40:18 --> Severity: Notice --> Undefined variable: jumlah_sekolah C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 81
-ERROR - 2022-04-11 11:40:18 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 144
-ERROR - 2022-04-11 11:40:18 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 166
-ERROR - 2022-04-11 11:40:18 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 188
-ERROR - 2022-04-11 11:40:18 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 210
-ERROR - 2022-04-11 11:40:18 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 232
-ERROR - 2022-04-11 11:40:18 --> Severity: Notice --> Undefined variable: jumlah_siswa C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 65
-ERROR - 2022-04-11 11:40:18 --> Severity: Notice --> Undefined variable: jumlah_paket C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 73
-ERROR - 2022-04-11 11:40:18 --> Severity: Notice --> Undefined variable: jumlah_sekolah C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 81
-ERROR - 2022-04-11 11:40:18 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 144
-ERROR - 2022-04-11 11:40:18 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 166
-ERROR - 2022-04-11 11:40:18 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 188
-ERROR - 2022-04-11 11:40:18 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 210
-ERROR - 2022-04-11 11:40:18 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 232
-ERROR - 2022-04-11 12:57:56 --> Severity: Notice --> Undefined variable: jumlah_siswa C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 65
-ERROR - 2022-04-11 12:57:56 --> Severity: Notice --> Undefined variable: jumlah_paket C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 73
-ERROR - 2022-04-11 12:57:56 --> Severity: Notice --> Undefined variable: jumlah_sekolah C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 81
-ERROR - 2022-04-11 12:57:56 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 144
-ERROR - 2022-04-11 12:57:56 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 166
-ERROR - 2022-04-11 12:57:56 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 188
-ERROR - 2022-04-11 12:57:56 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 210
-ERROR - 2022-04-11 12:57:56 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 232
-ERROR - 2022-04-11 12:57:56 --> Severity: Notice --> Undefined variable: jumlah_siswa C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 65
-ERROR - 2022-04-11 12:57:56 --> Severity: Notice --> Undefined variable: jumlah_paket C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 73
-ERROR - 2022-04-11 12:57:56 --> Severity: Notice --> Undefined variable: jumlah_sekolah C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 81
-ERROR - 2022-04-11 12:57:56 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 144
-ERROR - 2022-04-11 12:57:56 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 166
-ERROR - 2022-04-11 12:57:56 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 188
-ERROR - 2022-04-11 12:57:56 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 210
-ERROR - 2022-04-11 12:57:56 --> Severity: Notice --> Undefined variable: gambar C:\xampp\htdocs\lms_sd\lms_sd_sekolah\modules\auth\views\index.php 232
+ERROR - 2022-04-11 10:09:45 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 10:09:45 --> Unable to connect to the database
+ERROR - 2022-04-11 10:09:45 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 10:09:45 --> Unable to connect to the database
+ERROR - 2022-04-11 10:09:45 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 10:09:45 --> Unable to connect to the database
+ERROR - 2022-04-11 10:09:45 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 10:09:45 --> Unable to connect to the database
+ERROR - 2022-04-11 10:09:45 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 10:09:45 --> Unable to connect to the database
+ERROR - 2022-04-11 10:09:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 10:09:48 --> Unable to connect to the database
+ERROR - 2022-04-11 10:09:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 10:09:48 --> Unable to connect to the database
+ERROR - 2022-04-11 10:09:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 10:09:48 --> Unable to connect to the database
+ERROR - 2022-04-11 10:09:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 10:09:48 --> Unable to connect to the database
+ERROR - 2022-04-11 10:09:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 10:09:48 --> Unable to connect to the database
