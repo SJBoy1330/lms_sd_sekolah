@@ -70,16 +70,6 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#" title="Build your layout, preview and export HTML for server side integration" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-                                        <span class="menu-icon">
-                                            <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-books" style="font-size: 1.3rem;"></i>
-                                            <!--end::Svg Icon-->
-                                        </span>
-                                        <span class="menu-title">Jurusan</span>
-                                    </a>
-                                </div>
-                                <div class="menu-item">
                                     <a class="menu-link" href="#">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
