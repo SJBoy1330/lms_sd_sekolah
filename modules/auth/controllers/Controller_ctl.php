@@ -11,7 +11,13 @@ class Controller_ctl extends MY_Login
 
 	public function index()
 	{
-		$mydata['title'] = 'Login Page';
+		// LOAD TITLE
+		$mydata['title'] = 'Landing Page';
+
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/landing/acces.js') . '"></script>';
+
+		// LOAD VIEW
 		$this->data['content'] = $this->load->view('index', $mydata, TRUE);
 		$this->display();
 	}
