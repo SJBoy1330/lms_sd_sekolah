@@ -37,6 +37,12 @@
     <!-- Template Main CSS File -->
     <link href="<?= base_url(); ?>assets/css/landing.css" rel="stylesheet">
 
+    <!-- Modify Template CSS -->
+    <link href="<?= base_url(); ?>assets/css/modify-landing.css" rel="stylesheet">
+
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/649c0dd522.js" crossorigin="anonymous"></script>
+
     <!-- =======================================================
   * Template Name: FlexStart - v1.9.0
   * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/

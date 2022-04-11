@@ -18,12 +18,12 @@ body {
 }
 
 a {
-  color: #329ADA;
+  color: #EC3528;
   text-decoration: none;
 }
 
 a:hover {
-  color: #329ADA;
+  color: #EC3528;
   text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #2C88C0;
+  color: #FF0000;
   text-transform: uppercase;
 }
 .section-header p {
@@ -57,7 +57,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #012970;
+  color: #303030;
 }
 @media (max-width: 768px) {
   .section-header p {
@@ -71,7 +71,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #012970;
+  background: #303030;
   min-height: 40px;
   margin-top: 82px;
   color: #fff;
@@ -120,7 +120,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #2C88C0;
+  background: #FF0000;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -174,7 +174,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #012970;
+  color: #303030;
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
@@ -302,7 +302,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #012970;
+  color: #303030;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -353,7 +353,7 @@ section {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #012970;
+  color: #303030;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #4154f1;
@@ -394,14 +394,14 @@ section {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/banner-bg.png) top center no-repeat;
+  background: url(../img/banner-bg-2.png) top center no-repeat;
   background-size: cover;
 }
 .hero h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #012970;
+  color: #303030;
 }
 .hero h2 {
   color: #444444;
@@ -416,14 +416,14 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #329ADA;
-  box-shadow: 0px 5px 30px rgb(50 154 218 / 50%);
+  background: #EC3528;
+  box-shadow: 0px 5px 30px rgba(218, 50, 50, 0.5);
 }
 
 .hero .btn-get-started:hover {
  background-color: transparent;
- color: #329ADA;
- border: 2px solid #329ADA;
+ color: #EC3528;
+ border: 2px solid #EC3528;
  transition: 0.5s;
 }
 
@@ -496,7 +496,7 @@ section {
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #012970;
+  color: #303030;
 }
 .about p {
   margin: 15px 0 30px 0;
@@ -544,7 +544,7 @@ section {
 }
 .values .box h3 {
   font-size: 24px;
-  color: #012970;
+  color: #303030;
   font-weight: 700;
   margin-bottom: 18px;
 }
@@ -601,7 +601,7 @@ section {
 }
 .features .feature-box h3 {
   font-size: 18px;
-  color: #012970;
+  color: #303030;
   font-weight: 700;
   margin: 0;
 }
@@ -622,7 +622,7 @@ section {
   margin-top: 120px;
 }
 .features .feture-tabs h3 {
-  color: #012970;
+  color: #303030;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 10px;
@@ -640,7 +640,7 @@ section {
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
-  color: #012970;
+  color: #303030;
   padding: 12px 0;
   margin-right: 25px;
   margin-bottom: -2px;
@@ -654,7 +654,7 @@ section {
   font-size: 18px;
   margin: 0;
   font-weight: 700;
-  color: #012970;
+  color: #303030;
 }
 .features .feture-tabs .tab-content i {
   font-size: 24px;
@@ -666,7 +666,7 @@ section {
   margin-top: 120px;
 }
 .features .feature-icons h3 {
-  color: #012970;
+  color: #303030;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 20px;
@@ -685,7 +685,7 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
-  color: #012970;
+  color: #303030;
 }
 .features .feature-icons .content .icon-box i {
   font-size: 44px;
@@ -705,7 +705,7 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 5px 0;
-  color: #012970;
+  color: #303030;
 }
 .features .tab-content .content .icon-box i {
   font-size: 40px;
@@ -1053,11 +1053,11 @@ section {
 }
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #012970;
+  color: #303030;
   font-weight: 700;
 }
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #012970;
+  color: #303030;
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
@@ -1177,6 +1177,7 @@ section {
   flex-direction: column;
   text-align: center;
   transition: 0.3s;
+  border-radius: 25px;
 }
 .testimonials .testimonial-item .stars {
   margin-bottom: 15px;
@@ -1216,10 +1217,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #1F76AC;
+  border: 1px solid #EC3528;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1F76AC;
+  background-color: #EC3528;
 }
 .testimonials .swiper-slide {
   opacity: 0.3;
@@ -1300,7 +1301,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #012970;
+  color: #303030;
 }
 .team .member .member-info span {
   display: block;
@@ -1380,7 +1381,7 @@ section {
 }
 .recent-blog-posts .post-box .post-title {
   font-size: 24px;
-  color: #012970;
+  color: #303030;
   font-weight: 700;
   margin-bottom: 18px;
   position: relative;
@@ -1420,7 +1421,7 @@ section {
 }
 .contact .info-box h3 {
   font-size: 20px;
-  color: #012970;
+  color: #303030;
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
@@ -1538,7 +1539,7 @@ section {
   margin: 0 0 20px 0;
 }
 .blog .entry .entry-title a {
-  color: #012970;
+  color: #303030;
   transition: 0.3s;
 }
 .blog .entry .entry-title a:hover {
@@ -1617,7 +1618,7 @@ section {
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: #012970;
+  background-color: #303030;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -1682,7 +1683,7 @@ section {
   font-size: 22px;
   margin-bottom: 0px;
   padding: 0;
-  color: #012970;
+  color: #303030;
 }
 .blog .blog-author .social-links {
   margin: 0 10px 10px 0;
@@ -1725,7 +1726,7 @@ section {
 }
 .blog .blog-comments .comment h5 .reply {
   padding-left: 10px;
-  color: #012970;
+  color: #303030;
 }
 .blog .blog-comments .comment h5 .reply i {
   font-size: 20px;
@@ -1776,7 +1777,7 @@ section {
   border-radius: 4px;
   padding: 10px 20px;
   border: 0;
-  background-color: #012970;
+  background-color: #303030;
 }
 .blog .blog-comments .reply-form .btn-primary:hover {
   background-color: #013289;
@@ -1795,7 +1796,7 @@ section {
   transition: 0.3s;
 }
 .blog .blog-pagination li a {
-  color: #012970;
+  color: #303030;
   padding: 7px 16px;
   display: flex;
   align-items: center;
@@ -1817,7 +1818,7 @@ section {
   font-weight: 700;
   padding: 0 0 0 0;
   margin: 0 0 15px 0;
-  color: #012970;
+  color: #303030;
   position: relative;
 }
 .blog .sidebar .sidebar-item {
@@ -1865,7 +1866,7 @@ section {
   padding-top: 10px;
 }
 .blog .sidebar .categories ul a {
-  color: #012970;
+  color: #303030;
   transition: 0.3s;
 }
 .blog .sidebar .categories ul a:hover {
@@ -1889,7 +1890,7 @@ section {
   font-weight: bold;
 }
 .blog .sidebar .recent-posts h4 a {
-  color: #012970;
+  color: #303030;
   transition: 0.3s;
 }
 .blog .sidebar .recent-posts h4 a:hover {
@@ -1951,7 +1952,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  color: #012970;
+  color: #303030;
 }
 .footer .footer-newsletter form {
   margin-top: 20px;
@@ -2011,7 +2012,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #012970;
+  color: #303030;
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
@@ -2030,12 +2031,12 @@ section {
   transition: 0.3s;
 }
 .footer .footer-top .social-links a:hover {
-  color: #012970;
+  color: #303030;
 }
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #012970;
+  color: #303030;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -2077,13 +2078,13 @@ section {
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #012970;
+  color: #303030;
 }
 .footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #012970;
+  color: #303030;
 }
 
 /* CSS GUEST PRIBADi */
@@ -2096,7 +2097,7 @@ section {
   /*background-image: url("assets/img/bg-faq.png");*/
 }
 .faq .section-title h2, .faq .section-title p {
-  color: #012970;
+  color: #303030;
 }
 .faq .section-title h2{
   font-weight: 700;
@@ -2136,7 +2137,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #329ADA;
+  color: #EC3528;
 }
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
   font-size: 24px;
@@ -2153,10 +2154,10 @@ section {
   display: none;
 }
 .faq .faq-list a.collapsed {
-  color: #329ADA;
+  color: #EC3528;
 }
 .faq .faq-list a.collapsed:hover {
-  color: #329ADA;
+  color: #EC3528;
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
@@ -2667,7 +2668,7 @@ span.badge.element{
 
 .values .card.laporan-ujian .card-header h3{
   font-size: 23px;
-  color: #012970;
+  color: #303030;
   font-weight: 700;
 }
 
@@ -3255,4 +3256,62 @@ span.indicator-label.ragu-mobile{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card.siswa{
+  min-height: 425px;
+  border-radius: 15px;
+  border: 0;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.card.siswa:hover{
+  box-shadow: 3px -5px 60px 19px rgba(255, 0, 0, 0.1);
+}
+
+.card.staf{
+  min-height: 425px;
+  border-radius: 15px;
+  border: 0;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.card.staf:hover{
+  box-shadow: 3px -5px 60px 19px rgba(255, 0, 0, 0.1);
+}
+
+.card.wali{
+  min-height: 425px;
+  border-radius: 15px;
+  border: 0;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.card.wali:hover{
+  box-shadow: 3px -5px 60px 19px rgba(255, 0, 0, 0.1);
+}
+
+.image-placement{
+  margin: 10px 10px 0 10px;
+  height: 275px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/adult-only.jpg');
+  border-radius: 10px;
+}
+
+.card-title{
+  font-weight: bold;
+  font-size: 20px;
+  color: #3f4254;
+}
+
+.card-text{
+  color: #8F8F8F;
+  font-size: 16px;
+  font-weight: medium;
 }
