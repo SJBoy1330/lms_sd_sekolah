@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--begin::Head-->
 
 <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
     <title>
         <?php
         if (isset($title)) {
@@ -12,26 +14,77 @@
         }
         ?>
     </title>
-    <meta charset="utf-8" />
-    <meta name="description" content="The most advanced Bootstrap Admin Theme on Themeforest trusted by 94,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue &amp; Laravel versions. Grab your copy now and get life-time updates for free." />
-    <meta name="keywords" content="Metronic, bootstrap, bootstrap 5, Angular, VueJs, React, Laravel, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Metronic - Bootstrap 5 HTML, VueJS, React, Angular &amp; Laravel Admin Dashboard Theme" />
-    <meta property="og:url" content="https://keenthemes.com/metronic" />
-    <meta property="og:site_name" content="Keenthemes | Metronic" />
-    <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
-    <link rel="shortcut icon" href="<?= base_url() ?>assets/media/logos/favicon.ico" />
-    <!--begin::Fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
-    <!--end::Fonts-->
-    <!--begin::Global Stylesheets Bundle(used by all pages)-->
-    <link href="<?= base_url() ?>assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
-    <link href="<?= base_url() ?>assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
-    <!--end::Global Stylesheets Bundle-->
-</head>
-<!--end::Head-->
-<!--begin::Body-->
+    <meta content="" name="description">
 
-<body id="kt_body" class="bg-body">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="<?= base_url(); ?>assets/img/logo-1.png" rel="icon">
+    <link href="<?= base_url(); ?>assets/img/logo-1.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="<?= base_url(); ?>assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="<?= base_url(); ?>assets/css/landing.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: FlexStart - v1.9.0
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+
+    <?php
+
+    if (isset($css_add) && is_array($css_add)) {
+
+        foreach ($css_add as $css) {
+
+            echo $css;
+        }
+    } else {
+
+        echo (isset($css_add) && ($css_add != "") ? $css_add : "");
+    }
+
+    ?>
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-none">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+            <a href="<?= base_url('dashboard') ?>" class="logo d-flex align-items-center">
+                <img src="<?= base_url(); ?>assets/img/logo-1.png" alt="">
+                <span class="ms-2">KlasQ</span>
+            </a>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="<?= base_url('dashboard') ?>">DASHBOARD</a></li>
+                    <li><a class="nav-link scrollto" href="<?= base_url('dashboard/riwayat') ?>">RIWAYAT UJIAN</a></li>
+                    <li><a class="nav-link scrollto" href="<?= base_url('dashboard/laporan') ?>">LAPORAN UJIAN</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+            <!-- Untuk Dashboard, Riwayat Ujian, & Laporan -->
+            <div class="logo d-flex align-items-center">
+                <div class="avatar" style="background-image: url(assets/img/hipster.png)">
+                </div>
+            </div>
+        </div>
+    </header><!-- End Header -->

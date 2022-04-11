@@ -1,0 +1,53 @@
+
+# */config/development
+# */logs/log-*.php
+# !*/logs/index.html
+# */cache/*
+# !*/cache/index.html
+# !*/cache/.htaccess
+
+# user_guide_src/build/*
+# user_guide_src/cilexer/build/*
+# user_guide_src/cilexer/dist/*
+# user_guide_src/cilexer/pycilexer.egg-info/*
+
+# #codeigniter 3
+# application/logs/*
+# !application/logs/index.html
+# !application/logs/.htaccess
+# /vendor/
+# /upload/
+# .htaccess
+# application/config/production/config.php
+# application/config/production/database.php
+# .htaccess
+# application/config/production/config.php
+# application/config/production/database.php
+# application/config/development/autoload.php
+
+
+*/config/development
+/logs/log-.php
+!*/logs/index.html
+/cache/
+!*/cache/index.html
+!*/cache/.htaccess
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+#codeigniter 3
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+/vendor/
+/upload/
+application/config/production/config.php
+application/config/production/database.php
+application/config/development/autoload.php
+application/config/production/hooks.php
+application/config/production/database.php
+application/logs/log-2022-04-11.php
+application/logs/log-2022-04-11.php
