@@ -36,6 +36,9 @@
     <link href="<?= base_url(); ?>assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
     <!--end::Global Stylesheets Bundle-->
 
+    <!-- ClockPicker Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/clockpicker/bootstrap-clockpicker.min.css">
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/86bfabf1f4.js" crossorigin="anonymous"></script>
 

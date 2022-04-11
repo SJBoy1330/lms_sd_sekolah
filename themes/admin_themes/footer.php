@@ -51,6 +51,16 @@
     <script src="<?= base_url(); ?>assets/js/custom/modals/create-app.js"></script>
     <script src="<?= base_url(); ?>assets/js/custom/modals/users-search.js"></script>
     <!--end::Page Custom Javascript-->
+
+    <!-- jQuery and Bootstrap scripts -->
+    <script type="text/javascript" src="<?= base_url(); ?>assets/js/clockpicker/jquery.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assets/js/clockpicker/bootstrap.min.js"></script>
+
+    <!-- ClockPicker script -->
+    <script type="text/javascript" src="<?= base_url(); ?>assets/js/clockpicker/bootstrap-clockpicker.min.js"></script>
+
+    <script type="text/javascript" src="<?= base_url(); ?>assets/js/clockpicker/demo-clockpicker.js"></script>
+
     <!--end::Javascript-->
     </body>
     <!--end::Body-->

@@ -119,6 +119,14 @@ $route['dashboard/(:any)/(:any)'] = 'dashboard/controller_ctl/$1/$2';
 
 
 
+$route['pengaturan']  = 'pengaturan/controller_ctl';
+
+$route['pengaturan/(:any)'] = 'pengaturan/controller_ctl/$1';
+
+$route['pengaturan/(:any)/(:any)'] = 'pengaturan/controller_ctl/$1/$2';
+
+
+
 $route['chatting']  = 'chatting/controller_ctl';
 
 $route['chatting/(:any)'] = 'chatting/controller_ctl/$1';
