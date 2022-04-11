@@ -12,3 +12,7 @@ function back_to(element, id) {
     container_cabang.classList.remove('d-none');
     div_login.classList.add('d-none');
 }
+
+function redirect_to(url) {
+    window.location.href = url;
+}

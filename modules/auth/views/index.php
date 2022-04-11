@@ -364,7 +364,7 @@
                                     </div>
 
                                     <div class="text-center">
-                                        <button type="button" id="btn_login" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Masuk</span></button>
+                                        <button type="button" onclick="redirect_to(`<?= base_url('dashboard') ?>`)" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Masuk</span></button>
                                     </div>
 
                                 </div>
@@ -416,7 +416,7 @@
                                     </div>
 
                                     <div class="text-center">
-                                        <button type="button" id="btn_login" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Masuk</span></button>
+                                        <button type="button" onclick="redirect_to(`<?= base_url('dashboard') ?>`)" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Masuk</span></button>
                                     </div>
 
                                 </div>
@@ -468,7 +468,7 @@
                                     </div>
 
                                     <div class="text-center">
-                                        <button type="button" id="btn_login" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Masuk</span></button>
+                                        <button type="button" onclick="redirect_to(`<?= base_url('dashboard') ?>`)" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Masuk</span></button>
                                     </div>
 
                                 </div>
