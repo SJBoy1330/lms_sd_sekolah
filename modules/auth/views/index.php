@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                <img src="<?= base_url(); ?>assets/img/banner-vektor.png" class="img-fluid" alt="" width="500">
+                <img src="<?= base_url(); ?>assets/img/hero-banner.png" class="img-fluid" alt="">
             </div>
         </div>
     </div>
