@@ -22,14 +22,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center">
-                <h1 data-aos="fade-up">Selamat datang di website ujian KlasQ</h1>
-                <h2 data-aos="fade-up" data-aos-delay="400">Kami adalah tim Alpha berbakat yang membuat situs web ujian yang keren</h2>
+                <h1 data-aos="fade-up">Selamat datang di website admin KlasQ</h1>
+                <h2 data-aos="fade-up" data-aos-delay="400"></h2>
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
-                        <!-- <button class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>Login Sekarang</span>
-                <i class="bi bi-arrow-right"></i>
-              </button> -->
                         <button type="button" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <span>Login Sekarang</span>
                             <i class="bi bi-arrow-right"></i>
@@ -58,7 +54,7 @@
 
             <div class="row">
 
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
                     <div class="box">
                         <img src="<?= base_url(); ?>assets/img/item-1.png" class="img-fluid" alt="">
                         <h3>Pengguna terdaftar</h3>
@@ -280,10 +276,10 @@
                     <div class="form-container sign-in-container">
                         <form id="form_login" class="php-email-form">
                             <div class="box text-center">
-                                <h3 style="font-size: 24px; color: #012970; font-weight: 700;">Login KlasQ</h3>
-                                <p>Masukkan id sekolah, nis dan password untuk bisa mengakses</p>
+                                <h3 style="font-size: 24px; color: #012970; font-weight: 700;">Login admin KlasQ sebagai</h3>
+                                <p>Pilih salah satu untuk mengakses web admin</p>
                             </div>
-                            <div class="row gy-4">
+                            <!-- <div class="row gy-4">
 
                                 <div class="form-floating mb-3" id="req_kode_sekolah">
                                     <input type="email" class="form-control" name="kode_sekolah" id="kode_sekolah" placeholder="Kode Sekolah" autocomplete="off">
@@ -310,6 +306,37 @@
                                     <button type="button" id="btn_login" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Masuk</span></button>
                                 </div>
 
+                            </div> -->
+                            <div class="row gy-4">
+                                <div class="col-4 card-akses mt-5">
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-4 card-akses mt-5">
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-4 card-akses mt-5">
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </form>
                     </div>
