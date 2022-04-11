@@ -57,7 +57,7 @@
             <li class="features-item">
 
               <figure class="features-item-banner">
-                <img src="<?= base_url(); ?>assets/img/image-1.png" alt="feature banner">
+                <img src="<?= base_url(); ?>assets/img/image-1.png" alt="feature banner" style="animation: up-down 1.3s ease-in-out infinite alternate-reverse both;">
               </figure>
 
               <div class="feature-item-content">
@@ -76,7 +76,7 @@
             <li class="features-item" style="margin-bottom: 50px;">
 
               <figure class="features-item-banner">
-                <img src="<?= base_url(); ?>assets/img/image-2.png" alt="feature banner">
+                <img src="<?= base_url(); ?>assets/img/image-2.png" alt="feature banner" style="animation: up-down 1s ease-in-out infinite alternate-reverse both;">
               </figure>
 
               <div class="feature-item-content">
@@ -100,7 +100,7 @@
             <li class="features-item">
 
               <figure class="features-item-banner">
-                <img src="<?= base_url(); ?>assets/img/image-3.png" alt="feature banner">
+                <img src="<?= base_url(); ?>assets/img/image-3.png" alt="feature banner" style="animation: up-down 1.5s ease-in-out infinite alternate-reverse both;">
               </figure>
 
               <div class="feature-item-content">
@@ -330,40 +330,164 @@ background: linear-gradient(184deg, rgba(255,0,0,1) 0%, rgba(235,156,151,1) 100%
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="container-modal" id="container">
-                    <!-- <div class="form-container sign-up-container">
-                        <form action="#">
+
+                <!-- Login Siswa -->
+                <div class="container-modal d-flex d-none" id="container">
+                    <div class="form-container sign-in-container">
+                        <form id="form_login" class="php-email-form">
                             <div class="box text-center">
                             <h3 style="font-size: 24px; color: #012970; font-weight: 700;">Login KlasQ</h3>
                             <p>Masukkan id sekolah, nis dan password untuk bisa mengakses</p>
                             </div>
-                            <div class="row gy-4" style="margin-bottom: 85px;">
+                            <div class="row gy-4">
 
-                                <div class="form-floating mb-3">
-                                <input type="email" class="form-control" placeholder="Kode Sekolah" autocomplete="off">
-                                <label class="ms-2 mb-3">Email</label>
+                                <div class="form-floating mb-3" id="req_kode_sekolah">
+                                    <input type="email" class="form-control" name="kode_sekolah" id="kode_sekolah" placeholder="Kode Sekolah" autocomplete="off">
+                                    <label for="kode_sekolah" class="ms-2 mb-3">Kode Sekolah</label>
+                                </div>
+
+                                <div class="form-floating mb-3" id="req_nis">
+                                    <input type="email" class="form-control" name="nis" id="nis" placeholder="NIS Sekolah" autocomplete="off">
+                                    <label for="nis" class="ms-2 mb-3">NIS Sekolah</label>
+                                </div>
+
+                                <div class="form-floating" id="req_password">
+                                    <input type="password" class="form-control" name="password" id="password" placeholder="Password" autocomplete="off">
+                                    <label for="password" class="ms-2 mb-3">Password</label>
+                                    <div class="input-group-append show-hide">
+                                    <span class="input-group-text" onclick="password_show_hide();">
+                                        <i class="bi bi-eye" id="show_eye"></i>
+                                        <i class="bi bi-eye-slash d-none" id="hide_eye"></i>
+                                    </span>
+                                    </div>
                                 </div>
 
                                 <div class="text-center">
-                                <button type="button" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Reset kata sandi</span></button>
+                                <button type="button" id="btn_login" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Masuk</span></button>
                                 </div>
                 
                             </div>
                         </form>
-                    </div> -->
+                    </div>
+                <div class="overlay-container">
+                    <div class="overlay">
+                        <div class="overlay-panel overlay-right">
+                        <div class="box">
+                            <img src="<?= base_url('assets/img/login-siswa.png') ?>" class="img-fluid" alt="" style="border-radius: 20px;">
+                        </div>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- Login Staf -->
+                <!-- <div class="container-modal d-flex d-none" id="container">
                     <div class="form-container sign-in-container">
                         <form id="form_login" class="php-email-form">
                             <div class="box text-center">
-                                <h3 style="font-size: 24px; font-weight: 700;">Login admin KlasQ sebagai</h3>
+                            <h3 style="font-size: 24px; color: #012970; font-weight: 700;">Login KlasQ</h3>
+                            <p>Masukkan id sekolah, nis dan password untuk bisa mengakses</p>
+                            </div>
+                            <div class="row gy-4">
+
+                                <div class="form-floating mb-3" id="req_kode_sekolah">
+                                    <input type="email" class="form-control" name="kode_sekolah" id="kode_sekolah" placeholder="Kode Sekolah" autocomplete="off">
+                                    <label for="kode_sekolah" class="ms-2 mb-3">Kode Sekolah</label>
+                                </div>
+
+                                <div class="form-floating mb-3" id="req_nis">
+                                    <input type="email" class="form-control" name="nis" id="nis" placeholder="NIS Sekolah" autocomplete="off">
+                                    <label for="nis" class="ms-2 mb-3">NIS Sekolah</label>
+                                </div>
+
+                                <div class="form-floating" id="req_password">
+                                    <input type="password" class="form-control" name="password" id="password" placeholder="Password" autocomplete="off">
+                                    <label for="password" class="ms-2 mb-3">Password</label>
+                                    <div class="input-group-append show-hide">
+                                    <span class="input-group-text" onclick="password_show_hide();">
+                                        <i class="bi bi-eye" id="show_eye"></i>
+                                        <i class="bi bi-eye-slash d-none" id="hide_eye"></i>
+                                    </span>
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                <button type="button" id="btn_login" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Masuk</span></button>
+                                </div>
+                
+                            </div>
+                        </form>
+                    </div>
+                <div class="overlay-container">
+                    <div class="overlay">
+                        <div class="overlay-panel overlay-right">
+                        <div class="box">
+                            <img src="<?= base_url('assets/img/login-staf.png') ?>" class="img-fluid" alt="" style="border-radius: 20px;">
+                        </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Login Wali -->
+                <!-- <div class="container-modal d-flex d-none" id="container">
+                    <div class="form-container sign-in-container">
+                        <form id="form_login" class="php-email-form">
+                            <div class="box text-center">
+                            <h3 style="font-size: 24px; color: #012970; font-weight: 700;">Login KlasQ</h3>
+                            <p>Masukkan id sekolah, nis dan password untuk bisa mengakses</p>
+                            </div>
+                            <div class="row gy-4">
+
+                                <div class="form-floating mb-3" id="req_kode_sekolah">
+                                    <input type="email" class="form-control" name="kode_sekolah" id="kode_sekolah" placeholder="Kode Sekolah" autocomplete="off">
+                                    <label for="kode_sekolah" class="ms-2 mb-3">Kode Sekolah</label>
+                                </div>
+
+                                <div class="form-floating mb-3" id="req_nis">
+                                    <input type="email" class="form-control" name="nis" id="nis" placeholder="NIS Sekolah" autocomplete="off">
+                                    <label for="nis" class="ms-2 mb-3">NIS Sekolah</label>
+                                </div>
+
+                                <div class="form-floating" id="req_password">
+                                    <input type="password" class="form-control" name="password" id="password" placeholder="Password" autocomplete="off">
+                                    <label for="password" class="ms-2 mb-3">Password</label>
+                                    <div class="input-group-append show-hide">
+                                    <span class="input-group-text" onclick="password_show_hide();">
+                                        <i class="bi bi-eye" id="show_eye"></i>
+                                        <i class="bi bi-eye-slash d-none" id="hide_eye"></i>
+                                    </span>
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                <button type="button" id="btn_login" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Masuk</span></button>
+                                </div>
+                
+                            </div>
+                        </form>
+                    </div>
+                <div class="overlay-container">
+                    <div class="overlay">
+                        <div class="overlay-panel overlay-right">
+                        <div class="box">
+                            <img src="<?= base_url('assets/img/login-wali.png') ?>" class="img-fluid" alt="" style="border-radius: 20px;">
+                        </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+                <div class="container-modal" id="container">
+                    <div class="form">
+                        <form id="form_login" class="php-email-form">
+                            <div class="box text-center">
+                                <h3 style="font-size: 24px; font-weight: 700;">Login KlasQ sebagai</h3>
                                 <p>Pilih salah satu untuk mengakses web admin</p>
                             </div>
                             <div class="row gy-4">
                                 <div class="col-4 card-akses mt-5">
                                     <div class="card siswa" style="width: 18rem;">
                                         <div class="card-body">
-                                            <div class="image-placement"></div>
-                                            <h5 class="card-title mt-3 ms-3">
+                                            <div class="image-placement-siswa"></div>
+                                            <h5 class="card-title ms-3">
                                                 Siswa
                                             </h5>
                                             <p class="card-text ms-3">
@@ -376,8 +500,8 @@ background: linear-gradient(184deg, rgba(255,0,0,1) 0%, rgba(235,156,151,1) 100%
                                 <div class="col-4 card-akses mt-5">
                                     <div class="card staf" style="width: 18rem;">
                                         <div class="card-body">
-                                            <div class="image-placement"></div>
-                                            <h5 class="card-title mt-3 ms-3">
+                                            <div class="image-placement-staf"></div>
+                                            <h5 class="card-title ms-3">
                                                 Staf
                                             </h5>
                                             <p class="card-text ms-3">
@@ -390,8 +514,8 @@ background: linear-gradient(184deg, rgba(255,0,0,1) 0%, rgba(235,156,151,1) 100%
                                 <div class="col-4 card-akses mt-5">
                                     <div class="card wali" style="width: 18rem;">
                                         <div class="card-body">
-                                            <div class="image-placement"></div>
-                                            <h5 class="card-title mt-3 ms-3">
+                                            <div class="image-placement-wali"></div>
+                                            <h5 class="card-title ms-3">
                                                 Wali
                                             </h5>
                                             <p class="card-text ms-3">
@@ -402,22 +526,6 @@ background: linear-gradient(184deg, rgba(255,0,0,1) 0%, rgba(235,156,151,1) 100%
                                 </div>
                             </div>
                         </form>
-                    </div>
-                    <div class="overlay-container">
-                        <div class="overlay">
-                            <!-- <div class="overlay-panel overlay-left">
-                  <div class="box">
-                    <img src="<?= base_url(); ?>assets/img/login-vektor.png" class="img-fluid" alt="" style="border-radius: 20px;">
-                    <button class="ghost" id="signIn">Login</button>
-                  </div>
-                </div> -->
-                            <div class="overlay-panel overlay-right">
-                                <div class="box">
-                                    <img src="<?= base_url('<?= base_url(); ?>assets/img/login-vektor.png') ?>" class="img-fluid" alt="" style="border-radius: 20px;">
-                                    <!-- <button class="ghost" id="signUp">Lupa kata sandi</button> -->
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

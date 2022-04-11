@@ -5680,3 +5680,998 @@ ERROR - 2022-04-11 21:00:45 --> Severity: Warning --> mysqli::real_connect(): (H
 ERROR - 2022-04-11 21:00:45 --> Unable to connect to the database
 ERROR - 2022-04-11 21:00:45 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
 ERROR - 2022-04-11 21:00:45 --> Unable to connect to the database
+ERROR - 2022-04-11 21:09:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:09:07 --> Unable to connect to the database
+ERROR - 2022-04-11 21:09:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:09:07 --> Unable to connect to the database
+ERROR - 2022-04-11 21:09:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:09:07 --> Unable to connect to the database
+ERROR - 2022-04-11 21:09:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:09:07 --> Unable to connect to the database
+ERROR - 2022-04-11 21:09:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:09:07 --> Unable to connect to the database
+ERROR - 2022-04-11 21:14:34 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:14:34 --> Unable to connect to the database
+ERROR - 2022-04-11 21:14:34 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:14:34 --> Unable to connect to the database
+ERROR - 2022-04-11 21:14:34 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:14:34 --> Unable to connect to the database
+ERROR - 2022-04-11 21:14:34 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:14:34 --> Unable to connect to the database
+ERROR - 2022-04-11 21:14:34 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:14:34 --> Unable to connect to the database
+ERROR - 2022-04-11 21:15:14 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:15:14 --> Unable to connect to the database
+ERROR - 2022-04-11 21:15:14 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:15:14 --> Unable to connect to the database
+ERROR - 2022-04-11 21:15:14 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:15:14 --> Unable to connect to the database
+ERROR - 2022-04-11 21:15:14 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:15:14 --> Unable to connect to the database
+ERROR - 2022-04-11 21:15:14 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:15:14 --> Unable to connect to the database
+ERROR - 2022-04-11 21:15:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:15:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:15:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:15:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:15:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:15:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:15:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:15:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:15:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:15:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:15:33 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:15:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:15:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:15:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:15:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:15:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:15:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:15:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:15:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:15:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:15:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:15:33 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:17:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:17:07 --> Unable to connect to the database
+ERROR - 2022-04-11 21:17:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:17:07 --> Unable to connect to the database
+ERROR - 2022-04-11 21:17:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:17:07 --> Unable to connect to the database
+ERROR - 2022-04-11 21:17:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:17:07 --> Unable to connect to the database
+ERROR - 2022-04-11 21:17:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:17:07 --> Unable to connect to the database
+ERROR - 2022-04-11 21:17:08 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:17:08 --> Unable to connect to the database
+ERROR - 2022-04-11 21:17:08 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:17:08 --> Unable to connect to the database
+ERROR - 2022-04-11 21:17:08 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:17:08 --> Unable to connect to the database
+ERROR - 2022-04-11 21:17:08 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:17:08 --> Unable to connect to the database
+ERROR - 2022-04-11 21:17:08 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:17:08 --> Unable to connect to the database
+ERROR - 2022-04-11 21:17:08 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:17:08 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:17:08 --> Unable to connect to the database
+ERROR - 2022-04-11 21:17:08 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:17:08 --> Unable to connect to the database
+ERROR - 2022-04-11 21:17:08 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:17:08 --> Unable to connect to the database
+ERROR - 2022-04-11 21:17:08 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:17:08 --> Unable to connect to the database
+ERROR - 2022-04-11 21:17:08 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:17:08 --> Unable to connect to the database
+ERROR - 2022-04-11 21:17:08 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:18:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:18:30 --> Unable to connect to the database
+ERROR - 2022-04-11 21:18:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:18:30 --> Unable to connect to the database
+ERROR - 2022-04-11 21:18:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:18:30 --> Unable to connect to the database
+ERROR - 2022-04-11 21:18:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:18:30 --> Unable to connect to the database
+ERROR - 2022-04-11 21:18:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:18:30 --> Unable to connect to the database
+ERROR - 2022-04-11 21:18:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:18:37 --> Unable to connect to the database
+ERROR - 2022-04-11 21:18:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:18:37 --> Unable to connect to the database
+ERROR - 2022-04-11 21:18:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:18:37 --> Unable to connect to the database
+ERROR - 2022-04-11 21:18:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:18:37 --> Unable to connect to the database
+ERROR - 2022-04-11 21:18:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:18:37 --> Unable to connect to the database
+ERROR - 2022-04-11 21:18:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:18:37 --> Unable to connect to the database
+ERROR - 2022-04-11 21:18:37 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:18:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:18:37 --> Unable to connect to the database
+ERROR - 2022-04-11 21:18:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:18:37 --> Unable to connect to the database
+ERROR - 2022-04-11 21:18:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:18:37 --> Unable to connect to the database
+ERROR - 2022-04-11 21:18:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:18:37 --> Unable to connect to the database
+ERROR - 2022-04-11 21:18:37 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:19:19 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:19:19 --> Unable to connect to the database
+ERROR - 2022-04-11 21:19:19 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:19:19 --> Unable to connect to the database
+ERROR - 2022-04-11 21:19:19 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:19:19 --> Unable to connect to the database
+ERROR - 2022-04-11 21:19:19 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:19:19 --> Unable to connect to the database
+ERROR - 2022-04-11 21:19:19 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:19:19 --> Unable to connect to the database
+ERROR - 2022-04-11 21:19:19 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:20:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:20:37 --> Unable to connect to the database
+ERROR - 2022-04-11 21:20:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:20:37 --> Unable to connect to the database
+ERROR - 2022-04-11 21:20:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:20:37 --> Unable to connect to the database
+ERROR - 2022-04-11 21:20:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:20:37 --> Unable to connect to the database
+ERROR - 2022-04-11 21:20:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:20:37 --> Unable to connect to the database
+ERROR - 2022-04-11 21:20:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:20:48 --> Unable to connect to the database
+ERROR - 2022-04-11 21:20:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:20:48 --> Unable to connect to the database
+ERROR - 2022-04-11 21:20:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:20:48 --> Unable to connect to the database
+ERROR - 2022-04-11 21:20:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:20:48 --> Unable to connect to the database
+ERROR - 2022-04-11 21:20:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:20:48 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:07 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:07 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:07 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:07 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:07 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:10 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:10 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:10 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:10 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:10 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:10 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:10 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:10 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:10 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:10 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:13 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:13 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:13 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:13 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:13 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:13 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:13 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:22:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:13 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:13 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:13 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:22:13 --> Unable to connect to the database
+ERROR - 2022-04-11 21:22:13 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:23:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:23:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:23:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:23:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:23:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:23:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:23:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:23:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:23:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:23:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:23:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:23:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:23:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:23:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:23:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:23:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:23:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:23:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:23:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:23:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:23:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:23:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:23:56 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:23:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:23:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:23:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:23:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:23:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:23:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:23:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:23:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:23:56 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:24:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:24:24 --> Unable to connect to the database
+ERROR - 2022-04-11 21:24:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:24:24 --> Unable to connect to the database
+ERROR - 2022-04-11 21:24:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:24:24 --> Unable to connect to the database
+ERROR - 2022-04-11 21:24:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:24:24 --> Unable to connect to the database
+ERROR - 2022-04-11 21:24:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:24:24 --> Unable to connect to the database
+ERROR - 2022-04-11 21:24:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:24:26 --> Unable to connect to the database
+ERROR - 2022-04-11 21:24:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:24:26 --> Unable to connect to the database
+ERROR - 2022-04-11 21:24:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:24:26 --> Unable to connect to the database
+ERROR - 2022-04-11 21:24:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:24:26 --> Unable to connect to the database
+ERROR - 2022-04-11 21:24:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:24:26 --> Unable to connect to the database
+ERROR - 2022-04-11 21:25:02 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:25:02 --> Unable to connect to the database
+ERROR - 2022-04-11 21:25:02 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:25:02 --> Unable to connect to the database
+ERROR - 2022-04-11 21:25:02 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:25:02 --> Unable to connect to the database
+ERROR - 2022-04-11 21:25:02 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:25:02 --> Unable to connect to the database
+ERROR - 2022-04-11 21:25:02 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:25:02 --> Unable to connect to the database
+ERROR - 2022-04-11 21:25:53 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:25:53 --> Unable to connect to the database
+ERROR - 2022-04-11 21:25:53 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:25:53 --> Unable to connect to the database
+ERROR - 2022-04-11 21:25:53 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:25:53 --> Unable to connect to the database
+ERROR - 2022-04-11 21:25:53 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:25:53 --> Unable to connect to the database
+ERROR - 2022-04-11 21:25:53 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:25:53 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:25:53 --> Unable to connect to the database
+ERROR - 2022-04-11 21:25:53 --> Unable to connect to the database
+ERROR - 2022-04-11 21:25:53 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:25:53 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:25:53 --> Unable to connect to the database
+ERROR - 2022-04-11 21:25:53 --> Unable to connect to the database
+ERROR - 2022-04-11 21:25:53 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:25:53 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:25:53 --> Unable to connect to the database
+ERROR - 2022-04-11 21:25:53 --> Unable to connect to the database
+ERROR - 2022-04-11 21:25:53 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:25:53 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:29:10 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:10 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:10 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:10 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:10 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:10 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:10 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:10 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:10 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:10 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:11 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:11 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:11 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:11 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:11 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:11 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:11 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:11 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:11 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:11 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:11 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:11 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:11 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:29:11 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:11 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:11 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:11 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:11 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:11 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:11 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:11 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:11 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:29:20 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:20 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:20 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:20 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:20 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:20 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:20 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:20 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:20 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:20 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:20 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:29:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:33 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:29:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:29:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:29:33 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:31:29 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:31:29 --> Unable to connect to the database
+ERROR - 2022-04-11 21:31:29 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:31:29 --> Unable to connect to the database
+ERROR - 2022-04-11 21:31:29 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:31:29 --> Unable to connect to the database
+ERROR - 2022-04-11 21:31:29 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:31:29 --> Unable to connect to the database
+ERROR - 2022-04-11 21:31:29 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:31:29 --> Unable to connect to the database
+ERROR - 2022-04-11 21:31:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:31:31 --> Unable to connect to the database
+ERROR - 2022-04-11 21:31:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:31:31 --> Unable to connect to the database
+ERROR - 2022-04-11 21:31:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:31:31 --> Unable to connect to the database
+ERROR - 2022-04-11 21:31:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:31:31 --> Unable to connect to the database
+ERROR - 2022-04-11 21:31:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:31:31 --> Unable to connect to the database
+ERROR - 2022-04-11 21:31:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:31:31 --> Unable to connect to the database
+ERROR - 2022-04-11 21:31:31 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:31:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:31:31 --> Unable to connect to the database
+ERROR - 2022-04-11 21:31:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:31:31 --> Unable to connect to the database
+ERROR - 2022-04-11 21:31:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:31:31 --> Unable to connect to the database
+ERROR - 2022-04-11 21:31:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:31:31 --> Unable to connect to the database
+ERROR - 2022-04-11 21:31:31 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:32:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:22 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:32:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:22 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:32:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:25 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:25 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:25 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:25 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:25 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:26 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:26 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:26 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:26 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:26 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:26 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:26 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:32:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:26 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:26 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:26 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:26 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:26 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:32:59 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:59 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:59 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:59 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:59 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:59 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:59 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:59 --> Unable to connect to the database
+ERROR - 2022-04-11 21:32:59 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:32:59 --> Unable to connect to the database
+ERROR - 2022-04-11 21:34:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:34:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:34:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:34:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:34:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:34:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:34:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:34:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:34:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:34:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:34:40 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:34:40 --> Unable to connect to the database
+ERROR - 2022-04-11 21:34:40 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:34:40 --> Unable to connect to the database
+ERROR - 2022-04-11 21:34:40 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:34:40 --> Unable to connect to the database
+ERROR - 2022-04-11 21:34:40 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:34:40 --> Unable to connect to the database
+ERROR - 2022-04-11 21:34:40 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:34:40 --> Unable to connect to the database
+ERROR - 2022-04-11 21:34:49 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:34:49 --> Unable to connect to the database
+ERROR - 2022-04-11 21:34:49 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:34:49 --> Unable to connect to the database
+ERROR - 2022-04-11 21:34:49 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:34:49 --> Unable to connect to the database
+ERROR - 2022-04-11 21:34:49 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:34:49 --> Unable to connect to the database
+ERROR - 2022-04-11 21:34:49 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:34:49 --> Unable to connect to the database
+ERROR - 2022-04-11 21:35:01 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:35:01 --> Unable to connect to the database
+ERROR - 2022-04-11 21:35:01 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:35:01 --> Unable to connect to the database
+ERROR - 2022-04-11 21:35:01 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:35:01 --> Unable to connect to the database
+ERROR - 2022-04-11 21:35:01 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:35:01 --> Unable to connect to the database
+ERROR - 2022-04-11 21:35:01 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:35:01 --> Unable to connect to the database
+ERROR - 2022-04-11 21:35:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:35:24 --> Unable to connect to the database
+ERROR - 2022-04-11 21:35:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:35:24 --> Unable to connect to the database
+ERROR - 2022-04-11 21:35:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:35:24 --> Unable to connect to the database
+ERROR - 2022-04-11 21:35:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:35:24 --> Unable to connect to the database
+ERROR - 2022-04-11 21:35:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:35:24 --> Unable to connect to the database
+ERROR - 2022-04-11 21:35:24 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:37:15 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:37:15 --> Unable to connect to the database
+ERROR - 2022-04-11 21:37:15 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:37:15 --> Unable to connect to the database
+ERROR - 2022-04-11 21:37:15 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:37:15 --> Unable to connect to the database
+ERROR - 2022-04-11 21:37:15 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:37:15 --> Unable to connect to the database
+ERROR - 2022-04-11 21:37:15 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:37:15 --> Unable to connect to the database
+ERROR - 2022-04-11 21:37:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:37:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:37:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:37:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:37:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:37:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:37:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:37:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:37:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:37:33 --> Unable to connect to the database
+ERROR - 2022-04-11 21:39:55 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:39:55 --> Unable to connect to the database
+ERROR - 2022-04-11 21:39:55 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:39:55 --> Unable to connect to the database
+ERROR - 2022-04-11 21:39:55 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:39:55 --> Unable to connect to the database
+ERROR - 2022-04-11 21:39:55 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:39:55 --> Unable to connect to the database
+ERROR - 2022-04-11 21:39:55 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:39:55 --> Unable to connect to the database
+ERROR - 2022-04-11 21:39:55 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:39:55 --> Unable to connect to the database
+ERROR - 2022-04-11 21:39:55 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:39:55 --> Unable to connect to the database
+ERROR - 2022-04-11 21:39:55 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:39:55 --> Unable to connect to the database
+ERROR - 2022-04-11 21:39:55 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:39:55 --> Unable to connect to the database
+ERROR - 2022-04-11 21:39:55 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:39:55 --> Unable to connect to the database
+ERROR - 2022-04-11 21:39:55 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:40:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:40:13 --> Unable to connect to the database
+ERROR - 2022-04-11 21:40:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:40:13 --> Unable to connect to the database
+ERROR - 2022-04-11 21:40:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:40:13 --> Unable to connect to the database
+ERROR - 2022-04-11 21:40:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:40:13 --> Unable to connect to the database
+ERROR - 2022-04-11 21:40:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:40:13 --> Unable to connect to the database
+ERROR - 2022-04-11 21:41:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:41:48 --> Unable to connect to the database
+ERROR - 2022-04-11 21:41:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:41:48 --> Unable to connect to the database
+ERROR - 2022-04-11 21:41:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:41:48 --> Unable to connect to the database
+ERROR - 2022-04-11 21:41:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:41:48 --> Unable to connect to the database
+ERROR - 2022-04-11 21:41:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:41:48 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:18 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:18 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:18 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:18 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:18 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:18 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:18 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:18 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:18 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:18 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:25 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:25 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:25 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:25 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:25 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:25 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:25 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:42:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:25 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:25 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:25 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:25 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:25 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:42:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:56 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:57 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:57 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:57 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:57 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:57 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:57 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:57 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:57 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:57 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:57 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:57 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:42:57 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:57 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:57 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:57 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:57 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:57 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:57 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:57 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:57 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:42:57 --> Unable to connect to the database
+ERROR - 2022-04-11 21:42:57 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:53:09 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:09 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:09 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:09 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:09 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:09 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:09 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:09 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:09 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:09 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:22 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:22 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:30 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:30 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:30 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:30 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:30 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:43 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:43 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:43 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:43 --> Unable to connect to the database
+ERROR - 2022-04-11 21:53:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:53:43 --> Unable to connect to the database
+ERROR - 2022-04-11 21:54:21 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:54:21 --> Unable to connect to the database
+ERROR - 2022-04-11 21:54:21 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:54:21 --> Unable to connect to the database
+ERROR - 2022-04-11 21:54:21 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:54:21 --> Unable to connect to the database
+ERROR - 2022-04-11 21:54:21 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:54:21 --> Unable to connect to the database
+ERROR - 2022-04-11 21:54:21 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:54:21 --> Unable to connect to the database
+ERROR - 2022-04-11 21:54:45 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:54:45 --> Unable to connect to the database
+ERROR - 2022-04-11 21:54:45 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:54:45 --> Unable to connect to the database
+ERROR - 2022-04-11 21:54:45 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:54:45 --> Unable to connect to the database
+ERROR - 2022-04-11 21:54:45 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:54:45 --> Unable to connect to the database
+ERROR - 2022-04-11 21:54:45 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:54:45 --> Unable to connect to the database
+ERROR - 2022-04-11 21:57:15 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:57:15 --> Unable to connect to the database
+ERROR - 2022-04-11 21:57:15 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:57:15 --> Unable to connect to the database
+ERROR - 2022-04-11 21:57:15 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:57:15 --> Unable to connect to the database
+ERROR - 2022-04-11 21:57:15 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:57:15 --> Unable to connect to the database
+ERROR - 2022-04-11 21:57:15 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:57:15 --> Unable to connect to the database
+ERROR - 2022-04-11 21:57:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:57:31 --> Unable to connect to the database
+ERROR - 2022-04-11 21:57:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:57:31 --> Unable to connect to the database
+ERROR - 2022-04-11 21:57:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:57:31 --> Unable to connect to the database
+ERROR - 2022-04-11 21:57:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:57:31 --> Unable to connect to the database
+ERROR - 2022-04-11 21:57:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:57:31 --> Unable to connect to the database
+ERROR - 2022-04-11 21:57:50 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:57:50 --> Unable to connect to the database
+ERROR - 2022-04-11 21:57:50 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:57:50 --> Unable to connect to the database
+ERROR - 2022-04-11 21:57:50 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:57:50 --> Unable to connect to the database
+ERROR - 2022-04-11 21:57:50 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:57:50 --> Unable to connect to the database
+ERROR - 2022-04-11 21:57:50 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:57:50 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:05 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:05 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:05 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:05 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:05 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:05 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:05 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:05 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:05 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:05 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:18 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:18 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:18 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:18 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:18 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:18 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:18 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:18 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:18 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:18 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:30 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:30 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:30 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:30 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:30 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:41 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:41 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:41 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:41 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:41 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:41 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:41 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:41 --> Unable to connect to the database
+ERROR - 2022-04-11 21:58:41 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:58:41 --> Unable to connect to the database
+ERROR - 2022-04-11 21:59:17 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:59:17 --> Unable to connect to the database
+ERROR - 2022-04-11 21:59:17 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:59:17 --> Unable to connect to the database
+ERROR - 2022-04-11 21:59:17 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:59:17 --> Unable to connect to the database
+ERROR - 2022-04-11 21:59:17 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:59:17 --> Unable to connect to the database
+ERROR - 2022-04-11 21:59:17 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:59:17 --> Unable to connect to the database
+ERROR - 2022-04-11 21:59:17 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:59:17 --> Unable to connect to the database
+ERROR - 2022-04-11 21:59:17 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 21:59:17 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:59:17 --> Unable to connect to the database
+ERROR - 2022-04-11 21:59:17 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:59:17 --> Unable to connect to the database
+ERROR - 2022-04-11 21:59:17 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:59:17 --> Unable to connect to the database
+ERROR - 2022-04-11 21:59:17 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 21:59:17 --> Unable to connect to the database
+ERROR - 2022-04-11 21:59:17 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 22:00:06 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:06 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:06 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:06 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:06 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:06 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:06 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:06 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:06 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:06 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:07 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:07 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:07 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:07 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:07 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:07 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:07 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 22:00:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:07 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:07 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:07 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:07 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:07 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:07 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 22:00:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:13 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 22:00:42 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:42 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:42 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:42 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:42 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:42 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:42 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:42 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:42 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:42 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:43 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:43 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:43 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:43 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:43 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:43 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:43 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 22:00:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:43 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:43 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:43 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:00:43 --> Unable to connect to the database
+ERROR - 2022-04-11 22:00:43 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 22:03:32 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:03:32 --> Unable to connect to the database
+ERROR - 2022-04-11 22:03:32 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:03:32 --> Unable to connect to the database
+ERROR - 2022-04-11 22:03:32 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:03:32 --> Unable to connect to the database
+ERROR - 2022-04-11 22:03:32 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:03:32 --> Unable to connect to the database
+ERROR - 2022-04-11 22:03:32 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:03:32 --> Unable to connect to the database
+ERROR - 2022-04-11 22:03:44 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:03:44 --> Unable to connect to the database
+ERROR - 2022-04-11 22:03:44 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:03:44 --> Unable to connect to the database
+ERROR - 2022-04-11 22:03:44 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:03:44 --> Unable to connect to the database
+ERROR - 2022-04-11 22:03:44 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:03:44 --> Unable to connect to the database
+ERROR - 2022-04-11 22:03:44 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:03:44 --> Unable to connect to the database
+ERROR - 2022-04-11 22:03:44 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:03:44 --> Unable to connect to the database
+ERROR - 2022-04-11 22:03:44 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 22:03:44 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:03:44 --> Unable to connect to the database
+ERROR - 2022-04-11 22:03:44 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:03:44 --> Unable to connect to the database
+ERROR - 2022-04-11 22:03:44 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:03:44 --> Unable to connect to the database
+ERROR - 2022-04-11 22:03:44 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:03:44 --> Unable to connect to the database
+ERROR - 2022-04-11 22:03:44 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 22:04:12 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:04:12 --> Unable to connect to the database
+ERROR - 2022-04-11 22:04:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:04:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:04:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:04:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:04:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:04:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:04:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:04:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:04:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:04:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:04:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:04:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:04:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:04:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:04:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:04:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:04:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:04:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:04:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:04:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:04:13 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 22:04:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:04:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:04:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:04:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:04:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:04:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:04:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:04:13 --> Unable to connect to the database
+ERROR - 2022-04-11 22:04:13 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 22:09:54 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:09:54 --> Unable to connect to the database
+ERROR - 2022-04-11 22:09:54 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:09:54 --> Unable to connect to the database
+ERROR - 2022-04-11 22:09:54 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:09:54 --> Unable to connect to the database
+ERROR - 2022-04-11 22:09:54 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:09:54 --> Unable to connect to the database
+ERROR - 2022-04-11 22:09:54 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:09:54 --> Unable to connect to the database
+ERROR - 2022-04-11 22:10:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:10:48 --> Unable to connect to the database
+ERROR - 2022-04-11 22:10:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:10:48 --> Unable to connect to the database
+ERROR - 2022-04-11 22:10:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:10:48 --> Unable to connect to the database
+ERROR - 2022-04-11 22:10:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:10:48 --> Unable to connect to the database
+ERROR - 2022-04-11 22:10:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:10:48 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:12 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:12 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:12 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:12 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:12 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:12 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:12 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:12 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:12 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:12 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:12 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:12 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:12 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 22:11:12 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:12 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:12 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:12 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:12 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:12 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:12 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:12 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:12 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 22:11:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:24 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:24 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:24 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:24 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:24 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:25 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:25 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:25 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:25 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:25 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:25 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:25 --> 404 Page Not Found: /index
+ERROR - 2022-04-11 22:11:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:25 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:25 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:25 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:25 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'lms_sd_manager' C:\xampp\htdocs\lms_sd\lms_sd_sekolah\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-04-11 22:11:25 --> Unable to connect to the database
+ERROR - 2022-04-11 22:11:25 --> 404 Page Not Found: /index

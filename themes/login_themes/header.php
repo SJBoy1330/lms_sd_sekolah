@@ -40,6 +40,7 @@
     <!-- Modify Template CSS -->
     <link href="<?= base_url(); ?>assets/css/modify-landing.css" rel="stylesheet">
 
+
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/649c0dd522.js" crossorigin="anonymous"></script>
 

@@ -381,7 +381,6 @@
   .features-item:first-child { margin-bottom: 50px; }
   
   .features-item-banner {
-    animation: up-down 2s ease-in-out infinite alternate-reverse both;
     max-width: 350px;
     margin-inline: auto;
     margin-bottom: 60px;
