@@ -22,6 +22,22 @@ class Controller_ctl extends MY_Admin
 		$this->display();
 	}
 
+	public function hari_libur()
+	{
+		// LOAD TITLE
+		$this->data['title'] = 'Hari Libur';
+
+		// LOAD BREADCRUMB
+		$mydata['breadcrumb']['menu'] = 'Hari Libur';
+
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/harilibur/harilibur.js') . '"></script>';
+
+		// LOAD VIEW
+		$this->data['content'] = $this->load->view('hari_libur', $mydata, TRUE);
+		$this->display();
+	}
+
     public function presensi_staf()
 	{
 		// LOAD TITLE

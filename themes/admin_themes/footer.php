@@ -53,13 +53,15 @@
     <!--end::Page Custom Javascript-->
 
     <!-- jQuery and Bootstrap scripts -->
-    <script type="text/javascript" src="<?= base_url(); ?>assets/js/clockpicker/jquery.min.js"></script>
-    <script type="text/javascript" src="<?= base_url(); ?>assets/js/clockpicker/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/clockpicker/jquery.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/clockpicker/bootstrap.min.js"></script>
 
     <!-- ClockPicker script -->
-    <script type="text/javascript" src="<?= base_url(); ?>assets/js/clockpicker/bootstrap-clockpicker.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/clockpicker/bootstrap-clockpicker.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/clockpicker/demo-clockpicker.js"></script>
 
-    <script type="text/javascript" src="<?= base_url(); ?>assets/js/clockpicker/demo-clockpicker.js"></script>
+    <!-- DateRangePicker script -->
+
 
     <!--end::Javascript-->
     </body>

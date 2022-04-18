@@ -135,6 +135,13 @@ $route['chatting/(:any)/(:any)'] = 'chatting/controller_ctl/$1/$2';
 
 
 
+$route['laporan']  = 'laporan/controller_ctl';
+
+$route['laporan/(:any)'] = 'laporan/controller_ctl/$1';
+
+$route['laporan/(:any)/(:any)'] = 'laporan/controller_ctl/$1/$2';
+
+
 $route['404_override'] = '';
 
 $route['translate_uri_dashes'] = FALSE;
