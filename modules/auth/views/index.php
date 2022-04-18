@@ -332,7 +332,7 @@
 
                 <!-- Login Siswa -->
                 <div id="login_siswa" class="d-none" style="display : flex;justify-content:center;flex-direction : column;">
-                    <button type="button" id="button_back_siswa" data-div="#login_siswa" onclick="back_to(this,'#container_cabang')">kembali</button>
+                    <button type="button" id="button_back_siswa" data-div="#login_siswa" onclick="back_to(this,'#container_cabang')" class="button-back-modal" style="position: absolute; top: -20px; left: 0; color: #EC3528;"><i class="fa-solid fa-arrow-left"></i>kembali</button>
                     <div class="container-modal d-flex">
                         <div class="form-container sign-in-container">
                             <form id="form_login" class="php-email-form">
@@ -384,7 +384,7 @@
 
                 <!-- Login Staf -->
                 <div id="login_staf" class="d-none" style="display : flex;justify-content:center;flex-direction : column;">
-                    <button type="button" id="button_back_staf" data-div="#login_staf" onclick="back_to(this,'#container_cabang')">kembali</button>
+                    <button type="button" id="button_back_staf" data-div="#login_staf" onclick="back_to(this,'#container_cabang')" class="button-back-modal" style="position: absolute; top: -20px; left: 0; color: #EC3528;"><i class="fa-solid fa-arrow-left"></i>Kembali</button>
                     <div class="container-modal d-flex">
                         <div class="form-container sign-in-container">
                             <form id="form_login" class="php-email-form">
@@ -436,7 +436,7 @@
 
                 <!-- Login Wali -->
                 <div id="login_wali" class="d-none" style="display : flex;justify-content:center;flex-direction : column;">
-                    <button type="button" id="button_back_wali" data-div="#login_wali" onclick="back_to(this,'#container_cabang')">kembali</button>
+                    <button type="button" id="button_back_wali" data-div="#login_wali" onclick="back_to(this,'#container_cabang')" class="button-back-modal" style="position: absolute; top: -20px; left: 0; color: #EC3528;"><i class="fa-solid fa-arrow-left"></i>kembali</button>
                     <div class="container-modal d-flex">
                         <div class="form-container sign-in-container">
                             <form id="form_login" class="php-email-form">

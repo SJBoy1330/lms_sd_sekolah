@@ -2103,6 +2103,9 @@ section {
 }
 
 .modal-header button.btn-close{
+  position: absolute;
+  top: 28px;
+  right: 25px;
   width: 1.3rem;
   height: 1.3rem;
 }
@@ -3305,4 +3308,8 @@ button.button-masuk:hover{
   background-color: #FFFFFF;
   border: 2px solid #EC3528;
   color: #EC3528;
+}
+
+i.fa-solid.fa-arrow-left{
+  margin-right: 10px;
 }
