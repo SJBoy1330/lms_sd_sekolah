@@ -62,6 +62,15 @@
 
     <!-- DateRangePicker script -->
 
+    <!-- select2 -->
+    <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/select2/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#e1").select2();
+        });
+    </script>
+
+
 
     <!--end::Javascript-->
     </body>
