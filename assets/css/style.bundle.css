@@ -50184,3 +50184,8 @@ body {
   background-color: #fff;
   border: 0;
 }
+
+/* CSS PRIBADI */
+.card.identitas-sekolah{
+  min-height: 190px;
+}
