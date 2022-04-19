@@ -160,6 +160,111 @@
 												</div>
 											</div>
 										</div>
+										<div class="col-12">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<!--begin::Label-->
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">Telp. Keuangan Sekolah</span>
+												</label>
+												<!--end::Label-->
+												<div class="position-relative d-flex align-items-center">
+													<!--begin::Icon-->
+													<!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
+													<span class="svg-icon svg-icon-2 position-absolute mx-4">
+														<i class="fa-duotone fa-money-from-bracket" style="font-size: 1.3rem;"></i>
+													</span>
+													<!--end::Svg Icon-->
+													<!--end::Icon-->
+													<!--begin::Datepicker-->
+													<input class="form-control form-control-solid ps-12" placeholder="Masukkan nomor telepon keuangan" />
+													<!--end::Datepicker-->
+												</div>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<!--begin::Label-->
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">Email Sekolah</span>
+												</label>
+												<!--end::Label-->
+												<div class="position-relative d-flex align-items-center">
+													<!--begin::Icon-->
+													<!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
+													<span class="svg-icon svg-icon-2 position-absolute mx-4">
+														<i class="fa-duotone fa-envelope" style="font-size: 1.3rem;"></i>
+													</span>
+													<!--end::Svg Icon-->
+													<!--end::Icon-->
+													<!--begin::Datepicker-->
+													<input class="form-control form-control-solid ps-12" placeholder="Masukkan email sekolah" />
+													<!--end::Datepicker-->
+												</div>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<!--begin::Label-->
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">NPSN Sekolah</span>
+												</label>
+												<!--end::Label-->
+												<div class="position-relative d-flex align-items-center">
+													<!--begin::Icon-->
+													<!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
+													<span class="svg-icon svg-icon-2 position-absolute mx-4">
+														<i class="fa-duotone fa-envelope" style="font-size: 1.3rem;"></i>
+													</span>
+													<!--end::Svg Icon-->
+													<!--end::Icon-->
+													<!--begin::Datepicker-->
+													<input class="form-control form-control-solid ps-12" placeholder="Masukkan NPSN sekolah" />
+													<!--end::Datepicker-->
+												</div>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<!--begin::Label-->
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">Latitude Sekolah</span>
+												</label>
+												<!--end::Label-->
+												<div class="position-relative d-flex align-items-center">
+													<!--begin::Icon-->
+													<!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
+													<span class="svg-icon svg-icon-2 position-absolute mx-4">
+														<i class="fa-light fa-map-pin" style="font-size: 1.3rem;"></i>
+													</span>
+													<!--end::Svg Icon-->
+													<!--end::Icon-->
+													<!--begin::Datepicker-->
+													<input class="form-control form-control-solid ps-12" placeholder="Masukkan NPSN sekolah" />
+													<!--end::Datepicker-->
+												</div>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<!--begin::Label-->
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">Logitude Sekolah</span>
+												</label>
+												<!--end::Label-->
+												<div class="position-relative d-flex align-items-center">
+													<!--begin::Icon-->
+													<!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
+													<span class="svg-icon svg-icon-2 position-absolute mx-4">
+														<i class="fa-duotone fa-map-pin" style="font-size: 1.3rem;"></i>
+													</span>
+													<!--end::Svg Icon-->
+													<!--end::Icon-->
+													<!--begin::Datepicker-->
+													<input class="form-control form-control-solid ps-12" placeholder="Masukkan NPSN sekolah" />
+													<!--end::Datepicker-->
+												</div>
+											</div>
+										</div>
 									</div>
 									<div class="row mb-4">
 										<div class="d-flex justify-content-end">
