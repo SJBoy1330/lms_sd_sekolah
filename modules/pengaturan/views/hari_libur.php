@@ -57,7 +57,7 @@
                                     <h2 class="fw-bolder">Tambah Hari Libur</h2>
                                     <!--end::Modal title-->
                                     <!--begin::Close-->
-                                    <div class="btn btn-icon btn-sm btn-active-icon-primary" data-kt-users-modal-action="close">
+                                    <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
                                         <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
                                         <span class="svg-icon svg-icon-1">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -71,7 +71,7 @@
                                 </div>
                                 <!--end::Modal header-->
                                 <!--begin::Modal body-->
-                                <div class="modal-body scroll-y mx-5 mx-xl-15 my-7">
+                                <div class="modal-body scroll-y mx-5 mx-xl-8 mb-7">
                                     <!--begin::Form-->
                                     <form id="kt_modal_export_users_form" class="form" action="#">
                                         <!--begin::Input group-->
@@ -96,13 +96,16 @@
                                         </div>
                                         <!--end::Input group-->
                                         <!--begin::Actions-->
-                                        <div class="text-center">
-                                            <button type="reset" class="btn btn-light me-3" data-kt-users-modal-action="cancel">Discard</button>
-                                            <button type="submit" class="btn btn-primary" data-kt-users-modal-action="submit">
-                                                <span class="indicator-label">Submit</span>
-                                                <span class="indicator-progress">Please wait...
-                                                <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
-                                            </button>
+                                        <div class="row mb-4">
+                                            <div class="d-flex justify-content-end">
+                                                <button type="button" class="btn btn-primary">
+                                                <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                                                <span class="svg-icon svg-icon-2">
+                                                    <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                                                </span>
+                                                <!--end::Svg Icon-->Simpan</button>
+                                                <!--end::Add user-->
+                                            </div>
                                         </div>
                                         <!--end::Actions-->
                                     </form>
@@ -126,7 +129,7 @@
                                     <h2 class="fw-bolder">Hari Libur Nasional</h2>
                                     <!--end::Modal title-->
                                     <!--begin::Close-->
-                                    <div class="btn btn-icon btn-sm btn-active-icon-primary" data-kt-users-modal-action="close">
+                                    <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
                                         <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
                                         <span class="svg-icon svg-icon-1">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

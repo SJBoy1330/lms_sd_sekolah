@@ -213,7 +213,7 @@
                 </div>
                 <div class="row mb-4">
                     <div class="d-flex justify-content-end">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_add_user">
+                        <button type="button" class="btn btn-primary">
                         <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
                         <span class="svg-icon svg-icon-2">
                             <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
