@@ -38,16 +38,16 @@
     <!--end::Global Stylesheets Bundle-->
 
     <!-- ClockPicker Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/plugins/clockpicker/bootstrap-clockpicker.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/plugins/clockpicker/bootstrap-clockpicker.min.css"> -->
 
     <!-- DateRangePicker Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/daterangepicker/daterangepicker.css">
+    <!-- <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/daterangepicker/daterangepicker.css"> -->
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/86bfabf1f4.js" crossorigin="anonymous"></script>
 
     <!-- select2 -->
-    <link href="<?= base_url(); ?>assets/plugins/select2/css/select2.min.css" rel="stylesheet" />
+    <!-- <link href="<?= base_url(); ?>assets/plugins/select2/css/select2.min.css" rel="stylesheet" /> -->
 
 </head>
 <!--end::Head-->

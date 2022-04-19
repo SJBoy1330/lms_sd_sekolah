@@ -10,9 +10,9 @@
 					<div class="row">
 
 						<div class="col-md-3 col-xl-3" style="padding:5px;">
-							<label class="filter-title">Tahun Ajaran</label>
-							<div>
-                                <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Select option" data-dropdown-parent="#kt_menu_61bc33c4ee0dc" data-allow-clear="true">
+                            <label class="form-label fw-bold">Tahun Ajaran:</label>
+                            <div>
+                                <select name="id_tahun_ajaran" id="id_tahun_ajaran" class="form-select form-select-sm form-select-solid" data-control="select2"  data-placeholder="Semua">
                                     <option></option>
                                     <option value="1">2022</option>
                                     <option value="2">2021</option>
