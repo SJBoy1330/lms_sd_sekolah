@@ -486,6 +486,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="container-modal" id="container_cabang">
                     <div class="form">
                         <form id="form_login" class="php-email-form">
@@ -539,6 +540,7 @@
                         </form>
                     </div>
                 </div>
+                
             </div>
             <div class="modal-footer" style="border-top: none;">
                 <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
