@@ -12,7 +12,7 @@
 						<div class="col-md-3 col-xl-3" style="padding:5px;">
                             <label class="form-label fw-bold">Tahun Ajaran:</label>
                             <div>
-                                <select name="id_tahun_ajaran" id="id_tahun_ajaran" class="form-select form-select-sm form-select-solid" data-control="select2"  data-placeholder="Semua">
+                                <select class="form-select form-select-sm form-select-solid" data-control="select2"  data-placeholder="Semua">
                                     <option></option>
                                     <option value="1">2022</option>
                                     <option value="2">2021</option>
