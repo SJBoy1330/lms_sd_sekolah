@@ -2,7 +2,7 @@
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
 
 <div class="container mb-4">
-		<div class="card shodow-sm">
+		<div class="card shodow-sm mb-4">
 
 			<div class="card-body">
 
@@ -22,9 +22,9 @@
                             </div>
 						</div>
 						<div class="col-md-3 col-xl-3" style="padding:5px;">
-                            <label class="filter-title">Kelas</label>
+                            <label class="form-label fw-bold">Kelas</label>
 							<div>
-                                <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Select option" data-dropdown-parent="#kt_menu_61bc33c4ee0dc" data-allow-clear="true">
+                                <select class="form-select form-select-solid form-select-sm" data-control="select2"  data-placeholder="Semua">
                                     <option></option>
                                     <option value="1">X IPA 1</option>
                                     <option value="2">X IPA 2</option>
@@ -34,9 +34,9 @@
                             </div>
 						</div>
 						<div class="col-md-3 col-xl-3" style="padding:5px;">
-                            <label class="filter-title">Status Bayar</label>
+                            <label class="form-label fw-bold">Status Bayar</label>
 							<div>
-                                <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Select option" data-dropdown-parent="#kt_menu_61bc33c4ee0dc" data-allow-clear="true">
+                                <select class="form-select form-select-solid form-select-sm" data-control="select2"  data-placeholder="Semua">
                                     <option></option>
                                     <option value="1">Lunas</option>
                                     <option value="2">Belum Lunas</option>
@@ -44,9 +44,9 @@
                             </div>
 						</div>
 						<div class="col-md-3 col-xl-3" style="padding:5px;">
-                            <label class="filter-title">Status Konfirmasi</label>
+                            <label class="form-label fw-bold">Status Konfirmasi</label>
 							<div>
-                                <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Select option" data-dropdown-parent="#kt_menu_61bc33c4ee0dc" data-allow-clear="true">
+                                <select class="form-select form-select-solid form-select-sm" data-control="select2"  data-placeholder="Semua">
                                     <option></option>
                                     <option value="1">Konfirmasi</option>
                                     <option value="2">Diterima</option>
@@ -55,9 +55,9 @@
                             </div>
 						</div>
 						<div class="col-md-3 col-xl-3" style="padding:5px;">
-                            <label class="filter-title">Bulan</label>
+                            <label class="form-label fw-bold">Bulan</label>
 							<div>
-                                <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Select option" data-dropdown-parent="#kt_menu_61bc33c4ee0dc" data-allow-clear="true">
+                                <select class="form-select form-select-solid form-select-sm" data-control="select2"  data-placeholder="Semua">
                                     <option></option>
                                     <option value="1">Januari</option>
                                     <option value="2">Februari</option>
@@ -68,9 +68,9 @@
 
 						</div>
 						<div class="col-md-3 col-xl-3" style="padding:5px;">
-                            <label class="filter-title">Kategori Biaya</label>
+                            <label class="form-label fw-bold">Kategori Biaya</label>
 							<div>
-                                <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Select option" data-dropdown-parent="#kt_menu_61bc33c4ee0dc" data-allow-clear="true">
+                                <select class="form-select form-select-solid form-select-sm" data-control="select2"  data-placeholder="Semua">
                                     <option></option>
                                     <option value="1">SPP Januari 2021</option>
                                     <option value="2">SPP Februari 2021</option>
@@ -80,9 +80,9 @@
                             </div>
 						</div>
 						<div class="col-md-3 col-xl-3" style="padding:5px;">
-                            <label class="filter-title">Metode Bayar</label>
+                            <label class="form-label fw-bold">Metode Bayar</label>
 							<div>
-                                <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Select option" data-dropdown-parent="#kt_menu_61bc33c4ee0dc" data-allow-clear="true">
+                                <select class="form-select form-select-solid form-select-sm" data-control="select2"  data-placeholder="Semua">
                                     <option></option>
                                     <option value="1">Tunai</option>
                                     <option value="2">Bank BNI</option>
@@ -100,6 +100,21 @@
 
 				</form>
 
+			</div>
+		</div>
+
+        <div class="card shodow-sm">
+			<div class="card-body">
+				<div class="row d-flex justify-content-around align-items-center">
+                    <div class="col-6">
+                        <label class="form-label fw-bold">Lunas</label>
+                        <input type="text" class="form-control form-control-solid" value="Rp. 2.150.000" readonly>
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label fw-bold">Belum Lunas</label>
+                        <input type="text" class="form-control form-control-solid" value="Rp. 3.500.000" readonly>
+                    </div>
+                </div>
 			</div>
 		</div>
 	</div>
@@ -151,18 +166,9 @@
                                     <!--begin::Modal title-->
                                     <h2 class="fw-bolder">Tambah Kategori Biaya</h2>
                                     <!--end::Modal title-->
-                                    <!--begin::Close-->
-                                    <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
-                                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                                        <span class="svg-icon svg-icon-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
-                                                <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
-                                            </svg>
-                                        </span>
-                                        <!--end::Svg Icon-->
-                                    </div>
-                                    <!--end::Close-->
+                                    <a href="#" class="btn btn-icon btn-light-twitter btn-sm me-3">
+                                        <i class="bi bi-twitter fs-4"></i>
+                                    </a>
                                 </div>
                                 <!--end::Modal header-->
                                 <!--begin::Modal body-->
