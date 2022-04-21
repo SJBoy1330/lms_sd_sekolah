@@ -410,7 +410,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('keuangan/rekap_keuangan')?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                                 <i class="fa-duotone fa-wallet" style="font-size: 1.3rem;"></i>
@@ -420,7 +420,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('keuangan/monitoring_keuangan')?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                                 <i class="fa-duotone fa-monitor-waveform" style="font-size: 1.3rem;"></i>

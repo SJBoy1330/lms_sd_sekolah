@@ -41215,6 +41215,12 @@ code:not([class*="language-"]) {
   color: #5e6278;
   transition: color 0.2s ease, background-color 0.2s ease;
 }
+.form-control.form-control-primary{
+  background-color: #D7EFFF;
+  border-color: #D7EFFF;
+  color: #5e6278;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
 .form-control.form-control-solid::placeholder {
   color: #a1a5b7;
 }

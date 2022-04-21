@@ -53,7 +53,6 @@
     <!--end::Page Custom Javascript-->
 
     <!-- jQuery and Bootstrap scripts -->
-    <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/clockpicker/jquery.min.js"></script>
     <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/clockpicker/bootstrap.min.js"></script>
 
     <!-- ClockPicker script -->

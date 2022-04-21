@@ -46,6 +46,8 @@
     <!-- select2 -->
     <!-- <link href="<?= base_url(); ?>assets/plugins/select2/css/select2.min.css" rel="stylesheet" /> -->
 
+    <script src="https://kit.fontawesome.com/9abc1f10f1.js" crossorigin="anonymous"></script>
+
 </head>
 <!--end::Head-->
 <!--begin::Body-->

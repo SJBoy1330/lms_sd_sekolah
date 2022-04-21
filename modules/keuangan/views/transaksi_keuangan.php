@@ -1,10 +1,231 @@
 <!--begin::Content-->
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+    
 
 <div class="container mb-4">
 		<div class="card shodow-sm mb-4">
 
 			<div class="card-body">
+
+                <div class="d-flex justify-content-end mb-5">
+                    <!--begin::Filter-->
+                    <button type="button" class="btn btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahTagihan">
+                    <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
+                    <span class="svg-icon svg-icon-2 me-0">
+                        <i class="fa-duotone fa-plus"  style="font-size: 20px;"></i>
+                    </span>
+                    <!--end::Svg Icon-->Tagihan</button>
+                </div>
+                <div class="modal fade" id="modalTambahTagihan" tabindex="-1" aria-hidden="true">
+                        <!--begin::Modal dialog-->
+                        <div class="modal-dialog modal-dialog-centered mw-850px">
+                            <!--begin::Modal content-->
+                            <div class="modal-content">
+                                <!--begin::Modal header-->
+                                <div class="modal-header">
+                                    <!--begin::Modal title-->
+                                    <h2 class="fw-bolder">Tambah Tagihan</h2>
+                                    <!--end::Modal title-->
+                                    <!--begin::Close-->
+                                    <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                                        <span class="svg-icon svg-icon-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                                                <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                                            </svg>
+                                        </span>
+                                        <!--end::Svg Icon-->
+                                    </div>
+                                    <!--end::Close-->
+                                </div>
+                                <!--end::Modal header-->
+                                <!--begin::Modal body-->
+                                <div class="modal-body scroll-y mx-10 my-2">
+									<div class="row">
+										<div class="col-6">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<!--begin::Label-->
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">Tingkat</span>
+												</label>
+												<!--end::Label-->
+												<div class="position-relative d-flex align-items-center">
+													<div style="width:100vw;">
+                                                        <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Pilih Tingkat">
+                                                            <option></option>
+                                                            <option value="1">X</option>
+                                                            <option value="2">XI</option>
+                                                            <option value="2">XII</option>
+                                                        </select>
+                                                    </div>
+												</div>
+											</div>
+										</div>
+
+                                        <div class="col-6">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<!--begin::Label-->
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">Kelas</span>
+												</label>
+												<!--end::Label-->
+												<div class="position-relative d-flex align-items-center">
+													<div style="width:100vw;">
+                                                        <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Pilih Kelas">
+                                                            <option></option>
+                                                            <option value="1">IPA 1</option>
+                                                            <option value="2">IPA 2</option>
+                                                            <option value="2">IPA 3</option>
+                                                        </select>
+                                                    </div>
+												</div>
+											</div>
+										</div>
+
+                                        <div class="col-6">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<!--begin::Label-->
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">Siswa</span>
+												</label>
+												<!--end::Label-->
+												<div class="position-relative d-flex align-items-center">
+													<div style="width:100vw;">
+                                                        <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Semua Siswa">
+                                                            <option></option>
+                                                            <option value="1">X</option>
+                                                            <option value="2">XI</option>
+                                                            <option value="2">XII</option>
+                                                        </select>
+                                                    </div>
+												</div>
+											</div>
+										</div>
+
+                                        <div class="col-6">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<!--begin::Label-->
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">Kategori Biaya</span>
+												</label>
+												<!--end::Label-->
+												<div class="position-relative d-flex align-items-center">
+													<div style="width:100vw;">
+                                                        <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Pilih Kategori">
+                                                            <option></option>
+                                                            <option value="1">SPP Juli 2021</option>
+                                                            <option value="2">SPP Agustus 2021</option>
+                                                            <option value="2">SPP September 2021</option>
+                                                        </select>
+                                                    </div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-12">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<!--begin::Label-->
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">No Tagihan</span>
+												</label>
+												<!--end::Label-->
+												<div class="position-relative d-flex align-items-center">
+													<!--begin::Icon-->
+													<!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
+													<span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                                        <i class="fa-duotone fa-hashtag" style="font-size: 1.3rem;"></i>
+													</span>
+													<!--end::Svg Icon-->
+													<!--end::Icon-->
+													<!--begin::Datepicker-->
+													<input class="form-control form-control-solid ps-12" placeholder="Masukkan no tagihan" />
+													<!--end::Datepicker-->
+												</div>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<!--begin::Label-->
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">Tanggal Tagihan</span>
+												</label>
+												<!--end::Label-->
+												<div class="position-relative d-flex align-items-center">
+													<!--begin::Icon-->
+													<!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
+													<span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                                        <i class="fa-duotone fa-calendar" style="font-size: 1.3rem;"></i>
+													</span>
+													<!--end::Svg Icon-->
+													<!--end::Icon-->
+													<!--begin::Datepicker-->
+													<input class="form-control form-control-solid ps-12" placeholder="Masukkan tanggal tagihan" />
+													<!--end::Datepicker-->
+												</div>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<!--begin::Label-->
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">Jumlah</span>
+												</label>
+												<!--end::Label-->
+												<div class="position-relative d-flex align-items-center">
+													<!--begin::Icon-->
+													<!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
+													<span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                                        <i class="fa-duotone fa-tags" style="font-size: 1.3rem;"></i>
+													</span>
+													<!--end::Svg Icon-->
+													<!--end::Icon-->
+													<!--begin::Datepicker-->
+													<input class="form-control form-control-solid ps-12" placeholder="Masukkan jumlah" />
+													<!--end::Datepicker-->
+												</div>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<!--begin::Label-->
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">Diskon</span>
+												</label>
+												<!--end::Label-->
+												<div class="position-relative d-flex align-items-center">
+													<!--begin::Icon-->
+													<!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
+													<span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                                        <i class="fa-duotone fa-percent" style="font-size: 1.3rem;"></i>
+													</span>
+													<!--end::Svg Icon-->
+													<!--end::Icon-->
+													<!--begin::Datepicker-->
+													<input class="form-control form-control-solid ps-12" placeholder="Masukkan diskon" />
+													<!--end::Datepicker-->
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="d-flex justify-content-end">
+											<button type="button" class="btn btn-primary">
+											<!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+											<span class="svg-icon svg-icon-2">
+												<i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+											</span>
+											<!--end::Svg Icon-->Simpan</button>
+											<!--end::Add user-->
+										</div>
+									</div>
+                                </div>
+                                <!--end::Modal body-->
+                            </div>
+                            <!--end::Modal content-->
+                        </div>
+                        <!--end::Modal dialog-->
+                    </div>
 
 				<form action="">
 					<div class="row">
@@ -145,70 +366,16 @@
                 <!--begin::Card toolbar-->
                 <div class="card-toolbar">
                     <!--begin::Toolbar-->
-                    <div class="d-flex justify-content-end" data-kt-user-table-toolbar="base">
+                    <div class="d-flex justify-content-end">
                         <!--begin::Filter-->
-                        <button type="button" class="btn btn-light-primary me-3" data-bs-toggle="modal" data-bs-target="#modalKategoriBiaya">
+                        <button type="button" class="btn btn-light-success">
                         <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
                         <span class="svg-icon svg-icon-2 me-0">
-                            <i class="fa-solid fa-plus" style="font-size: 20px;"></i>
+                            <i class="fa-duotone fa-file-excel" style="font-size: 20px;"></i>
                         </span>
-                        <!--end::Svg Icon-->Kategori Biaya</button>
+                        <!--end::Svg Icon-->Download Excel</button>
                     </div>
                     <!--end::Toolbar-->
-                    <!--begin::Modal - Adjust Balance-->
-                    <div class="modal fade" id="modalKategoriBiaya" tabindex="-1" aria-hidden="true">
-                        <!--begin::Modal dialog-->
-                        <div class="modal-dialog modal-dialog-centered mw-650px">
-                            <!--begin::Modal content-->
-                            <div class="modal-content">
-                                <!--begin::Modal header-->
-                                <div class="modal-header">
-                                    <!--begin::Modal title-->
-                                    <h2 class="fw-bolder">Tambah Kategori Biaya</h2>
-                                    <!--end::Modal title-->
-                                    <a href="#" class="btn btn-icon btn-light-twitter btn-sm me-3">
-                                        <i class="bi bi-twitter fs-4"></i>
-                                    </a>
-                                </div>
-                                <!--end::Modal header-->
-                                <!--begin::Modal body-->
-                                <div class="modal-body scroll-y mx-5 mx-xl-8 mb-7">
-                                    <!--begin::Form-->
-                                    <form id="kt_modal_export_users_form" class="form" action="#">
-                                        <!--begin::Input group-->
-                                        <div class="fv-row mb-10">
-                                            <!--begin::Label-->
-                                            <label class="fs-6 fw-bold form-label mb-2">Nama Kategori</label>
-                                            <!--end::Label-->
-                                            <div class="position-relative d-flex align-items-center">
-                                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                                    <i class="fa-solid fa-money-check-pen"  style="font-size: 1.3rem;"></i>
-                                                </span>
-                                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan nama kategori biaya" />
-                                            </div>
-                                        </div>
-                                        <!--end::Input group-->
-                                        <!--begin::Actions-->
-                                        <div class="d-flex justify-content-end">
-											<button type="button" class="btn btn-primary">
-											<!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-											<span class="svg-icon svg-icon-2">
-												<i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-											</span>
-											<!--end::Svg Icon-->Simpan</button>
-											<!--end::Add user-->
-										</div>
-                                        <!--end::Actions-->
-                                    </form>
-                                    <!--end::Form-->
-                                </div>
-                                <!--end::Modal body-->
-                            </div>
-                            <!--end::Modal content-->
-                        </div>
-                        <!--end::Modal dialog-->
-                    </div>
-                    <!--end::Modal - New Card-->
                 </div>
                 <!--end::Card toolbar-->
             </div>
@@ -228,7 +395,11 @@
                             </th>
                             <th class="min-w-50px text-center">Aksi</th>
                             <th class="min-w-100px text-center">No</th>
-                            <th class="min-w-125px text-center">Nama</th>
+                            <th class="min-w-125px text-center">NIS</th>
+                            <th class="min-w-125px text-center">Siswa</th>
+                            <th class="min-w-125px text-center">Tgl Tahihan</th>
+                            <th class="min-w-125px text-center">No Tahihan</th>
+                            <th class="min-w-125px text-center">Kategori Tahihan</th>
                         </tr>
                         <!--end::Table row-->
                     </thead>
@@ -254,6 +425,9 @@
                                 <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
                                     <!--begin::Menu item-->
                                     <div class="menu-item px-3">
+                                        <a href="<?= base_url('keuangan/tagihan_spp')?>" class="menu-link px-3">Lihat</a>
+                                    </div>
+                                    <div class="menu-item px-3">
                                         <a href="#" class="menu-link px-3">Edit</a>
                                     </div>
                                     <!--end::Menu item-->
@@ -273,14 +447,33 @@
                             <!--begin::Last login=-->
                             <td>
                                 <p class="text-center">
-                                    SPP Januari 2021
+                                    10007
                                 </p>
                             </td>
-                            <!--end::Last login=-->
-                            <!--begin::Joined-->
-                            <!--begin::Joined-->
-                            <!--begin::Action=-->
-                            <!--end::Action=-->
+
+                            <td>
+                                <p class="text-center">
+                                    Saka Dana Asmara
+                                </p>
+                            </td>
+
+                            <td>
+                                <p class="text-center">
+                                    13-04-2022
+                                </p>
+                            </td>
+
+                            <td>
+                                <p class="text-center">
+                                    03/1239980
+                                </p>
+                            </td>
+                            
+                            <td>
+                                <p class="text-center">
+                                    SPP Januari 2021
+                                </p>
+                            </td>  
                         </tr>
 
                         <tr>
@@ -300,6 +493,9 @@
                                 <!--begin::Menu-->
                                 <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
                                     <!--begin::Menu item-->
+                                    <div class="menu-item px-3">
+                                        <a href="#" class="menu-link px-3">Lihat</a>
+                                    </div>
                                     <div class="menu-item px-3">
                                         <a href="#" class="menu-link px-3">Edit</a>
                                     </div>
@@ -320,14 +516,33 @@
                             <!--begin::Last login=-->
                             <td>
                                 <p class="text-center">
-                                    SPP Februari 2021
+                                    10007
                                 </p>
                             </td>
-                            <!--end::Last login=-->
-                            <!--begin::Joined-->
-                            <!--begin::Joined-->
-                            <!--begin::Action=-->
-                            <!--end::Action=-->
+
+                            <td>
+                                <p class="text-center">
+                                    Saka Dana Asmara
+                                </p>
+                            </td>
+
+                            <td>
+                                <p class="text-center">
+                                    13-04-2022
+                                </p>
+                            </td>
+
+                            <td>
+                                <p class="text-center">
+                                    03/1239980
+                                </p>
+                            </td>
+                            
+                            <td>
+                                <p class="text-center">
+                                    SPP Januari 2021
+                                </p>
+                            </td>  
                         </tr>
 
                         <tr>
@@ -348,6 +563,9 @@
                                 <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
                                     <!--begin::Menu item-->
                                     <div class="menu-item px-3">
+                                        <a href="#" class="menu-link px-3">Lihat</a>
+                                    </div>
+                                    <div class="menu-item px-3">
                                         <a href="#" class="menu-link px-3">Edit</a>
                                     </div>
                                     <!--end::Menu item-->
@@ -367,14 +585,33 @@
                             <!--begin::Last login=-->
                             <td>
                                 <p class="text-center">
-                                    SPP Maret 2021
+                                    10007
                                 </p>
                             </td>
-                            <!--end::Last login=-->
-                            <!--begin::Joined-->
-                            <!--begin::Joined-->
-                            <!--begin::Action=-->
-                            <!--end::Action=-->
+
+                            <td>
+                                <p class="text-center">
+                                    Saka Dana Asmara
+                                </p>
+                            </td>
+
+                            <td>
+                                <p class="text-center">
+                                    13-04-2022
+                                </p>
+                            </td>
+
+                            <td>
+                                <p class="text-center">
+                                    03/1239980
+                                </p>
+                            </td>
+                            
+                            <td>
+                                <p class="text-center">
+                                    SPP Januari 2021
+                                </p>
+                            </td>  
                         </tr>
                         <!--end::Table row-->
                     </tbody>
