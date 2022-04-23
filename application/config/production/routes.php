@@ -143,12 +143,19 @@ $route['laporan/(:any)/(:any)'] = 'laporan/controller_ctl/$1/$2';
 
 
 
-
 $route['keuangan']  = 'keuangan/controller_ctl';
 
 $route['keuangan/(:any)'] = 'keuangan/controller_ctl/$1';
 
 $route['keuangan/(:any)/(:any)'] = 'keuangan/controller_ctl/$1/$2';
+
+
+
+$route['informasi']  = 'informasi/controller_ctl';
+
+$route['informasi/(:any)'] = 'informasi/controller_ctl/$1';
+
+$route['informasi/(:any)/(:any)'] = 'informasi/controller_ctl/$1/$2';
 
 
 $route['404_override'] = '';
