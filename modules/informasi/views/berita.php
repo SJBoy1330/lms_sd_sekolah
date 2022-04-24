@@ -122,9 +122,9 @@
 												</label>
 												<!--end::Label-->
 												<div class="col-sm-10 col-12">
-                                                    <div class="image-input image-input-outline " data-kt-image-input="true" style="background-image: url(<?=site_url('assets/img/no-photo.png')?>)">
+                                                    <div class="image-input image-input-outline " data-kt-image-input="true" style="background-image: url(<?=site_url('assets/img/no-image.jpg')?>)">
                                                                 <!--begin::Image preview wrapper-->
-                                                                <div class="image-input-wrapper w-125px h-125px" style="background-image: url(<?=site_url('assets/img/no-photo.png')?>)"></div>
+                                                                <div class="image-input-wrapper w-125px h-125px" style="background-image: url(<?=site_url('assets/img/no-image.jpg')?>)"></div>
                                                                 <!--end::Image preview wrapper-->
 
                                                                 <!--begin::Edit button-->
@@ -150,6 +150,55 @@
                                                                 <!--end::Remove button-->
                                                             </div>
                                                     </div>
+											</div>
+										</div>
+                                        <div class="col-12">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<!--begin::Label-->
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">Keterangan</span>
+												</label>
+												<!--end::Label-->
+												<div class="position-relative d-flex align-items-center">
+													<textarea class="form-control form-control-solid" rows="3" placeholder="Keterangan"></textarea>
+													<!--end::Datepicker-->
+												</div>
+											</div>
+										</div>
+                                        <div class="col-12">
+											<div class="d-flex flex-column mb-8 fv-row">
+
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">Detail</span>
+												</label>
+
+												<div class="position-relative d-flex align-items-center">
+									
+                                                <form id="kt_forms_widget_1_form" class="ql-quil ql-quil-plain pb-3">
+
+                                                    <div id="kt_forms_widget_1_editor" class="py-6"></div>
+
+                                                    <div class="separator"></div>
+
+                                                    <div id="kt_forms_widget_1_editor_toolbar" class="ql-toolbar d-flex flex-stack py-2">
+                                                        <div class="me-2">
+                                                            <span class="ql-formats ql-size ms-0">
+                                                                <select class="ql-size w-75px"></select>
+                                                            </span>
+                                                            <span class="ql-formats">
+                                                                <button class="ql-bold"></button>
+                                                                <button class="ql-italic"></button>
+                                                                <button class="ql-underline"></button>
+                                                                <button class="ql-strike"></button>
+                                                                <button class="ql-link"></button>
+                                                                <button class="ql-clean"></button>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+    
+                                                </form>
+
+												</div>
 											</div>
 										</div>
 										<div class="col-12">
@@ -285,240 +334,199 @@
             <!--begin::Card body-->
             <div class="card-body py-4">
                 <!--begin::Table-->
-                <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_users">
-                    <!--begin::Table head-->
-                    <thead>
-                        <!--begin::Table row-->
-                        <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
-                            <th class="w-10px pe-2">
-                                <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
-                                    <input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_users .form-check-input" value="1" />
-                                </div>
-                            </th>
-                            <th class="min-w-50px text-center">Aksi</th>
-                            <th class="min-w-100px text-center">No</th>
-                            <th class="min-w-125px text-center">NIS</th>
-                            <th class="min-w-125px text-center">Siswa</th>
-                            <th class="min-w-125px text-center">Tgl Tahihan</th>
-                            <th class="min-w-125px text-center">No Tahihan</th>
-                            <th class="min-w-125px text-center">Kategori Tahihan</th>
-                        </tr>
-                        <!--end::Table row-->
-                    </thead>
-                    <!--end::Table head-->
-                    <!--begin::Table body-->
-                    <tbody class="text-gray-600 fw-bold">
-                        <!--begin::Table row-->
-                        <tr>
-                            <!--begin::Checkbox-->
-                            <td>
-                                <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                    <input class="form-check-input" type="checkbox" value="1" />
-                                </div>
-                            </td>
-                            <!--end::Checkbox-->
-                            <!--begin::User=-->
-                            <td class="d-flex align-items-center justify-content-center">
-                                <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                    <i class="fa-duotone fa-bars fs-4"></i>
-                                </button>
-                                <!--end::Svg Icon--></a>
-                                <!--begin::Menu-->
-                                <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-                                    <!--begin::Menu item-->
-                                    <div class="menu-item px-3">
-                                        <a href="<?= base_url('keuangan/tagihan_spp')?>" class="menu-link px-3">Lihat</a>
+                <div class="table-responsive">
+                    <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_users">
+                        <!--begin::Table head-->
+                        <thead>
+                            <!--begin::Table row-->
+                            <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
+                                <th class="w-10px pe-2">
+                                    <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
+                                        <input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_users .form-check-input" value="1" />
                                     </div>
-                                    <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Edit</a>
+                                </th>
+                                <th class="min-w-125px text-center">Aksi</th>
+                                <th class="min-w-100px text-center">No</th>
+                                <th class="min-w-175px text-center">TGL Publikasi</th>
+                                <th class="min-w-250px text-center">Judul</th>
+                                <th class="min-w-175px text-center">Kategori</th>
+                                <th class="min-w-175px text-center">Gambar</th>
+                                <th class="min-w-175px text-center">Dibaca</th>
+                                <th class="min-w-175px text-center">Aktif</th>
+                                <th class="min-w-175px text-center">Penulis</th>
+                            </tr>
+                            <!--end::Table row-->
+                        </thead>
+                        <!--end::Table head-->
+                        <!--begin::Table body-->
+                        <tbody class="text-gray-600 fw-bold">
+                            <!--begin::Table row-->
+                            <tr>
+                                <!--begin::Checkbox-->
+                                <td>
+                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                        <input class="form-check-input" type="checkbox" value="1" />
                                     </div>
-                                    <!--end::Menu item-->
-                                    <!--begin::Menu item-->
-                                    <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
+                                </td>
+                                <!--end::Checkbox-->
+                                <!--begin::User=-->
+                                <td class="text-center">
+                                    <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                        <i class="fa-duotone fa-bars fs-4"></i>
+                                    </button>
+                                    <!--end::Svg Icon--></a>
+                                    <!--begin::Menu-->
+                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="<?= base_url('keuangan/tagihan_spp')?>" class="menu-link px-3">Lihat</a>
+                                        </div>
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Edit</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
+                                        </div>
+                                        <!--end::Menu item-->
                                     </div>
-                                    <!--end::Menu item-->
-                                </div>
-                            </td>
-                            <!--end::User=-->
-                            <!--begin::Role=-->
-                            <td>
-                                <p class="text-center mb-0">1</p>
-                            </td>
-                            <!--end::Role=-->
-                            <!--begin::Last login=-->
-                            <td>
-                                <p class="text-center">
-                                    10007
-                                </p>
-                            </td>
+                                </td>
+                                <!--end::User=-->
+                                <!--begin::Role=-->
+                                <td>
+                                    <p class="text-center mb-0">1</p>
+                                </td>
+                                <!--end::Role=-->
+                                <!--begin::Last login=-->
+                                <td>
+                                    <p class="text-center">
+                                        20-12-2021
+                                    </p>
+                                </td>
 
-                            <td>
-                                <p class="text-center">
-                                    Saka Dana Asmara
-                                </p>
-                            </td>
+                                <td>
+                                    <p class="text-center">
+                                        Kuliah S3 di Inggris, Dosen UB Cerita Cepatnya Penularan Omicron
+                                    </p>
+                                </td>
 
-                            <td>
-                                <p class="text-center">
-                                    13-04-2022
-                                </p>
-                            </td>
+                                <td>
+                                    <p class="text-center">
+                                        Berita
+                                    </p>
+                                </td>
 
-                            <td>
-                                <p class="text-center">
-                                    03/1239980
-                                </p>
-                            </td>
-                            
-                            <td>
-                                <p class="text-center">
-                                    SPP Januari 2021
-                                </p>
-                            </td>  
-                        </tr>
+                                <td>
+                                    <p class="text-center">
+                                        <img src="<?= base_url('assets/img/vektor-1.png')?>" width="100" class="img-responsive">
+                                    </p>
+                                </td>
+                                
+                                <td>
+                                    <p class="text-center">
+                                        119
+                                    </p>
+                                </td> 
+                                
+                                <td>
+                                    <p class="text-center">
+                                        Dipublikasikan
+                                    </p>
+                                </td> 
 
-                        <tr>
-                            <!--begin::Checkbox-->
-                            <td>
-                                <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                    <input class="form-check-input" type="checkbox" value="1" />
-                                </div>
-                            </td>
-                            <!--end::Checkbox-->
-                            <!--begin::User=-->
-                            <td class="d-flex align-items-center justify-content-center">
-                                <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                    <i class="fa-duotone fa-bars fs-4"></i>
-                                </button>
-                                <!--end::Svg Icon--></a>
-                                <!--begin::Menu-->
-                                <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-                                    <!--begin::Menu item-->
-                                    <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Lihat</a>
+                                <td>
+                                    <p class="text-center">
+                                        Admin Sidoarjo
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <!--begin::Checkbox-->
+                                <td>
+                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                        <input class="form-check-input" type="checkbox" value="1" />
                                     </div>
-                                    <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Edit</a>
+                                </td>
+                                <!--end::Checkbox-->
+                                <!--begin::User=-->
+                                <td class="text-center">
+                                    <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                        <i class="fa-duotone fa-bars fs-4"></i>
+                                    </button>
+                                    <!--end::Svg Icon--></a>
+                                    <!--begin::Menu-->
+                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="<?= base_url('keuangan/tagihan_spp')?>" class="menu-link px-3">Lihat</a>
+                                        </div>
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Edit</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
+                                        </div>
+                                        <!--end::Menu item-->
                                     </div>
-                                    <!--end::Menu item-->
-                                    <!--begin::Menu item-->
-                                    <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
-                                    </div>
-                                    <!--end::Menu item-->
-                                </div>
-                            </td>
-                            <!--end::User=-->
-                            <!--begin::Role=-->
-                            <td>
-                                <p class="text-center mb-0">2</p>
-                            </td>
-                            <!--end::Role=-->
-                            <!--begin::Last login=-->
-                            <td>
-                                <p class="text-center">
-                                    10007
-                                </p>
-                            </td>
+                                </td>
+                                <!--end::User=-->
+                                <!--begin::Role=-->
+                                <td>
+                                    <p class="text-center mb-0">2</p>
+                                </td>
+                                <!--end::Role=-->
+                                <!--begin::Last login=-->
+                                <td>
+                                    <p class="text-center">
+                                        20-12-2021
+                                    </p>
+                                </td>
 
-                            <td>
-                                <p class="text-center">
-                                    Saka Dana Asmara
-                                </p>
-                            </td>
+                                <td>
+                                    <p class="text-center">
+                                        Kemendikbud Dorong Siswa Jadi Agen Perubahan Pengelolaan Sampah
+                                    </p>
+                                </td>
 
-                            <td>
-                                <p class="text-center">
-                                    13-04-2022
-                                </p>
-                            </td>
+                                <td>
+                                    <p class="text-center">
+                                        Berita
+                                    </p>
+                                </td>
 
-                            <td>
-                                <p class="text-center">
-                                    03/1239980
-                                </p>
-                            </td>
-                            
-                            <td>
-                                <p class="text-center">
-                                    SPP Januari 2021
-                                </p>
-                            </td>  
-                        </tr>
+                                <td>
+                                    <p class="text-center">
+                                        <img src="<?= base_url('assets/img/vektor-aturan.png')?>" width="100" class="img-responsive">
+                                    </p>
+                                </td>
+                                
+                                <td>
+                                    <p class="text-center">
+                                        35
+                                    </p>
+                                </td> 
+                                
+                                <td>
+                                    <p class="text-center">
+                                        Dipublikasikan
+                                    </p>
+                                </td> 
 
-                        <tr>
-                            <!--begin::Checkbox-->
-                            <td>
-                                <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                    <input class="form-check-input" type="checkbox" value="1" />
-                                </div>
-                            </td>
-                            <!--end::Checkbox-->
-                            <!--begin::User=-->
-                            <td class="d-flex align-items-center justify-content-center">
-                                <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                    <i class="fa-duotone fa-bars fs-4"></i>
-                                </button>
-                                <!--end::Svg Icon--></a>
-                                <!--begin::Menu-->
-                                <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-                                    <!--begin::Menu item-->
-                                    <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Lihat</a>
-                                    </div>
-                                    <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Edit</a>
-                                    </div>
-                                    <!--end::Menu item-->
-                                    <!--begin::Menu item-->
-                                    <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
-                                    </div>
-                                    <!--end::Menu item-->
-                                </div>
-                            </td>
-                            <!--end::User=-->
-                            <!--begin::Role=-->
-                            <td>
-                                <p class="text-center mb-0">3</p>
-                            </td>
-                            <!--end::Role=-->
-                            <!--begin::Last login=-->
-                            <td>
-                                <p class="text-center">
-                                    10007
-                                </p>
-                            </td>
-
-                            <td>
-                                <p class="text-center">
-                                    Saka Dana Asmara
-                                </p>
-                            </td>
-
-                            <td>
-                                <p class="text-center">
-                                    13-04-2022
-                                </p>
-                            </td>
-
-                            <td>
-                                <p class="text-center">
-                                    03/1239980
-                                </p>
-                            </td>
-                            
-                            <td>
-                                <p class="text-center">
-                                    SPP Januari 2021
-                                </p>
-                            </td>  
-                        </tr>
-                        <!--end::Table row-->
-                    </tbody>
-                    <!--end::Table body-->
-                </table>
+                                <td>
+                                    <p class="text-center">
+                                        Admin Sidoarjo
+                                    </p>
+                                </td>
+                            </tr>
+                            <!--end::Table row-->
+                        </tbody>
+                        <!--end::Table body-->
+                    </table>
+                </div>
                 <!--end::Table-->
             </div>
             <!--end::Card body-->
