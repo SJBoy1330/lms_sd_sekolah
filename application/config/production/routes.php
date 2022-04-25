@@ -158,6 +158,14 @@ $route['informasi/(:any)'] = 'informasi/controller_ctl/$1';
 $route['informasi/(:any)/(:any)'] = 'informasi/controller_ctl/$1/$2';
 
 
+
+$route['jurnal']  = 'jurnal/controller_ctl';
+
+$route['jurnal/(:any)'] = 'jurnal/controller_ctl/$1';
+
+$route['jurnal/(:any)/(:any)'] = 'jurnal/controller_ctl/$1/$2';
+
+
 $route['404_override'] = '';
 
 $route['translate_uri_dashes'] = FALSE;
