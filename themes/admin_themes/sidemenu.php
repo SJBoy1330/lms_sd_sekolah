@@ -39,7 +39,7 @@
                             <span class="menu-link" title="Master" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                 <span class="menu-icon">
                                     <!--begin::Svg Icon | path: icons/duotune/abstract/abs027.svg-->
-                                        <i class="fa-duotone fa-brain" style="font-size: 2rem;"></i>
+                                    <i class="fa-duotone fa-brain" style="font-size: 2rem;"></i>
                                     <!--end::Svg Icon-->
                                 </span>
                             </span>
@@ -53,7 +53,7 @@
                                     <a class="menu-link" href="#" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-chalkboard-user" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-chalkboard-user" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Staf</span>
@@ -63,7 +63,7 @@
                                     <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-graduation-cap" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-graduation-cap" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Siswa</span>
@@ -73,7 +73,7 @@
                                     <a class="menu-link" href="#">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-screen-users" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-screen-users" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Kelas</span>
@@ -83,7 +83,7 @@
                                     <a class="menu-link" href="#">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-person-chalkboard" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-person-chalkboard" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Guru</span>
@@ -93,7 +93,7 @@
                                     <a class="menu-link" href="#">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-brands fa-stack-overflow" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-brands fa-stack-overflow" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Mata Pelajaran</span>
@@ -103,7 +103,7 @@
                                     <a class="menu-link" href="#">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-list-check" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-list-check" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Bidang Tugas</span>
@@ -113,7 +113,7 @@
                                     <a class="menu-link" href="#">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-bars-progress" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-bars-progress" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Jenis Tugas Staf</span>
@@ -123,7 +123,7 @@
                                     <a class="menu-link" href="#">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-file-import" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-file-import" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Import</span>
@@ -137,7 +137,7 @@
                             <span class="menu-link" title="Akademik" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                 <span class="menu-icon">
                                     <!--begin::Svg Icon | path: icons/duotune/abstract/abs027.svg-->
-                                        <i class="fa-duotone fa-book-atlas" style="font-size: 2rem;"></i>
+                                    <i class="fa-duotone fa-book-atlas" style="font-size: 2rem;"></i>
                                     <!--end::Svg Icon-->
                                 </span>
                             </span>
@@ -151,7 +151,7 @@
                                     <a class="menu-link" href="#" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-timer" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-timer" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Waktu</span>
@@ -161,7 +161,7 @@
                                     <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-calendar-days" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-calendar-days" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Jadwal Mengajar</span>
@@ -171,7 +171,7 @@
                                     <a class="menu-link" href="#" title="Build your layout, preview and export HTML for server side integration" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-chart-bar" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-chart-bar" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Bab</span>
@@ -181,7 +181,7 @@
                                     <a class="menu-link" href="#">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-book-open-cover" style="font-size: 1.1rem;"></i>
+                                            <i class="fa-duotone fa-book-open-cover" style="font-size: 1.1rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Materi</span>
@@ -191,7 +191,7 @@
                                     <a class="menu-link" href="#">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-screen-users" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-screen-users" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">KBM</span>
@@ -201,7 +201,7 @@
                                     <a class="menu-link" href="#">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-list-check" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-list-check" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Tugas</span>
@@ -211,7 +211,7 @@
                                     <a class="menu-link" href="#">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-envelope-open-text" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-envelope-open-text" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Surat Ijin</span>
@@ -225,7 +225,7 @@
                             <span class="menu-link" title="Jurnal" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                 <span class="menu-icon">
                                     <!--begin::Svg Icon | path: icons/duotune/abstract/abs027.svg-->
-                                        <i class="fa-duotone fa-book" style="font-size: 2rem;"></i>
+                                    <i class="fa-duotone fa-book" style="font-size: 2rem;"></i>
                                     <!--end::Svg Icon-->
                                 </span>
                             </span>
@@ -239,7 +239,7 @@
                                     <a class="menu-link" href="#" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-book" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-book" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Jurnal Staf</span>
@@ -249,7 +249,7 @@
                                     <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-book" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-book" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Jurnal Guru</span>
@@ -263,7 +263,7 @@
                             <span class="menu-link" title="Ujian" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                 <span class="menu-icon">
                                     <!--begin::Svg Icon | path: icons/duotune/abstract/abs027.svg-->
-                                        <i class="fa-duotone fa-book-bookmark" style="font-size: 2rem;"></i>
+                                    <i class="fa-duotone fa-book-bookmark" style="font-size: 2rem;"></i>
                                     <!--end::Svg Icon-->
                                 </span>
                             </span>
@@ -277,7 +277,7 @@
                                     <a class="menu-link" href="#" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-box" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-box" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Bank Soal</span>
@@ -287,7 +287,7 @@
                                     <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-box-archive" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-box-archive" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Paket Ujian</span>
@@ -307,7 +307,7 @@
                                     <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-book-user" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-book-user" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Instruksi Ujian</span>
@@ -317,7 +317,7 @@
                                     <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-print" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-print" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Cetak Ujian</span>
@@ -331,7 +331,7 @@
                             <span class="menu-link" title="Informasi" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                 <span class="menu-icon">
                                     <!--begin::Svg Icon | path: icons/duotune/abstract/abs027.svg-->
-                                        <i class="fa-duotone fa-memo-circle-info" style="font-size: 2rem;"></i>
+                                    <i class="fa-duotone fa-memo-circle-info" style="font-size: 2rem;"></i>
                                     <!--end::Svg Icon-->
                                 </span>
                             </span>
@@ -345,7 +345,7 @@
                                     <a class="menu-link" href="<?= base_url('informasi')?>" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-folder-open" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-folder-open" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Kategori Berita</span>
@@ -355,7 +355,7 @@
                                     <a class="menu-link" href="<?= base_url('informasi/berita')?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-newspaper" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-newspaper" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Berita</span>
@@ -365,7 +365,7 @@
                                     <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-bullhorn" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-bullhorn" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Pengumuman</span>
@@ -379,7 +379,7 @@
                             <span class="menu-link" title="Keuangan" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                 <span class="menu-icon">
                                     <!--begin::Svg Icon | path: icons/duotune/abstract/abs027.svg-->
-                                        <i class="fa-duotone fa-coins" style="font-size: 2rem;"></i>
+                                    <i class="fa-duotone fa-coins" style="font-size: 2rem;"></i>
                                     <!--end::Svg Icon-->
                                 </span>
                             </span>
@@ -390,20 +390,20 @@
                                     </div>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="<?= base_url('keuangan')?>" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('keuangan') ?>" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-money-check-pen" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-money-check-pen" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Kategori Biaya</span>
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="<?= base_url('keuangan/transaksi_keuangan');?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('keuangan/transaksi_keuangan'); ?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-money-simple-from-bracket" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-money-simple-from-bracket" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Transaksi Keuangan</span>
@@ -413,7 +413,7 @@
                                     <a class="menu-link" href="<?= base_url('keuangan/rekap_keuangan')?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-wallet" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-wallet" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Rekap Keuangan</span>
@@ -423,7 +423,7 @@
                                     <a class="menu-link" href="<?= base_url('keuangan/monitoring_keuangan')?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-monitor-waveform" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-monitor-waveform" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Monitoring Keuangan</span>
@@ -437,7 +437,7 @@
                             <span class="menu-link" title="Laporan" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                 <span class="menu-icon">
                                     <!--begin::Svg Icon | path: icons/duotune/abstract/abs027.svg-->
-                                        <i class="fa-duotone fa-file-chart-column" style="font-size: 2rem;"></i>
+                                    <i class="fa-duotone fa-file-chart-column" style="font-size: 2rem;"></i>
                                     <!--end::Svg Icon-->
                                 </span>
                             </span>
@@ -448,7 +448,7 @@
                                     </div>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="<?= base_url('laporan');?>" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('laporan'); ?>" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <span class="svg-icon svg-icon-2">
@@ -466,7 +466,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('laporan/presensi_kelas'); ?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <span class="svg-icon svg-icon-2">
@@ -484,7 +484,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('laporan/presensi_mapel_guru'); ?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <span class="svg-icon svg-icon-2">
@@ -502,7 +502,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('laporan/presensi_staf'); ?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <span class="svg-icon svg-icon-2">
@@ -520,7 +520,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('laporan/detail_presensi_staf'); ?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <span class="svg-icon svg-icon-2">
@@ -538,7 +538,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('laporan/jurnal_guru'); ?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <span class="svg-icon svg-icon-2">
@@ -556,7 +556,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('laporan/jurnal_staf'); ?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <span class="svg-icon svg-icon-2">
@@ -574,7 +574,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('laporan/sisa_tagihan'); ?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <span class="svg-icon svg-icon-2">
@@ -592,7 +592,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('laporan/tagihan'); ?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <span class="svg-icon svg-icon-2">
@@ -610,7 +610,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('laporan/pembayaran'); ?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <span class="svg-icon svg-icon-2">
@@ -635,7 +635,7 @@
                             <span class="menu-link" title="Pengaturan" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                 <span class="menu-icon">
                                     <!--begin::Svg Icon | path: icons/duotune/abstract/abs027.svg-->
-                                        <i class="fa-duotone fa-gear" style="font-size: 2rem;"></i>
+                                    <i class="fa-duotone fa-gear" style="font-size: 2rem;"></i>
                                     <!--end::Svg Icon-->
                                 </span>
                             </span>
@@ -646,40 +646,40 @@
                                     </div>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="<?= base_url('pengaturan')?>" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('pengaturan') ?>" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-school-circle-check" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-school-circle-check" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Identitas Sekolah</span>
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="<?= base_url('pengaturan/hari_libur')?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('pengaturan/hari_libur') ?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-calendar-week" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-calendar-week" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Hari Libur</span>
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="<?=base_url('pengaturan/presensi_staf')?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('pengaturan/presensi_staf') ?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-screwdriver-wrench" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-screwdriver-wrench" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Setting Presensi Staf</span>
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="<?=base_url('pengaturan/presensi_siswa')?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('pengaturan/presensi_siswa') ?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
-                                                <i class="fa-duotone fa-screwdriver-wrench" style="font-size: 1.3rem;"></i>
+                                            <i class="fa-duotone fa-screwdriver-wrench" style="font-size: 1.3rem;"></i>
                                             <!--end::Svg Icon-->
                                         </span>
                                         <span class="menu-title">Setting Presensi Siswa</span>

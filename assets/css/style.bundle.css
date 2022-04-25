@@ -50195,3 +50195,17 @@ body {
 .card.identitas-sekolah{
   min-height: 190px;
 }
+
+/* css dewa */
+
+.border-ijo{
+  border-color: #b0dc00 !important;
+}
+
+.text-ijo{
+  color: #b0dc00 !important;
+}
+
+.badge-hijau{
+  background-color: #50CD89;
+}

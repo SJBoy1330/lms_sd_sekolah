@@ -52,6 +52,10 @@
     <script src="<?= base_url(); ?>assets/js/custom/modals/users-search.js"></script>
     <!--end::Page Custom Javascript-->
 
+    <!-- daterangepicker -->
+    <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/daterangepicker/js/moment.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/daterangepicker/js/daterangepicker.js"></script>
+
     <!-- jQuery and Bootstrap scripts -->
     <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/clockpicker/bootstrap.min.js"></script>
 
@@ -62,9 +66,15 @@
     <!-- DateRangePicker script -->
 
     <!-- select2 -->
-    <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/select2/js/select2.full.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/select2/js/select2.min.js"></script>
 
-
+    <?php
+    if ($js_add) {
+        foreach ($js_add as $js) {
+            echo $js;
+        }
+    }
+    ?>
 
     <!--end::Javascript-->
     </body>

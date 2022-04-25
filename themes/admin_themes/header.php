@@ -41,7 +41,7 @@
     <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/plugins/clockpicker/bootstrap-clockpicker.min.css">
 
     <!-- DateRangePicker Stylesheet -->
-    <!-- <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/daterangepicker/daterangepicker.css"> -->
+    <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/plugins/daterangepicker/css/daterangepicker.css">
 
     <!-- select2 -->
     <!-- <link href="<?= base_url(); ?>assets/plugins/select2/css/select2.min.css" rel="stylesheet" /> -->

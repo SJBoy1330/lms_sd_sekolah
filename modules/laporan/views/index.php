@@ -5,17 +5,12 @@
             <div class="card-body">
                 <form action="">
                     <div class="row">
-                        <div class="col-md-3 col-xl-" style="padding:5px;">
+                        <div class="col-md-3 col-xl-3" style="padding:5px;">
                             <label class="filter-title mb-2">Tahun Ajaran</label>
                             <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
-                                <optgroup label="Group Name">
-                                    <option>Nested option</option>
-                                </optgroup>
-                                <option value="AL">Alabama</option>
-                                <option value="Am">Amalapuram</option>
-                                <option value="An">Anakapalli</option>
-                                <option value="Ak">Akkayapalem</option>
-                                <option value="WY">Wyoming</option>
+                                <option></option>
+                                <option value="1">2021/2022</option>
+                                <option value="2">2022/2023</option>
                             </select>
                         </div>
                         <div class="col-md-3 col-xl-3" style="padding:5px;">
@@ -79,79 +74,264 @@
                         <p class="m-0">XII</p>
                     </div>
                 </div>
-                <div class="row mt-3">
+                <div class="row my-3">
                     <div class="col-12">
                         <a href="">
                             <img src="assets/img/xls.png" alt="" width="35">
                         </a>
                     </div>
-                    <div class="col overflow-auto">
-                        <table class="table table-bordered ">
-                            <thead>
-                                <tr>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1 ps-2">No</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">Mata Pelajaran</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">01</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">02</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">03</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">04</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">05</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">06</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">07</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">08</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">09</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">10</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">11</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">12</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">13</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">14</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">15</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">16</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">17</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">18</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">19</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">20</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">21</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">22</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">23</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">24</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">25</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">26</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">27</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">28</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">29</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">30</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">Jumlah Pertemuan</th>
-                                    <th scope="col" colspan="4">Status Presensi</th>
-                                    <th scope="col" rowspan="2" class="align-middle text-center border border-1">Persentase</th>
+                    <div class="col overflow-auto my-5">
+                        <table class="table table-light" id="kt_table_customers_payment">
+                            <!--begin::Table head-->
+                            <thead class=" fs-7 fw-bolder">
+                                <!--begin::Table row-->
+                                <tr class=" text-white text-uppercase gs-0 align-middle text-center">
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white ps-3 ">No</th>
+                                    <th scope="col" rowspan="2" class=" min-w-100px bg-primary border border-white">Mata Pelajaran</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">01</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">02</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">03</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">04</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">05</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">06</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">07</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">08</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">09</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">10</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">11</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">12</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">13</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">14</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">15</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">16</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">17</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">18</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">19</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">20</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">21</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">22</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">23</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">24</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">25</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">26</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">27</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">28</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">29</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">30</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white">Jumlah Pertemuan</th>
+                                    <th scope="col" colspan="4" class=" min-w-65px bg-primary border border-white">Status Presensi</th>
+                                    <th scope="col" rowspan="2" class=" min-w-65px bg-primary border border-white pe-3 ">Persentase</th>
                                 </tr>
-                                <tr>
-                                    <th>H</th>
-                                    <th>I</th>
-                                    <th>S</th>
-                                    <th>A</th>
+                                <tr class="text-white text-uppercase gs-0 align-middle text-center">
+                                    <th scope="col" class=" min-w-65px bg-primary ps-3">H</th>
+                                    <th scope="col" class=" min-w-65px bg-primary border border-white">S</th>
+                                    <th scope="col" class=" min-w-65px bg-primary border border-white">I</th>
+                                    <th scope="col" class=" min-w-65px bg-primary border border-white pe-3">A</th>
                                 </tr>
+                                <!--end::Table row-->
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
+                            <!--end::Table head-->
+                            <!--begin::Table body-->
+                            <tbody class="fs-6 fw-bold text-gray-600">
+                                <tr class="align-middle text-center text-dark">
+                                    <td class="border border-white ps-3">1</td>
+                                    <td class="border border-white">pelajaran 1</td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white">10</td>
+                                    <td class="border border-white">0</td>
+                                    <td class="border border-white">0</td>
+                                    <td class="border border-white">0</td>
+                                    <td class="border border-white">10</td>
+                                    <td class="border border-white pe-3">10%</td>
                                 </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
+                                <tr class="align-middle text-center text-dark">
+                                    <td class="border border-white ps-3">2</td>
+                                    <td class="border border-white">pelajaran 2</td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white">10</td>
+                                    <td class="border border-white">0</td>
+                                    <td class="border border-white">0</td>
+                                    <td class="border border-white">0</td>
+                                    <td class="border border-white">10</td>
+                                    <td class="border border-white pe-3">10%</td>
                                 </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                    <td>@twitter</td>
+                                <tr class="align-middle text-center text-dark">
+                                    <td class="border border-white ps-3">3</td>
+                                    <td class="border border-white">pelajaran 3</td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-danger"></span></td>
+                                    <td class="border border-white"><span class="badge badge-circle badge-secondary"></span></td>
+                                    <td class="border border-white">10</td>
+                                    <td class="border border-white">0</td>
+                                    <td class="border border-white">0</td>
+                                    <td class="border border-white">0</td>
+                                    <td class="border border-white">10</td>
+                                    <td class="border border-white pe-3">10%</td>
                                 </tr>
                             </tbody>
+                            <!--end::Table body-->
                         </table>
+
+                    </div>
+                </div>
+
+                <div class="box-info">
+                    <h5 class="">Keterangan</h5>
+                    <div class="row my-5">
+                        <div class="col-auto">
+                            <p class="m-0  ">Total Pertemuan</p>
+                        </div>
+                        <div class="col-auto">
+                            <p class="m-0 ">:</p>
+                        </div>
+                        <div class="col-auto">
+                            <p class="m-0 fw-bolder">10</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="mw-175px align-items-center d-flex">
+                            <span class="badge badge-circle badge-hijau m-1"></span> <span class="ms-2">Total Hadir</span>
+                        </div>
+                        <div class="col-auto">
+                            :
+                        </div>
+                        <div class="col-auto fw-bolder">
+                            0
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="mw-175px align-items-center d-flex">
+                            <span class="badge badge-circle badge-success m-1"></span> <span class="ms-2">Total Ijin</span>
+                        </div>
+                        <div class="col-auto">
+                            :
+                        </div>
+                        <div class="col-auto fw-bolder">
+                            0
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="mw-175px align-items-center d-flex">
+                            <span class="badge badge-circle badge-warning m-1"></span> <span class="ms-2">Total Sakit</span>
+                        </div>
+                        <div class="col-auto">
+                            :
+                        </div>
+                        <div class="col-auto fw-bolder">
+                            0
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="mw-175px align-items-center d-flex">
+                            <span class="badge badge-circle badge-danger m-1"></span> <span class="ms-2">Total Tidak Hadir</span>
+                        </div>
+                        <div class="col-auto">
+                            :
+                        </div>
+                        <div class="col-auto fw-bolder">
+                            0
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col align-items-center d-flex">
+                            <span class="badge badge-circle badge-secondary m-1"></span> <span class="ms-2">Tidak Ada Pelajaran</span>
+                        </div>
+                    </div>
+                    <div class="row my-5">
+                        <div class="col-auto">
+                            <p class="m-0 ">Persentase Kehadiran</p>
+                        </div>
+                        <div class="col-auto">
+                            <p class="m-0 ">:</p>
+                        </div>
+                        <div class="col-auto">
+                            <p class="m-0 fw-bolder">0%</p>
+                        </div>
                     </div>
                 </div>
             </div>
