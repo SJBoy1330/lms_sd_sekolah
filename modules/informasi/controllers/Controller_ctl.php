@@ -34,4 +34,17 @@ class Controller_ctl extends MY_Admin
 		$this->data['content'] = $this->load->view('berita', $mydata, TRUE);
 		$this->display();
 	}
+
+	public function pengumuman()
+	{
+		// LOAD TITLE
+		$this->data['title'] = 'Informasi';
+
+		// LOAD BREADCRUMB
+		$mydata['breadcrumb']['menu'] = 'Pengumuman';
+
+		// LOAD VIEW
+		$this->data['content'] = $this->load->view('pengumuman', $mydata, TRUE);
+		$this->display();
+	}
 }
