@@ -6,23 +6,23 @@
                 <form action="">
                     <div class="row">
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
-                            <label class="filter-title mb-2">Tahun</label>
-                            <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <label class="form-label fw-bold">Tahun</label>
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
                                 <option></option>
                                 <option value="1">2021</option>
                                 <option value="2">2022</option>
                             </select>
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
-                            <label class="filter-title mb-2">Bulan</label>
-                            <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <label class="form-label fw-bold">Bulan</label>
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
                                 <option></option>
                                 <option value="1">Januari</option>
                                 <option value="2">Febuari</option>
                             </select>
                         </div>
                         <div class="col-md-4 col-xl-4 align-self-end" style="padding:5px;">
-                            <button type="submit" id="cek_rekap_siswa" name="cek_rekap_siswa" class="btn btn-success btn-sm "><i class="bi bi-arrow-repeat"></i> Tampil</button>
+                            <button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Tampil</button>
                         </div>
                     </div>
                 </form>
@@ -45,8 +45,8 @@
                         </div>
                         <div class="row mt-3">
                             <div class="col-auto">
-                                <p class="m-0 fw-bold ">Tahun</p>
-                                <p class="m-0 fw-bold">Bulan</p>
+                                <p class="m-0 fw-bolder">Tahun</p>
+                                <p class="m-0 fw-bolder">Bulan</p>
 
                             </div>
                             <div class="col-auto">
@@ -62,173 +62,173 @@
                         </div>
                     </div>
                     <div class="col overflow-auto my-5">
-                        <table class="table table-light" id="kt_table_customers_payment">
+                        <table class="table table-light">
                             <!--begin::Table head-->
                             <thead class=" fs-7 fw-bolder">
                                 <!--begin::Table row-->
                                 <tr class=" text-white text-uppercase gs-0 align-middle text-center">
-                                    <th scope="col" rowspan="3" class=" min-w-65px bg-primary border border-white ps-3">No</th>
-                                    <th scope="col" rowspan="3" class=" min-w-200px bg-primary border border-white">Nama</th>
-                                    <th scope="col" colspan="124" class=" min-w-150px bg-primary border border-white pe-3">Tanggal</th>
+                                    <th scope="col" rowspan="3" class=" min-w-65px bg-danger border border-white ps-3">No</th>
+                                    <th scope="col" rowspan="3" class=" min-w-200px bg-danger border border-white">Nama</th>
+                                    <th scope="col" colspan="124" class=" min-w-150px bg-danger border border-white pe-3">Tanggal</th>
                                 </tr>
                                 <tr class=" text-white text-uppercase gs-0 align-middle text-center">
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ps-3">1</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">2</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">3</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">4</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">5</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">6</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">7</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">8</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">9</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">10</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">11</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">12</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">13</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">14</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">15</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">16</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">17</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">18</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">19</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">20</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">21</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">22</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">23</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">24</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">25</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">26</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">27</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">28</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">29</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white ">30</th>
-                                    <th scope="col" colspan="4" class=" bg-primary border border-white pe-3">31</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ps-3">1</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">2</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">3</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">4</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">5</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">6</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">7</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">8</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">9</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">10</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">11</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">12</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">13</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">14</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">15</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">16</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">17</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">18</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">19</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">20</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">21</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">22</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">23</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">24</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">25</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">26</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">27</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">28</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">29</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white ">30</th>
+                                    <th scope="col" colspan="4" class=" bg-danger border border-white pe-3">31</th>
                                 </tr>
                                 <tr class=" text-white text-uppercase gs-0 align-middle text-center">
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ps-3">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">PC</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">H</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">TH</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px ">P</th>
-                                    <th scope="col" class=" bg-primary border border-white min-w-65px pe-3">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ps-3">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">PC</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">H</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">TH</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px ">P</th>
+                                    <th scope="col" class=" bg-danger border border-white min-w-65px pe-3">PC</th>
                                 </tr>
                                 <!--end::Table row-->
                             </thead>
@@ -237,11 +237,11 @@
                             <tbody class="fs-6 fw-bold text-gray-600">
                                 <tr class="align-middle text-center text-dark">
                                     <td class="border border-white ps-3">1</td>
-                                    <td class="border border-white">Nama</td>
-                                    <td class="border border-white"></td>
-                                    <td class="border border-white"></td>
-                                    <td class="border border-white"></td>
-                                    <td class="border border-white"></td>
+                                    <td class="border border-white">Admin Sidoarjo</td>
+                                    <td class="border border-white">-</td>
+                                    <td class="border border-white text-danger">09:00</td>
+                                    <td class="border border-white">16:00</td>
+                                    <td class="border border-white">-</td>
                                     <td class="border border-white"></td>
                                     <td class="border border-white"></td>
                                     <td class="border border-white"></td>
@@ -364,16 +364,16 @@
                                     <td class="border border-white pe-3"></td>
                                 </tr>
                                 <tr class="align-middle text-center text-dark">
-                                    <td class="border border-white ps-3">1</td>
-                                    <td class="border border-white">Nama</td>
+                                    <td class="border border-white ps-3">2</td>
+                                    <td class="border border-white">Drs. Hendrawati Kusumaningsih Sagaru Saputri</td>
                                     <td class="border border-white"></td>
                                     <td class="border border-white"></td>
                                     <td class="border border-white"></td>
                                     <td class="border border-white"></td>
-                                    <td class="border border-white"></td>
-                                    <td class="border border-white"></td>
-                                    <td class="border border-white"></td>
-                                    <td class="border border-white"></td>
+                                    <td class="border border-white">07:00</td>
+                                    <td class="border border-white">-</td>
+                                    <td class="border border-white">-</td>
+                                    <td class="border border-white">15:00</td>
                                     <td class="border border-white"></td>
                                     <td class="border border-white"></td>
                                     <td class="border border-white"></td>
@@ -492,12 +492,12 @@
                                     <td class="border border-white pe-3"></td>
                                 </tr>
                                 <tr class="align-middle text-center text-dark">
-                                    <td class="border border-white ps-3">1</td>
-                                    <td class="border border-white">Nama</td>
-                                    <td class="border border-white"></td>
-                                    <td class="border border-white"></td>
-                                    <td class="border border-white"></td>
-                                    <td class="border border-white"></td>
+                                    <td class="border border-white ps-3">3</td>
+                                    <td class="border border-white">Keuangan</td>
+                                    <td class="border border-white">-</td>
+                                    <td class="border border-white text-danger">10:00</td>
+                                    <td class="border border-white">-</td>
+                                    <td class="border border-white">14:00</td>
                                     <td class="border border-white"></td>
                                     <td class="border border-white"></td>
                                     <td class="border border-white"></td>
@@ -630,10 +630,10 @@
                     <h5>Keterangan</h5>
                     <div class="row">
                         <div class="col-auto">
-                            <p class="m-0 fw-bold">H</p>
-                            <p class="m-0 fw-bold">TH</p>
-                            <p class="m-0 fw-bold">P</p>
-                            <p class="m-0 fw-bold">PC</p>
+                            <p class="m-0 fw-bolder">H</p>
+                            <p class="m-0 fw-bolder">TH</p>
+                            <p class="m-0 fw-bolder">P</p>
+                            <p class="m-0 fw-bolder">PC</p>
                         </div>
                         <div class="col-auto">
                             <p class="m-0 fw-bold">:</p>

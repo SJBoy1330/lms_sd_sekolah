@@ -6,46 +6,46 @@
                 <form action="">
                     <div class="row">
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
-                            <label class="filter-title mb-2">Tahun Ajaran</label>
-                            <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <label class="form-label fw-bold">Tahun Ajaran</label>
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
                                 <option></option>
                                 <option value="1">2021/2022</option>
                                 <option value="2">2022/2023</option>
                             </select>
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
-                            <label class="filter-title mb-2">Bulan</label>
-                            <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <label class="form-label fw-bold">Bulan</label>
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
                                 <option></option>
                                 <option value="1">April</option>
                                 <option value="2">Juni</option>
                             </select>
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
-                            <label class="filter-title mb-2">Kelas</label>
-                            <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="true">
+                            <label class="form-label fw-bold">Kelas</label>
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="true">
                                 <option></option>
                                 <option value="1">X</option>
                                 <option value="2">XI</option>
                             </select>
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
-                            <label class="filter-title mb-2">Siswa</label>
-                            <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <label class="form-label fw-bold">Siswa</label>
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
                                 <option></option>
                                 <option value="1">Udin</option>
                                 <option value="2">Aku</option>
                             </select>
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
-                            <label class="filter-title mb-2">Kategori Biaya</label>
-                            <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="true">
+                            <label class="form-label fw-bold">Kategori Biaya</label>
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="true">
                                 <option></option>
                                 <option value="1">SPP</option>
                             </select>
                         </div>
                         <div class="col-md-4 align-self-end d-flex justify-content-end" style="padding:5px;">
-                            <button type="submit" id="cek_rekap_siswa" name="cek_rekap_siswa" class="btn btn-success btn-sm "><i class="bi bi-arrow-repeat"></i> Tampil</button>
+                            <button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Tampil</button>
                         </div>
                     </div>
                 </form>
@@ -73,14 +73,14 @@
                             <thead class=" fs-7 fw-bolder">
                                 <!--begin::Table row-->
                                 <tr class=" text-white text-uppercase gs-0 align-middle text-center">
-                                    <th scope="col" class=" min-w-65px bg-primary border border-white ps-3 ">No</th>
-                                    <th scope="col" class="  bg-primary border border-white">No Tagihan</th>
-                                    <th scope="col" class="  bg-primary border border-white">Tanggal Tagihan</th>
-                                    <th scope="col" class="  bg-primary border border-white">NIS</th>
-                                    <th scope="col" class="  bg-primary border border-white">Nama Siswa</th>
-                                    <th scope="col" class="  bg-primary border border-white">Kategori</th>
-                                    <th scope="col" class="  bg-primary border border-white">Diskon</th>
-                                    <th scope="col" class="  bg-primary border border-white pe-3">Jumlah Tagihan</th>
+                                    <th scope="col" class=" min-w-65p bg-danger border border-white ps-3 ">No</th>
+                                    <th scope="col" class=" bg-danger border border-white">No Tagihan</th>
+                                    <th scope="col" class=" bg-danger border border-white">Tanggal Tagihan</th>
+                                    <th scope="col" class=" bg-danger border border-white">NIS</th>
+                                    <th scope="col" class=" bg-danger border border-white">Nama Siswa</th>
+                                    <th scope="col" class=" bg-danger border border-white">Kategori</th>
+                                    <th scope="col" class=" bg-danger border border-white">Diskon</th>
+                                    <th scope="col" class=" bg-danger border border-white pe-3">Jumlah Tagihan</th>
                                 </tr>
                                 <!--end::Table row-->
                             </thead>
