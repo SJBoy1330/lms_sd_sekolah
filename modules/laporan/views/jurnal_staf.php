@@ -40,8 +40,8 @@
                                     <img src="<?= base_url(); ?>assets/img/pdf.png" alt="" width="35">
                                 </a>
                             </div>
-                            <table class="table table-bordered gs-7 gy-4 gx-5 no-footer" id="kt_table_jadwal" style="border:0.5pt solid #C0C0C0;vertical-align:middle;">
-                                <thead class="fw-bolder bg-light">
+                            <table class="table table-bordered b gs-7 gy-4 gx-5 no-footer" id="kt_table_jadwal" style="border:0.5pt solid #C0C0C0;vertical-align:middle;">
+                                <thead class="fw-bolder bg-danger text-white">
                                     <!--begin::Table row-->
                                     <tr role="row" style="border:0.5pt solid #C0C0C0;vertical-align:middle;">
                                         <th class="text-center text-uppercase">NO</th>
@@ -52,11 +52,11 @@
                                     <!--end::Table row-->
                                 </thead>
                                 <tbody>
-                                    <tr style="border:0.5pt solid #C0C0C0;vertical-align:middle;">
-                                        <td class="text-center">1</td>
-                                        <td class="text-center" nowrap>25-04-2022</td>
-                                        <td class="text-center" nowrap>Romadhoni</td>
-                                        <td class="text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                    <tr>
+                                        <td class="bg-light fw-bold text-uppercase border border-white text-center">1</td>
+                                        <td class="bg-light fw-bold text-uppercase border border-white text-center" nowrap>25-04-2022</td>
+                                        <td class="bg-light fw-bold text-uppercase border border-white text-center" nowrap>Romadhoni</td>
+                                        <td class="bg-light fw-bold text-uppercase border border-white text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</td>
                                     </tr>
                                 </tbody>
                             </table>

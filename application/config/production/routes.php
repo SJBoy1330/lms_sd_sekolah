@@ -166,6 +166,14 @@ $route['jurnal/(:any)'] = 'jurnal/controller_ctl/$1';
 $route['jurnal/(:any)/(:any)'] = 'jurnal/controller_ctl/$1/$2';
 
 
+
+$route['akademik']  = 'akademik/controller_ctl';
+
+$route['akademik/(:any)'] = 'akademik/controller_ctl/$1';
+
+$route['akademik/(:any)/(:any)'] = 'akademik/controller_ctl/$1/$2';
+
+
 $route['404_override'] = '';
 
 $route['translate_uri_dashes'] = FALSE;
