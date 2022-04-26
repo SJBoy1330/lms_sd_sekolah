@@ -34,4 +34,17 @@ class Controller_ctl extends MY_Admin
 		$this->data['content'] = $this->load->view('jadwal_mengajar', $mydata, TRUE);
 		$this->display();
 	}
+
+	public function bab()
+	{
+		// LOAD TITLE
+		$this->data['title'] = 'Akademik';
+
+		// LOAD BREADCRUMB
+		$mydata['breadcrumb']['menu'] = 'Bab';
+
+		// LOAD VIEW
+		$this->data['content'] = $this->load->view('bab', $mydata, TRUE);
+		$this->display();
+	}
 }

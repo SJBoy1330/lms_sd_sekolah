@@ -1,3 +1,18 @@
+<style>
+    .btn-hapus-jadwal{
+        opacity: 0;
+        z-index: -1;
+        margin-left: -50px;
+        transition : 1s;
+    }
+
+    .wrapper-jadwal:hover .btn-hapus-jadwal{
+        margin-left: 0px;
+        opacity: 1;
+        z-index: 0;
+        transition : 1s;
+    }
+</style>
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
     <!--begin::Toolbar-->
     <div class="container mb-4">
@@ -86,51 +101,79 @@
                                     <td class="border border-white"><button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalTambahJadwal">Tambah Jadwal</button></td>
                                 </tr>
                                 <tr class="align-middle text-dark">
-                                    <td class="border  text-center border-white">2</td>
-                                    <td class="border  text-center border-white">07:00 - 07:45</td>
+                                    <td class="border text-center border-white">2</td>
+                                    <td class="border text-center border-white">07:00 - 07:45</td>
                                     <td class="border border-white">
-                                        <div class="row d-flex justify-content-center align-items-center">
-                                            <div class="col-4">
+                                        <div class="row">
+                                            <div class="col-12 d-flex justify-content-center align-items-center wrapper-jadwal">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item bg-transparent border-0"><i class="fa-solid fa-hyphen fs-1 me-3"></i>Pelajaran 01</li>
+                                                    <li class="list-group-item bg-transparent border-0"><i class="fa-brands fa-stack-overflow fs-1 me-3"></i>Pelajaran 01</li>
                                                     <li class="list-group-item bg-transparent border-0"><i class="fa-solid fa-chalkboard-user me-3"></i>Sri Handayani S.Pd</li>
                                                 </ul>
-                                            </div>
-                                            <div class="col-4">
-                                                <button class="btn btn-sm btn-danger">Hapus Jadwal</button>
+                                                <button class="btn btn-sm btn-danger btn-hapus-jadwal py-4"><i class="fa-duotone fa-trash fs-3 pe-0"></i></button>
                                             </div>
                                         </div>
                                     </td>
                                 </tr>
-                                <tr class="align-middle text-center text-dark">
-                                    <td class="border border-white">3</td>
-                                    <td class="border border-white">07:00 - 07:45</td>
-                                    <td class="border border-white"><button class="btn btn-success">+</button></td>
+                                <tr class="align-middle text-dark">
+                                    <td class="border text-center border-white">3</td>
+                                    <td class="border text-center border-white">07:00 - 07:45</td>
+                                    <td class="border text-center border-white"><button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalTambahJadwal">Tambah Jadwal</button></td>
                                 </tr>
-                                <tr class="align-middle text-center text-dark">
-                                    <td class="border border-white">4</td>
-                                    <td class="border border-white">07:00 - 07:45</td>
-                                    <td class="border border-white"><button class="btn btn-success">+</button></td>
+                                <tr class="align-middle text-dark">
+                                    <td class="border text-center border-white">4</td>
+                                    <td class="border text-center border-white">07:00 - 07:45</td>
+                                    <td class="border border-white">
+                                        <div class="row">
+                                            <div class="col-12 d-flex justify-content-center align-items-center wrapper-jadwal">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item bg-transparent border-0"><i class="fa-brands fa-stack-overflow fs-1 me-3"></i>Pelajaran 01</li>
+                                                    <li class="list-group-item bg-transparent border-0"><i class="fa-solid fa-chalkboard-user me-3"></i>Sri Handayani S.Pd</li>
+                                                </ul>
+                                                <button class="btn btn-sm btn-danger btn-hapus-jadwal py-4"><i class="fa-duotone fa-trash fs-3 pe-0"></i></button>
+                                            </div>
+                                        </div>
+                                    </td>
                                 </tr>
-                                <tr class="align-middle text-center text-dark">
-                                    <td class="border border-white">5</td>
-                                    <td class="border border-white">07:00 - 07:45</td>
-                                    <td class="border border-white"><button class="btn btn-success">+</button></td>
+                                <tr class="align-middle text-dark">
+                                    <td class="border text-center border-white">5</td>
+                                    <td class="border text-center border-white">07:00 - 07:45</td>
+                                    <td class="border text-center border-white"><button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalTambahJadwal">Tambah Jadwal</button></td>
                                 </tr>
-                                <tr class="align-middle text-center text-dark">
-                                    <td class="border border-white">6</td>
-                                    <td class="border border-white">07:00 - 07:45</td>
-                                    <td class="border border-white"><button class="btn btn-success">+</button></td>
+                                <tr class="align-middle text-dark">
+                                    <td class="border text-center border-white">6</td>
+                                    <td class="border text-center border-white">07:00 - 07:45</td>
+                                    <td class="border border-white">
+                                        <div class="row">
+                                            <div class="col-12 d-flex justify-content-center align-items-center wrapper-jadwal">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item bg-transparent border-0"><i class="fa-brands fa-stack-overflow fs-1 me-3"></i>Pelajaran 01</li>
+                                                    <li class="list-group-item bg-transparent border-0"><i class="fa-solid fa-chalkboard-user me-3"></i>Sri Handayani S.Pd</li>
+                                                </ul>
+                                                <button class="btn btn-sm btn-danger btn-hapus-jadwal py-4"><i class="fa-duotone fa-trash fs-3 pe-0"></i></button>
+                                            </div>
+                                        </div>
+                                    </td>
                                 </tr>
-                                <tr class="align-middle text-center text-dark">
-                                    <td class="border border-white">7</td>
-                                    <td class="border border-white">07:00 - 07:45</td>
-                                    <td class="border border-white"><button class="btn btn-success">+</button></td>
+                                <tr class="align-middle text-dark">
+                                    <td class="border text-center border-white">7</td>
+                                    <td class="border text-center border-white">07:00 - 07:45</td>
+                                    <td class="border text-center border-white"><button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalTambahJadwal">Tambah Jadwal</button></td>
                                 </tr>
-                                <tr class="align-middle text-center text-dark">
-                                    <td class="border border-white">8</td>
-                                    <td class="border border-white">07:00 - 07:45</td>
-                                    <td class="border border-white"><button class="btn btn-success">+</button></td>
+                                <tr class="align-middle text-dark">
+                                    <td class="border text-center border-white">8</td>
+                                    <td class="border text-center border-white">07:00 - 07:45</td>
+                                    <td class="border border-white">
+                                        <div class="row">
+                                            <div class="col-12 d-flex justify-content-center align-items-center wrapper-jadwal">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item bg-transparent border-0"><i class="fa-brands fa-stack-overflow fs-1 me-3"></i>Pelajaran 01</li>
+                                                    <li class="list-group-item bg-transparent border-0"><i class="fa-solid fa-chalkboard-user me-3"></i>Sri Handayani S.Pd</li>
+                                                </ul>
+                                                <button class="btn btn-sm btn-danger btn-hapus-jadwal py-4"><i class="fa-duotone fa-trash fs-3 pe-0"></i></button>
+                                            </div>
+                                        </div>
+                                    </td>
                                 </tr>
                             </tbody>
                             <!--end::Table body-->
