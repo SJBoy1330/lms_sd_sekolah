@@ -83,16 +83,6 @@
                                         <div class="col-12">
 											<div class="d-flex flex-column mb-8 fv-row">
 												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-													<span class="required">File Surat</span>
-												</label>
-												<div class="mb-3">
-                                                    <input class="form-control" type="file" id="formFile">
-                                                </div>
-											</div>
-										</div>
-                                        <div class="col-12">
-											<div class="d-flex flex-column mb-8 fv-row">
-												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
 													<span class="required">Tanggal Surat</span>
 												</label>
 												<div class="position-relative d-flex align-items-center">
@@ -101,6 +91,16 @@
                                                     </span>
                                                     <input class="form-control form-control-solid ps-12" name="tanggal" placeholder="Tanggal" />
 												</div>
+											</div>
+										</div>
+                                        <div class="col-12">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">File Surat</span>
+												</label>
+												<div class="mb-3">
+                                                    <input class="form-control" type="file" id="formFile">
+                                                </div>
 											</div>
 										</div>
 									</div>

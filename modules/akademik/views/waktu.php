@@ -3,183 +3,183 @@
     
 
 <div class="container mb-4">
-		<div class="card shodow-sm mb-4">
+    <div class="card shodow-sm mb-4">
 
-			<div class="card-body">
-                    <div class="modal fade" id="modalTambahBerita" tabindex="-1" aria-hidden="true">
-                        <!--begin::Modal dialog-->
-                        <div class="modal-dialog modal-dialog-centered mw-850px">
-                            <!--begin::Modal content-->
-                            <div class="modal-content">
-                                <!--begin::Modal header-->
-                                <div class="modal-header">
-                                    <!--begin::Modal title-->
-                                    <h2 class="fw-bolder">Tambah Jurnal</h2>
-                                    <!--end::Modal title-->
-                                    <!--begin::Close-->
-                                    <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
-                                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                                        <span class="svg-icon svg-icon-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
-                                                <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
-                                            </svg>
-                                        </span>
-                                        <!--end::Svg Icon-->
-                                    </div>
-                                    <!--end::Close-->
+        <div class="card-body">
+                <div class="modal fade" id="modalTambahWaktu" tabindex="-1" aria-hidden="true">
+                    <!--begin::Modal dialog-->
+                    <div class="modal-dialog modal-dialog-centered mw-850px">
+                        <!--begin::Modal content-->
+                        <div class="modal-content">
+                            <!--begin::Modal header-->
+                            <div class="modal-header">
+                                <!--begin::Modal title-->
+                                <h2 class="fw-bolder">Tambah Waktu</h2>
+                                <!--end::Modal title-->
+                                <!--begin::Close-->
+                                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                                    <span class="svg-icon svg-icon-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
                                 </div>
-                                <!--end::Modal header-->
-                                <!--begin::Modal body-->
-                                <div class="modal-body scroll-y mx-10 my-2">
-									<div class="row">
-										<div class="col-12">
-											<div class="d-flex flex-column mb-8 fv-row">
-												<!--begin::Label-->
-												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-													<span class="required">Hari</span>
-												</label>
-												<div>
-                                                    <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Semua">
-                                                        <option></option>
-                                                        <option value="1">Senin</option>
-                                                        <option value="2">Selasa</option>
-                                                        <option value="2">Rabu</option>
-                                                    </select>
-                                                </div>
-											</div>
-										</div>
-                                        <div class="col-12">
-											<div class="d-flex flex-column mb-8 fv-row">
-												<!--begin::Label-->
-												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-													<span class="required">Iku KBM</span>
-												</label>
-												<div>
-                                                    <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Semua">
-                                                        <option></option>
-                                                        <option value="1">Ya</option>
-                                                        <option value="2">Tidak</option>
-                                                    </select>
-                                                </div>
-											</div>
-										</div>
-                                        <div class="col-12">
-											<div class="d-flex flex-column mb-8 fv-row">
-												 <!--begin::Label-->
-                                                 <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                        <span class="required">Jam Mulai</span>
-                                                    </label>
-                                                    <!--end::Label-->
-                                                    <div class="position-relative d-flex align-items-center">
-                                                        <!--begin::Icon-->
-                                                        <!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
-                                                        <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                                            <i class="fa-duotone fa-alarm-clock" style="font-size: 1.3rem;"></i>
-                                                        </span>
-                                                        <!--end::Svg Icon-->
-                                                        <!--end::Icon-->
-                                                        <!--begin::Datepicker-->
-                                                        <input class="form-control form-control-solid ps-12" id="demo-input" placeholder="Jam Mulai" />
-                                                        <!--end::Datepicker-->
-                                                    </div>
-											</div>
-										</div>
-                                        <div class="col-12">
-											<div class="d-flex flex-column mb-8 fv-row">
-												 <!--begin::Label-->
-                                                 <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                        <span class="required">Jam Selesai</span>
-                                                    </label>
-                                                    <!--end::Label-->
-                                                    <div class="position-relative d-flex align-items-center">
-                                                        <!--begin::Icon-->
-                                                        <!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
-                                                        <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                                            <i class="fa-duotone fa-alarm-clock" style="font-size: 1.3rem;"></i>
-                                                        </span>
-                                                        <!--end::Svg Icon-->
-                                                        <!--end::Icon-->
-                                                        <!--begin::Datepicker-->
-                                                        <input class="form-control form-control-solid ps-12 bg-secondary" placeholder="Jam Selesai" readonly/>
-                                                        <!--end::Datepicker-->
-                                                    </div>
-											</div>
-										</div>
-                                        <div class="col-12">
-											<div class="d-flex flex-column mb-8 fv-row">
-												 <!--begin::Label-->
-                                                 <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                        <span class="required">Kegiatan Lain</span>
-                                                    </label>
-                                                    <!--end::Label-->
-                                                    <div class="position-relative d-flex align-items-center">
-                                                        <!--begin::Icon-->
-                                                        <!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
-                                                        <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                                            <i class="fa-duotone fa-person-running" style="font-size: 1.3rem;"></i>
-                                                        </span>
-                                                        <!--end::Svg Icon-->
-                                                        <!--end::Icon-->
-                                                        <!--begin::Datepicker-->
-                                                        <input class="form-control form-control-solid ps-12" placeholder="Masukkan kegiatan lain"/>
-                                                        <!--end::Datepicker-->
-                                                    </div>
-											</div>
-										</div>
-									</div>
-									<div class="row mb-4">
-										<div class="d-flex justify-content-end">
-											<button type="button" class="btn btn-primary">
-											<!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-											<span class="svg-icon svg-icon-2">
-												<i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-											</span>
-											<!--end::Svg Icon-->Simpan</button>
-											<!--end::Add user-->
-										</div>
-									</div>
-                                </div>
-                                <!--end::Modal body-->
+                                <!--end::Close-->
                             </div>
-                            <!--end::Modal content-->
+                            <!--end::Modal header-->
+                            <!--begin::Modal body-->
+                            <div class="modal-body scroll-y mx-10 my-2">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="d-flex flex-column mb-8 fv-row">
+                                            <!--begin::Label-->
+                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                                <span class="required">Hari</span>
+                                            </label>
+                                            <div>
+                                                <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Semua">
+                                                    <option></option>
+                                                    <option value="1">Senin</option>
+                                                    <option value="2">Selasa</option>
+                                                    <option value="2">Rabu</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="d-flex flex-column mb-8 fv-row">
+                                            <!--begin::Label-->
+                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                                <span class="required">Iku KBM</span>
+                                            </label>
+                                            <div>
+                                                <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Semua">
+                                                    <option></option>
+                                                    <option value="1">Ya</option>
+                                                    <option value="2">Tidak</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="d-flex flex-column mb-8 fv-row">
+                                                <!--begin::Label-->
+                                                <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                                    <span class="required">Jam Mulai</span>
+                                                </label>
+                                                <!--end::Label-->
+                                                <div class="position-relative d-flex align-items-center">
+                                                    <!--begin::Icon-->
+                                                    <!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
+                                                    <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                                        <i class="fa-duotone fa-alarm-clock" style="font-size: 1.3rem;"></i>
+                                                    </span>
+                                                    <!--end::Svg Icon-->
+                                                    <!--end::Icon-->
+                                                    <!--begin::Datepicker-->
+                                                    <input class="form-control form-control-solid ps-12" id="demo-input" placeholder="Jam Mulai" />
+                                                    <!--end::Datepicker-->
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="d-flex flex-column mb-8 fv-row">
+                                                <!--begin::Label-->
+                                                <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                                    <span class="required">Jam Selesai</span>
+                                                </label>
+                                                <!--end::Label-->
+                                                <div class="position-relative d-flex align-items-center">
+                                                    <!--begin::Icon-->
+                                                    <!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
+                                                    <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                                        <i class="fa-duotone fa-alarm-clock" style="font-size: 1.3rem;"></i>
+                                                    </span>
+                                                    <!--end::Svg Icon-->
+                                                    <!--end::Icon-->
+                                                    <!--begin::Datepicker-->
+                                                    <input class="form-control form-control-solid ps-12 bg-secondary" placeholder="Jam Selesai" readonly/>
+                                                    <!--end::Datepicker-->
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="d-flex flex-column mb-8 fv-row">
+                                                <!--begin::Label-->
+                                                <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                                    <span class="required">Kegiatan Lain</span>
+                                                </label>
+                                                <!--end::Label-->
+                                                <div class="position-relative d-flex align-items-center">
+                                                    <!--begin::Icon-->
+                                                    <!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
+                                                    <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                                        <i class="fa-duotone fa-person-running" style="font-size: 1.3rem;"></i>
+                                                    </span>
+                                                    <!--end::Svg Icon-->
+                                                    <!--end::Icon-->
+                                                    <!--begin::Datepicker-->
+                                                    <input class="form-control form-control-solid ps-12" placeholder="Masukkan kegiatan lain"/>
+                                                    <!--end::Datepicker-->
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div class="d-flex justify-content-end">
+                                        <button type="button" class="btn btn-primary">
+                                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                                        <span class="svg-icon svg-icon-2">
+                                            <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                                        </span>
+                                        <!--end::Svg Icon-->Simpan</button>
+                                        <!--end::Add user-->
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end::Modal body-->
                         </div>
-                        <!--end::Modal dialog-->
+                        <!--end::Modal content-->
+                    </div>
+                    <!--end::Modal dialog-->
+                </div>
+
+            <form action="">
+                <div class="row">
+
+                    <div class="col-md-3 col-xl-3" style="padding:5px;">
+                        <label class="form-label fw-bold">Hari</label>
+                        <div>
+                            <select class="form-select form-select-sm form-select-solid" data-control="select2"  data-placeholder="Semua">
+                                <option></option>
+                                <option value="1">Senin</option>
+                                <option value="2">Selasa</option>
+                                <option value="2">Rabu</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xl-3 align-self-end text-start" style="padding:5px; margin-top:7px;">
+                        <button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Tampil</button>
                     </div>
 
-				<form action="">
-					<div class="row">
+                    <div class="col-md-6 col-xl-6 align-self-end text-end" style="padding:5px; margin-top:7px;">
+                        <button type="button" class="btn btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahWaktu">
+                        <span class="svg-icon svg-icon-2 me-0">
+                            <i class="fa-duotone fa-plus"  style="font-size: 20px;"></i>
+                        </span>
+                        Waktu</button>
+                    </div>
 
-						<div class="col-md-3 col-xl-3" style="padding:5px;">
-                            <label class="form-label fw-bold">Hari</label>
-                            <div>
-                                <select class="form-select form-select-sm form-select-solid" data-control="select2"  data-placeholder="Semua">
-                                    <option></option>
-                                    <option value="1">Senin</option>
-                                    <option value="2">Selasa</option>
-                                    <option value="2">Rabu</option>
-                                </select>
-                            </div>
-						</div>
-						<div class="col-md-3 col-xl-3 align-self-end text-start" style="padding:5px; margin-top:7px;">
-							<button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Tampil</button>
-						</div>
+                </div>
 
-                        <div class="col-md-6 col-xl-6 align-self-end text-end" style="padding:5px; margin-top:7px;">
-                            <button type="button" class="btn btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahBerita">
-                            <span class="svg-icon svg-icon-2 me-0">
-                                <i class="fa-duotone fa-plus"  style="font-size: 20px;"></i>
-                            </span>
-                            Waktu</button>
-						</div>
+            </form>
 
-					</div>
-
-				</form>
-
-			</div>
-		</div>
-	</div>
+        </div>
+    </div>
+</div>
 
     <!--begin::Container-->
     <div class="container-xxl" id="kt_content_container">
@@ -250,9 +250,6 @@
                                     <!--begin::Menu-->
                                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
                                         <!--begin::Menu item-->
-                                        <div class="menu-item px-3">
-                                            <a data-bs-toggle="modal" href="#detailberitaModal" role="button" class="menu-link px-3">Lihat</a>
-                                        </div>
                                         <div class="menu-item px-3">
                                             <a href="#" class="menu-link px-3">Edit</a>
                                         </div>

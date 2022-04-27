@@ -240,12 +240,6 @@
                                             <a href="#" class="menu-link px-3">Edit</a>
                                         </div>
                                         <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">File Materi Dokumen</a>
-                                        </div>
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">File Materi Video</a>
-                                        </div>
-                                        <div class="menu-item px-3">
                                             <a href="#" class="menu-link px-3">Hapus</a>
                                         </div>
                                     </div>

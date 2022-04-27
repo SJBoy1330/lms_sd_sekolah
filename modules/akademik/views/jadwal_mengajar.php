@@ -44,21 +44,14 @@
             <div class="card-body">
                 <div class="row my-3">
                     <div class="col-12">
-                        <div class="row mt-3">
-                            <div class="col-auto">
-                                <p class="m-0 fw-bolder">Tahun Ajaran</p>
-                                <p class="m-0 fw-bolder">Tingkat</p>
-
+                        <div class="row d-flex justify-content-around align-items-center mt-8">
+                            <div class="col-6">
+                                <label class="form-label fw-bold">Tahun Ajaran</label>
+                                <input type="text" class="form-control form-control-solid" value="2021 / 2022" readonly>
                             </div>
-                            <div class="col-auto">
-                                <p class="m-0 fw-bold">:</p>
-                                <p class="m-0 fw-bold">:</p>
-
-                            </div>
-                            <div class="col-auto">
-                                <p class="m-0">2021 / 2022</p>
-                                <p class="m-0">X</p>
-
+                            <div class="col-6">
+                                <label class="form-label fw-bold">Tingkat Kelas</label>
+                                <input type="text" class="form-control form-control-solid" value="X" readonly>
                             </div>
                         </div>
                     </div>
