@@ -48,6 +48,23 @@
 
     <script src="https://kit.fontawesome.com/9abc1f10f1.js" crossorigin="anonymous"></script>
 
+
+
+
+    <?php
+
+    if (isset($css_add) && is_array($css_add)) {
+
+        foreach ($css_add as $css) {
+
+            echo $css;
+        }
+    } else {
+
+        echo (isset($css_add) && ($css_add != "") ? $css_add : "");
+    }
+
+    ?>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
