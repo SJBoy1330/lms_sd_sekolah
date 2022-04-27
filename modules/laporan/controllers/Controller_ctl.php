@@ -129,10 +129,6 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Laporan Sisa Tagihan';
 
-		// LOAD JS
-		// $this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/laporan/sisatagihan.js') . '"></script>';
-
-
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('sisa_tagihan', $mydata, TRUE);
 		$this->display();
@@ -146,10 +142,6 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Laporan Tagihan';
 
-		// LOAD JS
-		// $this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/laporan/sisatagihan.js') . '"></script>';
-
-
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('tagihan', $mydata, TRUE);
 		$this->display();
@@ -162,10 +154,6 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Laporan Pembayaran';
-
-		// LOAD JS
-		// $this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/laporan/sisatagihan.js') . '"></script>';
-
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('pembayaran', $mydata, TRUE);

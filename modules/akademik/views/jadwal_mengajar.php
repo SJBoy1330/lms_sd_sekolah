@@ -1,18 +1,3 @@
-<style>
-    .btn-hapus-jadwal{
-        opacity: 0;
-        z-index: -1;
-        margin-left: -50px;
-        transition : 1s;
-    }
-
-    .wrapper-jadwal:hover .btn-hapus-jadwal{
-        margin-left: 0px;
-        opacity: 1;
-        z-index: 0;
-        transition : 1s;
-    }
-</style>
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
     <!--begin::Toolbar-->
     <div class="container mb-4">

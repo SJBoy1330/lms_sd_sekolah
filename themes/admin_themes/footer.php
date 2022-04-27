@@ -52,6 +52,9 @@
     <script src="<?= base_url(); ?>assets/js/custom/modals/users-search.js"></script>
     <!--end::Page Custom Javascript-->
 
+    <!-- File Upload -->
+    <script src="<?= base_url(); ?>assets/js/custom/apps/file-manager/list.js"></script>
+
     <!-- daterangepicker -->
     <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/daterangepicker/js/moment.min.js"></script>
     <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/daterangepicker/js/daterangepicker.js"></script>

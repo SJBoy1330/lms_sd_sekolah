@@ -178,7 +178,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#">
+                                    <a class="menu-link" href="<?= base_url('akademik/materi')?>">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <i class="fa-duotone fa-book-open-cover" style="font-size: 1.1rem;"></i>
@@ -188,7 +188,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#">
+                                    <a class="menu-link" href="<?= base_url('akademik/kbm')?>">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <i class="fa-duotone fa-screen-users" style="font-size: 1.3rem;"></i>
@@ -198,7 +198,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#">
+                                    <a class="menu-link" href="<?= base_url('akademik/tugas')?>">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <i class="fa-duotone fa-list-check" style="font-size: 1.3rem;"></i>
@@ -208,7 +208,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#">
+                                    <a class="menu-link" href="<?= base_url('akademik/surat_ijin')?>">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <i class="fa-duotone fa-envelope-open-text" style="font-size: 1.3rem;"></i>
