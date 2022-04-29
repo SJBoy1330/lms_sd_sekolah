@@ -174,6 +174,14 @@ $route['akademik/(:any)'] = 'akademik/controller_ctl/$1';
 $route['akademik/(:any)/(:any)'] = 'akademik/controller_ctl/$1/$2';
 
 
+
+$route['master']  = 'master/controller_ctl';
+
+$route['master/(:any)'] = 'master/controller_ctl/$1';
+
+$route['master/(:any)/(:any)'] = 'master/controller_ctl/$1/$2';
+
+
 $route['404_override'] = '';
 
 $route['translate_uri_dashes'] = FALSE;

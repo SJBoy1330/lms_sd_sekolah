@@ -4,7 +4,6 @@
 
 <div class="container mb-4">
 		<div class="card shodow-sm mb-4">
-
 			<div class="card-body">
                     <div class="modal fade" id="modalTambahBerita" tabindex="-1" aria-hidden="true">
                         <!--begin::Modal dialog-->

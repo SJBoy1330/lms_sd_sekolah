@@ -50,7 +50,7 @@
                                     </div>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('master')?>" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <i class="fa-duotone fa-chalkboard-user" style="font-size: 1.3rem;"></i>
@@ -60,7 +60,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url('master/siswa')?>" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <i class="fa-duotone fa-graduation-cap" style="font-size: 1.3rem;"></i>
@@ -70,7 +70,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#">
+                                    <a class="menu-link" href="<?= base_url('master/kelas');?>">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <i class="fa-duotone fa-screen-users" style="font-size: 1.3rem;"></i>
@@ -80,7 +80,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#">
+                                    <a class="menu-link" href="<?= base_url('master/guru')?>">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <i class="fa-duotone fa-person-chalkboard" style="font-size: 1.3rem;"></i>
@@ -90,7 +90,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#">
+                                    <a class="menu-link" href="<?= base_url('master/mapel')?>">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <i class="fa-brands fa-stack-overflow" style="font-size: 1.3rem;"></i>
@@ -100,7 +100,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#">
+                                    <a class="menu-link" href="<?= base_url('master/bidang_tugas')?>">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <i class="fa-duotone fa-list-check" style="font-size: 1.3rem;"></i>
@@ -110,7 +110,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#">
+                                    <a class="menu-link" href="<?= base_url('master/jenis_tugas_staf')?>">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <i class="fa-duotone fa-bars-progress" style="font-size: 1.3rem;"></i>
@@ -120,7 +120,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="#">
+                                    <a class="menu-link" href="<?= base_url('master/import')?>">
                                         <span class="menu-icon">
                                             <!--begin::Svg Icon | path: icons/duotune/general/gen005.svg-->
                                             <i class="fa-duotone fa-file-import" style="font-size: 1.3rem;"></i>
