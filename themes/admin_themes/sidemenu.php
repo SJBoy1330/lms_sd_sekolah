@@ -1256,7 +1256,7 @@
                                 </div>
                                 <!--end::Menu-->
                             </div>
-                            <a href="<?= base_url('chatting'); ?>" class="btn btn-primary">Messages</a>
+                            <a href="<?= base_url('chatting'); ?>" class="btn btn-primary">Pesan</a>
                         </div>
                         <!--end::Action-->
                     </div>
