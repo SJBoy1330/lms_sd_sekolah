@@ -18,7 +18,7 @@
                             </svg>
                         </span>
                         <!--end::Svg Icon-->
-                        <input type="text" data-kt-user-table-filter="search" class="form-control form-control-solid w-250px ps-14" placeholder="Pencarian" />
+                        <input type="text" data-kt-user-table-filter="search" class="form-control form-control-solid form-control-sm w-250px ps-14" placeholder="Pencarian" />
                     </div>
                     <!--end::Search-->
                 </div>
@@ -28,10 +28,10 @@
                     <!--begin::Toolbar-->
                     <div class="d-flex justify-content-end" data-kt-user-table-toolbar="base">
                         <!--begin::Filter-->
-                        <button type="button" class="btn btn-light-primary me-3" data-bs-toggle="modal" data-bs-target="#modalKategoriBiaya">
+                        <button type="button" class="btn btn-sm btn-light-success me-3" data-bs-toggle="modal" data-bs-target="#modalKategoriBiaya">
                         <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
                         <span class="svg-icon svg-icon-2 me-0">
-                            <i class="fa-solid fa-plus" style="font-size: 20px;"></i>
+                            <i class="fa-solid fa-plus" style="font-size: 18px;"></i>
                         </span>
                         <!--end::Svg Icon-->Kategori Berita</button>
                     </div>

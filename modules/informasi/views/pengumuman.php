@@ -20,7 +20,7 @@
                             </svg>
                         </span>
                         <!--end::Svg Icon-->
-                        <input type="text" data-kt-user-table-filter="search" class="form-control form-control-solid w-250px ps-14" placeholder="Pencarian" />
+                        <input type="text" data-kt-user-table-filter="search" class="form-control form-control-solid form-control-sm w-250px ps-14" placeholder="Pencarian" />
                     </div>
                     <!--end::Search-->
                 </div>
@@ -30,7 +30,7 @@
                     <!--begin::Toolbar-->
                     <div class="d-flex justify-content-end">
                         <!--begin::Filter-->
-                        <button type="button" class="btn btn-light-success"  data-bs-toggle="modal" data-bs-target="#modalTambahPengumuman">
+                        <button type="button" class="btn btn-sm btn-light-success"  data-bs-toggle="modal" data-bs-target="#modalTambahPengumuman">
                         <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
                         <span class="svg-icon svg-icon-2 me-0">
                             <i class="fa-duotone fa-plus"  style="font-size: 20px;"></i>

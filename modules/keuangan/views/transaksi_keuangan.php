@@ -6,16 +6,6 @@
 		<div class="card shodow-sm mb-4">
 
 			<div class="card-body">
-
-                <div class="d-flex justify-content-end mb-5">
-                    <!--begin::Filter-->
-                    <button type="button" class="btn btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahTagihan">
-                    <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
-                    <span class="svg-icon svg-icon-2 me-0">
-                        <i class="fa-duotone fa-plus"  style="font-size: 20px;"></i>
-                    </span>
-                    <!--end::Svg Icon-->Tagihan</button>
-                </div>
                 <div class="modal fade" id="modalTambahTagihan" tabindex="-1" aria-hidden="true">
                         <!--begin::Modal dialog-->
                         <div class="modal-dialog modal-dialog-centered mw-850px">
@@ -358,26 +348,31 @@
                             </svg>
                         </span>
                         <!--end::Svg Icon-->
-                        <input type="text" data-kt-user-table-filter="search" class="form-control form-control-solid w-250px ps-14" placeholder="Pencarian" />
+                        <input type="text" data-kt-user-table-filter="search" class="form-control form-control-solid form-control-sm w-250px ps-14" placeholder="Pencarian" />
                     </div>
                     <!--end::Search-->
                 </div>
                 <!--begin::Card title-->
-                <!--begin::Card toolbar-->
                 <div class="card-toolbar">
-                    <!--begin::Toolbar-->
                     <div class="d-flex justify-content-end">
-                        <!--begin::Filter-->
-                        <button type="button" class="btn btn-light-success">
-                        <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
-                        <span class="svg-icon svg-icon-2 me-0">
-                            <i class="fa-duotone fa-file-excel" style="font-size: 20px;"></i>
-                        </span>
-                        <!--end::Svg Icon-->Download Excel</button>
+                            <button type="button" class="btn btn-sm btn-light-success me-3" data-bs-toggle="modal" data-bs-target="#modalTambahTagihan">
+                            <span class="svg-icon svg-icon-2 me-0">
+                                <i class="fa-duotone fa-plus"  style="font-size: 18px;"></i>
+                            </span>
+                            Tagihan</button>
+                        <button class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                            <i class="bi bi-three-dots fs-3"></i>
+                        </button>
+                        <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
+                            <div class="menu-item px-3">
+                                <a href="#" class="menu-link px-3"> <i class="fa-duotone fa-file-excel me-3" style="font-size: 20px;"></i >Download Excel</a>
+                            </div>
+                            <div class="menu-item px-3">
+                                <a href="#" class="menu-link px-3"> <i class="fa-duotone fa-file-pdf me-3" style="font-size: 20px;"></i> Download PDF</a>
+                            </div>
+                        </div>
                     </div>
-                    <!--end::Toolbar-->
                 </div>
-                <!--end::Card toolbar-->
             </div>
             <!--end::Card header-->
             <!--begin::Card body-->

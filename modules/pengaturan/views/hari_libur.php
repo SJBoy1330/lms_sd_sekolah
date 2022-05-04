@@ -28,7 +28,7 @@
                     <!--begin::Toolbar-->
                     <div class="d-flex justify-content-end" data-kt-user-table-toolbar="base">
                         <!--begin::Filter-->
-                        <button type="button" class="btn btn-light-primary me-3" data-bs-toggle="modal" data-bs-target="#modalTambahHariLibur">
+                        <button type="button" class="btn btn-sm btn-light-success me-3" data-bs-toggle="modal" data-bs-target="#modalTambahHariLibur">
                         <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
                         <span class="svg-icon svg-icon-2 me-0">
                             <i class="fa-solid fa-plus" style="font-size: 20px;"></i>
@@ -36,7 +36,7 @@
                         <!--end::Svg Icon-->Hari Libur</button>
 
                         <!--begin::Add user-->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalLiburNasional">
+                        <button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#modalLiburNasional">
                         <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
                         <span class="svg-icon svg-icon-2">
                             <i class="fa-duotone fa-calendar-week" style="font-size: 18px;"></i>
@@ -147,7 +147,7 @@
                                     
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="d-flex align-items-center position-relative mb-4">
-                                            <a href="#" class="btn btn-sm btn-light-primary py-3"><i class="fa fa-plus"></i>Publish</a>
+                                            <a href="#" class="btn btn-sm btn-light-success py-3"><i class="fa fa-plus"></i>Publish</a>
                                         </div>
 
                                         <div class="d-flex align-items-center position-relative mb-4 flex-end">
@@ -157,7 +157,7 @@
                                                     <path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="black" />
                                                 </svg>
                                             </span>
-                                            <input type="text" data-kt-user-table-filter="search" class="form-control form-control-solid w-200px ps-14" placeholder="Pencarian" />
+                                            <input type="text" data-kt-user-table-filter="search" class="form-control form-control-solid form-control-sm w-200px ps-14" placeholder="Pencarian" />
                                         </div>
                                     </div>
 

@@ -2,9 +2,61 @@
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
     <!--begin::Container-->
     <div class="container-xxl" id="kt_content_container">
-        <div class="card shodow-sm mb-4">
-                <div class="card-body">
-                    <div class="modal fade" id="modalDetail" tabindex="-1" aria-hidden="true">
+            <!--begin::Card-->
+            <div class="card">
+                <div class="card-header border-0 pt-6">
+                    <!--begin::Card title-->
+                    <div class="card-title">
+                        <!--begin::Search-->
+                        <div class="d-flex align-items-center position-relative my-1">
+                            <!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
+                            <span class="svg-icon svg-icon-1 position-absolute ms-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="black" />
+                                    <path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="black" />
+                                </svg>
+                            </span>
+                            <!--end::Svg Icon-->
+                            <input type="text" data-kt-user-table-filter="search" class="form-control form-control-solid form-control-sm w-250px ps-14" placeholder="Pencarian" />
+                        </div>
+                        <!--end::Search-->
+                    </div>
+                    <!--begin::Card title-->
+                    <!--begin::Card toolbar-->
+                    <div class="card-toolbar">
+                        <!--begin::Toolbar-->
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn btn-sm btn-light-success me-2" data-bs-toggle="modal" data-bs-target="#modalTambahStaf">
+                                <span class="svg-icon svg-icon-2 me-0">
+                                    <i class="fa-duotone fa-plus"  style="font-size: 18px;"></i>
+                                </span>
+                                Staf</button>
+
+                            <button type="button" class="btn btn-sm btn-light-info me-2" data-bs-toggle="modal" data-bs-target="#modalUnggah">
+                                <span class="svg-icon svg-icon-2 me-0">
+                                    <i class="fa-duotone fa-upload" style="font-size: 15px;"></i>
+                                </span>
+                                Unggah</button>
+                            <button class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                <i class="bi bi-three-dots fs-3"></i>
+                            </button>
+                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
+                                <div class="menu-item px-3">
+                                    <a href="#" class="menu-link px-3"> <i class="fa-duotone fa-file-excel me-3" style="font-size: 20px;"></i >Download Excel</a>
+                                </div>
+                                <div class="menu-item px-3">
+                                    <a href="#" class="menu-link px-3"> <i class="fa-duotone fa-file-pdf me-3" style="font-size: 20px;"></i> Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end::Toolbar-->
+                    </div>
+                    <!--end::Card toolbar-->
+                </div>
+                <!--end::Card header-->
+                <!--begin::Card body-->
+                <div class="card-body py-4">
+                <div class="modal fade" id="modalDetail" tabindex="-1" aria-hidden="true">
                         <!--begin::Modal dialog-->
                         <div class="modal-dialog modal-dialog-centered mw-850px">
                             <!--begin::Modal content-->
@@ -616,68 +668,6 @@
                         </div>
                         <!--end::Modal dialog-->
                     </div>
-                    
-                    <form action="">
-                        <div class="row d-flex justify-content-end">
-                            <div class="col-md-6 col-xl-6 align-self-end text-end" style="padding:5px; margin-top:7px;">
-                                <button type="button" class="btn btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahStaf">
-                                <span class="svg-icon svg-icon-2 me-0">
-                                    <i class="fa-duotone fa-chalkboard-user" style="font-size: 20px;"></i>
-                                </span>
-                                Staf</button>
-
-                                <button type="button" class="btn btn-light-info" data-bs-toggle="modal" data-bs-target="#modalUnggah">
-                                <span class="svg-icon svg-icon-2 me-0">
-                                    <i class="fa-duotone fa-upload" style="font-size: 20px;"></i>
-                                </span>
-                                Unggah</button>
-                            </div>
-
-                        </div>
-
-                    </form>
-
-                </div>
-            </div>
-            <!--begin::Card-->
-            <div class="card">
-                <div class="card-header border-0 pt-6">
-                    <!--begin::Card title-->
-                    <div class="card-title">
-                        <!--begin::Search-->
-                        <div class="d-flex align-items-center position-relative my-1">
-                            <!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
-                            <span class="svg-icon svg-icon-1 position-absolute ms-6">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                    <rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="black" />
-                                    <path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="black" />
-                                </svg>
-                            </span>
-                            <!--end::Svg Icon-->
-                            <input type="text" data-kt-user-table-filter="search" class="form-control form-control-solid w-250px ps-14" placeholder="Pencarian" />
-                        </div>
-                        <!--end::Search-->
-                    </div>
-                    <!--begin::Card title-->
-                    <!--begin::Card toolbar-->
-                    <div class="card-toolbar">
-                        <!--begin::Toolbar-->
-                        <div class="d-flex justify-content-end">
-                            <!--begin::Filter-->
-                            <button type="button" class="btn btn-light-success">
-                            <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
-                            <span class="svg-icon svg-icon-2 me-0">
-                                <i class="fa-duotone fa-file-excel" style="font-size: 20px;"></i>
-                            </span>
-                            <!--end::Svg Icon-->Download Excel</button>
-                        </div>
-                        <!--end::Toolbar-->
-                    </div>
-                    <!--end::Card toolbar-->
-                </div>
-                <!--end::Card header-->
-                <!--begin::Card body-->
-                <div class="card-body py-4">
                     <!--begin::Table-->
                     <div class="table-responsive">
                         <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_users">

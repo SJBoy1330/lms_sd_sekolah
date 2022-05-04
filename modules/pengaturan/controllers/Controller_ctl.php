@@ -15,13 +15,13 @@ class Controller_ctl extends MY_Admin
 		$this->data['title'] = 'Pengaturan';
 
 		// LOAD BREADCRUMB
-		$mydata['breadcrumb']['menu'] = 'Identitas Ujian';
+		$mydata['breadcrumb']['menu'] = 'Identitas Sekolah';
 
 		// LOAD CSS
 		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/identitas-sekolah.css') . '">';	
 
 		// LOAD VIEW
-		$this->data['content'] = $this->load->view('identitas_ujian', $mydata, TRUE);
+		$this->data['content'] = $this->load->view('identitas_sekolah', $mydata, TRUE);
 		$this->display();
 	}
 

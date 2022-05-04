@@ -4,7 +4,7 @@
     <div class="container-xxl" id="kt_content_container">
             <div class="card shadow-sm mb-4">
                 <div class="card-body">
-                    <div class="modal fade" id="modalTambahKelas" tabindex="-1" aria-hidden="true">
+                    <div class="modal fade" id="modalTambahGuru" tabindex="-1" aria-hidden="true">
                         <!--begin::Modal dialog-->
                         <div class="modal-dialog modal-dialog-centered mw-850px">
                             <!--begin::Modal content-->
@@ -130,13 +130,6 @@
                             <div class="col-md-3 col-xl-3 align-self-end text-start" style="padding:5px; margin-top:7px;">
                                 <button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Tampil</button>
                             </div>
-                            <div class="col-md-3 col-xl-3 align-self-end text-end" style="padding:5px; margin-top:7px;">
-                                <button type="button" class="btn btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahKelas">
-                                <span class="svg-icon svg-icon-2 me-0">
-                                    <i class="fa-duotone fa-screen-users" style="font-size: 20px;"></i>
-                                </span>
-                                Kelas</button>
-                            </div>
                         </div>
                     </form>
                 </div>
@@ -157,9 +150,20 @@
                                 </svg>
                             </span>
                             <!--end::Svg Icon-->
-                            <input type="text" data-kt-user-table-filter="search" class="form-control form-control-solid w-250px ps-14" placeholder="Pencarian" />
+                            <input type="text" data-kt-user-table-filter="search" class="form-control form-control-solid form-control-sm w-250px ps-14" placeholder="Pencarian" />
                         </div>
                         <!--end::Search-->
+                    </div>
+                    <div class="card-toolbar">
+                        <!--begin::Toolbar-->
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn btn-sm btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahGuru">
+                                <span class="svg-icon svg-icon-2 me-0">
+                                    <i class="fa-duotone fa-plus"  style="font-size: 18px;"></i>
+                                </span>
+                                Guru</button>
+                        </div>
+                        <!--end::Toolbar-->
                     </div>
                 </div>
                 <!--end::Card header-->
