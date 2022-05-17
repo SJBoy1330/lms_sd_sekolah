@@ -290,7 +290,6 @@
                 </div>
                 <!--begin::Card title-->
                 <div class="card-toolbar">
-                <!--begin::Toolbar-->
                     <div class="d-flex justify-content-end">
                         <button type="button" class="btn btn-sm btn-light-success me-3" data-bs-toggle="modal" data-bs-target="#modalTambahBerita">
                             <span class="svg-icon svg-icon-2 me-0">
