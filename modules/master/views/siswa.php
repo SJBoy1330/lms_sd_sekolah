@@ -557,21 +557,16 @@
                                                         <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="cancel" data-bs-toggle="tooltip" data-bs-dismiss="click" title="" data-bs-original-title="Batal">
                                                             <i class="bi bi-x fs-2"></i>
                                                         </span>
-                                                        <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="remove" data-bs-toggle="tooltip" data-bs-dismiss="click" title="" data-bs-original-title="Hapus foto">
-                                                            <i class="bi bi-x fs-2"></i>
-                                                        </span>
                                                     </div>
                                                 </div>
 											</div>
 										</div>
-                            
-                                        <div class="col-12">
+
+                                        <div class="col-6">
 											<div class="d-flex flex-column mb-8 fv-row">
-												<!--begin::Label-->
 												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
 													<span class="required">Kelas</span>
 												</label>
-												<!--end::Label-->
 												<div class="position-relative d-flex align-items-center">
 													<div style="width:100vw;">
                                                         <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Pilih">
@@ -579,6 +574,61 @@
                                                             <option value="1">X IPA 1</option>
                                                             <option value="2">XI IPA 1</option>
                                                             <option value="2">XII IPA 1</option>
+                                                        </select>
+                                                    </div>
+												</div>
+											</div>
+										</div>
+
+                                        <div class="col-6">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">Agama</span>
+												</label>
+												<div class="position-relative d-flex align-items-center">
+													<div style="width:100vw;">
+                                                        <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Pilih Agama">
+                                                            <option></option>
+                                                            <option value="1">Islam</option>
+                                                            <option value="2">Kristen</option>
+                                                            <option value="3">Katholik</option>
+                                                            <option value="4">Hindu</option>
+                                                            <option value="5">Budha</option>
+                                                            <option value="6">Kong Hu Chu</option>
+                                                        </select>
+                                                    </div>
+												</div>
+											</div>
+										</div>
+
+                                        <div class="col-6">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">Jenis Kelamin</span>
+												</label>
+												<div class="position-relative d-flex align-items-center">
+													<div style="width:100vw;">
+                                                        <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Pilih Jenis Kelamin">
+                                                            <option></option>
+                                                            <option value="1">Laki - laki</option>
+                                                            <option value="2">Perempuan</option>
+                                                        </select>
+                                                    </div>
+												</div>
+											</div>
+										</div>
+
+                                        <div class="col-6">
+											<div class="d-flex flex-column mb-8 fv-row">
+												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
+													<span class="required">Aktif</span>
+												</label>
+												<div class="position-relative d-flex align-items-center">
+													<div style="width:100vw;">
+                                                        <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Pilih Status">
+                                                            <option></option>
+                                                            <option value="1">Aktif</option>
+                                                            <option value="2">Tidak Aktif</option>
                                                         </select>
                                                     </div>
 												</div>
@@ -655,28 +705,6 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-12">
-											<div class="d-flex flex-column mb-8 fv-row">
-												<!--begin::Label-->
-												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-													<span class="required">Agama</span>
-												</label>
-												<!--end::Label-->
-												<div class="position-relative d-flex align-items-center">
-													<div style="width:100vw;">
-                                                        <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Pilih Tingkat">
-                                                            <option></option>
-                                                            <option value="1">Islam</option>
-                                                            <option value="2">Kristen</option>
-                                                            <option value="2">Katolik</option>
-                                                            <option value="2">Hindu</option>
-                                                            <option value="2">Budha</option>
-                                                        </select>
-                                                    </div>
-												</div>
-											</div>
-										</div>
-
                                         <div class="col-6">
                                             <div class="d-flex flex-column mb-8 fv-row">
                                                 <label class="d-flex align-items-center fs-6 fw-bold mb-2">
@@ -721,30 +749,8 @@
                                                         <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="cancel" data-bs-toggle="tooltip" data-bs-dismiss="click" title="" data-bs-original-title="Batal">
                                                             <i class="bi bi-x fs-2"></i>
                                                         </span>
-                                                        <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="remove" data-bs-toggle="tooltip" data-bs-dismiss="click" title="" data-bs-original-title="Hapus foto">
-                                                            <i class="bi bi-x fs-2"></i>
-                                                        </span>
                                                     </div>
                                                 </div>
-											</div>
-										</div>
-
-                                        <div class="col-12">
-											<div class="d-flex flex-column mb-8 fv-row">
-												<!--begin::Label-->
-												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-													<span class="required">Jenis Kelamin</span>
-												</label>
-												<!--end::Label-->
-												<div class="position-relative d-flex align-items-center">
-													<div style="width:100vw;">
-                                                        <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Pilih Tingkat">
-                                                            <option></option>
-                                                            <option value="1">Laki - laki</option>
-                                                            <option value="2">Perempuan</option>
-                                                        </select>
-                                                    </div>
-												</div>
 											</div>
 										</div>
 
@@ -789,25 +795,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <div class="col-12">
-											<div class="d-flex flex-column mb-8 fv-row">
-												<!--begin::Label-->
-												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-													<span class="required">Aktif</span>
-												</label>
-												<!--end::Label-->
-												<div class="position-relative d-flex align-items-center">
-													<div style="width:100vw;">
-                                                        <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Semua Siswa">
-                                                            <option></option>
-                                                            <option value="1">Aktif</option>
-                                                            <option value="2">Tidak Aktif</option>
-                                                        </select>
-                                                    </div>
-												</div>
-											</div>
-										</div>
 
                                         <div class="col-6">
                                             <div class="d-flex flex-column mb-8 fv-row">
