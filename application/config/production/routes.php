@@ -110,6 +110,13 @@ $route['auth/(:any)'] = 'auth/controller_ctl/$1';
 $route['auth/(:any)/(:any)'] = 'auth/controller_ctl/$1/$2';
 
 
+$route['func_auth']  = 'func_auth/function_ctl';
+
+$route['func_auth/(:any)'] = 'func_auth/function_ctl/$1';
+
+$route['func_auth/(:any)/(:any)'] = 'func_auth/function_ctl/$1/$2';
+
+
 
 $route['dashboard']  = 'dashboard/controller_ctl';
 

@@ -1,21 +1,29 @@
-function submit_form(element, id_form) {
-    var form = document.querySelector(id_form);
-    var data = $(id_form).serialize();
-    var url = $(id_form).attr('url');
-    var button = document.getElementById(element.id);
+
+function submit_form(element, id_form, num = 0) {
+    // console.log('ok');
+    var url = $(id_form).attr('action');
+    var method = $(id_form).attr('method');
+    console.log(url);
+
+    var form = $('form')[num];
+    var form_data = new FormData(form);
+
+    // console.log(form_data);
     $.ajax({
         url: url,
-        data: data,
+        method: method,
+        data: form_data,
+        contentType: false,
         cache: false,
-        method: 'post',
+        processData: false,
         dataType: 'json',
         beforeSend: function () {
-            $("#" + element.id).prop('disabled', true);
-            // $("#" + element.id).html('<div class="spinner-border text-light" role="status"><span class="sr-only"></span></div>');
+            $('#' + element.id).prop('disabled', true);
         },
         success: function (data) {
-            $("#" + element.id).prop('disabled', false);
-            // $("#" + element.id).html('<span class="indicator-label">Simpan</span>');
+            // console.log(data);
+            $('#' + element.id).prop('disabled', false);
+
             $('.fadedin').remove();
 
             if (data.status == true) {
@@ -44,7 +52,7 @@ function submit_form(element, id_form) {
                 if (data.required) {
                     const array = data.required.length;
                     for (var i = 0; i < array; i++) {
-                        $("#" + data.required[i][0]).append('<span class="text-danger fadedin">' + data.required[i][1] + '</span>');
+                        $('#' + data.required[i][0]).append('<span class="text-danger fadedin">' + data.required[i][1] + '</span>');
                     }
                 }
                 if (data.redirect) {
@@ -53,4 +61,5 @@ function submit_form(element, id_form) {
             }
         }
     });
+
 }
