@@ -171,10 +171,16 @@
     border-color: var(--bittersweet);
     color: var(--white);
   }
+
+  .btn-primary:hover{
+    background: var(--bittersweet);
+    border-color: var(--bittersweet);
+    color: var(--white);
+  }
   
   .btn-primary:is(:hover, :focus) { --bittersweet: hsl(2, 90%, 65%); }
   
-  .btn-secondary:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
+  .btn-secondary:is(:hover, :focus) { background: hsl(2, 90%, 65%); }
   
   
   
