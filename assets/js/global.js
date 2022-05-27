@@ -63,3 +63,11 @@ function submit_form(element, id_form, num = 0) {
     });
 
 }
+
+
+
+function search(element, id_tabel) {
+    $(id_tabel + ' tbody tr').filter(function () {
+        $(this).toggle($(this).text().toLowerCase().indexOf(element.value.toLowerCase()) > -1);
+    });
+}
