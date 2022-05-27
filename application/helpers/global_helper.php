@@ -369,9 +369,16 @@ function mydate($date, $format)
   return $date_format;
 }
 
-function get_id_sekolah($kode)
+function is_logged_in()
 {
-  $ci = &get_instance();
-  $result = $ci->db->get_where('sekolah', ['kode' => $kode])->row();
-  return $result->id_sekolah;
+
+  $obj = &get_instance();
+
+  $base_url = $obj->config->item('base_url');
+
+  $ci = get_instance();
+
+  if (!$ci->session->userdata('lms_sekolah_id_user')) {
+    redirect('auth');
+  }
 }

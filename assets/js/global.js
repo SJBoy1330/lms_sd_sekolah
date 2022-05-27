@@ -3,7 +3,7 @@ function submit_form(element, id_form, num = 0) {
     // console.log('ok');
     var url = $(id_form).attr('action');
     var method = $(id_form).attr('method');
-    console.log(url);
+    // console.log(method);
 
     var form = $('form')[num];
     var form_data = new FormData(form);
@@ -44,7 +44,7 @@ function submit_form(element, id_form, num = 0) {
                 }).then(function () {
                     if (data.redirect) {
                         location.href = data.redirect;
-                    } else {
+                    } else if (data.reload == true) {
                         location.reload();
                     }
                 });

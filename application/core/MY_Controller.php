@@ -123,6 +123,8 @@ class MY_Admin extends MY_Controller
         parent::__construct();
 
         $this->path_theme = 'admin_themes';
+
+        is_logged_in();
     }
 
 

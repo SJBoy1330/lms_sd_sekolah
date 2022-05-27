@@ -39,27 +39,20 @@ class function_ctl extends MY_Login
 
             $data['status'] = !$response->error;
             if ($response->error) {
-                if (strpos($response->message, "Kode sekolah") !== false) {
-                    $data['required'][] = ['req_kode_sekolah', $response->message];
-                }
-
-                if (strpos($response->message, "Username") !== false) {
-                    $data['required'][] = ['req_username', $response->message];
-                }
-
-                if (strpos($response->message, "Kata sandi") !== false) {
-                    $data['required'][] = ['req_password', $response->message];
-                }
+                $data['alert']['title'] = 'PERINGATAN';
+                $data['alert']['message'] = $response->message;
             } else {
                 $userdata = [
-                    "id_sekolah" => $response->data->id_sekolah,
-                    "id_user" => $response->data->id_siswa,
-                    "role" => $response->data->role,
-                    "server" => $response->data->server
+                    "lms_sekolah_id_sekolah" => $response->data->id_sekolah,
+                    "lms_sekolah_id_user" => $response->data->id_siswa,
+                    "lms_sekolah_role" => $response->data->role,
+                    "lms_sekolah_server" => $response->data->server
                 ];
                 $this->session->set_userdata($userdata);
 
                 $data['redirect'] = base_url('dashboard');
+                $data['alert']['title'] = 'PEMBERITAHUAN';
+                $data['alert']['message'] = $response->message;
             }
 
             echo json_encode($data);
@@ -80,7 +73,7 @@ class function_ctl extends MY_Login
             $$var = $this->input->post($var);
 
             if (!$$var) {
-                $data['required'][] = ['req_' . $var, $value . ' tidak boleh kosong !'];
+                $data['required'][] = ['req_staf_' . $var, $value . ' tidak boleh kosong !'];
                 $arrAccess[] = false;
             } else {
                 $arrAccess[] = true;
@@ -97,27 +90,20 @@ class function_ctl extends MY_Login
 
             $data['status'] = !$response->error;
             if ($response->error) {
-                if (strpos($response->message, "Kode sekolah") !== false) {
-                    $data['required'][] = ['req_kode_sekolah', $response->message];
-                }
-
-                if (strpos($response->message, "Username") !== false) {
-                    $data['required'][] = ['req_username', $response->message];
-                }
-
-                if (strpos($response->message, "Kata sandi") !== false) {
-                    $data['required'][] = ['req_password', $response->message];
-                }
+                $data['alert']['title'] = 'PERINGATAN';
+                $data['alert']['message'] = $response->message;
             } else {
                 $userdata = [
-                    "id_sekolah" => $response->data->id_sekolah,
-                    "id_user" => $response->data->id_staf,
-                    "role" => $response->data->role,
-                    "server" => $response->data->server
+                    "lms_sekolah_id_sekolah" => $response->data->id_sekolah,
+                    "lms_sekolah_id_user" => $response->data->id_staf,
+                    "lms_sekolah_role" => $response->data->role,
+                    "lms_sekolah_server" => $response->data->server
                 ];
                 $this->session->set_userdata($userdata);
 
                 $data['redirect'] = base_url('dashboard');
+                $data['alert']['title'] = 'PEMBERITAHUAN';
+                $data['alert']['message'] = $response->message;
             }
 
             echo json_encode($data);
@@ -138,7 +124,7 @@ class function_ctl extends MY_Login
             $$var = $this->input->post($var);
 
             if (!$$var) {
-                $data['required'][] = ['req_' . $var, $value . ' tidak boleh kosong !'];
+                $data['required'][] = ['req_wali_' . $var, $value . ' tidak boleh kosong !'];
                 $arrAccess[] = false;
             } else {
                 $arrAccess[] = true;
@@ -151,31 +137,26 @@ class function_ctl extends MY_Login
                 'username' => $this->input->post('username'),
                 'password' => $this->input->post('password'),
             );
-            $response = curl_post('login/staf', $request_data);
+            $response = curl_post('login/wali', $request_data);
 
             $data['status'] = !$response->error;
             if ($response->error) {
-                if (strpos($response->message, "Kode sekolah") !== false) {
-                    $data['required'][] = ['req_kode_sekolah', $response->message];
-                }
-
-                if (strpos($response->message, "Username") !== false) {
-                    $data['required'][] = ['req_username', $response->message];
-                }
-
-                if (strpos($response->message, "Kata sandi") !== false) {
-                    $data['required'][] = ['req_password', $response->message];
-                }
+                $data['alert']['title'] = 'PERINGATAN';
+                $data['alert']['message'] = $response->message;
             } else {
                 $userdata = [
-                    "id_sekolah" => $response->data->id_sekolah,
-                    "id_user" => $response->data->id_staf,
-                    "role" => $response->data->role,
-                    "server" => $response->data->server
+                    "lms_sekolah_id_sekolah" => $response->data->id_sekolah,
+                    "lms_sekolah_id_user" => $response->data->id_wali,
+                    "lms_sekolah_role" => $response->data->role,
+                    "lms_sekolah_server" => $response->data->server
                 ];
+                var_dump($userdata);
+                die;
                 $this->session->set_userdata($userdata);
 
                 $data['redirect'] = base_url('dashboard');
+                $data['alert']['title'] = 'PEMBERITAHUAN';
+                $data['alert']['message'] = $response->message;
             }
 
             echo json_encode($data);
