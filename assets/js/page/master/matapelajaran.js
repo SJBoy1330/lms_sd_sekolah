@@ -1,13 +1,15 @@
 $(function() {
     $("#kt_table_mapel").on("click", function() {
-        $("#deleteall").toggle($(this).find("#inputcheckbox:checked").length > 0);
-        if($(this).find("#inputcheckbox:checked").length < 1){
+        $("#deleteall").toggle($(this).find(".deletebox:checked").length > 0);
+        if($(this).find(".deletebox:checked").length < ($(this).find(".deletebox").length)){
             $('input[name="maincheckbox"]').prop('checked', false);
-        }    })
+        }else if($(this).find(".deletebox:checked").length = ($(this).find(".deletebox").length)){
+            $('input[name="maincheckbox"]').prop('checked', true);
+        }
+    })
     $('input[name="maincheckbox"]').on("click", function() {
-        $('.form-check-input').prop('checked', this.checked);
+        $('.deletebox').prop('checked', this.checked);
     });
-
 });
 
 

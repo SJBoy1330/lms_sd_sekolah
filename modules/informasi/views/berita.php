@@ -351,7 +351,7 @@
                                 <!--begin::Checkbox-->
                                 <td>
                                     <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input" id="inputcheckbox" type="checkbox" value="1" />
+                                        <input class="form-check-input deletebox" type="checkbox" value="1" />
                                     </div>
                                 </td>
                                 <!--end::Checkbox-->
@@ -432,7 +432,7 @@
                                 <!--begin::Checkbox-->
                                 <td>
                                     <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input" id="inputcheckbox" type="checkbox" value="1" />
+                                        <input class="form-check-input deletebox" type="checkbox" value="1" />
                                     </div>
                                 </td>
                                 <!--end::Checkbox-->
