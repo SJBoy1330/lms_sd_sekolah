@@ -197,7 +197,7 @@
             <!--end::Modal header-->
             <!--begin::Modal body-->
             <div class="modal-body scroll-y mx-10 my-2" id="detail-staf-display">
-            <!-- MAENG NDEK KENE LUR -->
+                <!-- MAENG NDEK KENE LUR -->
             </div>
             <!--end::Modal body-->
         </div>
@@ -343,7 +343,7 @@
                                         <option></option>
                                         <option value="1">Jabatan 1</option>
                                         <option value="2">Jataban 2</option>
-                                        <option value="2">Jataban 3</option>
+                                        <option value="3">Jataban 3</option>
                                     </select>
                                 </div>
                             </div>
@@ -361,8 +361,8 @@
                                 <div style="width:100vw;">
                                     <select class="form-select form-select-solid" data-control="select2" data-placeholder="Jenis Kelamin">
                                         <option></option>
-                                        <option value="1">Laki - laki</option>
-                                        <option value="2">Perempuan</option>
+                                        <option value="L">Laki - laki</option>
+                                        <option value="P">Perempuan</option>
                                     </select>
                                 </div>
                             </div>
