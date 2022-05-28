@@ -34,6 +34,7 @@
     <!--begin::Javascript-->
     <script>
         var hostUrl = "<?= base_url(); ?>assets/";
+        var BASE_URL = baseUrl = '<?= base_url(); ?>';
     </script>
     <!--begin::Global Javascript Bundle(used by all pages)-->
     <script src="<?= base_url(); ?>assets/plugins/global/plugins.bundle.js"></script>
