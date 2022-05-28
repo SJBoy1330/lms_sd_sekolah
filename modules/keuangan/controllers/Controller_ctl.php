@@ -17,6 +17,9 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Kategori Biaya';
 
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/keuangan/kategori.js') . '"></script>';
+
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('kategori_biaya', $mydata, TRUE);
 		$this->display();
@@ -29,6 +32,9 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Transaksi Keuangan';
+
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/keuangan/transaksi.js') . '"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('transaksi_keuangan', $mydata, TRUE);
@@ -68,6 +74,9 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Monitoring Keuangan';
+
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/keuangan/monitoring.js') . '"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('monitoring_keuangan', $mydata, TRUE);

@@ -1,110 +1,111 @@
 <!--begin::Content-->
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
-    
 
-<div class="container mb-4">
-		<div class="card shodow-sm mb-4">
 
-			<div class="card-body">
-                    <div class="modal fade" id="modalTambahBab" tabindex="-1" aria-hidden="true">
-                        <!--begin::Modal dialog-->
-                        <div class="modal-dialog modal-dialog-centered mw-850px">
-                            <!--begin::Modal content-->
-                            <div class="modal-content">
-                                <!--begin::Modal header-->
-                                <div class="modal-header">
-                                    <!--begin::Modal title-->
-                                    <h2 class="fw-bolder">Tambah Bab</h2>
-                                    <!--end::Modal title-->
-                                    <!--begin::Close-->
-                                    <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
-                                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                                        <span class="svg-icon svg-icon-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
-                                                <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
-                                            </svg>
-                                        </span>
-                                        <!--end::Svg Icon-->
-                                    </div>
-                                    <!--end::Close-->
+    <div class="container mb-4">
+        <div class="card shodow-sm mb-4">
+
+            <div class="card-body">
+                <div class="modal fade" id="modalTambahBab" tabindex="-1" aria-hidden="true">
+                    <!--begin::Modal dialog-->
+                    <div class="modal-dialog modal-dialog-centered mw-850px">
+                        <!--begin::Modal content-->
+                        <div class="modal-content">
+                            <!--begin::Modal header-->
+                            <div class="modal-header">
+                                <!--begin::Modal title-->
+                                <h2 class="fw-bolder">Tambah Bab</h2>
+                                <!--end::Modal title-->
+                                <!--begin::Close-->
+                                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                                    <span class="svg-icon svg-icon-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
                                 </div>
-                                <!--end::Modal header-->
-                                <!--begin::Modal body-->
-                                <div class="modal-body scroll-y mx-10 my-2">
-									<div class="row">
-										<div class="col-12">
-											<div class="d-flex flex-column mb-8 fv-row">
-												<!--begin::Label-->
-												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-													<span class="required">Nama Pelajaran</span>
-												</label>
-												<div>
-                                                    <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Pilih">
-                                                        <option></option>
-                                                        <option value="1">Pelajaran 01</option>
-                                                        <option value="2">Pelajaran 02</option>
-                                                        <option value="2">Pelajaran 03</option>
-                                                    </select>
-                                                </div>
-											</div>
-										</div>
-                                        <div class="col-12">
-											<div class="d-flex flex-column mb-8 fv-row">
-												 <!--begin::Label-->
-                                                 <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                        <span class="required">Nama Bab</span>
-                                                    </label>
-                                                    <!--end::Label-->
-                                                    <div class="position-relative d-flex align-items-center">
-                                                        <input class="form-control form-control-solid" placeholder="Masukkan nama bab" />
-                                                    </div>
-											</div>
-										</div>
-									</div>
-									<div class="row mb-4">
-										<div class="d-flex justify-content-end">
-											<button type="button" class="btn btn-primary">
-											<!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-											<span class="svg-icon svg-icon-2">
-												<i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-											</span>
-											<!--end::Svg Icon-->Simpan</button>
-											<!--end::Add user-->
-										</div>
-									</div>
-                                </div>
-                                <!--end::Modal body-->
+                                <!--end::Close-->
                             </div>
-                            <!--end::Modal content-->
+                            <!--end::Modal header-->
+                            <!--begin::Modal body-->
+                            <div class="modal-body scroll-y mx-10 my-2">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="d-flex flex-column mb-8 fv-row">
+                                            <!--begin::Label-->
+                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                                <span class="required">Nama Pelajaran</span>
+                                            </label>
+                                            <div>
+                                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih">
+                                                    <option></option>
+                                                    <option value="1">Pelajaran 01</option>
+                                                    <option value="2">Pelajaran 02</option>
+                                                    <option value="2">Pelajaran 03</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="d-flex flex-column mb-8 fv-row">
+                                            <!--begin::Label-->
+                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                                <span class="required">Nama Bab</span>
+                                            </label>
+                                            <!--end::Label-->
+                                            <div class="position-relative d-flex align-items-center">
+                                                <input class="form-control form-control-solid" placeholder="Masukkan nama bab" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div class="d-flex justify-content-end">
+                                        <button type="button" class="btn btn-primary">
+                                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                                            <span class="svg-icon svg-icon-2">
+                                                <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                                            </span>
+                                            <!--end::Svg Icon-->Simpan
+                                        </button>
+                                        <!--end::Add user-->
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end::Modal body-->
                         </div>
-                        <!--end::Modal dialog-->
+                        <!--end::Modal content-->
                     </div>
+                    <!--end::Modal dialog-->
+                </div>
 
-				<form action="">
-					<div class="row">
+                <form action="">
+                    <div class="row">
 
-						<div class="col-md-3 col-xl-3" style="padding:5px;">
+                        <div class="col-md-3 col-xl-3" style="padding:5px;">
                             <label class="form-label fw-bold">Pelajaran</label>
                             <div>
-                                <select class="form-select form-select-sm form-select-solid" data-control="select2"  data-placeholder="Semua">
+                                <select class="form-select form-select-sm form-select-solid" data-control="select2" data-placeholder="Semua">
                                     <option></option>
                                     <option value="1">Pelajaran 01</option>
                                     <option value="2">Pelajaran 02</option>
                                     <option value="2">Pelajaran 03</option>
                                 </select>
                             </div>
-						</div>
-						<div class="col-md-3 col-xl-3 align-self-end text-start" style="padding:5px; margin-top:7px;">
-							<button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Tampil</button>
-						</div>
-					</div>
+                        </div>
+                        <div class="col-md-3 col-xl-3 align-self-end text-start" style="padding:5px; margin-top:7px;">
+                            <button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Tampil</button>
+                        </div>
+                    </div>
 
-				</form>
+                </form>
 
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+    </div>
 
     <!--begin::Container-->
     <div class="container-xxl" id="kt_content_container">
@@ -132,9 +133,14 @@
                 <div class="card-toolbar">
                     <!--begin::Toolbar-->
                     <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-sm btn-light-danger me-2 " id="deleteall" style="display: none;">
+                            <span class="svg-icon svg-icon-2 me-0">
+                                <i class="fa-duotone fa-trash" style="font-size: 18px;"></i>
+                            </span>
+                            Hapus</button>
                         <button type="button" class="btn btn-sm btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahBab">
                             <span class="svg-icon svg-icon-2 me-0">
-                                <i class="fa-duotone fa-plus"  style="font-size: 18px;"></i>
+                                <i class="fa-duotone fa-plus" style="font-size: 18px;"></i>
                             </span>
                             Bab</button>
                     </div>
@@ -146,14 +152,14 @@
             <div class="card-body py-4">
                 <!--begin::Table-->
                 <div class="table-responsive">
-                    <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_users">
+                    <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_bab">
                         <!--begin::Table head-->
                         <thead>
                             <!--begin::Table row-->
                             <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
                                 <th class="w-10px pe-2">
                                     <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
-                                        <input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_users .form-check-input" value="1" />
+                                        <input class="form-check-input" name="maincheckbox" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_bab .form-check-input" value="1" />
                                     </div>
                                 </th>
                                 <th class="min-w-125px text-center">Aksi</th>
@@ -171,7 +177,7 @@
                                 <!--begin::Checkbox-->
                                 <td>
                                     <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input" type="checkbox" value="1" />
+                                        <input class="form-check-input" id="inputcheckbox" type="checkbox" value="1" />
                                     </div>
                                 </td>
                                 <!--end::Checkbox-->
