@@ -336,7 +336,7 @@
                     <button type="button" id="button_back_siswa" data-div="#login_siswa" onclick="back_to(this,'#container_cabang')" class="button-back-modal" style="position: absolute; top: -20px; left: 0; color: #EC3528;"><i class="fa-solid fa-arrow-left"></i>kembali</button>
                     <div class="container-modal d-flex">
                         <div class="form-container sign-in-container">
-                            <form id="form_login" class="php-email-form">
+                            <form id="form_login_siswa" class="php-email-form" action="<?= base_url('func_auth/login_siswa') ?>" method="POST">
                                 <div class="box text-center">
                                     <h3 style="font-size: 24px; color: #012970; font-weight: 700;">Login KlasQ Siswa</h3>
                                     <p>Masukkan id sekolah, nis dan password untuk bisa mengakses</p>
@@ -348,9 +348,9 @@
                                         <label for="kode_sekolah" class="ms-2 mb-3">Kode Sekolah</label>
                                     </div>
 
-                                    <div class="form-floating mb-3" id="req_nis">
-                                        <input type="email" class="form-control" name="nis" id="nis" placeholder="NIS Sekolah" autocomplete="off">
-                                        <label for="nis" class="ms-2 mb-3">NIS Sekolah</label>
+                                    <div class="form-floating mb-3" id="req_username">
+                                        <input type="email" class="form-control" name="username" id="username" placeholder="Username" autocomplete="off">
+                                        <label for="username" class="ms-2 mb-3">Username</label>
                                     </div>
 
                                     <div class="form-floating" id="req_password">
@@ -365,7 +365,7 @@
                                     </div>
 
                                     <div class="text-center">
-                                        <button type="button" onclick="redirect_to(`<?= base_url('dashboard') ?>`)" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Masuk</span></button>
+                                        <button type="button" onclick="submit_form(this, '#form_login_siswa')" id="button_login_siswa" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Masuk</span></button>
                                     </div>
 
                                 </div>
@@ -388,24 +388,24 @@
                     <button type="button" id="button_back_staf" data-div="#login_staf" onclick="back_to(this,'#container_cabang')" class="button-back-modal" style="position: absolute; top: -20px; left: 0; color: #EC3528;"><i class="fa-solid fa-arrow-left"></i>Kembali</button>
                     <div class="container-modal d-flex">
                         <div class="form-container sign-in-container">
-                            <form id="form_login" class="php-email-form">
+                            <form id="form_login_staf" class="php-email-form" action="<?= base_url('func_auth/login_staf') ?>" method="POST">
                                 <div class="box text-center">
                                     <h3 style="font-size: 24px; color: #012970; font-weight: 700;">Login KlasQ Staf</h3>
                                     <p>Masukkan id sekolah, nis dan password untuk bisa mengakses</p>
                                 </div>
                                 <div class="row gy-4">
 
-                                    <div class="form-floating mb-3" id="req_kode_sekolah">
+                                    <div class="form-floating mb-3" id="req_staf_kode_sekolah">
                                         <input type="email" class="form-control" name="kode_sekolah" id="kode_sekolah" placeholder="Kode Sekolah" autocomplete="off">
                                         <label for="kode_sekolah" class="ms-2 mb-3">Kode Sekolah</label>
                                     </div>
 
-                                    <div class="form-floating mb-3" id="req_nis">
-                                        <input type="email" class="form-control" name="nis" id="nis" placeholder="NIS Sekolah" autocomplete="off">
-                                        <label for="nis" class="ms-2 mb-3">NIS Sekolah</label>
+                                    <div class="form-floating mb-3" id="req_staf_username">
+                                        <input type="email" class="form-control" name="username" id="username" placeholder="Username" autocomplete="off">
+                                        <label for="username" class="ms-2 mb-3">Username</label>
                                     </div>
 
-                                    <div class="form-floating" id="req_password">
+                                    <div class="form-floating" id="req_staf_password">
                                         <input type="password" class="form-control" name="password" id="password" placeholder="Password" autocomplete="off">
                                         <label for="password" class="ms-2 mb-3">Password</label>
                                         <div class="input-group-append show-hide">
@@ -417,7 +417,7 @@
                                     </div>
 
                                     <div class="text-center">
-                                        <button type="button" onclick="redirect_to(`<?= base_url('dashboard') ?>`)" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Masuk</span></button>
+                                        <button type="button" onclick="submit_form(this, '#form_login_staf',1)" id="button_login_staf" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Masuk</span></button>
                                     </div>
 
                                 </div>
@@ -440,24 +440,24 @@
                     <button type="button" id="button_back_wali" data-div="#login_wali" onclick="back_to(this,'#container_cabang')" class="button-back-modal" style="position: absolute; top: -20px; left: 0; color: #EC3528;"><i class="fa-solid fa-arrow-left"></i>kembali</button>
                     <div class="container-modal d-flex">
                         <div class="form-container sign-in-container">
-                            <form id="form_login" class="php-email-form">
+                            <form id="form_login_wali" class="php-email-form" action="<?= base_url('func_auth/login_wali') ?>" method="POST">
                                 <div class="box text-center">
                                     <h3 style="font-size: 24px; color: #012970; font-weight: 700;">Login KlasQ Wali</h3>
                                     <p>Masukkan id sekolah, nis dan password untuk bisa mengakses</p>
                                 </div>
                                 <div class="row gy-4">
 
-                                    <div class="form-floating mb-3" id="req_kode_sekolah">
+                                    <div class="form-floating mb-3" id="req_wali_kode_sekolah">
                                         <input type="email" class="form-control" name="kode_sekolah" id="kode_sekolah" placeholder="Kode Sekolah" autocomplete="off">
                                         <label for="kode_sekolah" class="ms-2 mb-3">Kode Sekolah</label>
                                     </div>
 
-                                    <div class="form-floating mb-3" id="req_nis">
-                                        <input type="email" class="form-control" name="nis" id="nis" placeholder="NIS Sekolah" autocomplete="off">
-                                        <label for="nis" class="ms-2 mb-3">NIS Sekolah</label>
+                                    <div class="form-floating mb-3" id="req_wali_username">
+                                        <input type="email" class="form-control" name="username" id="username" placeholder="Username" autocomplete="off">
+                                        <label for="username" class="ms-2 mb-3">Username</label>
                                     </div>
 
-                                    <div class="form-floating" id="req_password">
+                                    <div class="form-floating" id="req_wali_password">
                                         <input type="password" class="form-control" name="password" id="password" placeholder="Password" autocomplete="off">
                                         <label for="password" class="ms-2 mb-3">Password</label>
                                         <div class="input-group-append show-hide">
@@ -469,7 +469,7 @@
                                     </div>
 
                                     <div class="text-center">
-                                        <button type="button" onclick="redirect_to(`<?= base_url('dashboard') ?>`)" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Masuk</span></button>
+                                        <button type="button" onclick="submit_form(this, '#form_login_wali',2)" id="button_login_wali" class="btn btn-flex flex-center btn-default btn-lg mb-3 button-masuk"><span class="indicator-label">Masuk</span></button>
                                     </div>
 
                                 </div>
@@ -486,9 +486,10 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="container-modal" id="container_cabang">
                     <div class="form">
-                        <form id="form_login" class="php-email-form">
+                        <div id="form_login" class="php-email-form">
                             <div class="box text-center">
                                 <h3 style="font-size: 24px; font-weight: 700;">Login KlasQ sebagai</h3>
                                 <p>Pilih salah satu untuk mengakses web admin</p>
@@ -536,16 +537,17 @@
                                     </div>
                                 </div>
                             </div>
-                        </form>
+                            </dvi>
+                        </div>
                     </div>
+
                 </div>
-            </div>
-            <div class="modal-footer" style="border-top: none;">
-                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                <div class="modal-footer" style="border-top: none;">
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <script>

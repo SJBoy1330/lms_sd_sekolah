@@ -20,7 +20,7 @@
 					<div class="d-flex justify-content-end" data-kt-user-table-toolbar="base">
 						<!--end::Export-->
 						<!--begin::Add user-->
-						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalUbahPengaturan">
+						<button type="button" class="btn btn-light-success" data-bs-toggle="modal" data-bs-target="#modalUbahPengaturan">
 						<!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
 						<span class="svg-icon svg-icon-2">
 							<i class="fa-duotone fa-pen-to-square fs-5"></i>

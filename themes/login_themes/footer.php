@@ -58,6 +58,7 @@
 
 <!-- Template Main JS File -->
 <script src="<?= base_url(); ?>assets/js/main.js"></script>
+<script src="<?= base_url(); ?>assets/js/global.js"></script>
 
 
 <?php

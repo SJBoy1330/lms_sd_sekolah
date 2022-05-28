@@ -179,7 +179,7 @@ $autoload['drivers'] = array();
 
 */
 
-$autoload['helper'] = array('url', 'array', 'response', 'global');
+$autoload['helper'] = array('url', 'array', 'response', 'global', 'curl');
 
 
 

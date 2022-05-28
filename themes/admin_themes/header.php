@@ -23,7 +23,7 @@
     <meta property="og:url" content="https://keenthemes.com/metronic" />
     <meta property="og:site_name" content="Keenthemes | Metronic" />
     <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
-    <link rel="shortcut icon" href="<?= base_url(); ?>assets/media/logos/favicon.ico" />
+    <link rel="shortcut icon" href="<?= base_url(); ?>assets/img/logo-1.png" />
     <!--begin::Fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
     <!--end::Fonts-->
@@ -43,18 +43,27 @@
     <!-- DateRangePicker Stylesheet -->
     <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/plugins/daterangepicker/css/daterangepicker.css">
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/86bfabf1f4.js" crossorigin="anonymous"></script>
+    <!-- select2 -->
+    <!-- <link href="<?= base_url(); ?>assets/plugins/select2/css/select2.min.css" rel="stylesheet" /> -->
 
-    <!-- select2
-    <link href="<?= base_url(); ?>assets/plugins/select2/css/select2.min.css" rel="stylesheet" /> -->
+    <script src="https://kit.fontawesome.com/9abc1f10f1.js" crossorigin="anonymous"></script>
+
+
+
 
     <?php
-    if ($css_add) {
+
+    if (isset($css_add) && is_array($css_add)) {
+
         foreach ($css_add as $css) {
+
             echo $css;
         }
+    } else {
+
+        echo (isset($css_add) && ($css_add != "") ? $css_add : "");
     }
+
     ?>
 </head>
 <!--end::Head-->

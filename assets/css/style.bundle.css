@@ -6740,6 +6740,11 @@ fieldset:disabled .btn {
 .w-25 {
   width: 25% !important;
 }
+
+.w-30 {
+  width: 35% !important;
+}
+
 .w-50 {
   width: 50% !important;
 }
@@ -41215,6 +41220,12 @@ code:not([class*="language-"]) {
   color: #5e6278;
   transition: color 0.2s ease, background-color 0.2s ease;
 }
+.form-control.form-control-primary{
+  background-color: #D7EFFF;
+  border-color: #D7EFFF;
+  color: #5e6278;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
 .form-control.form-control-solid::placeholder {
   color: #a1a5b7;
 }
@@ -50188,6 +50199,20 @@ body {
 /* CSS PRIBADI */
 .card.identitas-sekolah{
   min-height: 190px;
+}
+
+.btn-hapus-jadwal{
+  opacity: 0;
+  z-index: -1;
+  margin-left: -50px;
+  transition : 1s;
+}
+
+.wrapper-jadwal:hover .btn-hapus-jadwal{
+  margin-left: 0px;
+  opacity: 1;
+  z-index: 0;
+  transition : 1s;
 }
 
 /* css dewa */

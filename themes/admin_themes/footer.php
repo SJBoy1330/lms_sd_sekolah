@@ -34,6 +34,7 @@
     <!--begin::Javascript-->
     <script>
         var hostUrl = "<?= base_url(); ?>assets/";
+        var BASE_URL = baseUrl = '<?= base_url(); ?>';
     </script>
     <!--begin::Global Javascript Bundle(used by all pages)-->
     <script src="<?= base_url(); ?>assets/plugins/global/plugins.bundle.js"></script>
@@ -52,22 +53,28 @@
     <script src="<?= base_url(); ?>assets/js/custom/modals/users-search.js"></script>
     <!--end::Page Custom Javascript-->
 
+    <!-- File Upload -->
+    <script src="<?= base_url(); ?>assets/js/custom/apps/file-manager/list.js"></script>
+
     <!-- daterangepicker -->
     <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/daterangepicker/js/moment.min.js"></script>
     <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/daterangepicker/js/daterangepicker.js"></script>
 
     <!-- jQuery and Bootstrap scripts -->
-    <!-- <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/clockpicker/jquery.min.js"></script> -->
-    <!-- <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/clockpicker/bootstrap.min.js"></script> -->
+    <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/clockpicker/bootstrap.min.js"></script>
 
     <!-- ClockPicker script -->
-    <!-- <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/clockpicker/bootstrap-clockpicker.min.js"></script> -->
-    <!-- <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/clockpicker/demo-clockpicker.js"></script> -->
+    <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/clockpicker/bootstrap-clockpicker.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/clockpicker/demo-clockpicker.js"></script>
 
     <!-- DateRangePicker script -->
 
     <!-- select2 -->
     <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/select2/js/select2.min.js"></script>
+
+
+
+    <script type="text/javascript" src="<?= base_url(); ?>assets/js/global.js"></script>
 
     <?php
     if ($js_add) {

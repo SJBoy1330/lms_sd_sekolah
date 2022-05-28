@@ -110,6 +110,13 @@ $route['auth/(:any)'] = 'auth/controller_ctl/$1';
 $route['auth/(:any)/(:any)'] = 'auth/controller_ctl/$1/$2';
 
 
+$route['func_auth']  = 'auth/function_ctl';
+
+$route['func_auth/(:any)'] = 'auth/function_ctl/$1';
+
+$route['func_auth/(:any)/(:any)'] = 'auth/function_ctl/$1/$2';
+
+
 
 $route['dashboard']  = 'dashboard/controller_ctl';
 
@@ -143,12 +150,43 @@ $route['laporan/(:any)/(:any)'] = 'laporan/controller_ctl/$1/$2';
 
 
 
-
 $route['keuangan']  = 'keuangan/controller_ctl';
 
 $route['keuangan/(:any)'] = 'keuangan/controller_ctl/$1';
 
 $route['keuangan/(:any)/(:any)'] = 'keuangan/controller_ctl/$1/$2';
+
+
+
+$route['informasi']  = 'informasi/controller_ctl';
+
+$route['informasi/(:any)'] = 'informasi/controller_ctl/$1';
+
+$route['informasi/(:any)/(:any)'] = 'informasi/controller_ctl/$1/$2';
+
+
+
+$route['jurnal']  = 'jurnal/controller_ctl';
+
+$route['jurnal/(:any)'] = 'jurnal/controller_ctl/$1';
+
+$route['jurnal/(:any)/(:any)'] = 'jurnal/controller_ctl/$1/$2';
+
+
+
+$route['akademik']  = 'akademik/controller_ctl';
+
+$route['akademik/(:any)'] = 'akademik/controller_ctl/$1';
+
+$route['akademik/(:any)/(:any)'] = 'akademik/controller_ctl/$1/$2';
+
+
+
+$route['master']  = 'master/controller_ctl';
+
+$route['master/(:any)'] = 'master/controller_ctl/$1';
+
+$route['master/(:any)/(:any)'] = 'master/controller_ctl/$1/$2';
 
 
 $route['404_override'] = '';
