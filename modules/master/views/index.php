@@ -26,6 +26,11 @@
                 <div class="card-toolbar">
                     <!--begin::Toolbar-->
                     <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-sm btn-light-danger me-2 " id="deleteall" style="display: none;">
+                            <span class="svg-icon svg-icon-2 me-0">
+                                <i class="fa-duotone fa-trash" style="font-size: 18px;"></i>
+                            </span>
+                            Hapus</button>
                         <button type="button" class="btn btn-sm btn-light-success me-2" data-bs-toggle="modal" data-bs-target="#modalTambahStaf">
                             <span class="svg-icon svg-icon-2 me-0">
                                 <i class="fa-duotone fa-plus" style="font-size: 18px;"></i>
@@ -65,7 +70,7 @@
                             <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
                                 <th class="w-10px pe-2">
                                     <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
-                                        <input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_users .form-check-input" value="1" />
+                                        <input class="form-check-input" name="maincheckbox" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_staf .form-check-input" value="1" />
                                     </div>
                                 </th>
                                 <th class="min-w-125px text-center">Aksi</th>
@@ -86,7 +91,7 @@
                                     <!--begin::Checkbox-->
                                     <td>
                                         <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                            <input class="form-check-input" type="checkbox" value="1" />
+                                            <input class="form-check-input" id="inputcheckbox" type="checkbox" value="1" />
                                         </div>
                                     </td>
                                     <!--end::Checkbox-->
@@ -197,7 +202,7 @@
             <!--end::Modal header-->
             <!--begin::Modal body-->
             <div class="modal-body scroll-y mx-10 my-2" id="detail-staf-display">
-            <!-- MAENG NDEK KENE LUR -->
+                <!-- MAENG NDEK KENE LUR -->
             </div>
             <!--end::Modal body-->
         </div>

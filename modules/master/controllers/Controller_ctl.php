@@ -49,6 +49,9 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Siswa';
 
+		//LOAD JS
+		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/siswa.js"></script>';
+
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('siswa', $mydata, TRUE);
 		$this->display();
@@ -61,6 +64,9 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Kelas';
+
+		//LOAD JS
+		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/kelas.js"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('kelas', $mydata, TRUE);
@@ -75,6 +81,9 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Guru';
 
+		//LOAD JS
+		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/guru.js"></script>';
+
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('guru', $mydata, TRUE);
 		$this->display();
@@ -87,6 +96,9 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Mata Pelajaran';
+
+		//LOAD JS
+		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/matapelajaran.js"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('mata_pelajaran', $mydata, TRUE);
@@ -101,6 +113,10 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Bidang Tugas';
 
+		//LOAD JS
+		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/bidang_tugas.js"></script>';
+
+
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('bidang_tugas', $mydata, TRUE);
 		$this->display();
@@ -113,6 +129,9 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Jenis Tugas Staf';
+
+		//LOAD JS
+		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/jenis_tugas_staf.js"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('jenis_tugas_staf', $mydata, TRUE);
