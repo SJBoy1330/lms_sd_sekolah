@@ -17,12 +17,16 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Waktu';
 
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/waktu.js') . '"></script>';
+
+
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('waktu', $mydata, TRUE);
 		$this->display();
 	}
 
-    public function jadwal_mengajar()
+	public function jadwal_mengajar()
 	{
 		// LOAD TITLE
 		$this->data['title'] = 'Akademik';
@@ -43,6 +47,10 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Bab';
 
+
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/bab.js') . '"></script>';
+
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('bab', $mydata, TRUE);
 		$this->display();
@@ -55,6 +63,10 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Materi';
+
+
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/materi.js') . '"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('materi', $mydata, TRUE);
@@ -96,7 +108,7 @@ class Controller_ctl extends MY_Admin
 		$mydata['breadcrumb']['menu'] = 'KBM';
 
 		// LOAD JS
-		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/kbm/kbm.js') . '"></script>';
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/kbm.js') . '"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('kbm', $mydata, TRUE);
@@ -112,7 +124,7 @@ class Controller_ctl extends MY_Admin
 		$mydata['breadcrumb']['menu'] = 'Tugas';
 
 		// LOAD JS
-		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/tugas/tugas.js') . '"></script>';
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/tugas.js') . '"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('tugas', $mydata, TRUE);
@@ -128,7 +140,7 @@ class Controller_ctl extends MY_Admin
 		$mydata['breadcrumb']['menu'] = 'Surat Ijin';
 
 		// LOAD JS
-		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/surat_ijin/surat_ijin.js') . '"></script>';
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/suratijin.js') . '"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('surat_ijin', $mydata, TRUE);

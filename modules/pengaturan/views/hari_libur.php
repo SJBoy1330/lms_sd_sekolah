@@ -27,21 +27,28 @@
                 <div class="card-toolbar">
                     <!--begin::Toolbar-->
                     <div class="d-flex justify-content-end" data-kt-user-table-toolbar="base">
+                        <button type="button" class="btn btn-sm btn-light-danger me-2 " id="deleteall" style="display: none;">
+                            <span class="svg-icon svg-icon-2 me-0">
+                                <i class="fa-duotone fa-trash" style="font-size: 18px;"></i>
+                            </span>
+                            Hapus</button>
                         <!--begin::Filter-->
                         <button type="button" class="btn btn-sm btn-light-success me-3" data-bs-toggle="modal" data-bs-target="#modalTambahHariLibur">
-                        <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
-                        <span class="svg-icon svg-icon-2 me-0">
-                            <i class="fa-solid fa-plus" style="font-size: 20px;"></i>
-                        </span>
-                        <!--end::Svg Icon-->Hari Libur</button>
+                            <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
+                            <span class="svg-icon svg-icon-2 me-0">
+                                <i class="fa-solid fa-plus" style="font-size: 20px;"></i>
+                            </span>
+                            <!--end::Svg Icon-->Hari Libur
+                        </button>
 
                         <!--begin::Add user-->
                         <button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#modalLiburNasional">
-                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                        <span class="svg-icon svg-icon-2">
-                            <i class="fa-duotone fa-calendar-week" style="font-size: 18px;"></i>
-                        </span>
-                        <!--end::Svg Icon-->Libur Nasional</button>
+                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                            <span class="svg-icon svg-icon-2">
+                                <i class="fa-duotone fa-calendar-week" style="font-size: 18px;"></i>
+                            </span>
+                            <!--end::Svg Icon-->Libur Nasional
+                        </button>
                         <!--end::Add user-->
                     </div>
                     <!--end::Toolbar-->
@@ -99,11 +106,12 @@
                                         <div class="row mb-4">
                                             <div class="d-flex justify-content-end">
                                                 <button type="button" class="btn btn-primary">
-                                                <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                                                <span class="svg-icon svg-icon-2">
-                                                    <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-                                                </span>
-                                                <!--end::Svg Icon-->Simpan</button>
+                                                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                                                    <span class="svg-icon svg-icon-2">
+                                                        <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                                                    </span>
+                                                    <!--end::Svg Icon-->Simpan
+                                                </button>
                                                 <!--end::Add user-->
                                             </div>
                                         </div>
@@ -144,7 +152,7 @@
                                 <!--end::Modal header-->
                                 <!--begin::Modal body-->
                                 <div class="modal-body scroll-y mx-3 my-2">
-                                    
+
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="d-flex align-items-center position-relative mb-4">
                                             <a href="#" class="btn btn-sm btn-light-success py-3"><i class="fa fa-plus"></i>Publish</a>
@@ -294,14 +302,14 @@
             <!--begin::Card body-->
             <div class="card-body py-4">
                 <!--begin::Table-->
-                <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_users">
+                <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_libur">
                     <!--begin::Table head-->
                     <thead>
                         <!--begin::Table row-->
                         <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
                             <th class="w-10px pe-2">
                                 <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
-                                    <input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_users .form-check-input" value="1" />
+                                    <input class="form-check-input" name="maincheckbox" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_libur .form-check-input" value="1" />
                                 </div>
                             </th>
                             <th class="min-w-125px text-center">Aksi</th>
@@ -319,7 +327,7 @@
                             <!--begin::Checkbox-->
                             <td>
                                 <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                    <input class="form-check-input" type="checkbox" value="1" />
+                                    <input class="form-check-input deletebox" type="checkbox" value="1" />
                                 </div>
                             </td>
                             <!--end::Checkbox-->
@@ -371,7 +379,7 @@
                             <!--begin::Checkbox-->
                             <td>
                                 <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                    <input class="form-check-input" type="checkbox" value="1" />
+                                    <input class="form-check-input deletebox" type="checkbox" value="1" />
                                 </div>
                             </td>
                             <!--end::Checkbox-->
@@ -423,7 +431,7 @@
                             <!--begin::Checkbox-->
                             <td>
                                 <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                    <input class="form-check-input" type="checkbox" value="1" />
+                                    <input class="form-check-input deletebox" type="checkbox" value="1" />
                                 </div>
                             </td>
                             <!--end::Checkbox-->

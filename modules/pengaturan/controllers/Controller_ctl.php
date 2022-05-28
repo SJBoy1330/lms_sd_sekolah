@@ -18,7 +18,7 @@ class Controller_ctl extends MY_Admin
 		$mydata['breadcrumb']['menu'] = 'Identitas Sekolah';
 
 		// LOAD CSS
-		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/identitas-sekolah.css') . '">';	
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/identitas-sekolah.css') . '">';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('identitas_sekolah', $mydata, TRUE);
@@ -34,14 +34,14 @@ class Controller_ctl extends MY_Admin
 		$mydata['breadcrumb']['menu'] = 'Hari Libur';
 
 		// LOAD JS
-		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/harilibur/harilibur.js') . '"></script>';
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/pengaturan/harilibur.js') . '"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('hari_libur', $mydata, TRUE);
 		$this->display();
 	}
 
-    public function presensi_staf()
+	public function presensi_staf()
 	{
 		// LOAD TITLE
 		$this->data['title'] = 'Pengaturan';
@@ -54,7 +54,7 @@ class Controller_ctl extends MY_Admin
 		$this->display();
 	}
 
-    public function presensi_siswa()
+	public function presensi_siswa()
 	{
 		// LOAD TITLE
 		$this->data['title'] = 'Pengaturan';

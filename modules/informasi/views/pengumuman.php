@@ -29,13 +29,19 @@
                 <div class="card-toolbar">
                     <!--begin::Toolbar-->
                     <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-sm btn-light-danger me-2 " id="deleteall" style="display: none;">
+                            <span class="svg-icon svg-icon-2 me-0">
+                                <i class="fa-duotone fa-trash" style="font-size: 18px;"></i>
+                            </span>
+                            Hapus</button>
                         <!--begin::Filter-->
-                        <button type="button" class="btn btn-sm btn-light-success"  data-bs-toggle="modal" data-bs-target="#modalTambahPengumuman">
-                        <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
-                        <span class="svg-icon svg-icon-2 me-0">
-                            <i class="fa-duotone fa-plus"  style="font-size: 20px;"></i>
-                        </span>
-                        <!--end::Svg Icon-->Pengumuman</button>
+                        <button type="button" class="btn btn-sm btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahPengumuman">
+                            <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
+                            <span class="svg-icon svg-icon-2 me-0">
+                                <i class="fa-duotone fa-plus" style="font-size: 20px;"></i>
+                            </span>
+                            <!--end::Svg Icon-->Pengumuman
+                        </button>
                     </div>
                     <!--end::Toolbar-->
                 </div>
@@ -46,14 +52,14 @@
             <div class="card-body py-4">
                 <!--begin::Table-->
                 <div class="table-responsive">
-                    <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_users">
+                    <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_pengumuman">
                         <!--begin::Table head-->
                         <thead>
                             <!--begin::Table row-->
                             <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
                                 <th class="w-10px pe-2">
                                     <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
-                                        <input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_users .form-check-input" value="1" />
+                                        <input class="form-check-input" name="maincheckbox" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_pengumuman .form-check-input" value="1" />
                                     </div>
                                 </th>
                                 <th class="min-w-125px text-center">Aksi</th>
@@ -74,7 +80,7 @@
                                 <!--begin::Checkbox-->
                                 <td>
                                     <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input" type="checkbox" value="1" />
+                                        <input class="form-check-input deletebox" type="checkbox" value="1" />
                                     </div>
                                 </td>
                                 <!--end::Checkbox-->
@@ -128,22 +134,22 @@
 
                                 <td>
                                     <p class="text-center">
-                                        <img src="<?= base_url('assets/img/vektor-1.png')?>" width="100" class="img-responsive">
+                                        <img src="<?= base_url('assets/img/vektor-1.png') ?>" width="100" class="img-responsive">
                                     </p>
                                 </td>
-                                
+
                                 <td>
                                     <p class="text-center">
                                         Admin Sidoarjo
                                     </p>
-                                </td> 
+                                </td>
                             </tr>
 
                             <tr>
                                 <!--begin::Checkbox-->
                                 <td>
                                     <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input" type="checkbox" value="1" />
+                                        <input class="form-check-input deletebox" type="checkbox" value="1" />
                                     </div>
                                 </td>
                                 <!--end::Checkbox-->
@@ -197,15 +203,15 @@
 
                                 <td>
                                     <p class="text-center">
-                                        <img src="<?= base_url('assets/img/vektor-aturan.png')?>" width="100" class="img-responsive">
+                                        <img src="<?= base_url('assets/img/vektor-aturan.png') ?>" width="100" class="img-responsive">
                                     </p>
                                 </td>
-                                
+
                                 <td>
                                     <p class="text-center">
                                         Admin Sidoarjo
                                     </p>
-                                </td> 
+                                </td>
                             </tr>
                         </tbody>
                         <!--end::Table body-->
@@ -298,34 +304,34 @@
                             </label>
                             <!--end::Label-->
                             <div class="col-sm-10 col-12">
-                                <div class="image-input image-input-outline " data-kt-image-input="true" style="background-image: url(<?=site_url('assets/img/no-image.jpg')?>)">
-                                            <!--begin::Image preview wrapper-->
-                                            <div class="image-input-wrapper w-125px h-125px" style="background-image: url(<?=site_url('assets/img/no-image.jpg')?>)"></div>
-                                            <!--end::Image preview wrapper-->
+                                <div class="image-input image-input-outline " data-kt-image-input="true" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)">
+                                    <!--begin::Image preview wrapper-->
+                                    <div class="image-input-wrapper w-125px h-125px" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)"></div>
+                                    <!--end::Image preview wrapper-->
 
-                                            <!--begin::Edit button-->
-                                            <label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" data-bs-dismiss="click" title="" data-bs-original-title="Tambah Gambar">
-                                                <i class="bi bi-pencil-fill fs-7"></i>
-                                                <!--begin::Inputs-->
-                                                <input type="file" name="gambar" accept=".png, .jpg, .jpeg">
-                                                <input type="hidden" name="foto_remove">
-                                                <!--end::Inputs-->
-                                            </label>
-                                            <!--end::Edit button-->
+                                    <!--begin::Edit button-->
+                                    <label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" data-bs-dismiss="click" title="" data-bs-original-title="Tambah Gambar">
+                                        <i class="bi bi-pencil-fill fs-7"></i>
+                                        <!--begin::Inputs-->
+                                        <input type="file" name="gambar" accept=".png, .jpg, .jpeg">
+                                        <input type="hidden" name="foto_remove">
+                                        <!--end::Inputs-->
+                                    </label>
+                                    <!--end::Edit button-->
 
-                                            <!--begin::Cancel button-->
-                                            <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="cancel" data-bs-toggle="tooltip" data-bs-dismiss="click" title="" data-bs-original-title="Batal">
-                                                <i class="bi bi-x fs-2"></i>
-                                            </span>
-                                            <!--end::Cancel button-->
+                                    <!--begin::Cancel button-->
+                                    <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="cancel" data-bs-toggle="tooltip" data-bs-dismiss="click" title="" data-bs-original-title="Batal">
+                                        <i class="bi bi-x fs-2"></i>
+                                    </span>
+                                    <!--end::Cancel button-->
 
-                                            <!--begin::Remove button-->
-                                            <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="remove" data-bs-toggle="tooltip" data-bs-dismiss="click" title="" data-bs-original-title="Hapus foto">
-                                                <i class="bi bi-x fs-2"></i>
-                                            </span>
-                                            <!--end::Remove button-->
-                                        </div>
+                                    <!--begin::Remove button-->
+                                    <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="remove" data-bs-toggle="tooltip" data-bs-dismiss="click" title="" data-bs-original-title="Hapus foto">
+                                        <i class="bi bi-x fs-2"></i>
+                                    </span>
+                                    <!--end::Remove button-->
                                 </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12">
@@ -349,30 +355,30 @@
                             </label>
 
                             <div class="position-relative d-flex align-items-center">
-                
-                            <form id="kt_forms_widget_1_form" class="ql-quil ql-quil-plain pb-3" style="width: 100%;">
 
-                                <div id="kt_forms_widget_1_editor" class="py-6"></div>
+                                <form id="kt_forms_widget_1_form" class="ql-quil ql-quil-plain pb-3" style="width: 100%;">
 
-                                <div class="separator"></div>
+                                    <div id="kt_forms_widget_1_editor" class="py-6"></div>
 
-                                <div id="kt_forms_widget_1_editor_toolbar" class="ql-toolbar d-flex flex-stack py-2">
-                                    <div class="me-2">
-                                        <span class="ql-formats ql-size ms-0">
-                                            <select class="ql-size w-75px"></select>
-                                        </span>
-                                        <span class="ql-formats">
-                                            <button class="ql-bold"></button>
-                                            <button class="ql-italic"></button>
-                                            <button class="ql-underline"></button>
-                                            <button class="ql-strike"></button>
-                                            <button class="ql-link"></button>
-                                            <button class="ql-clean"></button>
-                                        </span>
+                                    <div class="separator"></div>
+
+                                    <div id="kt_forms_widget_1_editor_toolbar" class="ql-toolbar d-flex flex-stack py-2">
+                                        <div class="me-2">
+                                            <span class="ql-formats ql-size ms-0">
+                                                <select class="ql-size w-75px"></select>
+                                            </span>
+                                            <span class="ql-formats">
+                                                <button class="ql-bold"></button>
+                                                <button class="ql-italic"></button>
+                                                <button class="ql-underline"></button>
+                                                <button class="ql-strike"></button>
+                                                <button class="ql-link"></button>
+                                                <button class="ql-clean"></button>
+                                            </span>
+                                        </div>
                                     </div>
-                                </div>
 
-                            </form>
+                                </form>
 
                             </div>
                         </div>
@@ -381,11 +387,12 @@
                 <div class="row mb-4">
                     <div class="d-flex justify-content-end">
                         <button type="button" class="btn btn-primary">
-                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                        <span class="svg-icon svg-icon-2">
-                            <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-                        </span>
-                        <!--end::Svg Icon-->Simpan</button>
+                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                            <span class="svg-icon svg-icon-2">
+                                <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                            </span>
+                            <!--end::Svg Icon-->Simpan
+                        </button>
                         <!--end::Add user-->
                     </div>
                 </div>

@@ -26,6 +26,11 @@
                 <div class="card-toolbar">
                     <!--begin::Toolbar-->
                     <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-sm btn-light-danger me-2 " id="deleteall" style="display: none;">
+                            <span class="svg-icon svg-icon-2 me-0">
+                                <i class="fa-duotone fa-trash" style="font-size: 18px;"></i>
+                            </span>
+                            Hapus</button>
                         <button type="button" class="btn btn-sm btn-light-success me-2" data-bs-toggle="modal" data-bs-target="#modalTambahStaf">
                             <span class="svg-icon svg-icon-2 me-0">
                                 <i class="fa-duotone fa-plus" style="font-size: 18px;"></i>
@@ -65,7 +70,7 @@
                             <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
                                 <th class="w-10px pe-2">
                                     <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
-                                        <input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_users .form-check-input" value="1" />
+                                        <input class="form-check-input" name="maincheckbox" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_staf .form-check-input" value="1" />
                                     </div>
                                 </th>
                                 <th class="min-w-125px text-center">Aksi</th>
@@ -86,7 +91,7 @@
                                     <!--begin::Checkbox-->
                                     <td>
                                         <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                            <input class="form-check-input" type="checkbox" value="1" />
+                                            <input class="form-check-input deletebox" type="checkbox" value="1" />
                                         </div>
                                     </td>
                                     <!--end::Checkbox-->
@@ -282,7 +287,7 @@
 </div>
 
 <!-- MODAL TAMBAH STAF -->
-<div class="modal fade" id="modalTambahStafOld" tabindex="-1" aria-hidden="true">
+<div class="modal fade" id="modalTambahStaf" tabindex="-1" aria-hidden="true">
     <!--begin::Modal dialog-->
     <div class="modal-dialog modal-dialog-centered mw-850px">
         <!--begin::Modal content-->
@@ -317,7 +322,7 @@
                             <div class="col-sm-10 col-12">
                                 <div class="image-input image-input-outline " data-kt-image-input="true" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)">
                                     <div class="image-input-wrapper w-125px h-125px" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)"></div>
-                                    <label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" data-bs-dismiss="click" title="" data-bs-original-title="Tambah Gambar">
+                                    <label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" data-bs-dismiss="click">
                                         <i class="bi bi-pencil-fill fs-7"></i>
                                         <input type="file" name="gambar" accept=".png, .jpg, .jpeg">
                                         <input type="hidden" name="foto_remove">
@@ -409,7 +414,8 @@
                             </div>
                         </div>
                     </div>
-
+                </div>
+                <div class="row">
                     <div class="col-12">
                         <div class="d-flex flex-column mb-8 fv-row">
                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
@@ -423,7 +429,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-12">
                         <div class="d-flex flex-column mb-8 fv-row">
                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
@@ -438,6 +443,7 @@
                         </div>
                     </div>
 
+
                     <div class="col-12">
                         <div class="d-flex flex-column mb-8 fv-row">
                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
@@ -451,6 +457,7 @@
                             </div>
                         </div>
                     </div>
+
 
                     <div class="col-12">
                         <div class="d-flex flex-column mb-8 fv-row">
@@ -480,128 +487,6 @@
                         </div>
                     </div>
 
-                    <div class="col-12">
-                        <div class="d-flex flex-column mb-8 fv-row">
-                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                <span class="required">Kata Sandi</span>
-                            </label>
-                            <div class="position-relative d-flex align-items-center">
-                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                    <i class="fa-duotone fa-key" style="font-size: 1.3rem;"></i>
-                                </span>
-                                <input type="password" class="form-control form-control-solid ps-12" placeholder="Masukkan kata sandi" />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12">
-                        <div class="d-flex flex-column mb-8 fv-row">
-                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                <span class="required">Konfirmasi Kata Sandi</span>
-                            </label>
-                            <div class="position-relative d-flex align-items-center">
-                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                    <i class="fa-duotone fa-key" style="font-size: 1.3rem;"></i>
-                                </span>
-                                <input type="password" class="form-control form-control-solid ps-12" placeholder="Konfirmasi kata sandi" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mb-4">
-                    <div class="d-flex justify-content-end">
-                        <button type="button" class="btn btn-primary">
-                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                            <span class="svg-icon svg-icon-2">
-                                <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-                            </span>
-                            <!--end::Svg Icon-->Simpan
-                        </button>
-                        <!--end::Add user-->
-                    </div>
-                </div>
-            </div>
-            <!--end::Modal body-->
-        </div>
-        <!--end::Modal content-->
-    </div>
-    <!--end::Modal dialog-->
-</div>
-
-<!-- MODAL DETAIL -->
-<div class="modal fade" id="modalTambahStaf" tabindex="-1" aria-hidden="true">
-    <!--begin::Modal dialog-->
-    <div class="modal-dialog modal-dialog-centered mw-850px">
-        <!--begin::Modal content-->
-        <div class="modal-content">
-            <!--begin::Modal header-->
-            <div class="modal-header">
-                <!--begin::Modal title-->
-                <h2 class="fw-bolder">Detail Profil</h2>
-                <!--end::Modal title-->
-                <!--begin::Close-->
-                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
-                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                    <span class="svg-icon svg-icon-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
-                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
-                        </svg>
-                    </span>
-                    <!--end::Svg Icon-->
-                </div>
-                <!--end::Close-->
-            </div>
-            <!--end::Modal header-->
-            <!--begin::Modal body-->
-            <div class="modal-body scroll-y mx-10 my-2">
-                <div class="row">
-                    <div class="col-12 d-flex justify-content-center align-items-center">
-                        <div class="d-flex flex-column mb-8 fv-row">
-                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                <span class="required">Foto</span>
-                            </label>
-                            <div class="col-sm-10 col-12">
-                                <div class="image-input image-input-outline " data-kt-image-input="true" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)">
-                                    <div class="image-input-wrapper w-125px h-125px" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)"></div>
-                                    <label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" data-bs-dismiss="click">
-                                        <i class="bi bi-pencil-fill fs-7"></i>
-                                        <input type="file" name="gambar" accept=".png, .jpg, .jpeg">
-                                        <input type="hidden" name="foto_remove">
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="d-flex flex-column mb-8 fv-row">
-                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                <span class="required">User ID</span>
-                            </label>
-                            <div class="position-relative d-flex align-items-center">
-                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                    <i class="fa-duotone fa-id-badge" style="font-size: 1.3rem;"></i>
-                                </span>
-                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan user ID" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="d-flex flex-column mb-8 fv-row">
-                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                <span class="required">Nama</span>
-                            </label>
-                            <div class="position-relative d-flex align-items-center">
-                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                    <i class="fa-duotone fa-id-card" style="font-size: 1.3rem;"></i>
-                                </span>
-                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan nama" />
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="col-6">
                         <div class="d-flex flex-column mb-8 fv-row">
                             <!--begin::Label-->
@@ -611,7 +496,7 @@
                             <!--end::Label-->
                             <div class="position-relative d-flex align-items-center">
                                 <div style="width:100vw;">
-                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Bidang Tugas">
+                                    <select class="form-select form-select-solid select2-ready" data-control="select2" data-placeholder="Pilih Bidang Tugas">
                                         <option></option>
                                         <option value="1">Jabatan 1</option>
                                         <option value="2">Jataban 2</option>
@@ -631,7 +516,7 @@
                             <!--end::Label-->
                             <div class="position-relative d-flex align-items-center">
                                 <div style="width:100vw;">
-                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Jenis Kelamin">
+                                    <select class="form-select form-select-solid select2-ready" data-control="select2" data-placeholder="Jenis Kelamin">
                                         <option></option>
                                         <option value="1">Laki - laki</option>
                                         <option value="2">Perempuan</option>
@@ -650,7 +535,7 @@
                             <!--end::Label-->
                             <div class="position-relative d-flex align-items-center">
                                 <div style="width:100vw;">
-                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Role">
+                                    <select class="form-select form-select-solid select2-ready" data-control="select2" data-placeholder="Pilih Role">
                                         <option></option>
                                         <option value="1">Admin</option>
                                         <option value="2">Operator</option>
@@ -672,55 +557,12 @@
                             <!--end::Label-->
                             <div class="position-relative d-flex align-items-center">
                                 <div style="width:100vw;">
-                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Status">
+                                    <select class="form-select form-select-solid select2-ready" data-control="select2" data-placeholder="Status">
                                         <option></option>
                                         <option value="1">Aktif</option>
                                         <option value="2">Tidak Aktif</option>
                                     </select>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-12">
-                        <div class="d-flex flex-column mb-8 fv-row">
-                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                <span class="required">NIP</span>
-                            </label>
-                            <div class="position-relative d-flex align-items-center">
-                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                    <i class="fa-duotone fa-id-card-clip" style="font-size: 1.3rem;"></i>
-                                </span>
-                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan nip" />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12">
-                        <div class="d-flex flex-column mb-8 fv-row">
-                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                <span class="required">Alamat</span>
-                            </label>
-                            <div class="position-relative d-flex align-items-center">
-                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                    <i class="fa-duotone fa-location-dot" style="font-size: 1.3rem;"></i>
-                                </span>
-                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan alamat" />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12">
-                        <div class="d-flex flex-column mb-8 fv-row">
-                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                <span class="required">No. Telp</span>
-                            </label>
-                            <div class="position-relative d-flex align-items-center">
-                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                    <i class="fa-duotone fa-phone" style="font-size: 1.3rem;"></i>
-                                </span>
-                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan nomor telpon" />
                             </div>
                         </div>
                     </div>
