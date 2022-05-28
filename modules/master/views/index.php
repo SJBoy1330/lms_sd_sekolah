@@ -603,7 +603,7 @@
     <!--end::Modal dialog-->
 </div>
 
-<!-- MODAL DETAIL -->
+<!-- MODAL TAMBAH STAF -->
 <div class="modal fade" id="modalTambahStaf" tabindex="-1" aria-hidden="true">
     <!--begin::Modal dialog-->
     <div class="modal-dialog modal-dialog-centered mw-850px">
@@ -612,7 +612,7 @@
             <!--begin::Modal header-->
             <div class="modal-header">
                 <!--begin::Modal title-->
-                <h2 class="fw-bolder">Detail Profil</h2>
+                <h2 class="fw-bolder">Tambah Staf</h2>
                 <!--end::Modal title-->
                 <!--begin::Close-->
                 <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
