@@ -17,13 +17,25 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Staf';
 
+		// Load Meta Data
+		$idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+
+		$request_filter = [
+			'id_sekolah' => $idsekolah,
+		];
+
+		$response = curl_get('staf', $request_filter);
+		$mydata['data_staf'] = $response->data;
+
+		// Load JS
+		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/staf.js"></script>';
+
 		// LOAD JS
 		$this->data['js_add'][] = "<script>
         $('.select2-ready').select2({
             dropdownParent: $('#modalTambahStaf')
         });
     </script>";
-
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('index', $mydata, TRUE);
 		$this->display();
@@ -118,5 +130,23 @@ class Controller_ctl extends MY_Admin
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('import', $mydata, TRUE);
 		$this->display();
+	}
+
+	// MODAL
+	public function modal_detail_staf()
+	{
+		$id_staf = $this->input->post('id_staf');
+
+		// Load Meta Data
+		$idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+
+		$request_filter = [
+			'id_sekolah' => $idsekolah,
+			'id_staf' => $id_staf
+		];
+
+		$response = curl_get('staf', $request_filter);
+
+		$this->load->view("modal/modal_detail_staf", $response->data);
 	}
 }
