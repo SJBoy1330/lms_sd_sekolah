@@ -168,4 +168,30 @@ class Controller_ctl extends MY_Admin
 
 		$this->load->view("modal/modal_detail_staf", $response->data);
 	}
+
+	public function modal_edit_tambah()
+	{
+		$id_staf = $this->input->post('id_staf');
+		$mydata['is_edit'] = $id_staf !== null;
+
+		if ($mydata['is_edit']) {
+			$mydata['modal_title'] = "Ubah Staf";
+			$mydata['url_action'] = "func_master/edit_staf/" . $id_staf;
+
+			$idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+
+			$request_filter = [
+				'id_sekolah' => $idsekolah,
+				'id_staf' => $id_staf
+			];
+
+			$response = curl_get('staf', $request_filter);
+			$mydata['staf_data'] = $response->data;
+		} else {
+			$mydata['modal_title'] = "Tambah Staf";
+			$mydata['url_action'] = "func_master/insert_staf";
+		}
+
+		$this->load->view("modal/modal_tambah_edit_staf", $mydata);
+	}
 }
