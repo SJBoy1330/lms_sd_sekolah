@@ -145,7 +145,7 @@
 
                                     <td>
                                         <p class="text-center">
-                                            <?= $staf->tipe ?>
+                                            <?= $staf->role ?>
                                         </p>
                                     </td>
 
