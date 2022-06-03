@@ -67,7 +67,7 @@
                                         <!--begin::Text-->
                                         <div class="d-flex flex-column flex-wrap">
                                             <div class="fw-bold timeline-content text-dark ps-4 fs-5">Dibawah ini pilihlah yang termasuk gambar ya hehe?</div>
-                                            <span class="text-gray-400 fw-bold ps-4">Soal bertipe pilihan ganda</span>
+                                            <span class="text-primary fw-bold ps-4">Soal bertipe pilihan ganda</span>
                                         </div>
                                         <!--end::Text-->
                                     </div>
@@ -167,7 +167,7 @@
                                         <!--begin::Text-->
                                         <div class="d-flex flex-column flex-wrap">
                                             <div class="fw-bold timeline-content text-dark ps-4 fs-5">Dibawah ini pilihlah yang termasuk gambar ya hehe?</div>
-                                            <span class="text-gray-400 fw-bold ps-4">Soal bertipe pilihan ganda lebih dari satu</span>
+                                            <span class="text-primary fw-bold ps-4">Soal bertipe pilihan ganda lebih dari satu</span>
                                         </div>
                                         <!--end::Text-->
                                     </div>
@@ -267,7 +267,7 @@
                                         <!--begin::Text-->
                                         <div class="d-flex flex-column flex-wrap">
                                             <div class="fw-bold timeline-content text-dark ps-4 fs-5">Dibawah ini pilihlah yang termasuk gambar ya hehe?</div>
-                                            <span class="text-gray-400 fw-bold ps-4">Soal bertipe esai</span>
+                                            <span class="text-primary fw-bold ps-4">Soal bertipe esai</span>
                                         </div>
                                         <!--end::Text-->
                                     </div>
@@ -304,7 +304,7 @@
                                         <!--begin::Text-->
                                         <div class="d-flex flex-column flex-wrap">
                                             <div class="fw-bold timeline-content text-dark ps-4 fs-5">Dibawah ini pilihlah yang termasuk gambar ya hehe?</div>
-                                            <span class="text-gray-400 fw-bold ps-4">Soal bertipe esai Panjang</span>
+                                            <span class="text-primary fw-bold ps-4">Soal bertipe esai Panjang</span>
                                         </div>
                                         <!--end::Text-->
                                     </div>
@@ -341,7 +341,7 @@
                                         <!--begin::Text-->
                                         <div class="d-flex flex-column flex-wrap">
                                             <div class="fw-bold timeline-content text-dark ps-4 fs-5">Dibawah ini pilihlah yang termasuk gambar ya hehe?</div>
-                                            <span class="text-gray-400 fw-bold ps-4">Soal bertipe penjodohan</span>
+                                            <span class="text-primary fw-bold ps-4">Soal bertipe penjodohan</span>
                                         </div>
                                         <!--end::Text-->
                                     </div>
