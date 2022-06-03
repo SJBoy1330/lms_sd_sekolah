@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="754e756e-769a-4fe9-af96-7b591cb62c4b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/page/master/staf.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/page/master/staf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/scripts.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/scripts.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/scripts.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/scripts.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/master/views/modal/modal_tambah_edit_staf.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/master/views/modal/modal_tambah_edit_staf.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +46,7 @@
       <workItem from="1650341488143" duration="807000" />
       <workItem from="1652103337031" duration="101000" />
       <workItem from="1652280047361" duration="70000" />
+      <workItem from="1654259906859" duration="4923000" />
     </task>
     <servers />
   </component>
