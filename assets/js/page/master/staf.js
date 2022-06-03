@@ -14,6 +14,7 @@ $(function () {
 });
 
 $(document).ready(function () {
+  
     $('#detailStafBtn').on('click', function () {
         let idstaf = $(this).data('idstaf');
         console.log("idstaf", idstaf);
@@ -31,22 +32,26 @@ $(document).ready(function () {
     });
 
     $('.btn-tambah-edit-modal').on('click', function () {
-        let idstaf = $(this).data('idstaf');
-        console.log("idstaf", idstaf);
-
-        $.ajax({
-            url: `${BASE_URL}/master/modal_edit_tambah`,
-            method: "POST",
-            data: {
-                id_staf: idstaf
-            },
-            beforeSend: function () {
-                $('#content-edit-tambah').html(null);
-            },
-            success: function (data) {
-                $('#content-edit-tambah').html(data);
-            }
-        });
+      
+            let idstaf = $(this).data('idstaf');
+            console.log("idstaf", idstaf);
+    
+            $.ajax({
+                url: `${BASE_URL}/master/modal_edit_tambah`,
+                method: "POST",
+                data: {
+                    id_staf: idstaf
+                },
+                beforeSend: function () {
+                    $('#content-edit-tambah').html(null);
+                },
+                success: function (data) {
+                        $('#content-edit-tambah').html(data);
+                        $.getScript( `${BASE_URL}/assets/js/scripts.bundle.js`);
+                }
+            });
+       
+     
     });
 
     $('.btn-hapus-staf').on('click', function () {
