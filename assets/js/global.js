@@ -5,10 +5,11 @@ function submit_form(element, id_form, num = 0) {
     var method = $(id_form).attr('method');
     // console.log(method);
 
+    // console.log($('form'));
     var form = $('form')[num];
     var form_data = new FormData(form);
 
-    // console.log(form_data);
+    console.log(form_data);
     $.ajax({
         url: url,
         method: method,

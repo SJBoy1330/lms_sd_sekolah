@@ -189,6 +189,13 @@ $route['master/(:any)'] = 'master/controller_ctl/$1';
 $route['master/(:any)/(:any)'] = 'master/controller_ctl/$1/$2';
 
 
+$route['func_master']  = 'master/function_ctl';
+
+$route['func_master/(:any)'] = 'master/function_ctl/$1';
+
+$route['func_master/(:any)/(:any)'] = 'master/function_ctl/$1/$2';
+
+
 $route['404_override'] = '';
 
 $route['translate_uri_dashes'] = FALSE;
