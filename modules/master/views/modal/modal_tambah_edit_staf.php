@@ -125,7 +125,7 @@
                         <!--end::Label-->
                         <div class="position-relative d-flex align-items-center">
                             <div style="width:100vw;">
-                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Bidang Tugas" name="bidang_tugas">
+                                <select class="form-select form-select-solid load_select" data-control="select2" data-placeholder="Pilih Bidang Tugas" name="bidang_tugas" id="bidang_tugas">
                                     <option disabled></option>
                                     <option value="1" <?= $staf_data->id_bidang_tugas === '1' ? 'selected' : '' ?>>Jabatan 1</option>
                                     <option value="2" <?= $staf_data->id_bidang_tugas === '2' ? 'selected' : '' ?>>Jataban 2</option>
@@ -144,7 +144,7 @@
                         <!--end::Label-->
                         <div class="position-relative d-flex align-items-center">
                             <div style="width:100vw;">
-                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Jenis Kelamin" name="gender">
+                                <select class="form-select form-select-solid load_select" data-control="select2" data-placeholder="Jenis Kelamin" name="gender">
                                     <option disabled></option>
                                     <option value="L" <?= $staf_data->gender === 'L' ? 'selected' : '' ?>>Laki - laki</option>
                                     <option value="P" <?= $staf_data->gender === 'P' ? 'selected' : '' ?>>Perempuan</option>
@@ -162,7 +162,7 @@
                         <!--end::Label-->
                         <div class="position-relative d-flex align-items-center">
                             <div style="width:100vw;">
-                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Role" name="tipe">
+                                <select class="form-select form-select-solid load_select" data-control="select2" data-placeholder="Pilih Role" name="tipe">
                                     <option disabled></option>
                                     <option value="1" <?= $staf_data->tipe === '1' ? 'selected' : '' ?>>Admin</option>
                                     <option value="2" <?= $staf_data->tipe === '2' ? 'selected' : '' ?>>Operator</option>
@@ -182,7 +182,7 @@
                         <!--end::Label-->
                         <div class="position-relative d-flex align-items-center">
                             <div style="width:100vw;">
-                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Status" name="aktif">
+                                <select class="form-select form-select-solid load_select" data-control="select2" data-placeholder="Status" name="aktif">
                                     <option disabled></option>
                                     <option value="Y" <?= $staf_data->aktif === 'Y' ? 'selected' : '' ?>>Aktif</option>
                                     <option value="T" <?= $staf_data->aktif === 'T' ? 'selected' : '' ?>>Tidak Aktif</option>
@@ -235,3 +235,7 @@
 <!--end::Modal body-->
 </div>
 <!--end::Modal content-->
+
+<script>
+    $('.load_select').select2();
+</script>
