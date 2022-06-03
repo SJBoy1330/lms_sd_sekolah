@@ -43,6 +43,9 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Halaman Ujian';
 
+		// LOAD CSS
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/ujian/ujian.css') . '">';
+
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('ujian', $mydata, TRUE);
 		$this->display();
