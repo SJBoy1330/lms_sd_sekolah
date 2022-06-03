@@ -1,5 +1,5 @@
 <!--begin::Modal content-->
-<div class="modal-content">
+<div class="modal-content" id="parent_drop_select">
     <!--begin::Modal header-->
     <div class="modal-header">
         <!--begin::Modal title-->
@@ -237,5 +237,7 @@
 <!--end::Modal content-->
 
 <script>
-    $('.load_select').select2();
+    $('.load_select').select2({
+        dropdownParent: $('#parent_drop_select')
+    });
 </script>
