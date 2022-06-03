@@ -30,7 +30,12 @@
                         </label>
                         <div class="col-sm-10 col-12">
                             <div class="image-input image-input-outline " data-kt-image-input="true" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)">
-                                <div class="image-input-wrapper w-125px h-125px" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)"></div>
+                                <?php if (isset($staf_data->foto)) : ?>
+                                    <div class="image-input-wrapper w-125px h-125px" style="background-image: url(<?= $staf_data->foto; ?>)"></div>
+
+                                <?php else : ?>
+                                    <div class="image-input-wrapper w-125px h-125px" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)"></div>
+                                <?php endif; ?>
                                 <label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" data-bs-dismiss="click">
                                     <i class="bi bi-pencil-fill fs-7"></i>
                                     <input type="file" name="gambar" accept=".png, .jpg, .jpeg">
