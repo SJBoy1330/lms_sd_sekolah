@@ -64,8 +64,8 @@
                             <!--begin::Card-->
                             <div class="card card-stretch">
                                 <!--begin::Link-->
-                                <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
-                                    <span class="badge badge-light-success fs-8 fw-bolder notif">Ujian Beralangsung</span>
+                                <a href="<?= base_url('dashboard/instruksi_ujian')?>" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
+                                    <span class="badge badge-light-success fs-8 fw-bolder notif">Ujian Berlangsung</span>
                                     <span class="svg-icon svg-icon-3x mb-5">
                                         <i class="fa-duotone fa-book-bookmark mt-5 mb-7" style="font-size: 3rem;"></i>
                                     </span>
@@ -116,7 +116,7 @@
                             <div class="card card-stretch">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
-                                    <span class="badge badge-light-success fs-8 fw-bolder notif">Ujian Beralangsung</span>
+                                    <span class="badge badge-light-success fs-8 fw-bolder notif">Ujian Berlangsung</span>
                                     <span class="svg-icon svg-icon-3x mb-5">
                                         <i class="fa-duotone fa-book-bookmark mt-5 mb-7" style="font-size: 3rem;"></i>
                                     </span>

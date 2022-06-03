@@ -21,4 +21,30 @@ class Controller_ctl extends MY_Admin
 		$this->data['content'] = $this->load->view('index', $mydata, TRUE);
 		$this->display();
 	}
+
+	public function instruksi_ujian()
+	{
+		// LOAD TITLE
+		$this->data['title'] = 'Instruksi & Aturan Ujian';
+
+		// LOAD BREADCRUMB
+		$mydata['breadcrumb']['menu'] = 'Instruksi & Aturan Ujian';
+
+		// LOAD VIEW
+		$this->data['content'] = $this->load->view('instruksi_ujian', $mydata, TRUE);
+		$this->display();
+	}
+
+	public function ujian()
+	{
+		// LOAD TITLE
+		$this->data['title'] = 'Ujian';
+
+		// LOAD BREADCRUMB
+		$mydata['breadcrumb']['menu'] = 'Halaman Ujian';
+
+		// LOAD VIEW
+		$this->data['content'] = $this->load->view('ujian', $mydata, TRUE);
+		$this->display();
+	}
 }
