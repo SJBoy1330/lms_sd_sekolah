@@ -1,3 +1,18 @@
+function previewImage() {
+    const photo = document.querySelector('#photo');
+    const getPhoto = document.querySelector('#photouser');
+
+    getPhoto.style.display = 'block';
+
+    const oFReader = new FileReader();
+    oFReader.readAsDataURL(photo.files[0]);
+
+    oFReader.onload = function (oFREvent) {
+        getPhoto.src = oFREvent.target.result;
+    }
+}
+
+
 $(function () {
     $("#kt_table_staf").on("click", function () {
         $("#deleteall").toggle($(this).find(".deletebox:checked").length > 0);
@@ -46,8 +61,9 @@ $(document).ready(function () {
                     $('#content-edit-tambah').html(null);
                 },
                 success: function (data) {
-                        $('#content-edit-tambah').html(data);
-                        $.getScript( `${BASE_URL}/assets/js/scripts.bundle.js`);
+    
+                    $('#content-edit-tambah').html(data);
+                  
                 }
             });
        
