@@ -5,11 +5,41 @@
     flex-wrap: wrap;
 }
 
-button.btn.btn-soal{
+.bgi-no-repeat.jawaban-gambar{
+    width: 150px;
+}
+
+/* Tablink Penomoran */
+.tab {
+    color: #C4C4C4;
+  }
+  
+  .tab button {
+    background-color: inherit;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: #009ef7;
+    border: 1px solid #009ef7;
+    border-radius: 10px;
     width: 60px;
     height: 60px;
     font-size: 13px;
-}
+  }
+  
+  .tab button.active {
+    border: 2px solid #009ef7;
+    color: #FFFFFF;
+    background-color: #009ef7;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+  }
 
 /* Pilgan */
 
