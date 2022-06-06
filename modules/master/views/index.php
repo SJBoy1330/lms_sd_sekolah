@@ -50,7 +50,7 @@
                                 <a href="#" class="menu-link px-3"> <i class="fa-duotone fa-file-excel me-3" style="font-size: 20px;"></i>Download Excel</a>
                             </div>
                             <div class="menu-item px-3">
-                                <a href="#" class="menu-link px-3"> <i class="fa-duotone fa-file-pdf me-3" style="font-size: 20px;"></i> Download PDF</a>
+                                <a href="<?= base_url() ?>/func_master/export_pdf_staf" class="menu-link px-3"> <i class="fa-duotone fa-file-pdf me-3" style="font-size: 20px;"></i> Download PDF</a>
                             </div>
                         </div>
                     </div>
