@@ -759,8 +759,8 @@
                 <div class="container d-flex flex-stack">
                     <!--begin::Mobile logo-->
                     <div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
-                        <a href="../../demo17/dist/index.html">
-                            <img alt="Logo" src="<?= base_url(); ?>assets/media/logos/logo-demo17.svg" class="h-35px" />
+                        <a href="<?= base_url('dashboard')?>">
+                            <img alt="Logo" src="<?= base_url(); ?>assets/img/logo-1.png" class="h-35px" />
                         </a>
                     </div>
                     <!--end::Mobile logo-->

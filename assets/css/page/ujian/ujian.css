@@ -1,0 +1,88 @@
+.wrapper-soal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bgi-no-repeat.jawaban-gambar{
+    width: 150px;
+}
+
+/* Tablink Penomoran */
+.tab {
+    color: #C4C4C4;
+  }
+  
+  .tab button {
+    background-color: inherit;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: #009ef7;
+    border: 1px solid #009ef7;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    font-size: 13px;
+  }
+  
+  .tab button.active {
+    border: 2px solid #009ef7;
+    color: #FFFFFF;
+    background-color: #009ef7;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+  }
+
+/* Pilgan */
+
+label {
+    width: 100%;
+}
+
+.card.card-default{
+    border-radius: 8px;
+}
+
+.card-input-element {
+    display: none;
+}
+
+.card-input:hover {
+    cursor: pointer;
+}
+
+.card-input-element:checked + .card-input {
+     border: 1px solid #2ecc71;
+     background-color: #E2FFF7;
+}
+
+/* Checkbox */
+
+label {
+    width: 100%;
+}
+
+.card.card-default-2{
+    border-radius: 8px;
+}
+
+.card-input-element-2 {
+    display: none;
+}
+
+.card-input-2:hover {
+    cursor: pointer;
+}
+
+.card-input-element-2:checked + .card-input-2 {
+     border: 1px solid #2ecc71;
+     background-color: #E2FFF7;
+}

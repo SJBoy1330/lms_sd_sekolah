@@ -1,5 +1,5 @@
 <!--begin::Modal content-->
-<div class="modal-content">
+<div class="modal-content" id="parent_drop_select">
     <!--begin::Modal header-->
     <div class="modal-header">
         <!--begin::Modal title-->
@@ -30,7 +30,12 @@
                         </label>
                         <div class="col-sm-10 col-12">
                             <div class="image-input image-input-outline " data-kt-image-input="true" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)">
-                                <div class="image-input-wrapper w-125px h-125px" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)"></div>
+                                <?php if (isset($staf_data->foto)) : ?>
+                                    <div class="image-input-wrapper w-125px h-125px" style="background-image: url(<?= $staf_data->foto; ?>)"></div>
+
+                                <?php else : ?>
+                                    <div class="image-input-wrapper w-125px h-125px" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)"></div>
+                                <?php endif; ?>
                                 <label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" data-bs-dismiss="click">
                                     <i class="bi bi-pencil-fill fs-7"></i>
                                     <input type="file" name="gambar" accept=".png, .jpg, .jpeg">
@@ -120,7 +125,7 @@
                         <!--end::Label-->
                         <div class="position-relative d-flex align-items-center">
                             <div style="width:100vw;">
-                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Bidang Tugas" name="bidang_tugas">
+                                <select class="form-select form-select-solid load_select" data-control="select2" data-placeholder="Pilih Bidang Tugas" name="bidang_tugas" id="bidang_tugas">
                                     <option disabled></option>
                                     <option value="1" <?= $staf_data->id_bidang_tugas === '1' ? 'selected' : '' ?>>Jabatan 1</option>
                                     <option value="2" <?= $staf_data->id_bidang_tugas === '2' ? 'selected' : '' ?>>Jataban 2</option>
@@ -139,7 +144,7 @@
                         <!--end::Label-->
                         <div class="position-relative d-flex align-items-center">
                             <div style="width:100vw;">
-                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Jenis Kelamin" name="gender">
+                                <select class="form-select form-select-solid load_select" data-control="select2" data-placeholder="Jenis Kelamin" name="gender">
                                     <option disabled></option>
                                     <option value="L" <?= $staf_data->gender === 'L' ? 'selected' : '' ?>>Laki - laki</option>
                                     <option value="P" <?= $staf_data->gender === 'P' ? 'selected' : '' ?>>Perempuan</option>
@@ -157,7 +162,7 @@
                         <!--end::Label-->
                         <div class="position-relative d-flex align-items-center">
                             <div style="width:100vw;">
-                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Role" name="tipe">
+                                <select class="form-select form-select-solid load_select" data-control="select2" data-placeholder="Pilih Role" name="tipe">
                                     <option disabled></option>
                                     <option value="1" <?= $staf_data->tipe === '1' ? 'selected' : '' ?>>Admin</option>
                                     <option value="2" <?= $staf_data->tipe === '2' ? 'selected' : '' ?>>Operator</option>
@@ -177,7 +182,7 @@
                         <!--end::Label-->
                         <div class="position-relative d-flex align-items-center">
                             <div style="width:100vw;">
-                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Status" name="aktif">
+                                <select class="form-select form-select-solid load_select" data-control="select2" data-placeholder="Status" name="aktif">
                                     <option disabled></option>
                                     <option value="Y" <?= $staf_data->aktif === 'Y' ? 'selected' : '' ?>>Aktif</option>
                                     <option value="T" <?= $staf_data->aktif === 'T' ? 'selected' : '' ?>>Tidak Aktif</option>
@@ -230,3 +235,9 @@
 <!--end::Modal body-->
 </div>
 <!--end::Modal content-->
+
+<script>
+    $('.load_select').select2({
+        dropdownParent: $('#parent_drop_select')
+    });
+</script>
