@@ -119,7 +119,7 @@ $autoload['packages'] = array();
 */
 
 // oitocredis
-$autoload['libraries'] = array('database','email','form_validation','session','linker','day_indo','count','files', 'user_agent');
+$autoload['libraries'] = array('database', 'email', 'form_validation', 'session', 'linker', 'day_indo', 'count', 'files', 'user_agent', 'pdf');
 
 /*
 
