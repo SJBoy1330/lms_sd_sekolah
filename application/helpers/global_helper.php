@@ -382,3 +382,23 @@ function is_logged_in()
     redirect('auth');
   }
 }
+
+function toAlpha($number)
+{
+  if ($number === 0) {
+    return '';
+  }
+
+  $alphabet = range('a', 'z');
+  $count = count($alphabet);
+  if ($number <= $count) {
+    return $alphabet[$number - 1];
+  }
+  $alpha = '';
+  while ($number > 0) {
+    $modulo = ($number - 1) % $count;
+    $alpha  = $alphabet[$modulo] . $alpha;
+    $number = floor((($number - $modulo) / $count));
+  }
+  return strtoupper($alpha);
+}
