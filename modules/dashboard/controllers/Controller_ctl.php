@@ -46,6 +46,9 @@ class Controller_ctl extends MY_Admin
 		// LOAD CSS
 		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/ujian/ujian.css') . '">';
 
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/ujian/penomoran.js') . '"></script>';
+
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('ujian', $mydata, TRUE);
 		$this->display();
