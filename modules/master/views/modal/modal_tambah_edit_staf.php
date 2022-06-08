@@ -31,14 +31,14 @@
                         <div class="col-sm-10 col-12">
                             <div class="image-input image-input-outline " data-kt-image-input="true" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)">
                                 <?php if (isset($staf_data->foto)) : ?>
-                                    <div class="image-input-wrapper w-125px h-125px" style="background-image: url(<?= $staf_data->foto; ?>)"></div>
-
+                                    <img class="image-input-wrapper w-125px h-125px" src="<?= $staf_data->foto; ?>" alt="" id="photouser">
                                 <?php else : ?>
-                                    <div class="image-input-wrapper w-125px h-125px" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)"></div>
+                                    <img class="image-input-wrapper w-125px h-125px" src="<?= site_url('assets/img/no-image.jpg') ?>" alt="" id="photouser">
+
                                 <?php endif; ?>
                                 <label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" data-bs-dismiss="click">
                                     <i class="bi bi-pencil-fill fs-7"></i>
-                                    <input type="file" name="gambar" accept=".png, .jpg, .jpeg">
+                                    <input id="photo" name="gambar" type="file" accept=".png, .jpg, .jpeg" onchange="previewImage()" />
                                     <input type="hidden" name="foto_remove">
                                 </label>
                                 <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="cancel" data-bs-toggle="tooltip" data-bs-dismiss="click" title="" data-bs-original-title="Batal">
@@ -125,7 +125,7 @@
                         <!--end::Label-->
                         <div class="position-relative d-flex align-items-center">
                             <div style="width:100vw;">
-                                <select class="form-select form-select-solid load_select" data-control="select2" data-placeholder="Pilih Bidang Tugas" name="bidang_tugas" id="bidang_tugas">
+                                <select class="form-select form-select-solid load_select" data-control="select2" data-placeholder="Pilih Bidang Tugas" name="bidang_tugas">
                                     <option disabled></option>
                                     <option value="1" <?= $staf_data->id_bidang_tugas === '1' ? 'selected' : '' ?>>Jabatan 1</option>
                                     <option value="2" <?= $staf_data->id_bidang_tugas === '2' ? 'selected' : '' ?>>Jataban 2</option>
@@ -235,7 +235,6 @@
 <!--end::Modal body-->
 </div>
 <!--end::Modal content-->
-
 <script>
     $('.load_select').select2({
         dropdownParent: $('#parent_drop_select')
