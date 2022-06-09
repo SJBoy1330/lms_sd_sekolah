@@ -130,5 +130,19 @@ $(document).ready(function () {
             }
         });
     });
+
+    $('#btn-export-pdf').on('click', function () {
+        $.ajax({
+            url: `${BASE_URL}/func_master/export_pdf_staf`,
+            method: "POST",
+            beforeSend: function () {
+                $(this).prop('disabled', true);
+            },
+            success: function (data) {
+                $(this).prop('disabled', false);
+                console.log(data);
+            }
+        })
+    });
 });
 
