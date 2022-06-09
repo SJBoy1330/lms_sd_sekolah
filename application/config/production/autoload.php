@@ -119,7 +119,7 @@ $autoload['packages'] = array();
 */
 
 // oitocredis
-$autoload['libraries'] = array('database','email','form_validation','session','linker','day_indo','count','files', 'user_agent');
+$autoload['libraries'] = array('database', 'email', 'form_validation', 'session', 'linker', 'day_indo', 'count', 'files', 'user_agent', 'pdf');
 
 /*
 
@@ -179,7 +179,7 @@ $autoload['drivers'] = array();
 
 */
 
-$autoload['helper'] = array('url', 'array', 'response', 'global', 'curl');
+$autoload['helper'] = array('url', 'array', 'response', 'global', 'curl', 'menu_role');
 
 
 

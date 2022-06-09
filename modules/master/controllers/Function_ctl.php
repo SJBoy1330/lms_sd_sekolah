@@ -165,4 +165,21 @@ class Function_ctl extends MY_Admin
         $data['message'] = $message;
         return $data;
     }
+
+    public function export_pdf_staf()
+    {
+        $idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+
+        $request_filter = [
+            'id_sekolah' => $idsekolah,
+        ];
+
+        $response = curl_get('staf', $request_filter);
+        $data['data_staf'] = $response->data;
+
+        $this->load->library('pdf');
+        $this->pdf->setPaper('A4', 'potrait');
+        $this->pdf->filename = "export_staf.pdf";
+        $this->pdf->load_view('pdf/export_pdf_staf.php', $data);
+    }
 }
