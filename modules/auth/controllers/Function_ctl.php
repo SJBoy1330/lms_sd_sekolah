@@ -150,8 +150,6 @@ class function_ctl extends MY_Login
                     "lms_sekolah_role" => $response->data->role,
                     "lms_sekolah_server" => $response->data->server
                 ];
-                var_dump($userdata);
-                die;
                 $this->session->set_userdata($userdata);
 
                 $data['redirect'] = base_url('dashboard');

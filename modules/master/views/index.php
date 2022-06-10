@@ -86,80 +86,88 @@
                         <!--end::Table head-->
                         <!--begin::Table body-->
                         <tbody class="text-gray-600 fw-bold">
-                            <?php foreach ($data_staf as $i => $staf) : ?>
+                            <?php if ($data_staf) : ?>
+                                <?php foreach ($data_staf as $i => $staf) : ?>
+                                    <tr>
+                                        <!--begin::Checkbox-->
+                                        <td>
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                                <input class="form-check-input deletebox" type="checkbox" value="1" data-idstaf="<?= $staf->id_staf ?>" />
+                                            </div>
+                                        </td>
+                                        <!--end::Checkbox-->
+                                        <!--begin::User=-->
+                                        <td class="text-center">
+                                            <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                <i class="fa-duotone fa-bars fs-4"></i>
+                                            </button>
+                                            <!--end::Svg Icon--></a>
+                                            <!--begin::Menu-->
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
+                                                <!--begin::Menu item-->
+                                                <div class="menu-item px-3">
+                                                    <a data-bs-toggle="modal" data-idstaf="<?= $staf->id_staf ?>" href="#modalDetail" id="detailStafBtn" role="button" class="menu-link px-3">Detail</a>
+                                                </div>
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3 btn-tambah-edit-modal" data-idstaf="<?= $staf->id_staf ?>" data-bs-toggle="modal" data-bs-target="#modalTambahStaf">Edit</a>
+                                                </div>
+                                                <!--end::Menu item-->
+                                                <!--begin::Menu item-->
+                                                <div class="menu-item px-3">
+                                                    <a class="menu-link px-3 btn-hapus-staf" data-idstaf="<?= $staf->id_staf ?>" data-kt-users-table-filter="delete_row">Hapus</a>
+                                                </div>
+                                                <!--end::Menu item-->
+                                            </div>
+                                        </td>
+                                        <!--end::User=-->
+                                        <!--begin::Role=-->
+                                        <td>
+                                            <p class="text-center mb-0"><?= $i + 1 ?></p>
+                                        </td>
+                                        <!--end::Role=-->
+                                        <!--begin::Last login=-->
+                                        <td class="text-center mb-0">
+                                            <div class="symbol symbol-60px">
+                                                <img alt="Logo" src="<?= $staf->foto ?>">
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <p class="text-center">
+                                                <?= $staf->nama ?>
+                                            </p>
+                                        </td>
+
+                                        <td>
+                                            <p class="text-center">
+                                                <?= $staf->username ?>
+                                            </p>
+                                        </td>
+
+                                        <td>
+                                            <p class="text-center">
+                                                <?= $staf->role ?>
+                                            </p>
+                                        </td>
+
+                                        <td>
+                                            <p class="text-center">
+                                                <?php if ($staf->aktif === 'Y') : ?>
+                                                    <span class="badge badge-success mx-3 my-2">Aktif</span>
+                                                <?php else : ?>
+                                                    <span class="badge badge-danger mx-3 my-2">Tidak Aktif</span>
+                                                <?php endif; ?>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            <?php else : ?>
                                 <tr>
-                                    <!--begin::Checkbox-->
-                                    <td>
-                                        <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                            <input class="form-check-input deletebox" type="checkbox" value="1" data-idstaf="<?= $staf->id_staf ?>" />
-                                        </div>
-                                    </td>
-                                    <!--end::Checkbox-->
-                                    <!--begin::User=-->
-                                    <td class="text-center">
-                                        <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                            <i class="fa-duotone fa-bars fs-4"></i>
-                                        </button>
-                                        <!--end::Svg Icon--></a>
-                                        <!--begin::Menu-->
-                                        <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-                                            <!--begin::Menu item-->
-                                            <div class="menu-item px-3">
-                                                <a data-bs-toggle="modal" data-idstaf="<?= $staf->id_staf ?>" href="#modalDetail" id="detailStafBtn" role="button" class="menu-link px-3">Detail</a>
-                                            </div>
-                                            <div class="menu-item px-3">
-                                                <a href="#" class="menu-link px-3 btn-tambah-edit-modal" data-idstaf="<?= $staf->id_staf ?>" data-bs-toggle="modal" data-bs-target="#modalTambahStaf">Edit</a>
-                                            </div>
-                                            <!--end::Menu item-->
-                                            <!--begin::Menu item-->
-                                            <div class="menu-item px-3">
-                                                <a class="menu-link px-3 btn-hapus-staf" data-idstaf="<?= $staf->id_staf ?>" data-kt-users-table-filter="delete_row">Hapus</a>
-                                            </div>
-                                            <!--end::Menu item-->
-                                        </div>
-                                    </td>
-                                    <!--end::User=-->
-                                    <!--begin::Role=-->
-                                    <td>
-                                        <p class="text-center mb-0"><?= $i + 1 ?></p>
-                                    </td>
-                                    <!--end::Role=-->
-                                    <!--begin::Last login=-->
-                                    <td class="text-center mb-0">
-                                        <div class="symbol symbol-60px">
-                                            <img alt="Logo" src="<?= $staf->foto ?>">
-                                        </div>
-                                    </td>
-
-                                    <td>
-                                        <p class="text-center">
-                                            <?= $staf->nama ?>
-                                        </p>
-                                    </td>
-
-                                    <td>
-                                        <p class="text-center">
-                                            <?= $staf->username ?>
-                                        </p>
-                                    </td>
-
-                                    <td>
-                                        <p class="text-center">
-                                            <?= $staf->role ?>
-                                        </p>
-                                    </td>
-
-                                    <td>
-                                        <p class="text-center">
-                                            <?php if ($staf->aktif === 'Y') : ?>
-                                                <span class="badge badge-success mx-3 my-2">Aktif</span>
-                                            <?php else : ?>
-                                                <span class="badge badge-danger mx-3 my-2">Tidak Aktif</span>
-                                            <?php endif; ?>
-                                        </p>
+                                    <td colspan="8">
+                                        <center>Tidak ada data staf</center>
                                     </td>
                                 </tr>
-                            <?php endforeach; ?>
+                            <?php endif; ?>
 
                         </tbody>
                         <!--end::Table body-->
