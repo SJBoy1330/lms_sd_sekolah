@@ -37,7 +37,7 @@
                                 <option value="2">September 2023</option>
                             </select>
                         </div>
-                        <div class="col-md-12 col-xl-3 align-self-end text-end" style="padding:5px; margin-top:7px;">
+                        <div class="col-md-12 col-xl-12 align-self-end text-end" style="padding:5px; margin-top:7px;">
 							<button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Tampil</button>
 						</div>
                     </div>
