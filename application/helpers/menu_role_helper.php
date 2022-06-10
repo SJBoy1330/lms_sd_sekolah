@@ -21,6 +21,20 @@ function is_staf()
 {
     return getRole() === 'staf';
 }
+function is_wali()
+{
+    return getRole() === 'wali';
+}
+
+function is_admin()
+{
+    return getRole() === 'admin';
+}
+
+function is_operator()
+{
+    return getRole() === 'operator';
+}
 
 
 function get_menu_by_role()
@@ -414,7 +428,11 @@ function get_laporan($role)
         'url' => 'laporan/tagihan',
         'icon' => $icon,
     ];
-
+    $laporan_ujian = [
+        'menu_name' => 'Laporan Ujian',
+        'url' => 'laporan/laporan_ujian',
+        'icon' => $icon,
+    ];
     $pembayaran = [
         'menu_name' => 'Laporan Pembayaran',
         'url' => 'laporan/pembayaran',
@@ -429,15 +447,16 @@ function get_laporan($role)
         'submenu' => array()
     ];
 
+
     switch ($role) {
         case SISWA:
-            array_push($laporan['submenu'], $rekap_presensi_siswa);
+            array_push($laporan['submenu'], $rekap_presensi_siswa, $laporan_ujian);
             break;
             // case STAF:
             //     array_push($laporan['submenu'], $berita, $pengumuman, $kategori_berita);
             //     break;
         case ADMIN:
-            array_push($laporan['submenu'], $rekap_presensi_siswa, $presensi_kelas, $presensi_mapel_guru, $presensi_staf, $detail_presensi_staf, $jurnal_guru, $jurnal_staf, $sisa_tagihan, $tagihan, $pembayaran);
+            array_push($laporan['submenu'], $rekap_presensi_siswa, $presensi_kelas, $presensi_mapel_guru, $presensi_staf, $detail_presensi_staf, $jurnal_guru, $jurnal_staf, $sisa_tagihan, $tagihan, $pembayaran, $laporan_ujian);
             break;
     }
     return $laporan;
