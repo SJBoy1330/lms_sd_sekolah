@@ -48,9 +48,11 @@
     <script src="<?= base_url(); ?>assets/js/custom/modals/select-location.js"></script>
     <script src="<?= base_url(); ?>assets/js/custom/widgets.js"></script>
     <script src="<?= base_url(); ?>assets/js/custom/apps/chat/chat.js"></script>
+    <script src="<?= base_url(); ?>assets/js/custom/apps/chatgrup/chat.js"></script>
     <script src="<?= base_url(); ?>assets/js/custom/modals/upgrade-plan.js"></script>
     <script src="<?= base_url(); ?>assets/js/custom/modals/create-app.js"></script>
     <script src="<?= base_url(); ?>assets/js/custom/modals/users-search.js"></script>
+
     <!--end::Page Custom Javascript-->
 
     <!-- File Upload -->
