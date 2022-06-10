@@ -540,12 +540,12 @@
                                     <!--end::Menu separator-->
                                     <!--begin::Menu item-->
                                     <div class="menu-item px-5">
-                                        <a href="../../demo17/dist/account/overview.html" class="menu-link px-5">Profile</a>
+                                        <a href="<?= base_url('profile')?>" class="menu-link px-5">Profile</a>
                                     </div>
                                     <!--end::Menu item-->
                                     <!--begin::Menu item-->
                                     <div class="menu-item px-5">
-                                        <a href="../../demo17/dist/account/overview.html" class="menu-link px-5">Ubah Kata Sandi</a>
+                                        <a href="<?= base_url('profile/ubah_password');?>" class="menu-link px-5">Ubah Kata Sandi</a>
                                     </div>
                                     <!--end::Menu item-->
                                     <div class="menu-item px-5">

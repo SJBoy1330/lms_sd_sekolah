@@ -173,13 +173,18 @@ $route['jurnal/(:any)'] = 'jurnal/controller_ctl/$1';
 $route['jurnal/(:any)/(:any)'] = 'jurnal/controller_ctl/$1/$2';
 
 
-
 $route['akademik']  = 'akademik/controller_ctl';
 
 $route['akademik/(:any)'] = 'akademik/controller_ctl/$1';
 
 $route['akademik/(:any)/(:any)'] = 'akademik/controller_ctl/$1/$2';
 
+
+$route['profile']  = 'profile/controller_ctl';
+
+$route['profile/(:any)'] = 'profile/controller_ctl/$1';
+
+$route['profile/(:any)/(:any)'] = 'profile/controller_ctl/$1/$2';
 
 
 $route['master']  = 'master/controller_ctl';
