@@ -94,7 +94,7 @@
                                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
                                         <!--begin::Menu item-->
                                         <div class="menu-item px-3">
-                                            <a data-bs-toggle="modal" href="#detailberitaModal" role="button" class="menu-link px-3">Lihat</a>
+                                            <a data-bs-toggle="modal" href="#detailPengumumanModal" role="button" class="menu-link px-3">Lihat</a>
                                         </div>
                                         <div class="menu-item px-3">
                                             <a href="#" class="menu-link px-3">Edit</a>
@@ -163,7 +163,7 @@
                                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
                                         <!--begin::Menu item-->
                                         <div class="menu-item px-3">
-                                            <a data-bs-toggle="modal" href="#detailberitaModal" role="button" class="menu-link px-3">Lihat</a>
+                                            <a data-bs-toggle="modal" href="#detailPengumumanModal" role="button" class="menu-link px-3">Lihat</a>
                                         </div>
                                         <div class="menu-item px-3">
                                             <a href="#" class="menu-link px-3">Edit</a>
@@ -227,6 +227,7 @@
 </div>
 <!--end::Content-->
 
+<!-- Modal Tambah Pengumuman -->
 <div class="modal fade" id="modalTambahPengumuman" tabindex="-1" aria-hidden="true">
     <!--begin::Modal dialog-->
     <div class="modal-dialog modal-dialog-centered mw-850px">
@@ -396,6 +397,62 @@
                         <!--end::Add user-->
                     </div>
                 </div>
+            </div>
+            <!--end::Modal body-->
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>
+
+<!-- Modal Detail Pengumuman -->
+<div class="modal fade" id="detailPengumumanModal" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog mw-650px modal-dialog-centered">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header pb-0 border-0 justify-content-end">
+                <!--begin::Close-->
+                <div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <!--begin::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y mx-xl-10 pt-5 pb-15">
+                <div>
+                    <img src="<?= base_url('assets/img/news.jpg') ?>" height="300" alt="" style="width: 100%; border-radius: 10px;">
+                    <div class="text-center my-8">
+                        <h2 class="mb-3">Ternyata Koran itu adalah sebuah berita</h2>
+                    </div>
+                    <!--begin::List-->
+                    <div class="mh-300px scroll-y me-n7 pe-7">
+
+                    </div>
+                    <!--end::List-->
+                </div>
+                <!--end::Users-->
+                <!--begin::Notice-->
+                <div>
+                    <p style="text-indent: 0.3in">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sunt eaque blanditiis odit voluptas, reprehenderit eveniet obcaecati error, labore sequi doloribus ipsam quos est quo dolores architecto totam dolore beatae?</p>
+                    <p style="text-indent: 0.3in">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sunt eaque blanditiis odit voluptas, reprehenderit eveniet obcaecati error, labore sequi doloribus ipsam quos est quo dolores architecto totam dolore beatae?</p>
+                    <p style="text-indent: 0.3in">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sunt eaque blanditiis odit voluptas, reprehenderit eveniet obcaecati error, labore sequi doloribus ipsam quos est quo dolores architecto totam dolore beatae?</p>
+                </div>
+
+                <div class="text-start">
+                    <p class="fw-bolder mb-1">Dipublikasikan pada:</p>
+                    <p>2020 - 08 - 17</p>
+                </div>
+                <!--end::Notice-->
             </div>
             <!--end::Modal body-->
         </div>

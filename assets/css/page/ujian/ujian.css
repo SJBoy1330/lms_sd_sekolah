@@ -1,3 +1,87 @@
+.card.three-card{
+    height: 550px;
+    overflow-y: scroll;
+}
+
+div.card.card-stretch{
+    width: 287px;
+    height: 200px;
+    margin: 10px;
+}
+
+div.scrollmenu .col-3 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu {
+    overflow: scroll;
+    display: flex;
+  }
+
+  .card-flex-container {
+        -ms-box-orient: horizontal;
+        display: flex;
+    }
+
+    .wrap {
+        -webkit-flex-wrap: none;
+        flex-wrap: none;
+        max-height: 100%;
+    }
+  
+  @media only screen and (max-width: 600px) {
+    div.scrollmenu {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        overflow-x: scroll;
+    }
+    .card-flex-container {
+        -ms-box-orient: horizontal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrap {
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        max-height: 100%;
+      }
+  }
+
+span.badge.notif{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:100%;
+    width:100%;
+}
+
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    height:100%;
+    width:100%;
+}
+
+.gmap_canvas iframe{
+    width:100%;
+}
+
+.w-200px{
+    width:200px !important;
+}
+
 .wrapper-soal{
     display: flex;
     justify-content: center;
@@ -7,6 +91,55 @@
 
 .bgi-no-repeat.jawaban-gambar{
     width: 150px;
+}
+
+/* Instruksi Ujian */
+.wrapper-profil{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-profil{
+    margin-right: 1.25rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.keterangan-kelas{
+    display: flex;
+    align-items: center;
+}
+
+.mode-mode{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper-profil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .image-profil{
+        margin-right: 0rem !important;
+    }
+
+    .keterangan-kelas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mode-mode{
+        display: flex;
+        justify-content:center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
 }
 
 /* Tablink Penomoran */

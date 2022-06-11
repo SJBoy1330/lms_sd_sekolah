@@ -10,6 +10,8 @@
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 <script>
+
+    // Password Siswa 
     function password_show_hide() {
 
         var x = document.getElementById("password");
@@ -39,6 +41,42 @@
         }
 
     }
+
+    // Password Staf
+    const togglePasswordSiswa = document.querySelector("#togglePasswordSiswa");
+    const password_siswa = document.querySelector("#password_siswa");
+
+    togglePasswordSiswa.addEventListener("click", function () {
+    
+    const type = password_siswa.getAttribute("type") === "password" ? "text" : "password";
+    password_siswa.setAttribute("type", type);
+        this.classList.toggle('bi-eye');
+        this.classList.toggle('bi-eye-slash');
+    });
+
+    // Password Staf
+    const togglePasswordStaf = document.querySelector("#togglePasswordStaf");
+    const password_staf = document.querySelector("#password_staf");
+
+    togglePasswordStaf.addEventListener("click", function () {
+    
+    const type = password_staf.getAttribute("type") === "password" ? "text" : "password";
+    password_staf.setAttribute("type", type);
+        this.classList.toggle('bi-eye');
+        this.classList.toggle('bi-eye-slash');
+    });
+
+    // Password Wali
+    const togglePasswordWali = document.querySelector("#togglePasswordWali");
+    const password_wali = document.querySelector("#password_wali");
+
+    togglePasswordWali.addEventListener("click", function () {
+    
+    const type = password_wali.getAttribute("type") === "password" ? "text" : "password";
+    password_wali.setAttribute("type", type);
+        this.classList.toggle('bi-eye');
+        this.classList.toggle('bi-eye-slash');
+    });
 </script>
 
 <!-- Vendor JS Files -->
