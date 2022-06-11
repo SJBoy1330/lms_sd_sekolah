@@ -473,7 +473,7 @@
                                     </div>
                                 </div>
                                 <div class="row d-flex justify-content-around align-items-center">
-                                    <div class="col-5">
+                                    <div class="col-xl-5 col-md-12">
                                         <div class="d-flex flex-column mb-8 fv-row">
                                             <!--begin::Label-->
                                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
@@ -485,7 +485,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-5">
+                                    <div class="col-xl-5 col-md-12">
                                         <div class="d-flex flex-column mb-8 fv-row">
                                             <!--begin::Label-->
                                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
@@ -568,7 +568,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-6">
+                                    <div class="col-xl-6 col-md-12">
                                         <div class="d-flex flex-column mb-8 fv-row">
                                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                                                 <span class="required">Kelas</span>
@@ -586,7 +586,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-6">
+                                    <div class="col-xl-6 col-md-12">
                                         <div class="d-flex flex-column mb-8 fv-row">
                                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                                                 <span class="required">Agama</span>
@@ -607,7 +607,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-6">
+                                    <div class="col-xl-6 col-md-12">
                                         <div class="d-flex flex-column mb-8 fv-row">
                                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                                                 <span class="required">Jenis Kelamin</span>
@@ -624,7 +624,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-6">
+                                    <div class="col-xl-6 col-md-12">
                                         <div class="d-flex flex-column mb-8 fv-row">
                                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                                                 <span class="required">Aktif</span>
@@ -711,7 +711,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-6">
+                                    <div class="col-xl-6 col-md-12">
                                         <div class="d-flex flex-column mb-8 fv-row">
                                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                                                 <span class="required">Kata Sandi Siswa</span>
@@ -725,7 +725,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-6">
+                                    <div class="col-xl-6 col-md-12">
                                         <div class="d-flex flex-column mb-8 fv-row">
                                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                                                 <span class="required">Konfirmasi Kata Sandi Siswa</span>
@@ -802,7 +802,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-6">
+                                    <div class="col-xl-6 col-md-12">
                                         <div class="d-flex flex-column mb-8 fv-row">
                                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                                                 <span class="required">Kata Sandi Orang Tua</span>
@@ -816,7 +816,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-6">
+                                    <div class="col-xl-6 col-md-12">
                                         <div class="d-flex flex-column mb-8 fv-row">
                                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                                                 <span class="required">Konfirmasi Kata Sandi Orang Tua</span>
@@ -849,6 +849,7 @@
                     </div>
                     <!--end::Modal dialog-->
                 </div>
+
                 <!--begin::Table-->
                 <div class="table-responsive">
                     <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_siswa">

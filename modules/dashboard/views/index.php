@@ -126,7 +126,6 @@
             <div class="col-xl-12">
                 <!--begin::Row-->
                 <div class="row g-5 g-xl-8">
-                    <!--begin::Col-->
                     <div class="col-xl-4">
                         <!--begin::List Widget 5-->
                         <div class="card mb-5 mb-xl-8 three-card">
@@ -215,10 +214,7 @@
                                         <div class="timeline-content d-flex flex-column flex-wrap">
                                             <span class="fw-bolder text-gray-800 ps-3 w-200px">Matematika</span>
                                             <span class="timeline-content fw-mormal text-muted ps-3 w-200px">Drs. Astutik S.Pd</span>
-                                        </div>
-
-                                        <div class="timeline-content d-flex flex-row-fluid flex-wrap align-items-center">
-                                            <span class="badge bg-ec3528 fs-8 fw-bolder my-2">08:00</span>
+                                            <span class="badge bg-ec3528 fs-8 fw-bolder mt-2 ms-3 w-50px">08:00</span>
                                         </div>
                                         <!--end::Content-->
                                     </a>
@@ -237,10 +233,7 @@
                                         <div class="timeline-content d-flex flex-column flex-wrap">
                                             <span class="fw-bolder text-gray-800 ps-3 w-200px">Pendidikan Jasmani, Olahraga, dan Kesehatan</span>
                                             <span class="timeline-content fw-mormal text-muted ps-3 w-200px">Pak Raditya Candra</span>
-                                        </div>
-
-                                        <div class="timeline-content d-flex flex-row-fluid flex-wrap align-items-center">
-                                            <span class="badge bg-ec3528 fs-8 fw-bolder my-2">10:00</span>
+                                            <span class="badge bg-ec3528 fs-8 fw-bolder mt-2 ms-3 w-50px">10:00</span>
                                         </div>
                                         <!--end::Content-->
                                     </a>
@@ -259,10 +252,7 @@
                                         <div class="timeline-content d-flex flex-column flex-wrap">
                                             <span class="fw-bolder text-gray-800 ps-3 w-200px">Ilmu Pengetahuan Alam Bawah Sadar</span>
                                             <span class="timeline-content fw-mormal text-muted ps-3 w-200px">Pak Ngatmudji</span>
-                                        </div>
-
-                                        <div class="timeline-content d-flex flex-row-fluid flex-wrap align-items-center">
-                                            <span class="badge bg-ec3528 fs-8 fw-bolder my-2">12:00</span>
+                                            <span class="badge bg-ec3528 fs-8 fw-bolder mt-2 ms-3 w-50px">12:00</span>
                                         </div>
                                         <!--end::Desc-->
                                     </a>
@@ -281,10 +271,7 @@
                                         <div class="timeline-content d-flex flex-column flex-wrap">
                                             <span class="fw-bolder text-gray-800 ps-3 w-200px">Bahasa Indonesia</span>
                                             <span class="timeline-content fw-mormal text-muted ps-3 w-200px">Pak Agus</span>
-                                        </div>
-
-                                        <div class="timeline-content d-flex flex-row-fluid flex-wrap align-items-center">
-                                            <span class="badge bg-ec3528 fs-8 fw-bolder my-2">14:00</span>
+                                            <span class="badge bg-ec3528 fs-8 fw-bolder mt-2 ms-3 w-50px">14:00</span>
                                         </div>
                                         <!--end::Text-->
                                     </a>
@@ -303,10 +290,7 @@
                                         <div class="timeline-content d-flex flex-column flex-wrap">
                                             <span class="fw-bolder text-gray-800 ps-3 w-200px">Bahasa Inggris</span>
                                             <span class="timeline-content fw-mormal text-muted ps-3 w-200px">Bu Sri Wahyuni</span>
-                                        </div>
-
-                                        <div class="timeline-content d-flex flex-row-fluid flex-wrap align-items-center">
-                                            <span class="badge bg-ec3528 fs-8 fw-bolder my-2">17:00</span>
+                                            <span class="badge bg-ec3528 fs-8 fw-bolder mt-2 ms-3 w-50px">17:00</span>
                                         </div>
                                         <!--end::Desc-->
                                     </a>
@@ -325,10 +309,7 @@
                                         <div class="timeline-content d-flex flex-column flex-wrap">
                                             <span class="fw-bolder text-gray-800 ps-3 w-200px">Ilmu Pengetahuan Agama dan Aklhakul Karimah</span>
                                             <span class="timeline-content fw-mormal text-muted ps-3 w-200px">Pak Muslim</span>
-                                        </div>
-
-                                        <div class="timeline-content d-flex flex-row-fluid flex-wrap align-items-center">
-                                            <span class="badge bg-ec3528 fs-8 fw-bolder my-2">18:00</span>
+                                            <span class="badge bg-ec3528 fs-8 fw-bolder mt-2 ms-3 w-50px">18:00</span>
                                         </div>
                                         <!--end::Text-->
                                     </a>
@@ -357,7 +338,6 @@
                         </div>
                         <!--end: List Widget 5-->
                     </div>
-                    <!--end::Col-->
                     <div class="col-xl-4">
                         <!--begin::List Widget 4-->
                         <div class="card mb-5 mb-xl-8 three-card">

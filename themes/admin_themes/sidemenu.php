@@ -40,7 +40,7 @@
                                         </div>
                                         <?php foreach ($menu['submenu']  as $submenu) : ?>
                                             <div class="menu-item">
-                                                <a class="menu-link" href="<?= base_url($submenu['url']) ?>" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                                <a class="menu-link" href="<?= base_url($submenu['url']) ?>" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                                     <span class="menu-icon">
                                                         <?= $submenu['icon'] ?>
                                                     </span>

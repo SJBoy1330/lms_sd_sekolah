@@ -116,7 +116,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-xl-6 col-md-12">
                     <div class="d-flex flex-column mb-8 fv-row" id="req_bidang_tugas">
                         <!--begin::Label-->
                         <label class="d-flex align-items-center fs-6 fw-bold mb-2">
@@ -135,7 +135,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-xl-6 col-md-12">
                     <div class="d-flex flex-column mb-8 fv-row" id="req_gender">
                         <!--begin::Label-->
                         <label class="d-flex align-items-center fs-6 fw-bold mb-2">
@@ -153,7 +153,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-xl-6 col-md-12">
                     <div class="d-flex flex-column mb-8 fv-row" id="req_tipe">
                         <!--begin::Label-->
                         <label class="d-flex align-items-center fs-6 fw-bold mb-2">
@@ -173,7 +173,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-xl-6 col-md-12">
                     <div class="d-flex flex-column mb-8 fv-row" id="req_aktif">
                         <!--begin::Label-->
                         <label class="d-flex align-items-center fs-6 fw-bold mb-2">

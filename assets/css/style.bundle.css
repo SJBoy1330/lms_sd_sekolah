@@ -9546,6 +9546,9 @@ fieldset:disabled .btn {
 .min-w-unset {
   min-width: unset !important;
 }
+.w-50px{
+  width: 50px !important;
+}
 .min-w-25 {
   min-width: 25% !important;
 }
