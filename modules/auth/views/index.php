@@ -13,6 +13,12 @@
         }
     }
 
+    a.btn-close{
+        cursor: pointer;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
     h5.title {
         font-weight: bold;
     }
@@ -323,11 +329,11 @@
 </main><!-- End #main -->
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
         <div class="modal-content" style="border-radius: 20px; background-image: url(<?= base_url(); ?>assets/img/banner-bg-2.png); background-size:cover;">
             <div class="modal-header" style="border-bottom:none;">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <a class="btn-close" data-bs-dismiss="modal" aria-label="close"></a>
             </div>
             <div class="modal-body">
 
@@ -352,17 +358,6 @@
                                         <input type="email" class="form-control" name="username" id="username" placeholder="Username" autocomplete="off">
                                         <label for="username" class="ms-2 mb-3">Username</label>
                                     </div>
-
-                                    <!-- <div class="form-floating" id="req_password">
-                                        <input type="password" class="form-control" name="password" id="password" placeholder="Password" autocomplete="off">
-                                        <label for="password" class="ms-2 mb-3">Password</label>
-                                        <div class="input-group-append show-hide">
-                                            <span class="input-group-text" onclick="password_show_hide();">
-                                                <i class="bi bi-eye" id="show_eye"></i>
-                                                <i class="bi bi-eye-slash d-none" id="hide_eye"></i>
-                                            </span>
-                                        </div>
-                                    </div> -->
 
                                     <div class="form-floating mb-4" id="req_password">
                                         <input type="password" class="form-control" name="password" id="password_siswa" placeholder="Password" autocomplete="off">
@@ -415,17 +410,6 @@
                                         <label for="username" class="ms-2 mb-3">Username</label>
                                     </div>
 
-                                    <!-- <div class="form-floating" id="req_staf_password">
-                                        <input type="password" class="form-control" name="password" id="password" placeholder="Password" autocomplete="off">
-                                        <label for="password" class="ms-2 mb-3">Password</label>
-                                        <div class="input-group-append show-hide">
-                                            <span class="input-group-text" onclick="password_show_hide();">
-                                                <i class="bi bi-eye" id="show_eye"></i>
-                                                <i class="bi bi-eye-slash d-none" id="hide_eye"></i>
-                                            </span>
-                                        </div>
-                                    </div> -->
-
                                     <div class="form-floating mb-4" id="req_staf_password">
                                         <input type="password" class="form-control" name="password" id="password_staf" placeholder="Password" autocomplete="off">
                                         <label for="password_staf" class="ms-2 mb-3">Password</label>
@@ -477,17 +461,6 @@
                                         <label for="username" class="ms-2 mb-3">Username</label>
                                     </div>
 
-                                    <!-- <div class="form-floating" id="req_wali_password">
-                                        <input type="password" class="form-control" name="password" id="password" placeholder="Password" autocomplete="off">
-                                        <label for="password" class="ms-2 mb-3">Password</label>
-                                        <div class="input-group-append show-hide">
-                                            <span class="input-group-text" onclick="password_show_hide();">
-                                                <i class="bi bi-eye" id="show_eye"></i>
-                                                <i class="bi bi-eye-slash d-none" id="hide_eye"></i>
-                                            </span>
-                                        </div>
-                                    </div> -->
-
                                     <div class="form-floating mb-4" id="req_wali_password">
                                         <input type="password" class="form-control" name="password" id="password_wali" placeholder="Password" autocomplete="off">
                                         <label for="password_wali" class="ms-2 mb-3">Password</label>
@@ -525,7 +498,7 @@
                                 <p>Pilih salah satu untuk mengakses web admin</p>
                             </div>
                             <div class="row gy-4">
-                                <div onclick="get_login('#login_siswa')" class="col-4 card-akses mt-5">
+                                <div onclick="get_login('#login_siswa')" class="col-xl-4 col-md-12 card-akses mt-5">
                                     <div class="card siswa" style="width: 18rem;">
                                         <div class="card-body">
                                             <div class="image-placement-siswa"></div>
@@ -539,7 +512,7 @@
                                     </div>
                                 </div>
 
-                                <div onclick="get_login('#login_staf')" class="col-4 card-akses mt-5">
+                                <div onclick="get_login('#login_staf')" class="col-xl-4 col-md-12 card-akses mt-5">
                                     <div class="card staf" style="width: 18rem;">
                                         <div class="card-body">
                                             <div class="image-placement-staf"></div>
@@ -553,7 +526,7 @@
                                     </div>
                                 </div>
 
-                                <div onclick="get_login('#login_wali')" class="col-4 card-akses mt-5">
+                                <div onclick="get_login('#login_wali')" class="col-xl-4 col-md-12 card-akses mt-5">
                                     <div class="card wali" style="width: 18rem;">
                                         <div class="card-body">
                                             <div class="image-placement-wali"></div>
@@ -572,6 +545,7 @@
                     </div>
 
                 </div>
+
                 <div class="modal-footer" style="border-top: none;">
                     <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
                 </div>
