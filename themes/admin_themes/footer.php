@@ -53,6 +53,8 @@
     <script src="<?= base_url(); ?>assets/js/custom/modals/create-app.js"></script>
     <script src="<?= base_url(); ?>assets/js/custom/modals/users-search.js"></script>
 
+    <script src="<?= base_url(); ?>assets/js/custom/modals/users-searchgrup.js"></script>
+
     <!--end::Page Custom Javascript-->
 
     <!-- File Upload -->
