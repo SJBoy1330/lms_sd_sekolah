@@ -427,7 +427,7 @@
                                     </div> -->
 
                                     <div class="form-floating mb-4" id="req_staf_password">
-                                    <input type="password" class="form-control" name="password" id="password_staf" placeholder="Password" autocomplete="off">
+                                        <input type="password" class="form-control" name="password" id="password_staf" placeholder="Password" autocomplete="off">
                                         <label for="password_staf" class="ms-2 mb-3">Password</label>
                                         <div class="input-group-append show-hide">
                                             <span class="input-group-text">
@@ -489,7 +489,7 @@
                                     </div> -->
 
                                     <div class="form-floating mb-4" id="req_wali_password">
-                                        <input type="password" class="form-control" name="password_wali" id="password_wali" placeholder="Password" autocomplete="off">
+                                        <input type="password" class="form-control" name="password" id="password_wali" placeholder="Password" autocomplete="off">
                                         <label for="password_wali" class="ms-2 mb-3">Password</label>
                                         <div class="input-group-append show-hide">
                                             <span class="input-group-text">
