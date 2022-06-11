@@ -4,6 +4,7 @@
 define("SISWA", "siswa");
 define("STAF", "staf");
 define("ADMIN", "admin");
+define("WALI", "wali");
 
 function getRole()
 {
@@ -47,6 +48,9 @@ function get_menu_by_role()
             break;
         case ADMIN:
             array_push($menu, $menu_dashboard, $menu_master, $menu_akademik, $menu_jurnal, $menu_ujian, $menu_informasi, $menu_keuangan, $menu_laporan, $menu_pengaturan);
+            break;
+        case WALI:
+            array_push($menu, $menu_dashboard, $menu_akademik, $menu_informasi, $menu_laporan);
             break;
     }
 
@@ -196,6 +200,14 @@ function get_akademik($role)
         case ADMIN:
             array_push($akademik['submenu'], $waktu, $jadwal_mengajar, $bab, $materi, $kbm, $tugas, $surat_ijin);
             break;
+        case WALI:
+            $akademik = [
+                'menu_name' => 'Surat Ijin',
+                'url' => 'akademik/surat_ijin',
+                'icon' => '<i class="fa-duotone fa-envelope-open-text" style="font-size: 2rem;"></i>',
+                'submenu' => null
+            ];
+            break;
     }
 
     return $akademik;
@@ -307,7 +319,7 @@ function get_informasi($role)
     ];
 
     switch ($role) {
-        case SISWA:
+        case SISWA || WALI:
             array_push($informasi['submenu'], $berita, $pengumuman);
             break;
         case STAF || ADMIN:
@@ -433,9 +445,9 @@ function get_laporan($role)
         case SISWA:
             array_push($laporan['submenu'], $rekap_presensi_siswa);
             break;
-            // case STAF:
-            //     array_push($laporan['submenu'], $berita, $pengumuman, $kategori_berita);
-            //     break;
+        case WALI:
+            array_push($laporan['submenu'], $rekap_presensi_siswa, $sisa_tagihan, $tagihan, $pembayaran);
+            break;
         case ADMIN:
             array_push($laporan['submenu'], $rekap_presensi_siswa, $presensi_kelas, $presensi_mapel_guru, $presensi_staf, $detail_presensi_staf, $jurnal_guru, $jurnal_staf, $sisa_tagihan, $tagihan, $pembayaran);
             break;
