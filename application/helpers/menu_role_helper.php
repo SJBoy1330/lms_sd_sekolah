@@ -440,11 +440,13 @@ function get_laporan($role)
         'url' => 'laporan/tagihan',
         'icon' => $icon,
     ];
+    
     $laporan_ujian = [
         'menu_name' => 'Laporan Ujian',
         'url' => 'laporan/laporan_ujian',
         'icon' => $icon,
     ];
+
     $pembayaran = [
         'menu_name' => 'Laporan Pembayaran',
         'url' => 'laporan/pembayaran',
@@ -465,7 +467,7 @@ function get_laporan($role)
             array_push($laporan['submenu'], $rekap_presensi_siswa, $laporan_ujian);
             break;
         case WALI:
-            array_push($laporan['submenu'], $rekap_presensi_siswa, $sisa_tagihan, $tagihan, $pembayaran);
+            array_push($laporan['submenu'], $rekap_presensi_siswa,  $laporan_ujian, $sisa_tagihan, $tagihan, $pembayaran);
             break;
         case ADMIN:
             array_push($laporan['submenu'], $rekap_presensi_siswa, $presensi_kelas, $presensi_mapel_guru, $presensi_staf, $detail_presensi_staf, $jurnal_guru, $jurnal_staf, $sisa_tagihan, $tagihan, $pembayaran, $laporan_ujian);
