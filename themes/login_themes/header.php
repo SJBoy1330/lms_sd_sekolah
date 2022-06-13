@@ -40,6 +40,24 @@
     <!-- Modify Template CSS -->
     <link href="<?= base_url(); ?>assets/css/modify-landing.css" rel="stylesheet">
 
+    <style>
+        h2.swal2-title {
+            font-size: 1.5rem;
+        }
+
+        div#swal2-content {
+            font-size: 1rem;
+        }
+
+        button.swal2-confirm {
+            background-color: #f73563 !important;
+            border-color: #f73563 !important;
+            color: #FFFFFF;
+            width: 100px;
+            border-radius: 10px;
+        }
+    </style>
+
 
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/649c0dd522.js" crossorigin="anonymous"></script>

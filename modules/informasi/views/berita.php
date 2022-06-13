@@ -369,7 +369,7 @@
             <!--begin::Modal body-->
             <div class="modal-body scroll-y mx-10 my-2">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-xl-6 col-md-12">
                         <div class="d-flex flex-column mb-8 fv-row">
                             <!--begin::Label-->
                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
@@ -389,7 +389,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-xl-6 col-md-12">
                         <div class="d-flex flex-column mb-8 fv-row">
                             <!--begin::Label-->
                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">

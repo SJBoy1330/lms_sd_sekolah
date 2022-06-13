@@ -11,6 +11,38 @@
         .overlay-panel.overlay-right {
             display: none;
         }
+
+        ul.features-list{
+            padding-left: 0px;
+        }
+
+        .features-item-banner{
+            max-width: 285px;
+        }
+
+        footer.footer{
+            display: none;
+        }
+
+        p.item-text-inc{
+            font-weight: 600; 
+            font-size: 24px !important; 
+            color: #FF0000;
+        }
+
+        .faq .faq-list a{
+            font-size: 15px !important;
+        }
+    }
+
+    .faq .faq-list a{
+        font-size: 20px
+    }
+
+    p.item-text-inc{
+        font-weight: 600; 
+        font-size: 30px; 
+        color: #FF0000;
     }
 
     a.btn-close{
@@ -73,7 +105,7 @@
                         <p class="item-text">
                             Aplikasi KlasQ SD saat ini memiliki pengguna terdaftar sebanyak
                         </p>
-                        <p class="item-text" style="font-weight: 600; font-size: 30px; color: #FF0000;">
+                        <p class="item-text-inc">
                             1200 <i class="fa-solid fa-plus"></i> Siswa
                         </p>
                     </div>
@@ -92,7 +124,7 @@
                         <p class="item-text">
                             Aplikasi KlasQ SD saati ini telah digunakan oleh sekolah sekolah di Indonesia sebanyak
                         </p>
-                        <p class="item-text" style="font-weight: 600; font-size: 30px; color: #FF0000;">
+                        <p class="item-text-inc">
                             100 <i class="fa-solid fa-xmark"></i> digunakan
                         </p>
                     </div>
@@ -116,7 +148,7 @@
                         <p class="item-text">
                             Aplikasi KlasQ SD saat ini memiliki sekolah terdaftar sebanyak
                         </p>
-                        <p class="item-text" style="font-weight: 600; font-size: 30px; color: #FF0000;">
+                        <p class="item-text-inc">
                             200 <i class="fa-solid fa-plus"></i> Sekolah
                         </p>
                     </div>
