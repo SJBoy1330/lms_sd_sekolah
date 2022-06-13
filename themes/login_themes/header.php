@@ -48,6 +48,14 @@
         div#swal2-content {
             font-size: 1rem;
         }
+
+        button.swal2-confirm {
+            background-color: #f73563 !important;
+            border-color: #f73563 !important;
+            color: #FFFFFF;
+            width: 100px;
+            border-radius: 10px;
+        }
     </style>
 
 
