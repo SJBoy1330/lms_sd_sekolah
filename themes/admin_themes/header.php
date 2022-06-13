@@ -35,6 +35,16 @@
     <link href="<?= base_url(); ?>assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
     <link href="<?= base_url(); ?>assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 
+    <style>
+        h2.swal2-title {
+            font-size: 1.5rem;
+        }
+
+        div#swal2-content {
+            font-size: 1rem;
+        }
+    </style>
+
     <!--end::Global Stylesheets Bundle-->
 
     <!-- ClockPicker Stylesheet -->
