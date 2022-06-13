@@ -508,3 +508,24 @@ function get_pengaturan()
 
     return $pengaturan;
 }
+
+function access_url()
+{
+    $url_list = ['dashboard/instruksi_ujian', 'dashboard/ujian', 'chatting', 'profile', 'profile/ubah_password'];
+    foreach (get_menu_by_role() as $menu) {
+        if ($menu['submenu'] === null) {
+            array_push($url_list, $menu['url']);
+        } else {
+            foreach ($menu['submenu']  as $submenu) {
+                array_push($url_list, $submenu['url']);
+            }
+        }
+    }
+
+    $ci = get_instance();
+    $ci->load->helper('url');
+    $uri = uri_string();
+    if (!in_array($uri, $url_list)) {
+        redirect('dashboard');
+    }
+}

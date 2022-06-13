@@ -11,6 +11,9 @@ class Controller_ctl extends MY_Admin
 
 	public function index()
 	{
+		var_dump($_SERVER['HTTP_REFERER']);
+
+
 		// LOAD TITLE
 		$this->data['title'] = 'Dashboard';
 
