@@ -6,7 +6,7 @@ class Controller_ctl extends MY_Admin
 	{
 		// Load the constructer from MY_Controller
 		parent::__construct();
-		access_url();
+		access_url(['master/modal_detail_staf', 'master/modal_edit_tambah', 'master/modal_detail_siswa']);
 	}
 
 
@@ -46,6 +46,34 @@ class Controller_ctl extends MY_Admin
 
 		//LOAD JS
 		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/siswa.js"></script>';
+
+		// Load Meta Data
+		$idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+
+		$response_tahun_ajaran = curl_get('atribut/tahun_ajaran');
+		$mydata['tahun_ajaran'] = $response_tahun_ajaran->data;
+
+		$response_tingkat = curl_get('atribut/tingkat', ['id_sekolah' => $idsekolah]);
+		$mydata['tingkat'] = $response_tingkat->data;
+
+		$response_kelas = curl_get('kelas', ['id_sekolah' => $idsekolah]);
+		$mydata['kelas'] = $response_kelas->data;
+
+		$request_filter = ['id_sekolah' => $idsekolah];
+		if ($_GET['tingkat']) {
+			$request_filter['id_tingkat'] = $_GET['tingkat'];
+		}
+
+		if ($_GET['kelas']) {
+			$request_filter['id_kelas'] = $_GET['kelas'];
+		}
+
+		if ($_GET['tahun_ajaran']) {
+			$request_filter['id_tahun_ajaran'] = $_GET['tahun_ajaran'];
+		}
+
+		$response_siswa = curl_get('siswa', $request_filter);
+		$mydata['data_siswa'] = $response_siswa->data;
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('siswa', $mydata, TRUE);
@@ -189,4 +217,22 @@ class Controller_ctl extends MY_Admin
 
 		$this->load->view("modal/modal_tambah_edit_staf", $mydata);
 	}
+
+	public function modal_detail_siswa()
+	{
+		$id_siswa = $this->input->post('id_siswa');
+
+		// Load Meta Data
+		$idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+
+		$request_filter = [
+			'id_sekolah' => $idsekolah,
+			'id_siswa' => $id_siswa
+		];
+
+		$response = curl_get('siswa', $request_filter);
+
+		$this->load->view("modal/modal_detail_siswa", $response->data);
+	}
+
 }

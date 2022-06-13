@@ -40,7 +40,10 @@ function curl_post_file($url, $fields = array(), $files = NULL)
 
 function curl_get($path, $fields = array())
 {
-    $request_url = API_URL($path) . "?" . http_build_query($fields);
+    $request_url = API_URL($path);
+    if (count($fields) > 0 && $fields !== null) {
+        $request_url = $request_url . "?" . http_build_query($fields);
+    }
     $ch = curl_init($request_url);
     curl_setopt($ch, CURLOPT_POST, 0);                //0 for a get request
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
