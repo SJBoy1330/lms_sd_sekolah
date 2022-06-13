@@ -641,6 +641,23 @@
                                         </div>
                                     </div>
 
+                                    <div class="col-xl-6 col-md-12">
+                                        <div class="d-flex flex-column mb-8 fv-row">
+                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                                <span>Orang Tua</span>
+                                            </label>
+                                            <div class="position-relative d-flex align-items-center">
+                                                <div style="width:100vw;">
+                                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Orang Tua">
+                                                        <option></option>
+                                                        <option value="1">Jeje</option>
+                                                        <option value="2">Babi</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <div class="col-12">
                                         <div class="d-flex flex-column mb-8 fv-row">
                                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
@@ -739,7 +756,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-12 d-flex justify-content-center align-items-center">
+                                    <!-- <div class="col-12 d-flex justify-content-center align-items-center">
                                         <div class="d-flex flex-column mb-8 fv-row">
                                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                                                 <span class="required">Foto Ortu</span>
@@ -828,7 +845,7 @@
                                                 <input class="form-control form-control-solid ps-12" placeholder="Konfirmasi kata sandi" />
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="row mb-4">
                                     <div class="d-flex justify-content-end">
