@@ -1,153 +1,21 @@
 <!--begin::Content-->
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
-    
-
-<div class="container mb-4">
+    <div class="container mb-4">
 		<div class="card shodow-sm mb-4">
-
 			<div class="card-body">
-                    <div class="modal fade" id="modalTambahBab" tabindex="-1" aria-hidden="true">
-                        <!--begin::Modal dialog-->
-                        <div class="modal-dialog modal-dialog-centered mw-850px">
-                            <!--begin::Modal content-->
-                            <div class="modal-content">
-                                <!--begin::Modal header-->
-                                <div class="modal-header">
-                                    <!--begin::Modal title-->
-                                    <h2 class="fw-bolder">Tambah Materi</h2>
-                                    <!--end::Modal title-->
-                                    <!--begin::Close-->
-                                    <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
-                                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                                        <span class="svg-icon svg-icon-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
-                                                <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
-                                            </svg>
-                                        </span>
-                                        <!--end::Svg Icon-->
-                                    </div>
-                                    <!--end::Close-->
-                                </div>
-                                <!--end::Modal header-->
-                                <!--begin::Modal body-->
-                                <div class="modal-body scroll-y mx-10 my-2">
-									<div class="row">
-                                        <div class="col-12">
-											<div class="d-flex flex-column mb-8 fv-row">
-												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-													<span class="required">Judul</span>
-												</label>
-												<div class="position-relative d-flex align-items-center">
-													<span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                                        <i class="fa-duotone fa-h1" style="font-size: 1.3rem;"></i>
-													</span>
-													<input class="form-control form-control-solid ps-12" placeholder="Masukkan judul" />
-												</div>
-											</div>
-										</div>
-                                        <div class="col-12">
-											<div class="d-flex flex-column mb-8 fv-row">
-												<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-													<span class="required">File Dokumen</span>
-												</label>
-												<form class="form" action="none" id="kt_modal_upload_form">
-                                                    <!--begin::Modal body-->
-                                                    <div class="modal-body pt-10 pb-15 px-lg-17">
-                                                        <!--begin::Input group-->
-                                                        <div class="form-group">
-                                                            <!--begin::Dropzone-->
-                                                            <div class="dropzone dropzone-queue mb-2" id="kt_modal_upload_dropzone">
-                                                                <!--begin::Controls-->
-                                                                <div class="dropzone-panel mb-4">
-                                                                    <a class="dropzone-select btn btn-sm btn-primary me-2">Attach files</a>
-                                                                    <a class="dropzone-upload btn btn-sm btn-light-primary me-2">Upload All</a>
-                                                                    <a class="dropzone-remove-all btn btn-sm btn-light-primary">Remove All</a>
-                                                                </div>
-                                                                <!--end::Controls-->
-                                                                <!--begin::Items-->
-                                                                <div class="dropzone-items wm-200px">
-                                                                    <div class="dropzone-item p-5" style="display:none">
-                                                                        <!--begin::File-->
-                                                                        <div class="dropzone-file">
-                                                                            <div class="dropzone-filename text-dark" title="some_image_file_name.jpg">
-                                                                                <span data-dz-name="">some_image_file_name.jpg</span>
-                                                                                <strong>(
-                                                                                <span data-dz-size="">340kb</span>)</strong>
-                                                                            </div>
-                                                                            <div class="dropzone-error mt-0" data-dz-errormessage=""></div>
-                                                                        </div>
-                                                                        <!--end::File-->
-                                                                        <!--begin::Progress-->
-                                                                        <div class="dropzone-progress">
-                                                                            <div class="progress bg-light-primary">
-                                                                                <div class="progress-bar bg-primary" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-dz-uploadprogress=""></div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!--end::Progress-->
-                                                                        <!--begin::Toolbar-->
-                                                                        <div class="dropzone-toolbar">
-                                                                            <span class="dropzone-start">
-                                                                                <i class="bi bi-play-fill fs-3"></i>
-                                                                            </span>
-                                                                            <span class="dropzone-cancel" data-dz-remove="" style="display: none;">
-                                                                                <i class="bi bi-x fs-3"></i>
-                                                                            </span>
-                                                                            <span class="dropzone-delete" data-dz-remove="">
-                                                                                <i class="bi bi-x fs-1"></i>
-                                                                            </span>
-                                                                        </div>
-                                                                        <!--end::Toolbar-->
-                                                                    </div>
-                                                                </div>
-                                                                <!--end::Items-->
-                                                            </div>
-                                                            <!--end::Dropzone-->
-                                                            <!--begin::Hint-->
-                                                            <span class="form-text fs-6 text-muted">Max file size is 1MB per file.</span>
-                                                            <!--end::Hint-->
-                                                        </div>
-                                                        <!--end::Input group-->
-                                                    </div>
-                                                    <!--end::Modal body-->
-                                                </form>
-											</div>
-										</div>
-									</div>
-									<div class="row mb-4">
-										<div class="d-flex justify-content-end">
-											<button type="button" class="btn btn-primary">
-											<!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-											<span class="svg-icon svg-icon-2">
-												<i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-											</span>
-											<!--end::Svg Icon-->Simpan</button>
-											<!--end::Add user-->
-										</div>
-									</div>
-                                </div>
-                                <!--end::Modal body-->
-                            </div>
-                            <!--end::Modal content-->
-                        </div>
-                        <!--end::Modal dialog-->
-                    </div>
-
-				<form action="">
+			    <form action="">
 					<div class="row">
 
-                        <div class="col-md-6 col-xl-6 align-self-end text-start">
-                            <a href="<?= base_url('akademik/materi'); ?>" class="btn btn-secondary">
+                        <div class="col-md-12 col-xl-12 d-flex justify-content-between">
+                            <a href="<?= base_url('akademik/materi'); ?>" class="btn btn-sm btn-secondary">
                             <span class="svg-icon svg-icon-2 me-0">
-                                <i class="fa-duotone fa-arrow-left-long" style="font-size: 20px;"></i>
+                                <i class="fa-duotone fa-arrow-left-long" style="font-size: 1rem;"></i>
                             </span>
                             Kembali</a>
-						</div>
 
-                        <div class="col-md-6 col-xl-6 align-self-end text-end">
-                            <button type="button" class="btn btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahBab">
+                            <button type="button" class="btn btn-sm btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahBab">
                             <span class="svg-icon svg-icon-2 me-0">
-                                <i class="fa-duotone fa-plus"  style="font-size: 20px;"></i>
+                                <i class="fa-duotone fa-plus"  style="font-size: 1.3rem;"></i>
                             </span>
                             Materi Dokumen</button>
 						</div>
@@ -155,11 +23,11 @@
 					</div>
 
                     <div class="row d-flex justify-content-around align-items-center mt-8">
-                        <div class="col-6">
+                        <div class="col-md-6 col-sm-12">
                             <label class="form-label fw-bold">Bab</label>
                             <input type="text" class="form-control form-control-solid" value="Bab 1 Pelajaran 1" readonly>
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6 col-sm-12">
                             <label class="form-label fw-bold">Materi</label>
                             <input type="text" class="form-control form-control-solid" value="Materi 1 Bab 1 Pelajaran 1" readonly>
                         </div>
@@ -175,6 +43,74 @@
     <div class="container-xxl" id="kt_content_container">
         <!--begin::Card-->
         <div class="card">
+        <div class="row mt-8" style="padding: 0 2.25rem;">
+                <div class="box-info">
+                    <div class="fv-row">
+                        <!--begin::Label-->
+                        <label class="d-flex align-items-center fs-5 fw-bold mb-4">
+                            <span>Keterangan</span>
+                        </label>
+                        <!--end::Label-->
+                        <!--begin:Options-->
+                        <div class="row fv-plugins-icon-container fv-plugins-bootstrap5-row-valid">
+                            <div class="col-12">
+                                <!--begin:Option-->
+                                <label class="d-flex flex-stack mb-5 cursor-pointer">
+                                    <!--begin:Label-->
+                                    <span class="d-flex align-items-center me-2">
+                                        <!--begin:Icon-->
+                                        <span class="symbol symbol-50px me-6">
+                                            <span class="symbol-label bg-light-lighten">
+                                                <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
+                                                <span class="svg-icon svg-icon-1 svg-icon-primary">
+                                                    <i class="fa-duotone fa-layer-group" style="font-size: 1.8rem;"></i>
+                                                </span>
+                                                <!--end::Svg Icon-->
+                                            </span>
+                                        </span>
+                                        <!--end:Icon-->
+                                        <!--begin:Info-->
+                                        <span class="d-flex flex-column">
+                                            <span class="fw-bolder fs-6">Bab</span>
+                                            <span class="fs-7 text-muted">Bab 1 Pelajaran 1</span>
+                                        </span>
+                                        <!--end:Info-->
+                                    </span>
+                                    <!--end:Label-->
+                                </label>
+                                <!--end::Option-->
+
+                                <!--begin:Option-->
+                                <label class="d-flex flex-stack mb-5 cursor-pointer">
+                                    <!--begin:Label-->
+                                    <span class="d-flex align-items-center me-2">
+                                        <!--begin:Icon-->
+                                        <span class="symbol symbol-50px me-6">
+                                            <span class="symbol-label">
+                                                <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
+                                                <span class="svg-icon svg-icon-1 svg-icon-primary">
+                                                    <i class="fa-duotone fa-book-open-cover" style="font-size: 1.8rem;"></i>
+                                                </span>
+                                                <!--end::Svg Icon-->
+                                            </span>
+                                        </span>
+                                        <!--end:Icon-->
+                                        <!--begin:Info-->
+                                        <span class="d-flex flex-column">
+                                            <span class="fw-bolder fs-6">Materi</span>
+                                            <span class="fs-7 text-muted">Materi 1 Bab 1 Pelajaran 1</span>
+                                        </span>
+                                        <!--end:Info-->
+                                    </span>
+                                    <!--end:Label-->
+                                </label>
+                                <!--end::Option-->
+                            </div>
+                        <div class="fv-plugins-message-container invalid-feedback"></div></div>
+                        <!--end:Options-->
+                    </div>
+                </div>
+            </div>
             <!--begin::Card header-->
             <div class="card-header border-0 pt-6">
                 <!--begin::Card title-->
@@ -259,7 +195,7 @@
 
                                 <td>
                                     <p class="text-center">
-                                        <button type="button" class="btn btn-sm btn-light-warning" data-bs-toggle="modal" data-bs-target="#modalTambahBab">
+                                        <button type="button" class="btn btn-sm btn-light-warning">
                                         <span class="svg-icon svg-icon-2 me-0">
                                             <i class="fa-duotone fa-file-excel" style="font-size: 20px;"></i>
                                         </span>
@@ -285,3 +221,73 @@
     <!--end::Container-->
 </div>
 <!--end::Content-->
+
+
+<!-- Modal Tambah FIle Dokumen -->
+<div class="modal fade" id="modalTambahBab" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-850px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header">
+                <!--begin::Modal title-->
+                <h2 class="fw-bolder">Tambah Materi Dokumen</h2>
+                <!--end::Modal title-->
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <!--end::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y mx-10 my-2">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Judul</span>
+                            </label>
+                            <div class="position-relative d-flex align-items-center">
+                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                    <i class="fa-duotone fa-h1" style="font-size: 1.3rem;"></i>
+                                </span>
+                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan judul" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">File Dokumen</span>
+                            </label>
+                            <input type="file" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-primary">
+                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                        <span class="svg-icon svg-icon-2">
+                            <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                        </span>
+                        <!--end::Svg Icon-->Simpan</button>
+                        <!--end::Add user-->
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal body-->
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>

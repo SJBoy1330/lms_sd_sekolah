@@ -65,7 +65,6 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Materi';
 
-
 		// LOAD JS
 		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/materi.js') . '"></script>';
 
