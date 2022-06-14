@@ -503,9 +503,13 @@ function get_pengaturan()
     return $pengaturan;
 }
 
-function access_url()
+function access_url($list_except = null)
 {
     $url_list = ['dashboard/instruksi_ujian', 'dashboard/ujian', 'chatting', 'profile', 'profile/ubah_password'];
+    if ($list_except !== null && count($list_except) > 0) {
+        array_push($url_list, ...$list_except);
+    }
+    
     foreach (get_menu_by_role() as $menu) {
         if ($menu['submenu'] === null) {
             array_push($url_list, $menu['url']);

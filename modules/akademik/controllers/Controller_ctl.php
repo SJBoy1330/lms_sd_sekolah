@@ -6,7 +6,7 @@ class Controller_ctl extends MY_Admin
 	{
 		// Load the constructer from MY_Controller
 		parent::__construct();
-		access_url();
+		access_url(['akademik/materi_dokumen', 'akademik/materi_video']);
 	}
 
 
@@ -64,7 +64,6 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Materi';
-
 
 		// LOAD JS
 		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/materi.js') . '"></script>';

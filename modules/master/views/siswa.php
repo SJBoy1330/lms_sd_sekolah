@@ -8,30 +8,33 @@
                     <div class="row">
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Tahun Ajaran</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select id="select_tahun_ajaran" class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
                                 <option></option>
-                                <option value="1">2021/2022</option>
-                                <option value="2">2022/2023</option>
+                                <?php foreach ($tahun_ajaran as $ta) : ?>
+                                    <option value="<?= $ta->id_tahun_ajaran ?>" <?= $_GET['tahun_ajaran'] === $ta->id_tahun_ajaran ? 'selected' : '' ?>><?= $ta->nama ?></option>
+                                <?php endforeach; ?>
                             </select>
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Tingkat</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select id="select_tingkat" class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
                                 <option></option>
-                                <option value="1">XII</option>
-                                <option value="2">XI</option>
+                                <?php foreach ($tingkat as $t) : ?>
+                                    <option value="<?= $t->id_tingkat ?>" <?= $_GET['tingkat'] === $t->id_tingkat ? 'selected' : '' ?>><?= $t->nama ?></option>
+                                <?php endforeach; ?>
                             </select>
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Kelas</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select id="select_kelas" class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
                                 <option></option>
-                                <option value="1">XI IPA 1</option>
-                                <option value="2">XI IPA 2</option>
+                                <?php foreach ($kelas as $k) : ?>
+                                    <option value="<?= $k->id_kelas ?>" <?= $_GET['kelas'] === $k->id_kelas ? 'selected' : '' ?>><?= $k->nama ?></option>
+                                <?php endforeach; ?>
                             </select>
                         </div>
                         <div class="col-md-4 offset-md-8 offset-xl-8 d-flex justify-content-end" style="padding:5px;">
-                            <button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Tampil</button>
+                            <button type="button" id="btn-filter" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Tampil</button>
                         </div>
                     </div>
                 </form>
@@ -122,298 +125,7 @@
                             </div>
                             <!--end::Modal header-->
                             <!--begin::Modal body-->
-                            <div class="modal-body scroll-y mx-10 my-2">
-                                <div class="row">
-                                    <div class="col-12 d-flex flex-column justify-content-center align-items-center mb-15">
-                                        <img src="<?= base_url('assets/media/avatars/150-3.jpg'); ?>" alt="" class="img-responsive rounded-circle">
-                                        <span class="d-flex flex-column fw-bolder fs-5 mt-3">
-                                            Siswa 1
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-4">
-                                        <label class="d-flex flex-stack mb-5 cursor-pointer">
-                                            <!--begin:Label-->
-                                            <span class="d-flex align-items-center me-2">
-                                                <!--begin:Icon-->
-                                                <span class="symbol symbol-50px me-6">
-                                                    <span class="symbol-label bg-light-success">
-                                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
-                                                        <span class="svg-icon svg-icon-1">
-                                                            <i class="fa-duotone fa-id-card-clip" style="font-size: 1.5rem; color: #009ef7;"></i>
-                                                        </span>
-                                                        <!--end::Svg Icon-->
-                                                    </span>
-                                                </span>
-                                                <!--end:Icon-->
-                                                <!--begin:Info-->
-                                                <span class="d-flex flex-column">
-                                                    <span class="fw-bolder fs-6">NIS</span>
-                                                    <span class="fs-7 text-muted">12345</span>
-                                                </span>
-                                                <!--end:Info-->
-                                            </span>
-                                            <!--end:Label-->
-                                        </label>
-
-                                        <label class="d-flex flex-stack mb-5 cursor-pointer">
-                                            <!--begin:Label-->
-                                            <span class="d-flex align-items-center me-2">
-                                                <!--begin:Icon-->
-                                                <span class="symbol symbol-50px me-6">
-                                                    <span class="symbol-label bg-light-primary">
-                                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
-                                                        <span class="svg-icon svg-icon-1">
-                                                            <i class="fa-duotone fa-id-card-clip" style="font-size: 1.5rem; color: #B0DC00;"></i>
-                                                        </span>
-                                                        <!--end::Svg Icon-->
-                                                    </span>
-                                                </span>
-                                                <!--end:Icon-->
-                                                <!--begin:Info-->
-                                                <span class="d-flex flex-column">
-                                                    <span class="fw-bolder fs-6">NISN</span>
-                                                    <span class="fs-7 text-muted">54321</span>
-                                                </span>
-                                                <!--end:Info-->
-                                            </span>
-                                            <!--end:Label-->
-                                        </label>
-
-                                        <label class="d-flex flex-stack mb-5 cursor-pointer">
-                                            <!--begin:Label-->
-                                            <span class="d-flex align-items-center me-2">
-                                                <!--begin:Icon-->
-                                                <span class="symbol symbol-50px me-6">
-                                                    <span class="symbol-label bg-light-info">
-                                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
-                                                        <span class="svg-icon svg-icon-1">
-                                                            <i class="fa-duotone fa-location-dot" style="font-size: 1.5rem; color: #7239ea;"></i>
-                                                        </span>
-                                                        <!--end::Svg Icon-->
-                                                    </span>
-                                                </span>
-                                                <!--end:Icon-->
-                                                <!--begin:Info-->
-                                                <span class="d-flex flex-column">
-                                                    <span class="fw-bolder fs-6">Alamat</span>
-                                                    <span class="fs-7 text-muted">Sidoarjo</span>
-                                                </span>
-                                                <!--end:Info-->
-                                            </span>
-                                            <!--end:Label-->
-                                        </label>
-
-
-
-                                        <label class="d-flex flex-stack mb-5 cursor-pointer">
-                                            <!--begin:Label-->
-                                            <span class="d-flex align-items-center me-2">
-                                                <!--begin:Icon-->
-                                                <span class="symbol symbol-50px me-6">
-                                                    <span class="symbol-label bg-light-danger">
-                                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
-                                                        <span class="svg-icon svg-icon-1">
-                                                            <i class="fa-duotone fa-envelope" style="font-size: 1.5rem; color: #ec3528;"></i>
-                                                        </span>
-                                                        <!--end::Svg Icon-->
-                                                    </span>
-                                                </span>
-                                                <!--end:Icon-->
-                                                <!--begin:Info-->
-                                                <span class="d-flex flex-column">
-                                                    <span class="fw-bolder fs-6">Email</span>
-                                                    <span class="fs-7 text-muted">siswa@gmail.com</span>
-                                                </span>
-                                                <!--end:Info-->
-                                            </span>
-                                            <!--end:Label-->
-                                        </label>
-                                    </div>
-
-                                    <div class="col-4">
-                                        <label class="d-flex flex-stack mb-5 cursor-pointer">
-                                            <!--begin:Label-->
-                                            <span class="d-flex align-items-center me-2">
-                                                <!--begin:Icon-->
-                                                <span class="symbol symbol-50px me-6">
-                                                    <span class="symbol-label bg-light-success">
-                                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
-                                                        <span class="svg-icon svg-icon-1">
-                                                            <i class="fa-duotone fa-person-praying" style="font-size: 1.5rem; color: #009ef7;"></i>
-                                                        </span>
-                                                        <!--end::Svg Icon-->
-                                                    </span>
-                                                </span>
-                                                <!--end:Icon-->
-                                                <!--begin:Info-->
-                                                <span class="d-flex flex-column">
-                                                    <span class="fw-bolder fs-6">Agama</span>
-                                                    <span class="fs-7 text-muted">Islam</span>
-                                                </span>
-                                                <!--end:Info-->
-                                            </span>
-                                            <!--end:Label-->
-                                        </label>
-
-                                        <label class="d-flex flex-stack mb-5 cursor-pointer">
-                                            <!--begin:Label-->
-                                            <span class="d-flex align-items-center me-2">
-                                                <!--begin:Icon-->
-                                                <span class="symbol symbol-50px me-6">
-                                                    <span class="symbol-label bg-light-primary">
-                                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
-                                                        <span class="svg-icon svg-icon-1">
-                                                            <i class="fa-duotone fa-venus-mars" style="font-size: 1.5rem; color: #B0DC00;"></i>
-                                                        </span>
-                                                        <!--end::Svg Icon-->
-                                                    </span>
-                                                </span>
-                                                <!--end:Icon-->
-                                                <!--begin:Info-->
-                                                <span class="d-flex flex-column">
-                                                    <span class="fw-bolder fs-6">Jenis Kelamin</span>
-                                                    <span class="fs-7 text-muted">Laki - Laki</span>
-                                                </span>
-                                                <!--end:Info-->
-                                            </span>
-                                            <!--end:Label-->
-                                        </label>
-
-                                        <label class="d-flex flex-stack mb-5 cursor-pointer">
-                                            <!--begin:Label-->
-                                            <span class="d-flex align-items-center me-2">
-                                                <!--begin:Icon-->
-                                                <span class="symbol symbol-50px me-6">
-                                                    <span class="symbol-label bg-light-info">
-                                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
-                                                        <span class="svg-icon svg-icon-1">
-                                                            <i class="fa-duotone fa-id-card" style="font-size: 1.5rem; color: #7239ea;"></i>
-                                                        </span>
-                                                        <!--end::Svg Icon-->
-                                                    </span>
-                                                </span>
-                                                <!--end:Icon-->
-                                                <!--begin:Info-->
-                                                <span class="d-flex flex-column">
-                                                    <span class="fw-bolder fs-6">Nama Orang Tua</span>
-                                                    <span class="fs-7 text-muted">Bill Gates</span>
-                                                </span>
-                                                <!--end:Info-->
-                                            </span>
-                                            <!--end:Label-->
-                                        </label>
-
-
-                                        <label class="d-flex flex-stack mb-5 cursor-pointer">
-                                            <!--begin:Label-->
-                                            <span class="d-flex align-items-center me-2">
-                                                <!--begin:Icon-->
-                                                <span class="symbol symbol-50px me-6">
-                                                    <span class="symbol-label bg-light-success">
-                                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
-                                                        <span class="symbol-label bg-light-warning">
-                                                            <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
-                                                            <span class="svg-icon svg-icon-1">
-                                                                <i class="fa-duotone fa-location-dot" style="font-size: 1.5rem; color: #ffc700;"></i>
-                                                            </span>
-                                                            <!--end::Svg Icon-->
-                                                        </span>
-                                                        <!--end::Svg Icon-->
-                                                    </span>
-                                                </span>
-                                                <!--end:Icon-->
-                                                <!--begin:Info-->
-                                                <span class="d-flex flex-column">
-                                                    <span class="fw-bolder fs-6">Alamat Orang Tua</span>
-                                                    <span class="fs-7 text-muted">Sidoarjo</span>
-                                                </span>
-                                                <!--end:Info-->
-                                            </span>
-                                            <!--end:Label-->
-                                        </label>
-                                    </div>
-
-                                    <div class="col-4">
-                                        <label class="d-flex flex-stack mb-5 cursor-pointer">
-                                            <!--begin:Label-->
-                                            <span class="d-flex align-items-center me-2">
-                                                <!--begin:Icon-->
-                                                <span class="symbol symbol-50px me-6">
-                                                    <span class="symbol-label bg-light-success">
-                                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
-                                                        <span class="svg-icon svg-icon-1">
-                                                            <i class="fa-duotone fa-circle-dot" style="font-size: 1.5rem; color: #009ef7;"></i>
-                                                        </span>
-                                                        <!--end::Svg Icon-->
-                                                    </span>
-                                                </span>
-                                                <!--end:Icon-->
-                                                <!--begin:Info-->
-                                                <span class="d-flex flex-column">
-                                                    <span class="fw-bolder fs-6">Status Siswa</span>
-                                                    <span class="badge badge-success">Aktif</span>
-                                                </span>
-                                                <!--end:Info-->
-                                            </span>
-                                            <!--end:Label-->
-                                        </label>
-
-                                        <label class="d-flex flex-stack mb-5 cursor-pointer">
-                                            <!--begin:Label-->
-                                            <span class="d-flex align-items-center me-2">
-                                                <!--begin:Icon-->
-                                                <span class="symbol symbol-50px me-6">
-                                                    <span class="symbol-label bg-light-primary">
-                                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
-                                                        <span class="symbol-label bg-light-warning">
-                                                            <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
-                                                            <span class="svg-icon svg-icon-1">
-                                                                <i class="fa-duotone fa-phone" style="font-size: 1.5rem; color: #B0DC00;"></i>
-                                                            </span>
-                                                            <!--end::Svg Icon-->
-                                                        </span>
-                                                        <!--end::Svg Icon-->
-                                                    </span>
-                                                </span>
-                                                <!--end:Icon-->
-                                                <!--begin:Info-->
-                                                <span class="d-flex flex-column">
-                                                    <span class="fw-bolder fs-6">Telp Siswa</span>
-                                                    <span class="fs-7 text-muted">081654321</span>
-                                                </span>
-                                                <!--end:Info-->
-                                            </span>
-                                            <!--end:Label-->
-                                        </label>
-
-
-                                        <label class="d-flex flex-stack mb-5 cursor-pointer">
-                                            <!--begin:Label-->
-                                            <span class="d-flex align-items-center me-2">
-                                                <!--begin:Icon-->
-                                                <span class="symbol symbol-50px me-6">
-                                                    <span class="symbol-label bg-light-info">
-                                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
-                                                        <span class="svg-icon svg-icon-1">
-                                                            <i class="fa-duotone fa-phone" style="font-size: 1.5rem; color: #7239ea;"></i>
-                                                        </span>
-                                                        <!--end::Svg Icon-->
-                                                    </span>
-                                                </span>
-                                                <!--end:Icon-->
-                                                <!--begin:Info-->
-                                                <span class="d-flex flex-column">
-                                                    <span class="fw-bolder fs-6">Telp Orang Tua</span>
-                                                    <span class="fs-7 text-muted">08123445234</span>
-                                                </span>
-                                                <!--end:Info-->
-                                            </span>
-                                            <!--end:Label-->
-                                        </label>
-                                    </div>
-                                </div>
+                            <div class="modal-body scroll-y mx-10 my-2" id="detail-siswa-display">
                             </div>
                             <!--end::Modal body-->
                         </div>
@@ -641,6 +353,23 @@
                                         </div>
                                     </div>
 
+                                    <div class="col-xl-6 col-md-12">
+                                        <div class="d-flex flex-column mb-8 fv-row">
+                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                                <span>Orang Tua</span>
+                                            </label>
+                                            <div class="position-relative d-flex align-items-center">
+                                                <div style="width:100vw;">
+                                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Orang Tua">
+                                                        <option></option>
+                                                        <option value="1">Jeje</option>
+                                                        <option value="2">Babi</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <div class="col-12">
                                         <div class="d-flex flex-column mb-8 fv-row">
                                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
@@ -739,7 +468,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-12 d-flex justify-content-center align-items-center">
+                                    <!-- <div class="col-12 d-flex justify-content-center align-items-center">
                                         <div class="d-flex flex-column mb-8 fv-row">
                                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                                                 <span class="required">Foto Ortu</span>
@@ -828,7 +557,7 @@
                                                 <input class="form-control form-control-solid ps-12" placeholder="Konfirmasi kata sandi" />
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="row mb-4">
                                     <div class="d-flex justify-content-end">
@@ -875,143 +604,88 @@
                         <!--end::Table head-->
                         <!--begin::Table body-->
                         <tbody class="text-gray-600 fw-bold">
-                            <tr>
-                                <!--begin::Checkbox-->
-                                <td>
-                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input deletebox" type="checkbox" value="1" />
-                                    </div>
-                                </td>
-                                <!--end::Checkbox-->
-                                <!--begin::User=-->
-                                <td class="text-center">
-                                    <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                        <i class="fa-duotone fa-bars fs-4"></i>
-                                    </button>
-                                    <!--end::Svg Icon--></a>
-                                    <!--begin::Menu-->
-                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-                                        <!--begin::Menu item-->
-                                        <div class="menu-item px-3">
-                                            <a data-bs-toggle="modal" href="#modalDetail" role="button" class="menu-link px-3">Detail</a>
-                                        </div>
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Edit</a>
-                                        </div>
-                                        <!--end::Menu item-->
-                                        <!--begin::Menu item-->
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
-                                        </div>
-                                        <!--end::Menu item-->
-                                    </div>
-                                </td>
-                                <!--end::User=-->
-                                <!--begin::Role=-->
-                                <td>
-                                    <p class="text-center mb-0">1</p>
-                                </td>
-                                <!--end::Role=-->
-                                <!--begin::Last login=-->
-                                <td class="text-center mb-0">
-                                    <div class="symbol symbol-60px">
-                                        <img alt="Logo" src="<?= base_url('assets/media/avatars/150-1.jpg') ?>">
-                                    </div>
-                                </td>
+                            <?php if ($data_siswa) : ?>
+                                <?php foreach ($data_siswa as $i => $siswa) : ?>
+                                    <tr>
+                                        <!--begin::Checkbox-->
+                                        <td>
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                                <input class="form-check-input deletebox" type="checkbox" value="1" />
+                                            </div>
+                                        </td>
+                                        <!--end::Checkbox-->
+                                        <!--begin::User=-->
+                                        <td class="text-center">
+                                            <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                <i class="fa-duotone fa-bars fs-4"></i>
+                                            </button>
+                                            <!--end::Svg Icon--></a>
+                                            <!--begin::Menu-->
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
+                                                <!--begin::Menu item-->
+                                                <div class="menu-item px-3">
+                                                    <a data-bs-toggle="modal" href="#modalDetail" role="button" class="menu-link px-3" id="detailSiswaBtn" data-idsiswa="<?= $siswa->id_siswa ?>">Detail</a>
+                                                </div>
+                                                <div class=" menu-item px-3">
+                                                    <a href="#" class="menu-link px-3">Edit</a>
+                                                </div>
+                                                <!--end::Menu item-->
+                                                <!--begin::Menu item-->
+                                                <div class="menu-item px-3">
+                                                    <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
+                                                </div>
+                                                <!--end::Menu item-->
+                                            </div>
+                                        </td>
+                                        <!--end::User=-->
+                                        <!--begin::Role=-->
+                                        <td>
+                                            <p class="text-center mb-0"><?= $i + 1 ?></p>
+                                        </td>
+                                        <!--end::Role=-->
+                                        <!--begin::Last login=-->
+                                        <td class="text-center mb-0">
+                                            <div class="symbol symbol-60px">
+                                                <img alt="Logo" src="<?= $siswa->foto ?>">
+                                            </div>
+                                        </td>
 
-                                <td>
-                                    <p class="text-center">
-                                        Admin Sidoarjo
-                                    </p>
-                                </td>
+                                        <td>
+                                            <p class="text-center">
+                                                <?= $siswa->nama ?>
+                                            </p>
+                                        </td>
 
-                                <td>
-                                    <p class="text-center">
-                                        X IPA 1
-                                    </p>
-                                </td>
+                                        <td>
+                                            <p class="text-center">
+                                                <?= $siswa->kelas ?>
+                                            </p>
+                                        </td>
 
-                                <td>
-                                    <p class="text-center">
-                                        Perempuan
-                                    </p>
-                                </td>
+                                        <td>
+                                            <p class="text-center">
+                                                <?= $siswa->gender === 'L' ? 'Laki - laki' : 'Perempuan' ?>
+                                            </p>
+                                        </td>
 
-                                <td>
-                                    <p class="text-center">
-                                        <span class="badge badge-success mx-3 my-2">Aktif</span>
-                                    </p>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <!--begin::Checkbox-->
-                                <td>
-                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input deletebox" type="checkbox" value="1" />
-                                    </div>
-                                </td>
-                                <!--end::Checkbox-->
-                                <!--begin::User=-->
-                                <td class="text-center">
-                                    <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                        <i class="fa-duotone fa-bars fs-4"></i>
-                                    </button>
-                                    <!--end::Svg Icon--></a>
-                                    <!--begin::Menu-->
-                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-                                        <!--begin::Menu item-->
-                                        <div class="menu-item px-3">
-                                            <a data-bs-toggle="modal" href="#modalDetail" role="button" class="menu-link px-3">Detail</a>
-                                        </div>
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Edit</a>
-                                        </div>
-                                        <!--end::Menu item-->
-                                        <!--begin::Menu item-->
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
-                                        </div>
-                                        <!--end::Menu item-->
-                                    </div>
-                                </td>
-                                <!--end::User=-->
-                                <!--begin::Role=-->
-                                <td>
-                                    <p class="text-center mb-0">2</p>
-                                </td>
-                                <!--end::Role=-->
-                                <!--begin::Last login=-->
-                                <td class="text-center mb-0">
-                                    <div class="symbol symbol-60px">
-                                        <img alt="Logo" src="<?= base_url('assets/media/avatars/150-2.jpg') ?>">
-                                    </div>
-                                </td>
-
-                                <td>
-                                    <p class="text-center">
-                                        Operator
-                                    </p>
-                                </td>
-
-                                <td>
-                                    <p class="text-center">
-                                        X IPS 1
-                                    </p>
-                                </td>
-
-                                <td>
-                                    <p class="text-center">
-                                        Laki - laki
-                                    </p>
-                                </td>
-
-                                <td>
-                                    <p class="text-center">
-                                        <span class="badge badge-danger mx-3 my-2">Tidak Aktif</span>
-                                    </p>
-                                </td>
-                            </tr>
+                                        <td>
+                                            <p class="text-center">
+                                                <?php if ($siswa->aktif === 'Y') : ?>
+                                                    <span class="badge badge-success mx-3 my-2">Aktif</span>
+                                                <?php else : ?>
+                                                    <span class="badge badge-danger mx-3 my-2">Tidak Aktif</span>
+                                                <?php endif; ?>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            <?php else : ?>
+                                <tr>
+                                    <td colspan="8">
+                                        <center>Tidak ada data siswa</center>
+                                    </td>
+                                </tr>
+                            <?php endif; ?>
                         </tbody>
                         <!--end::Table body-->
                     </table>
