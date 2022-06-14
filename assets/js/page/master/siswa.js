@@ -55,9 +55,27 @@ $(document).ready(function () {
             }
         });
     });
+
+    $('.btn-tambah-edit-modal-siswa').on('click', function () {
+
+        let idsiswa = $(this).data('idsiswa');
+
+        $.ajax({
+            url: `${BASE_URL}/master/modal_edit_tambah_siswa`,
+            method: "POST",
+            data: {
+                id_siswa: idsiswa
+            },
+            beforeSend: function () {
+                $('#content-edit-tambah-siswa').html(null);
+            },
+            success: function (data) {
+
+                $('#content-edit-tambah-siswa').html(data);
+
+            }
+        });
+    });
 })
-
-
-modalDetail
 
 

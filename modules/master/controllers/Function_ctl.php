@@ -182,4 +182,79 @@ class Function_ctl extends MY_Admin
         $this->pdf->filename = "export_staf.pdf";
         $this->pdf->load_view('pdf/export_pdf_staf.php', $data);
     }
+
+    public function insert_siswa()
+    {
+        $arrVar['idkelas'] = 'Kelas';
+        $arrVar['agama'] = 'Agama';
+        $arrVar['gender'] = 'Jenis Kelamin';
+        $arrVar['status_aktif'] = 'Aktif';
+        $arrVar['idwali'] = 'Orang Tua';
+        $arrVar['nama'] = 'Nama';
+        $arrVar['nis'] = 'NIS';
+        $arrVar['username'] = 'Username';
+        $arrVar['sandi'] = 'Kata Sandi Siswa';
+        $arrVar['sandi_ulang'] = 'Konfirmasi Kata Sandi Siswa';
+
+        foreach ($arrVar as $var => $value) {
+            $$var = $this->input->post($var);
+            if (!$$var) {
+                $data['required'][] = ['req_' . $var, $value . ' tidak boleh kosong !'];
+                $arrAccess[] = false;
+            } else {
+                $arrAccess[] = true;
+            }
+        }
+
+        if (!in_array(false, $arrAccess)) {
+            $idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+
+            if ($_FILES['gambar']['error'] === 0) {
+                $request_file['foto'] = $_FILES['gambar'];
+            } else {
+                $request_file = null;
+            }
+
+            $request_data = array(
+                'id_sekolah' => $idsekolah,
+                'id_kelas' => $this->input->post('idkelas'),
+                'id_agama' => $this->input->post('agama'),
+                'gender' => $this->input->post('gender'),
+                'aktif' => $this->input->post('status_aktif'),
+                'id_wali' => $this->input->post('idwali'),
+                'nama' => $this->input->post('nama'),
+                'nis' => $this->input->post('nis'),
+                'username' => $this->input->post('username'),
+                'password' => $this->input->post('sandi'),
+                'repeat_password' => $this->input->post('sandi_ulang'),
+                'alamat' => $this->input->post('alamat'),
+                'telp' => $this->input->post('telp'),
+                'email' => $this->input->post('email'),
+            );
+
+            $response = curl_post_file('siswa/tambah', $request_data, $request_file);
+
+            if ($response) {
+                $data['response_raw'] = $response;
+                $data['gambar'] = $_FILES['gambar'];
+
+                $data['status'] = !$response->error;
+                if ($response->error) {
+                    $data['alert'] = $this->set_alert('PERINGATAN', $response->message);
+                } else {
+                    $data['redirect'] = base_url('master/siswa');
+                    $data['alert'] = $this->set_alert('PEMBERITAHUAN', $response->message);
+                }
+            } else {
+                $data['status'] = false;
+                $data['alert'] = $this->set_alert('PERINGATAN', "Server tidak memberi response, hubungi");
+            }
+            echo json_encode($data);
+            exit;
+        } else {
+            $data['status'] = false;
+            echo json_encode($data);
+            exit;
+        }
+    }
 }

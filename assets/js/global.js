@@ -3,9 +3,11 @@ function submit_form(element, id_form, num = 0) {
     // console.log('ok');
     var url = $(id_form).attr('action');
     var method = $(id_form).attr('method');
+
+    console.log("url", url);
     // console.log(method);
 
-    // console.log($('form'));
+    console.log($('form'));
     var form = $('form')[num];
     var form_data = new FormData(form);
 
