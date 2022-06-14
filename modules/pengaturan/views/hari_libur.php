@@ -156,6 +156,7 @@
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="d-flex align-items-center position-relative mb-4">
                                             <a href="#" class="btn btn-sm btn-light-success py-3"><i class="fa fa-plus"></i>Publish</a>
+                                            <a href="#" class="btn btn-sm btn-light-danger mx-4 py-3" id="deleteall2" style="display: none;"><i class="fa fa-plus"></i>Hapus</a>
                                         </div>
 
                                         <div class="d-flex align-items-center position-relative mb-4 flex-end">
@@ -170,14 +171,14 @@
                                     </div>
 
                                     <!--begin::Table-->
-                                    <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_users">
+                                    <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_liburnasional">
                                         <!--begin::Table head-->
                                         <thead>
                                             <!--begin::Table row-->
                                             <tr class="bg-light text-start text-muted fw-bolder fs-7 text-uppercase">
                                                 <th class="w-10px ps-4 rounded-start">
                                                     <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
-                                                        <input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_users .form-check-input" value="1" />
+                                                        <input class="form-check-input" name="maincheckbox2" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_liburnasional .form-check-input" value="1" />
                                                     </div>
                                                 </th>
                                                 <th class="min-w-125px text-center">No</th>
@@ -194,7 +195,7 @@
                                                 <!--begin::Checkbox-->
                                                 <td class="ps-4">
                                                     <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                                        <input class="form-check-input" type="checkbox" value="1" />
+                                                        <input class="form-check-input deletebox2" type="checkbox" value="1" />
                                                     </div>
                                                 </td>
                                                 <!--end::Checkbox-->
@@ -225,7 +226,7 @@
                                                 <!--begin::Checkbox-->
                                                 <td class="ps-4">
                                                     <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                                        <input class="form-check-input" type="checkbox" value="1" />
+                                                        <input class="form-check-input deletebox2" type="checkbox" value="1" />
                                                     </div>
                                                 </td>
                                                 <!--end::Checkbox-->
@@ -256,7 +257,7 @@
                                                 <!--begin::Checkbox-->
                                                 <td class="ps-4">
                                                     <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                                        <input class="form-check-input" type="checkbox" value="1" />
+                                                        <input class="form-check-input deletebox2" type="checkbox" value="1" />
                                                     </div>
                                                 </td>
                                                 <!--end::Checkbox-->

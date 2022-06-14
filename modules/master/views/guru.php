@@ -74,13 +74,13 @@
                                     <div class="col-12">
                                         <div class="d-flex flex-column mb-8 fv-row">
                                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                <span class="required">Nama Kelas</span>
+                                                <span class="required">Nama Guru</span>
                                             </label>
                                             <div class="position-relative d-flex align-items-center">
                                                 <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                                     <i class="fa-duotone fa-screen-users" style="font-size: 1.3rem;"></i>
                                                 </span>
-                                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan nama kelas" />
+                                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan nama guru" />
                                             </div>
                                         </div>
                                     </div>

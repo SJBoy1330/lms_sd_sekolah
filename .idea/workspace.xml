@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="754e756e-769a-4fe9-af96-7b591cb62c4b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/lms_sd_sekolah.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lms_sd_sekolah.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/chatting/controllers/Controller_ctl.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/chatting/controllers/Controller_ctl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/chatting/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/chatting/views/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/custom/widgets.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/custom/widgets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/custom/widgets.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/custom/widgets.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/page/akademik/tugas.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/page/akademik/tugas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/page/akademik/tugassiswa.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/page/akademik/tugassiswa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/widgets.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/widgets.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/akademik/views/tugas.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/akademik/views/tugas.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
@@ -19,6 +26,28 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/tcpdf/include" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/vendor/tcpdf/fonts" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="28076BFatJWJguRxPTscZeakdDG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,6 +76,7 @@
       <workItem from="1654259906859" duration="5536000" />
       <workItem from="1654340424866" duration="28000" />
       <workItem from="1654736052002" duration="3987000" />
+      <workItem from="1655202270115" duration="1563000" />
     </task>
     <servers />
   </component>

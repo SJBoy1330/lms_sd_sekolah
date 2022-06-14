@@ -1,4 +1,8 @@
-
+var quill = new Quill('#kt_forms_widget_1_editor_berita', {
+  modules: {toolbar: {container: "#kt_forms_widget_1_editor_toolbar_berita"}},
+  placeholder: 'detail berita...',
+  theme: 'snow' // or 'bubble'
+});
 
   $(function() {
     $("#kt_table_berita").on("click", function() {
