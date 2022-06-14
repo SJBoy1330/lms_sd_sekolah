@@ -148,7 +148,7 @@ class Controller_ctl extends MY_Admin
 		$mydata['breadcrumb']['menu'] = 'Tugas Siswa';
 
 		// LOAD JS
-		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/tugas.js') . '"></script>';
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/tugassiswa.js') . '"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('tugas_siswa', $mydata, TRUE);
