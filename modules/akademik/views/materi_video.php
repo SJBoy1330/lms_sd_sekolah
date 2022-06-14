@@ -1,27 +1,24 @@
 <!--begin::Content-->
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
     <div class="container mb-4">
-		<div class="card shodow-sm mb-4">
-			<div class="card-body">
-				<form action="">
-					<div class="row">
-
+        <div class="card shodow-sm mb-4">
+            <div class="card-body">
+                <form action="">
+                    <div class="row">
                         <div class="col-md-12 col-xl-12 d-flex justify-content-between align-items-center">
                             <a href="<?= base_url('akademik/materi'); ?>" class="btn btn-sm btn-secondary">
-                            <span class="svg-icon svg-icon-2 me-0">
-                                <i class="fa-duotone fa-arrow-left-long" style="font-size: 1rem;"></i>
-                            </span>
-                            Kembali</a>
+                                <span class="svg-icon svg-icon-2 me-0">
+                                    <i class="fa-duotone fa-arrow-left-long" style="font-size: 1rem;"></i>
+                                </span>
+                                Kembali</a>
 
                             <button type="button" class="btn btn-sm btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahBab">
-                            <span class="svg-icon svg-icon-2 me-0">
-                                <i class="fa-duotone fa-plus"  style="font-size: 1.3rem;"></i>
-                            </span>
-                            Materi Video</button>
-						</div>
-
-					</div>
-
+                                <span class="svg-icon svg-icon-2 me-0">
+                                    <i class="fa-duotone fa-plus" style="font-size: 1.3rem;"></i>
+                                </span>
+                                Materi Video</button>
+                        </div>
+                    </div>
                     <div class="row d-flex justify-content-around align-items-center mt-8">
                         <div class="col-md-6 col-sm-12">
                             <label class="form-label fw-bold">Bab</label>
@@ -33,11 +30,11 @@
                         </div>
                     </div>
 
-				</form>
+                </form>
 
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+    </div>
 
     <!--begin::Container-->
     <div class="container-xxl" id="kt_content_container">
@@ -106,7 +103,8 @@
                                 </label>
                                 <!--end::Option-->
                             </div>
-                        <div class="fv-plugins-message-container invalid-feedback"></div></div>
+                            <div class="fv-plugins-message-container invalid-feedback"></div>
+                        </div>
                         <!--end:Options-->
                     </div>
                 </div>
@@ -129,6 +127,17 @@
                     </div>
                     <!--end::Search-->
                 </div>
+                <div class="card-toolbar">
+                    <!--begin::Toolbar-->
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-sm btn-light-danger me-2 " id="deleteall" style="display: none;">
+                            <span class="svg-icon svg-icon-2 me-0">
+                                <i class="fa-duotone fa-trash" style="font-size: 18px;"></i>
+                            </span>
+                            Hapus</button>
+                    </div>
+                    <!--end::Toolbar-->
+                </div>
                 <!--begin::Card title-->
             </div>
             <!--end::Card header-->
@@ -136,14 +145,14 @@
             <div class="card-body py-4">
                 <!--begin::Table-->
                 <div class="table-responsive">
-                    <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_users">
+                    <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_materi_video">
                         <!--begin::Table head-->
                         <thead>
                             <!--begin::Table row-->
                             <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
                                 <th class="w-10px pe-2">
                                     <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
-                                        <input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_users .form-check-input" value="1" />
+                                        <input class="form-check-input" name="maincheckbox" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_materi_video .form-check-input" value="1" />
                                     </div>
                                 </th>
                                 <th class="min-w-125px text-center">Aksi</th>
@@ -161,7 +170,7 @@
                                 <!--begin::Checkbox-->
                                 <td>
                                     <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input" type="checkbox" value="1" />
+                                        <input class="form-check-input deletebox" type="checkbox" value="1" />
                                     </div>
                                 </td>
                                 <!--end::Checkbox-->
@@ -194,9 +203,9 @@
                                 <td>
                                     <p class="text-center">
                                         <button type="button" class="btn btn-sm btn-light-primary">
-                                        <span class="svg-icon svg-icon-2 me-0">
-                                            <i class="fa-brands fa-youtube font-size: 25px;"></i>
-                                        </span>Youtube </button>                                         
+                                            <span class="svg-icon svg-icon-2 me-0">
+                                                <i class="fa-brands fa-youtube font-size: 25px;"></i>
+                                            </span>Youtube </button>
                                     </p>
                                 </td>
                             </tr>
@@ -272,11 +281,12 @@
                 <div class="row mb-4">
                     <div class="d-flex justify-content-end">
                         <button type="button" class="btn btn-primary">
-                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                        <span class="svg-icon svg-icon-2">
-                            <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-                        </span>
-                        <!--end::Svg Icon-->Simpan</button>
+                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                            <span class="svg-icon svg-icon-2">
+                                <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                            </span>
+                            <!--end::Svg Icon-->Simpan
+                        </button>
                         <!--end::Add user-->
                     </div>
                 </div>
