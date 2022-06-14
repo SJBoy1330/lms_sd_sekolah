@@ -220,13 +220,26 @@
                     <div class="col-12">
                         <div class="d-flex flex-column mb-8 fv-row">
                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Tanggal</span>
+                            </label>
+                            <div class="position-relative d-flex align-items-center">
+                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                    <i class="fa-duotone fa-calendar" style="font-size: 1.3rem;"></i>
+                                </span>
+                                <input class="form-select form-select-solid form-select-sm ps-12" type="text" name="tanggal" value="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                                 <span class="required">Kelas</span>
                             </label>
                             <div class="position-relative d-flex align-items-center">
                                 <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                     <i class="fa-duotone fa-building-user" style="font-size: 1.3rem;"></i>
                                 </span>
-                                <input class="form-control form-control-solid ps-12" value="XI IPA 1" />
+                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan kelas" />
                             </div>
                         </div>
                     </div>
@@ -239,7 +252,7 @@
                                 <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                     <i class="fa-brands fa-stack-overflow" style="font-size: 1.3rem;"></i>
                                 </span>
-                                <input class="form-control form-control-solid ps-12" value="Pelajaran 01" />
+                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan pelajaran" />
                             </div>
                         </div>
                     </div>
@@ -252,7 +265,7 @@
                                 <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                     <i class="fa-duotone fa-chalkboard-user" style="font-size: 1.3rem;"></i>
                                 </span>
-                                <input class="form-control form-control-solid ps-12" value="Admin Sidoarjo" />
+                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan nama guru" />
                             </div>
                         </div>
                     </div>
@@ -265,7 +278,7 @@
                                 <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                     <i class="fa-duotone fa-link" style="font-size: 1.3rem;"></i>
                                 </span>
-                                <input class="form-control form-control-solid ps-12" placeholder="https://meet.google.com/" />
+                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan Url google meet" />
                             </div>
                         </div>
                     </div>
@@ -278,7 +291,7 @@
                                 <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                     <i class="fa-duotone fa-link" style="font-size: 1.3rem;"></i>
                                 </span>
-                                <input class="form-control form-control-solid ps-12" placeholder="https://zoom.us/" />
+                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan Url zoom" />
                             </div>
                         </div>
                     </div>
