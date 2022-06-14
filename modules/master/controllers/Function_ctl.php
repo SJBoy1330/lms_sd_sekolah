@@ -170,17 +170,26 @@ class Function_ctl extends MY_Admin
     {
         $idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
 
-        $request_filter = [
-            'id_sekolah' => $idsekolah,
-        ];
-
-        $response = curl_get('staf', $request_filter);
+        $response = curl_get('staf', ['id_sekolah' => $idsekolah]);
         $data['data_staf'] = $response->data;
 
         $this->load->library('pdf');
         $this->pdf->setPaper('A4', 'potrait');
         $this->pdf->filename = "export_staf.pdf";
         $this->pdf->load_view('pdf/export_pdf_staf.php', $data);
+    }
+
+    public function export_pdf_siswa()
+    {
+        $idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+
+        $response_siswa = curl_get('siswa', ['id_sekolah' => $idsekolah]);
+        $data['data_siswa'] = $response_siswa->data;
+
+        $this->load->library('pdf');
+        $this->pdf->setPaper('A4', 'potrait');
+        $this->pdf->filename = "export_siswa.pdf";
+        $this->pdf->load_view('pdf/export_pdf_siswa.php', $data);
     }
 
     public function insert_siswa()

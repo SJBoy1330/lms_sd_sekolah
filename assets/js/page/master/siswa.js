@@ -76,6 +76,18 @@ $(document).ready(function () {
             }
         });
     });
+
+    $('#btn-export-pdf-siswa').on('click', function () {
+        $.ajax({
+            url: `${BASE_URL}/func_master/export_pdf_siswa`,
+            method: "POST",
+            beforeSend: function () {
+                $(this).prop('disabled', true);
+            },
+            success: function (data) {
+                $(this).prop('disabled', false);
+                console.log(data);
+            }
+        })
+    });
 })
-
-
