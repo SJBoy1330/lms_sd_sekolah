@@ -38,13 +38,20 @@
         <div class="card shadow-sm">
             <div class="card-body">
                 <div class="row my-3">
-                    <div class="col-12 d-flex">
-                        <a href="" class="me-3">
-                            <img src="<?= base_url(); ?>assets/img/xls.png" alt="" width="35">
-                        </a>
-                        <a href="">
-                            <img src="<?= base_url(); ?>assets/img/pdf.png" alt="" width="35">
-                        </a>
+                    <div class="card-toolbar">
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                <i class="bi bi-three-dots fs-3"></i>
+                            </button>
+                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
+                                <div class="menu-item px-3">
+                                    <a href="#" class="menu-link px-3"> <i class="fa-duotone fa-file-excel me-3" style="font-size: 20px;"></i>Download Excel</a>
+                                </div>
+                                <div class="menu-item px-3">
+                                    <a id="btn-export-pdf" class="menu-link px-3"> <i class="fa-duotone fa-file-pdf me-3" style="font-size: 20px;"></i> Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col overflow-auto my-5">
                         <table class="table table-light">

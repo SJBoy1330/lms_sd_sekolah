@@ -120,6 +120,11 @@ function get_master()
                 'icon' => '<i class="fa-duotone fa-person-chalkboard" style="font-size: 1.3rem;"></i>',
             ],
             [
+                'menu_name' => 'Orang Tua',
+                'url' => 'master/wali',
+                'icon' => '<i class="fa-duotone fa-family" style="font-size: 1.3rem;"></i>',
+            ],
+            [
                 'menu_name' => 'Mata Pelajaran',
                 'url' => 'master/mapel',
                 'icon' => '<i class="fa-brands fa-stack-overflow" style="font-size: 1.3rem;"></i>',

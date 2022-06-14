@@ -1,10 +1,7 @@
 <!--begin::Content-->
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
-
-
     <div class="container mb-4">
         <div class="card shodow-sm mb-4">
-
             <div class="card-body">
                 <div class="modal fade" id="modalPengaturanKBM" tabindex="-1" aria-hidden="true">
                     <!--begin::Modal dialog-->
@@ -309,7 +306,7 @@
                                             <a href="#" class="menu-link px-3">Edit</a>
                                         </div>
                                         <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Tugas Siswa</a>
+                                            <a href="<?= base_url('akademik/tugas_siswa') ?>" class="menu-link px-3">Tugas Siswa</a>
                                         </div>
                                         <div class="menu-item px-3">
                                             <a href="#" class="menu-link px-3">Hapus</a>
@@ -373,5 +370,6 @@
         <!--end::Card-->
     </div>
     <!--end::Container-->
+    
 </div>
 <!--end::Content-->

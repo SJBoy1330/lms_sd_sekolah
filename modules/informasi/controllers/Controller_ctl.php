@@ -34,6 +34,9 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Berita';
 
+		// LOAD CSS
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/berita/berita.css') . '">';
+
 		// LOAD JS
 		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/informasi/berita.js') . '"></script>';
 
@@ -49,6 +52,9 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Pengumuman';
+
+		// LOAD CSS
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/berita/berita.css') . '">';
 
 		// LOAD JS
 		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/informasi/pengumuman.js') . '"></script>';

@@ -169,6 +169,10 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Laporan Ujian';
 
+		//JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/laporan/laporanujian.js') . '"></script>';
+
+
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('laporan_ujian', $mydata, TRUE);
 		$this->display();

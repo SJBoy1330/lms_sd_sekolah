@@ -6,7 +6,7 @@ class Controller_ctl extends MY_Admin
 	{
 		// Load the constructer from MY_Controller
 		parent::__construct();
-		access_url();
+		access_url(['akademik/materi_dokumen', 'akademik/materi_video', 'akademik/tugas_siswa']);
 	}
 
 
@@ -65,7 +65,6 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Materi';
 
-
 		// LOAD JS
 		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/materi.js') . '"></script>';
 
@@ -82,6 +81,10 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Materi Dokumen';
 
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/materidokumen.js') . '"></script>';
+
+
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('materi_dokumen', $mydata, TRUE);
 		$this->display();
@@ -94,6 +97,10 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Materi Video';
+
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/materivideo.js') . '"></script>';
+
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('materi_video', $mydata, TRUE);
@@ -129,6 +136,22 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('tugas', $mydata, TRUE);
+		$this->display();
+	}
+
+	public function tugas_siswa()
+	{
+		// LOAD TITLE
+		$this->data['title'] = 'Akademik';
+
+		// LOAD BREADCRUMB
+		$mydata['breadcrumb']['menu'] = 'Tugas Siswa';
+
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/tugassiswa.js') . '"></script>';
+
+		// LOAD VIEW
+		$this->data['content'] = $this->load->view('tugas_siswa', $mydata, TRUE);
 		$this->display();
 	}
 

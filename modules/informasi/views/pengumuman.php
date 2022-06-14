@@ -304,7 +304,7 @@
                                 <span class="required">Gambar</span>
                             </label>
                             <!--end::Label-->
-                            <div class="col-sm-10 col-12">
+                            <div class="col-sm-10 col-12 image-preview">
                                 <div class="image-input image-input-outline " data-kt-image-input="true" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)">
                                     <!--begin::Image preview wrapper-->
                                     <div class="image-input-wrapper w-125px h-125px" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)"></div>
