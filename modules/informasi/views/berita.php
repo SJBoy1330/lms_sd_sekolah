@@ -1,14 +1,10 @@
 <!--begin::Content-->
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
-
-
     <div class="container mb-4">
         <div class="card shodow-sm mb-4">
             <div class="card-body">
-
                 <form action="">
                     <div class="row">
-
                         <div class="col-md-3 col-xl-3" style="padding:5px;">
                             <label class="form-label fw-bold">Kategori</label>
                             <div>
@@ -24,9 +20,7 @@
                             <button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Tampil</button>
                         </div>
                     </div>
-
                 </form>
-
             </div>
         </div>
     </div>
@@ -66,17 +60,6 @@
                                 <i class="fa-duotone fa-plus" style="font-size: 20px;"></i>
                             </span>
                             Berita</button>
-                        <button class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                            <i class="bi bi-three-dots fs-3"></i>
-                        </button>
-                        <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
-                            <div class="menu-item px-3">
-                                <a href="#" class="menu-link px-3"> <i class="fa-duotone fa-file-excel me-3" style="font-size: 20px;"></i>Download Excel</a>
-                            </div>
-                            <div class="menu-item px-3">
-                                <a href="#" class="menu-link px-3"> <i class="fa-duotone fa-file-pdf me-3" style="font-size: 20px;"></i> Download PDF</a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -457,7 +440,7 @@
                                 <span class="required">Gambar</span>
                             </label>
                             <!--end::Label-->
-                            <div class="col-sm-10 col-12">
+                            <div class="col-sm-10 col-12 image-preview">
                                 <div class="image-input image-input-outline " data-kt-image-input="true" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)">
                                     <!--begin::Image preview wrapper-->
                                     <div class="image-input-wrapper w-125px h-125px" style="background-image: url(<?= site_url('assets/img/no-image.jpg') ?>)"></div>

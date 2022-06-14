@@ -49,142 +49,178 @@
     <div class="container">
         <div class="card shadow-sm">
             <div class="card-body">
-                <div class="bg-body shadow-sm card-rounded mb-3 px-6 py-9 position-relative z-index-1">
-                    <!--begin::Item-->
-                    <div class="d-flex align-items-center">
-                        <!--begin::Symbol-->
-                        <div class="symbol symbol-45px w-40px me-5">
-                            <span class="symbol-label bg-lighten">
-                                <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
-                                <span class="svg-icon svg-icon-1">
-                                    <i class="fa-duotone fa-globe-stand" style="font-size: 1.8rem;"></i>
+                <div class="bg-body shadow-sm card-rounded mb-3 px-6 pt-9 pb-0 position-relative z-index-1">
+                    <div class="row fv-plugins-icon-container fv-plugins-bootstrap5-row-valid">
+                        <div class="col-xl-2 col-md-12 cols-pertama">
+                            <!--begin:Option-->
+                            <label class="d-flex flex-stack mb-5 cursor-pointer">
+                                <!--begin:Label-->
+                                <span class="d-flex align-items-center">
+                                    <!--begin:Icon-->
+                                    <span class="symbol symbol-45px me-3">
+                                        <span class="symbol-label bg-light-lighten">
+                                            <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
+                                            <span class="svg-icon svg-icon-1 svg-icon-primary">
+                                                <i class="fa-duotone fa-globe-stand" style="font-size: 1.8rem;"></i>
+                                            </span>
+                                            <!--end::Svg Icon-->
+                                        </span>
+                                    </span>
+                                    <!--end:Icon-->
+                                    <!--begin:Info-->
+                                    <span class="d-flex flex-column">
+                                        <span class="fw-bolder fs-7">Tahun Ajaran</span>
+                                        <span class="fs-7 text-muted">2020/2021</span>
+                                    </span>
+                                    <!--end:Info-->
                                 </span>
-                                <!--end::Svg Icon-->
-                            </span>
+                                <!--end:Label-->
+                            </label>
+                            <!--end::Option-->
                         </div>
-                        <!--end::Symbol-->
-                        <!--begin::Description-->
-                        <div class="d-flex align-items-center flex-wrap w-25">
-                            <!--begin::Title-->
-                            <div class="mb-1 pe-3">
-                                <span class="fs-7 text-gray-800 text-hover-primary fw-bolder">Tahun Ajaran</span>
-                                <div class="text-gray-400 fw-bold fs-7">2021/2022</div>
-                            </div>
-                            <!--end::Title-->
-                        </div>
-                        <!--end::Description-->
 
-                        <!--begin::Symbol-->
-                        <div class="symbol symbol-45px w-40px me-5">
-                            <span class="symbol-label bg-lighten">
-                                <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
-                                <span class="svg-icon svg-icon-1">
-                                    <i class="fa-duotone fa-calendar" style="font-size: 1.8rem;"></i>
+                        <div class="col-xl-2 col-md-12 px-0">
+                            <!--begin:Option-->
+                            <label class="d-flex flex-stack mb-5 cursor-pointer">
+                                <!--begin:Label-->
+                                <span class="d-flex align-items-center me-2">
+                                    <!--begin:Icon-->
+                                    <span class="symbol symbol-45px me-2">
+                                        <span class="symbol-label bg-light-lighten">
+                                            <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
+                                            <span class="svg-icon svg-icon-1 svg-icon-primary">
+                                                <i class="fa-duotone fa-calendar" style="font-size: 1.8rem;"></i>
+                                            </span>
+                                            <!--end::Svg Icon-->
+                                        </span>
+                                    </span>
+                                    <!--end:Icon-->
+                                    <!--begin:Info-->
+                                    <span class="d-flex flex-column">
+                                        <span class="fw-bolder fs-7">Bulan</span>
+                                        <span class="fs-7 text-muted">23 Maret</span>
+                                    </span>
+                                    <!--end:Info-->
                                 </span>
-                                <!--end::Svg Icon-->
-                            </span>
+                                <!--end:Label-->
+                            </label>
+                            <!--end::Option-->
                         </div>
-                        <!--end::Symbol-->
-                        <!--begin::Description-->
-                        <div class="d-flex align-items-center flex-wrap w-25">
-                            <!--begin::Title-->
-                            <div class="mb-1 pe-3">
-                                <span class="fs-7 text-gray-800 text-hover-primary fw-bolder">Bulan</span>
-                                <div class="text-gray-400 fw-bold fs-7">23 Maret</div>
-                            </div>
-                            <!--end::Title-->
-                        </div>
-                        <!--end::Description-->
 
-                        <!--begin::Symbol-->
-                        <div class="symbol symbol-45px w-40px me-5">
-                            <span class="symbol-label bg-lighten">
-                                <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
-                                <span class="svg-icon svg-icon-1">
-                                    <i class="fa-duotone fa-id-badge" style="font-size: 1.8rem;"></i>
+                        <div class="col-xl-2 col-md-12 px-0">
+                            <!--begin:Option-->
+                            <label class="d-flex flex-stack mb-5 cursor-pointer">
+                                <!--begin:Label-->
+                                <span class="d-flex align-items-center me-2">
+                                    <!--begin:Icon-->
+                                    <span class="symbol symbol-45px me-3">
+                                        <span class="symbol-label bg-light-lighten">
+                                            <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
+                                            <span class="svg-icon svg-icon-1 svg-icon-primary">
+                                                <i class="fa-duotone fa-id-badge" style="font-size: 1.8rem;"></i>
+                                            </span>
+                                            <!--end::Svg Icon-->
+                                        </span>
+                                    </span>
+                                    <!--end:Icon-->
+                                    <!--begin:Info-->
+                                    <span class="d-flex flex-column">
+                                        <span class="fw-bolder fs-7">NIS</span>
+                                        <span class="fs-7 text-muted">2103123</span>
+                                    </span>
+                                    <!--end:Info-->
                                 </span>
-                                <!--end::Svg Icon-->
-                            </span>
+                                <!--end:Label-->
+                            </label>
+                            <!--end::Option-->
                         </div>
-                        <!--end::Symbol-->
-                        <!--begin::Description-->
-                        <div class="d-flex align-items-center flex-wrap w-25">
-                            <!--begin::Title-->
-                            <div class="mb-1 pe-3">
-                                <span class="fs-7 text-gray-800 text-hover-primary fw-bolder">NIS</span>
-                                <div class="text-gray-400 fw-bold fs-7">2103123</div>
-                            </div>
-                            <!--end::Title-->
-                        </div>
-                        <!--end::Description-->
 
-                        <!--begin::Symbol-->
-                        <div class="symbol symbol-45px w-40px me-5">
-                            <span class="symbol-label bg-lighten">
-                                <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
-                                <span class="svg-icon svg-icon-1">
-                                    <i class="fa-duotone fa-id-card" style="font-size: 1.8rem;"></i>
+                        <div class="col-xl-2 col-md-12 px-0">
+                            <!--begin:Option-->
+                            <label class="d-flex flex-stack mb-5 cursor-pointer">
+                                <!--begin:Label-->
+                                <span class="d-flex align-items-center me-2">
+                                    <!--begin:Icon-->
+                                    <span class="symbol symbol-45px me-3">
+                                        <span class="symbol-label bg-light-lighten">
+                                            <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
+                                            <span class="svg-icon svg-icon-1 svg-icon-primary">
+                                                <i class="fa-duotone fa-id-card" style="font-size: 1.8rem;"></i>
+                                            </span>
+                                            <!--end::Svg Icon-->
+                                        </span>
+                                    </span>
+                                    <!--end:Icon-->
+                                    <!--begin:Info-->
+                                    <span class="d-flex flex-column">
+                                        <span class="fw-bolder fs-7">Nama</span>
+                                        <span class="fs-7 text-muted">Vincentius Harya Wibisana Coropun</span>
+                                    </span>
+                                    <!--end:Info-->
                                 </span>
-                                <!--end::Svg Icon-->
-                            </span>
+                                <!--end:Label-->
+                            </label>
+                            <!--end::Option-->
                         </div>
-                        <!--end::Symbol-->
-                        <!--begin::Description-->
-                        <div class="d-flex align-items-center flex-wrap w-25">
-                            <!--begin::Title-->
-                            <div class="mb-1 pe-3">
-                                <span class="fs-7 text-gray-800 text-hover-primary fw-bolder">Nama</span>
-                                <div class="text-gray-400 fw-bold fs-7">Vincentius Harya Wibisana Coropun</div>
-                            </div>
-                            <!--end::Title-->
-                        </div>
-                        <!--end::Description-->
 
-                        <!--begin::Symbol-->
-                        <div class="symbol symbol-45px w-40px me-5">
-                            <span class="symbol-label bg-lighten">
-                                <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
-                                <span class="svg-icon svg-icon-1">
-                                    <i class="fa-duotone fa-chalkboard-user" style="font-size: 1.8rem;"></i>
+                        <div class="col-xl-2 col-md-12 px-0">
+                            <!--begin:Option-->
+                            <label class="d-flex flex-stack mb-5 cursor-pointer">
+                                <!--begin:Label-->
+                                <span class="d-flex align-items-center me-2">
+                                    <!--begin:Icon-->
+                                    <span class="symbol symbol-45px me-3">
+                                        <span class="symbol-label bg-light-lighten">
+                                            <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
+                                            <span class="svg-icon svg-icon-1 svg-icon-primary">
+                                                <i class="fa-duotone fa-chalkboard-user" style="font-size: 1.8rem;"></i>
+                                            </span>
+                                            <!--end::Svg Icon-->
+                                        </span>
+                                    </span>
+                                    <!--end:Icon-->
+                                    <!--begin:Info-->
+                                    <span class="d-flex flex-column">
+                                        <span class="fw-bolder fs-7">Kelas</span>
+                                        <span class="fs-7 text-muted">Kelas Abu Bakar As-Sidiq</span>
+                                    </span>
+                                    <!--end:Info-->
                                 </span>
-                                <!--end::Svg Icon-->
-                            </span>
+                                <!--end:Label-->
+                            </label>
+                            <!--end::Option-->
                         </div>
-                        <!--end::Symbol-->
-                        <!--begin::Description-->
-                        <div class="d-flex align-items-center flex-wrap w-25">
-                            <!--begin::Title-->
-                            <div class="mb-1 pe-3">
-                                <span class="fs-57 text-gray-800 text-hover-primary fw-bolder">Kelas</span>
-                                <div class="text-gray-400 fw-bold fs-7">Kelas Abu Bakar As-Sidiq</div>
-                            </div>
-                            <!--end::Title-->
-                        </div>
-                        <!--end::Description-->
 
-                        <!--begin::Symbol-->
-                        <div class="symbol symbol-45px w-40px me-5">
-                            <span class="symbol-label bg-lighten">
-                                <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
-                                <span class="svg-icon svg-icon-1">
-                                    <i class="fa-duotone fa-file-excel" style="font-size: 1.8rem;"></i>
+                        <div class="col-xl-2 col-md-12 px-0">
+                            <!--begin:Option-->
+                            <label class="d-flex flex-stack mb-5 cursor-pointer">
+                                <!--begin:Label-->
+                                <span class="d-flex align-items-center me-2">
+                                    <!--begin:Icon-->
+                                    <span class="symbol symbol-45px me-3">
+                                        <span class="symbol-label bg-light-lighten">
+                                            <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
+                                            <span class="svg-icon svg-icon-1 svg-icon-primary">
+                                                <i class="fa-duotone fa-file-excel" style="font-size: 1.8rem;"></i>
+                                            </span>
+                                            <!--end::Svg Icon-->
+                                        </span>
+                                    </span>
+                                    <!--end:Icon-->
+                                    <!--begin:Info-->
+                                    <span class="d-flex flex-column">
+                                        <span class="fw-bolder fs-7">File Laporan</span>
+                                        <a href="#" class="btn btn-sm btn-flex btn-light btn-active-primary fw-bolder fs-7">Download xls</a>
+                                    </span>
+                                    <!--end:Info-->
                                 </span>
-                                <!--end::Svg Icon-->
-                            </span>
+                                <!--end:Label-->
+                            </label>
+                            <!--end::Option-->
                         </div>
-                        <!--end::Symbol-->
-                        <!--begin::Description-->
-                        <div class="d-flex align-items-center flex-wrap w-25">
-                            <!--begin::Title-->
-                            <div class="mb-1 pe-3">
-                                <span class="fs-7 text-gray-800 text-hover-primary fw-bolder">File Laporan</span>
-                                <a href="#" class="btn btn-sm btn-flex btn-light btn-active-primary fw-bolder fs-7">Download xls</a>
-                            </div>
-                            <!--end::Title-->
-                        </div>
-                        <!--end::Description-->
-                    </div>
+                    <div class="fv-plugins-message-container invalid-feedback"></div></div>
                 </div>
+
                 <div class="row mb-3">
                     <div class="col overflow-auto my-5">
                         <table class="table table-light">
@@ -375,7 +411,7 @@
                         <!--end::Label-->
                         <!--begin:Options-->
                         <div class="row fv-plugins-icon-container fv-plugins-bootstrap5-row-valid">
-                            <div class="col-6">
+                            <div class="col-xl-6 col-md-12">
                                 <!--begin:Option-->
                                 <label class="d-flex flex-stack mb-5 cursor-pointer">
                                     <!--begin:Label-->
@@ -479,7 +515,7 @@
                                 </label>
                                 <!--end::Option-->
                             </div>
-                            <div class="col-6">
+                            <div class="col-xl-6 col-md-12">
                                 <!--begin:Option-->
                                 <label class="d-flex flex-stack mb-5 cursor-pointer">
                                     <!--begin:Label-->

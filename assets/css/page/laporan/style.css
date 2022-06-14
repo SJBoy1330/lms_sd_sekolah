@@ -1,0 +1,11 @@
+.col-xl-2.col-md-12.cols-pertama{
+    padding-right: 0px !important;
+    padding-left: 10px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .col-xl-2.col-md-12.cols-pertama{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+  }

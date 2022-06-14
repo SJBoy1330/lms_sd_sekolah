@@ -112,6 +112,19 @@ class Controller_ctl extends MY_Admin
 		$this->display();
 	}
 
+	public function wali()
+	{
+		// LOAD TITLE
+		$this->data['title'] = 'Master';
+
+		// LOAD BREADCRUMB
+		$mydata['breadcrumb']['menu'] = 'Orang Tua';
+
+		// LOAD VIEW
+		$this->data['content'] = $this->load->view('wali', $mydata, TRUE);
+		$this->display();
+	}
+
 	public function mapel()
 	{
 		// LOAD TITLE
