@@ -19,7 +19,7 @@
                         <?php foreach (get_menu_by_role()  as $menu) : ?>
                             <?php if ($menu['submenu'] === null) : ?>
                                 <div class="menu-item py-3">
-                                    <a class="menu-link active" href="<?= base_url($menu['url']) ?>" title="<?= $menu['menu_name'] ?>" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link" href="<?= base_url($menu['url']) ?>" title="<?= $menu['menu_name'] ?>" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <?= $menu['icon'] ?>
                                         </span>
