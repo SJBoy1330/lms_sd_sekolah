@@ -81,6 +81,10 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Materi Dokumen';
 
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/materidokumen.js') . '"></script>';
+
+
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('materi_dokumen', $mydata, TRUE);
 		$this->display();
@@ -93,6 +97,10 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Materi Video';
+
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/materivideo.js') . '"></script>';
+
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('materi_video', $mydata, TRUE);
