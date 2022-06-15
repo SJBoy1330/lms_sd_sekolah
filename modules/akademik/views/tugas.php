@@ -121,11 +121,11 @@
                                             <div class="position-relative d-flex align-items-center">
                                                 <form id="kt_forms_widget_1_form" class="ql-quil ql-quil-plain pb-3" style="width: 100%;">
 
-                                                    <div id="kt_forms_widget_1_editor" class="py-6"></div>
+                                                    <div id="kt_forms_widget_1_editor_tugas" class="py-6"></div>
 
                                                     <div class="separator"></div>
 
-                                                    <div id="kt_forms_widget_1_editor_toolbar" class="ql-toolbar d-flex flex-stack py-2">
+                                                    <div id="kt_forms_widget_1_editor_toolbar_tugas" class="ql-toolbar d-flex flex-stack py-2">
                                                         <div class="me-2">
                                                             <span class="ql-formats ql-size ms-0">
                                                                 <select class="ql-size w-75px"></select>
@@ -370,6 +370,6 @@
         <!--end::Card-->
     </div>
     <!--end::Container-->
-    
+
 </div>
 <!--end::Content-->

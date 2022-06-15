@@ -1,3 +1,11 @@
+var quill = new Quill('#kt_forms_widget_1_editor_tugas', {
+  modules: {toolbar: {container: "#kt_forms_widget_1_editor_toolbar_tugas"}},
+  placeholder: 'detail tugas...',
+  theme: 'snow' // or 'bubble'
+});
+
+
+
 $(function() {
     $('input[name="tanggal"]').daterangepicker({
         autoApply:true,

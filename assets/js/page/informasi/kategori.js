@@ -1,6 +1,4 @@
-
-
-  $(function() {
+$(function() {
     $("#kt_table_kategori").on("click", function() {
       $("#deleteall").toggle($(this).find(".deletebox:checked").length > 0);
       if($(this).find(".deletebox:checked").length < ($(this).find(".deletebox").length)){

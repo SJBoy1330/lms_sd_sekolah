@@ -25,3 +25,18 @@ $('input[name="maincheckbox"]').on("click", function() {
 });
 
 });
+
+$(function() {
+  $("#kt_table_liburnasional").on("click", function() {
+    $("#deleteall2").toggle($(this).find(".deletebox2:checked").length > 0);
+    if($(this).find(".deletebox2:checked").length < ($(this).find(".deletebox2").length)){
+        $('input[name="maincheckbox2"]').prop('checked', false);
+    }else if($(this).find(".deletebox2:checked").length = ($(this).find(".deletebox2").length)){
+      $('input[name="maincheckbox2"]').prop('checked', true);
+  }
+})
+$('input[name="maincheckbox2"]').on("click", function() {
+    $('.deletebox2').prop('checked', this.checked);
+});
+
+});
