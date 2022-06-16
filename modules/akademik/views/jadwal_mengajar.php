@@ -45,11 +45,11 @@
                 <div class="row my-3">
                     <div class="col-12">
                         <div class="row d-flex justify-content-around align-items-center mt-8">
-                            <div class="col-xl-6 col-md-12">
+                            <div class="col-xl-6 col-md-12 mb-2">
                                 <label class="form-label fw-bold">Tahun Ajaran</label>
                                 <input type="text" class="form-control form-control-solid" value="2021 / 2022" readonly>
                             </div>
-                            <div class="col-xl-6 col-md-12">
+                            <div class="col-xl-6 col-md-12 mb-2">
                                 <label class="form-label fw-bold">Tingkat Kelas</label>
                                 <input type="text" class="form-control form-control-solid" value="X" readonly>
                             </div>

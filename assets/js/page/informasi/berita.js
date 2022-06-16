@@ -17,3 +17,18 @@ var quill = new Quill('#kt_forms_widget_1_editor_berita', {
       $('.deletebox').prop('checked', this.checked);
   });
   });
+
+$(function() {
+  $('input[name="tanggal"]').daterangepicker({
+      autoApply:true,
+    singleDatePicker: true,
+    showDropdowns: true,
+    minYear: 1901,
+    maxYear: parseInt(moment().format('YYYY'),10)
+  });
+});
+
+  
+  
+  
+  

@@ -428,7 +428,7 @@
                                 <!--end::Svg Icon-->
                                 <!--end::Icon-->
                                 <!--begin::Datepicker-->
-                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan tanggal" />
+                                <input class="form-select form-select-solid ps-12" type="text" name="tanggal" placeholder="Masukkan tanggal" />
                                 <!--end::Datepicker-->
                             </div>
                         </div>
@@ -461,12 +461,6 @@
                                         <i class="bi bi-x fs-2"></i>
                                     </span>
                                     <!--end::Cancel button-->
-
-                                    <!--begin::Remove button-->
-                                    <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-white shadow" data-kt-image-input-action="remove" data-bs-toggle="tooltip" data-bs-dismiss="click" title="" data-bs-original-title="Hapus foto">
-                                        <i class="bi bi-x fs-2"></i>
-                                    </span>
-                                    <!--end::Remove button-->
                                 </div>
                             </div>
                         </div>

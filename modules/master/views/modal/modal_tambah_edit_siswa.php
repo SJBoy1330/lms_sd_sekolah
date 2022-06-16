@@ -1,4 +1,5 @@
-<!--begin::Modal header-->
+<div class="modal-content" id="parent_drop_select">
+    <!--begin::Modal header-->
 <div class="modal-header">
     <!--begin::Modal title-->
     <h2 class="fw-bolder"><?= $modal_title ?></h2>
@@ -49,7 +50,7 @@
                     </label>
                     <div class="position-relative d-flex align-items-center">
                         <div style="width:100vw;">
-                            <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih" name="idkelas">
+                            <select class="form-select form-select-solid select2_load" data-control="select2" data-placeholder="Pilih" name="idkelas">
                                 <option></option>
                                 <?php foreach ($kelas as $k) : ?>
                                     <option value="<?= $k->id_kelas ?>"><?= $k->nama ?></option>
@@ -67,7 +68,7 @@
                     </label>
                     <div class="position-relative d-flex align-items-center">
                         <div style="width:100vw;">
-                            <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Agama" name="agama">
+                            <select class="form-select form-select-solid select2_load" data-control="select2" data-placeholder="Pilih Agama" name="agama">
                                 <option></option>
                                 <option value="1">Islam</option>
                                 <option value="2">Kristen</option>
@@ -88,7 +89,7 @@
                     </label>
                     <div class="position-relative d-flex align-items-center">
                         <div style="width:100vw;">
-                            <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Jenis Kelamin" name="gender">
+                            <select class="form-select form-select-solid select2_load" data-control="select2" data-placeholder="Pilih Jenis Kelamin" name="gender">
                                 <option></option>
                                 <option value="L">Laki - laki</option>
                                 <option value="P">Perempuan</option>
@@ -105,7 +106,7 @@
                     </label>
                     <div class="position-relative d-flex align-items-center">
                         <div style="width:100vw;">
-                            <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Status" name="status_aktif">
+                            <select class="form-select form-select-solid select2_load" data-control="select2" data-placeholder="Pilih Status" name="status_aktif">
                                 <option></option>
                                 <option value="Y">Aktif</option>
                                 <option value="T">Tidak Aktif</option>
@@ -115,14 +116,14 @@
                 </div>
             </div>
 
-            <div class="col-xl-6 col-md-12">
+            <div class="col-xl-12 col-md-12">
                 <div class="d-flex flex-column mb-8 fv-row" id="req_idwali">
                     <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                         <span class="required">Orang Tua</span>
                     </label>
                     <div class="position-relative d-flex align-items-center">
                         <div style="width:100vw;">
-                            <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Orang Tua" name="idwali">
+                            <select class="form-select form-select-solid select2_load" data-control="select2" data-placeholder="Pilih Orang Tua" name="idwali">
                                 <option></option>
                                 <?php foreach ($wali as $w) : ?>
                                     <option value="<?= $w->id_wali ?>"><?= $w->nama ?></option>
@@ -260,3 +261,10 @@
     </div>
 </div>
 <!--end::Modal body-->
+</div>
+
+<script>
+    $('.select2_load').select2({
+        dropdownParent: $('#parent_drop_select')
+    });
+</script>

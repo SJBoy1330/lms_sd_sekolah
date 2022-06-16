@@ -23,11 +23,11 @@
                     </div>
 
                     <div class="row d-flex justify-content-around align-items-center mt-8">
-                        <div class="col-md-6 col-sm-12">
+                        <div class="col-md-6 col-sm-12 mb-2">
                             <label class="form-label fw-bold">Bab</label>
                             <input type="text" class="form-control form-control-solid" value="Bab 1 Pelajaran 1" readonly>
                         </div>
-                        <div class="col-md-6 col-sm-12">
+                        <div class="col-md-6 col-sm-12 mb-2">
                             <label class="form-label fw-bold">Materi</label>
                             <input type="text" class="form-control form-control-solid" value="Materi 1 Bab 1 Pelajaran 1" readonly>
                         </div>

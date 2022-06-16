@@ -103,7 +103,7 @@
                 <div class="card-body table-responsive py-4">
                     <!--begin::Table-->
                     <div class="table-responsive">
-                        <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_staf">
+                        <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer">
                             <!--begin::Table head-->
                             <thead>
                                 <!--begin::Table row-->
@@ -143,15 +143,15 @@
                                         <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
                                             <!--begin::Menu item-->
                                             <div class="menu-item px-3">
-                                                <a data-bs-toggle="modal" data-idstaf="<?= $staf->id_staf ?>" href="#modalDetail" id="detailStafBtn" role="button" class="menu-link px-3">Detail</a>
+                                                <a data-bs-toggle="modal" href="#modalDetail" role="button" class="menu-link px-3">Detail</a>
                                             </div>
                                             <div class="menu-item px-3">
-                                                <a href="#" class="menu-link px-3 btn-tambah-edit-modal" data-idstaf="<?= $staf->id_staf ?>" data-bs-toggle="modal" data-bs-target="#modalTambahStaf">Edit</a>
+                                                <a href="#" class="menu-link px-3 btn-tambah-edit-modal">Edit</a>
                                             </div>
                                             <!--end::Menu item-->
                                             <!--begin::Menu item-->
                                             <div class="menu-item px-3">
-                                                <a class="menu-link px-3 btn-hapus-staf" data-idstaf="<?= $staf->id_staf ?>" data-kt-users-table-filter="delete_row">Hapus</a>
+                                                <a class="menu-link px-3">Hapus</a>
                                             </div>
                                             <!--end::Menu item-->
                                         </div>
@@ -228,6 +228,171 @@
                 <!--end::Close-->
             </div>
             <!--end::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y mx-10 my-2">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column justify-content-center align-items-center mb-15">
+                        <img src="<?= base_url('assets/media/avatars/150-1.jpg');?>" alt="" class="img-responsive rounded-circle" style="width: 250px; height: 250px;">
+                        <span class="d-flex flex-column fw-bolder fs-5 mt-3">
+                            Wali Murid Max Smith
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-md-12">
+                        <label class="d-flex flex-stack mb-5 cursor-pointer">
+                            <!--begin:Label-->
+                            <span class="d-flex align-items-center me-2">
+                                <!--begin:Icon-->
+                                <span class="symbol symbol-50px me-6">
+                                    <span class="symbol-label bg-light-success">
+                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
+                                        <span class="svg-icon svg-icon-1">
+                                            <i class="fa-duotone fa-id-card-clip" style="font-size: 1.5rem; color: #009ef7;"></i>
+                                        </span>
+                                        <!--end::Svg Icon-->
+                                    </span>
+                                </span>
+                                <!--end:Icon-->
+                                <!--begin:Info-->
+                                <span class="d-flex flex-column">
+                                    <span class="fw-bolder fs-6">Nama</span>
+                                    <span class="fs-7 text-muted">Siti Rahayu</span>
+                                </span>
+                                <!--end:Info-->
+                            </span>
+                            <!--end:Label-->
+                        </label>
+
+                        <label class="d-flex flex-stack mb-5 cursor-pointer">
+                            <!--begin:Label-->
+                            <span class="d-flex align-items-center me-2">
+                                <!--begin:Icon-->
+                                <span class="symbol symbol-50px me-6">
+                                    <span class="symbol-label bg-light-primary">
+                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
+                                        <span class="svg-icon svg-icon-1">
+                                            <i class="fa-duotone fa-person-praying" style="font-size: 1.5rem; color: #B0DC00;"></i>
+                                        </span>
+                                        <!--end::Svg Icon-->
+                                    </span>
+                                </span>
+                                <!--end:Icon-->
+                                <!--begin:Info-->
+                                <span class="d-flex flex-column">
+                                    <span class="fw-bolder fs-6">Agama</span>
+                                    <span class="fs-7 text-muted">Islam</span>
+                                </span>
+                                <!--end:Info-->
+                            </span>
+                            <!--end:Label-->
+                        </label>
+
+                        <label class="d-flex flex-stack mb-5 cursor-pointer">
+                            <!--begin:Label-->
+                            <span class="d-flex align-items-center me-2">
+                                <!--begin:Icon-->
+                                <span class="symbol symbol-50px me-6">
+                                    <span class="symbol-label bg-light-info">
+                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
+                                        <span class="svg-icon svg-icon-1">
+                                            <i class="fa-duotone fa-location-dot" style="font-size: 1.5rem; color: #7239ea;"></i>
+                                        </span>
+                                        <!--end::Svg Icon-->
+                                    </span>
+                                </span>
+                                <!--end:Icon-->
+                                <!--begin:Info-->
+                                <span class="d-flex flex-column">
+                                    <span class="fw-bolder fs-6">Alamat</span>
+                                    <span class="fs-7 text-muted">Perumahan Permata Indah Malang</span>
+                                </span>
+                                <!--end:Info-->
+                            </span>
+                            <!--end:Label-->
+                        </label>
+
+
+
+                        <label class="d-flex flex-stack mb-5 cursor-pointer">
+                            <!--begin:Label-->
+                            <span class="d-flex align-items-center me-2">
+                                <!--begin:Icon-->
+                                <span class="symbol symbol-50px me-6">
+                                    <span class="symbol-label bg-light-danger">
+                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
+                                        <span class="svg-icon svg-icon-1">
+                                            <i class="fa-duotone fa-envelope" style="font-size: 1.5rem; color: #ec3528;"></i>
+                                        </span>
+                                        <!--end::Svg Icon-->
+                                    </span>
+                                </span>
+                                <!--end:Icon-->
+                                <!--begin:Info-->
+                                <span class="d-flex flex-column">
+                                    <span class="fw-bolder fs-6">Email</span>
+                                    <span class="fs-7 text-muted">email1234@gmail.com</span>
+                                </span>
+                                <!--end:Info-->
+                            </span>
+                            <!--end:Label-->
+                        </label>
+                    </div>
+
+                    <div class="col-xl-6 col-md-12">
+                        <label class="d-flex flex-stack mb-5 cursor-pointer">
+                            <!--begin:Label-->
+                            <span class="d-flex align-items-center me-2">
+                                <!--begin:Icon-->
+                                <span class="symbol symbol-50px me-6">
+                                    <span class="symbol-label bg-light-success">
+                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
+                                        <span class="svg-icon svg-icon-1">
+                                            <i class="fa-duotone fa-phone" style="font-size: 1.5rem; color: #009ef7;"></i>
+                                        </span>
+                                        <!--end::Svg Icon-->
+                                    </span>
+                                </span>
+                                <!--end:Icon-->
+                                <!--begin:Info-->
+                                <span class="d-flex flex-column">
+                                    <span class="fw-bolder fs-6">Telpon</span>
+                                    <span class="fs-7 text-muted">08123456789</span>
+                                </span>
+                                <!--end:Info-->
+                            </span>
+                            <!--end:Label-->
+                        </label>
+
+                        <label class="d-flex flex-stack mb-5 cursor-pointer">
+                            <!--begin:Label-->
+                            <span class="d-flex me-2">
+                                <!--begin:Icon-->
+                                <span class="symbol symbol-50px me-6">
+                                    <span class="symbol-label bg-light-primary">
+                                        <!--begin::Svg Icon | path: icons/duotune/general/gen013.svg-->
+                                        <span class="svg-icon svg-icon-1">
+                                            <i class="fa-duotone fa-family" style="font-size: 1.5rem; color: #B0DC00;"></i>
+                                        </span>
+                                        <!--end::Svg Icon-->
+                                    </span>
+                                </span>
+                                <!--end:Icon-->
+                                <!--begin:Info-->
+                                <span class="d-flex flex-column">
+                                    <span class="fw-bolder fs-6">Wali murid dari</span>
+                                    <span class="fs-7 text-muted">- Max Smith 1</span>
+                                    <span class="fs-7 text-muted">- Max Smith 2</span>
+                                    <span class="fs-7 text-muted">- Max Smith 3</span>
+                                </span>
+                                <!--end:Info-->
+                            </span>
+                            <!--end:Label-->
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal body-->
         </div>
         <!--end::Modal content-->
     </div>
@@ -417,7 +582,7 @@
 
                     <div class="col-12 mb-8">
                         <label class="form-label fw-bold">Agama</label>
-                        <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                        <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih" data-allow-clear="">
                             <option></option>
                             <option value="1">Islam</option>
                             <option value="2">Kristen</option>

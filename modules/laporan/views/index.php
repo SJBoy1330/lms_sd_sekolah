@@ -85,7 +85,7 @@
                                 <!--begin:Label-->
                                 <span class="d-flex align-items-center me-2">
                                     <!--begin:Icon-->
-                                    <span class="symbol symbol-45px me-2">
+                                    <span class="symbol symbol-45px me-3">
                                         <span class="symbol-label bg-light-lighten">
                                             <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
                                             <span class="svg-icon svg-icon-1 svg-icon-primary">
