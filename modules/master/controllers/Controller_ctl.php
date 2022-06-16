@@ -120,6 +120,9 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Orang Tua';
 
+		//LOAD JS
+		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/wali.js"></script>';
+
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('wali', $mydata, TRUE);
 		$this->display();
@@ -281,5 +284,4 @@ class Controller_ctl extends MY_Admin
 
 		$this->load->view("modal/modal_tambah_edit_siswa", $mydata);
 	}
-
 }
