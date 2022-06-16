@@ -40,7 +40,7 @@ $(document).ready(function () {
         location.href = redirect;
     });
 
-    $('#detailSiswaBtn').on('click', function () {
+    $('.detail-siswa-btn').on('click', function () {
         let idsiswa = $(this).data('idsiswa');
         console.log("idsiswa", idsiswa);
 
@@ -49,6 +49,9 @@ $(document).ready(function () {
             method: "POST",
             data: {
                 id_siswa: idsiswa
+            },
+            beforeSend: function () {
+                $('#detail-siswa-display').html(null);
             },
             success: function (data) {
                 $('#detail-siswa-display').html(data);
