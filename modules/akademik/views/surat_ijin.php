@@ -1,10 +1,7 @@
 <!--begin::Content-->
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
-
-
     <div class="container mb-4">
         <div class="card shodow-sm mb-4">
-
             <div class="card-body">
                 <div class="modal fade" id="modalSuratIjin" tabindex="-1" aria-hidden="true">
                     <!--begin::Modal dialog-->
