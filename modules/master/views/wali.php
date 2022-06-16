@@ -103,7 +103,7 @@
                 <div class="card-body table-responsive py-4">
                     <!--begin::Table-->
                     <div class="table-responsive">
-                        <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer">
+                        <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_wali">
                             <!--begin::Table head-->
                             <thead>
                                 <!--begin::Table row-->
