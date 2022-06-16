@@ -30,7 +30,7 @@ $(function () {
 
 $(document).ready(function () {
   
-    $('#detailStafBtn').on('click', function () {
+    $('.detail-staf-btn').on('click', function () {
         let idstaf = $(this).data('idstaf');
         console.log("idstaf", idstaf);
 
@@ -39,6 +39,9 @@ $(document).ready(function () {
             method: "POST",
             data: {
                 id_staf: idstaf
+            },
+            beforeSend: function () {
+                $('#detail-staf-display').html(null);
             },
             success: function (data) {
                 $('#detail-staf-display').html(data);
