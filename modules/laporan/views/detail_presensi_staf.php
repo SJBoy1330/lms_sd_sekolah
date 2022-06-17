@@ -42,7 +42,7 @@
         <div class="card shadow-sm">
             <div class="card-body">
                 <div class="row my-3">
-                    <div class="col-12 mb-3">
+                    <!-- <div class="col-12 mb-3">
                         <div class="export-box d-flex">
                             <a href="" class="me-3">
                                 <img src="<?= base_url(); ?>assets/img/xls.png" alt="" width="35">
@@ -66,6 +66,50 @@
                                 <p class="m-0">2022</p>
                                 <p class="m-0">Maret</p>
                                 <p class="m-0">Saka Dana Asmara</p>    
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="card-toolbar mb-3">
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                <i class="bi bi-three-dots fs-3"></i>
+                            </button>
+                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
+                                <div class="menu-item px-3">
+                                    <a href="#" class="menu-link px-3"> <i class="fa-duotone fa-file-excel me-3" style="font-size: 20px;"></i>Download Excel</a>
+                                </div>
+                                <div class="menu-item px-3">
+                                    <a class="menu-link px-3"> <i class="fa-duotone fa-file-pdf me-3" style="font-size: 20px;"></i> Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-around align-items-center">
+                            <div class="col-md-4 col-sm-12 mb-2">
+                                <label class="form-label fw-bold">Tahun</label>
+                                <div class="position-relative d-flex align-items-center">
+                                    <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                        <i class="fa-duotone fa-calendar" style="font-size: 1.3rem;"></i>
+                                    </span>
+                                    <input  type="text" class="form-control form-control-solid ps-12" value="2022" readonly />
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 mb-2">
+                                <label class="form-label fw-bold">Bulan</label>
+                                <div class="position-relative d-flex align-items-center">
+                                    <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                        <i class="fa-duotone fa-calendar" style="font-size: 1.3rem;"></i>
+                                    </span>
+                                    <input  type="text" class="form-control form-control-solid ps-12" value="Maret" readonly />
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 mb-2">
+                                <label class="form-label fw-bold">Staf</label>
+                                <div class="position-relative d-flex align-items-center">
+                                    <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                        <i class="fa-duotone fa-chalkboard-user" style="font-size: 1.3rem;"></i>
+                                    </span>
+                                    <input  type="text" class="form-control form-control-solid ps-12" value="Max Smith" readonly />
+                                </div>
                             </div>
                         </div>
                     </div>

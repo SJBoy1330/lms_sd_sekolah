@@ -32,7 +32,7 @@
                                     <a href="#" class="menu-link px-3"> <i class="fa-duotone fa-file-excel me-3" style="font-size: 20px;"></i>Download Excel</a>
                                 </div>
                                 <div class="menu-item px-3">
-                                    <a id="btn-export-pdf" class="menu-link px-3"> <i class="fa-duotone fa-file-pdf me-3" style="font-size: 20px;"></i> Download PDF</a>
+                                    <a class="menu-link px-3"> <i class="fa-duotone fa-file-pdf me-3" style="font-size: 20px;"></i> Download PDF</a>
                                 </div>
                             </div>
                         </div>
@@ -93,17 +93,69 @@
                 </div>
 
                 <div class="box-info">
-                    <h5 class="">Keterangan</h5>
+                    <div class="fv-row">
+                        <!--begin::Label-->
+                        <label class="d-flex align-items-center fs-5 fw-bold mb-4">
+                            <span>Keterangan</span>
+                        </label>
+                        <!--end::Label-->
+                        <!--begin:Options-->
+                        <div class="row fv-plugins-icon-container fv-plugins-bootstrap5-row-valid">
+                            <div class="col-xl-6 col-md-12">
+                                <!--begin:Option-->
+                                <label class="d-flex flex-stack mb-5 cursor-pointer">
+                                    <!--begin:Label-->
+                                    <span class="d-flex align-items-center me-2">
+                                        <!--begin:Icon-->
+                                        <span class="symbol symbol-50px me-6">
+                                            <span class="symbol-label bg-e8fff3">
+                                                <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
+                                                <span class="svg-icon svg-icon-1 svg-icon-primary">
+                                                    <i class="fa-duotone fa-person-circle-check" style="font-size: 1.8rem; color: #50cd89;"></i>
+                                                </span>
+                                                <!--end::Svg Icon-->
+                                            </span>
+                                        </span>
+                                        <!--end:Icon-->
+                                        <!--begin:Info-->
+                                        <span class="d-flex flex-column">
+                                            <span class="fw-bolder fs-6">Total Hadir</span>
+                                            <span class="fs-7 text-muted">10 Hadir</span>
+                                        </span>
+                                        <!--end:Info-->
+                                    </span>
+                                    <!--end:Label-->
+                                </label>
+                                <!--end::Option-->
 
-                    <div class="row align-items-center">
-                        <div class="mw-175px align-items-center d-flex">
-                            <span class="badge badge-circle badge-hijau m-1"></span> <span class="ms-2">Hadir</span>
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="mw-175px align-items-center d-flex">
-                            <span class="badge badge-circle badge-danger m-1"></span> <span class="ms-2">Tidak Hadir</span>
-                        </div>
+                                <!--begin:Option-->
+                                <label class="d-flex flex-stack mb-5 cursor-pointer">
+                                    <!--begin:Label-->
+                                    <span class="d-flex align-items-center me-2">
+                                        <!--begin:Icon-->
+                                        <span class="symbol symbol-50px me-6">
+                                            <span class="symbol-label bg-fff5f8">
+                                                <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
+                                                <span class="svg-icon svg-icon-1 svg-icon-primary">
+                                                    <i class="fa-duotone fa-person-circle-question" style="font-size: 1.8rem; color: #f1416c;"></i>
+                                                </span>
+                                                <!--end::Svg Icon-->
+                                            </span>
+                                        </span>
+                                        <!--end:Icon-->
+                                        <!--begin:Info-->
+                                        <span class="d-flex flex-column">
+                                            <span class="fw-bolder fs-6">Total Tidak Hadir</span>
+                                            <span class="fs-7 text-muted">0 Orang</span>
+                                        </span>
+                                        <!--end:Info-->
+                                    </span>
+                                    <!--end:Label-->
+                                </label>
+                                <!--end::Option-->
+                            </div>
+                        <div class="fv-plugins-message-container invalid-feedback"></div></div>
+                        <!--end:Options-->
                     </div>
                 </div>
             </div>

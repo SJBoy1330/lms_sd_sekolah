@@ -112,172 +112,174 @@
             <!--end::Card header-->
             <!--begin::Card body-->
             <div class="card-body py-4">
-                <!--begin::Table-->
-                <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_kategori">
-                    <!--begin::Table head-->
-                    <thead>
-                        <!--begin::Table row-->
-                        <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
-                            <th class="w-10px pe-2">
-                                <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
-                                    <input class="form-check-input" type="checkbox" name="maincheckbox" data-kt-check="true" data-kt-check-target="#kt_table_kategori .form-check-input" value="1" />
-                                </div>
-                            </th>
-                            <th class="min-w-50px text-center">Aksi</th>
-                            <th class="min-w-100px text-center">No</th>
-                            <th class="min-w-125px text-center">Nama</th>
-                        </tr>
-                        <!--end::Table row-->
-                    </thead>
-                    <!--end::Table head-->
-                    <!--begin::Table body-->
-                    <tbody class="text-gray-600 fw-bold">
-                        <!--begin::Table row-->
-                        <tr>
-                            <!--begin::Checkbox-->
-                            <td>
-                                <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                    <input class="form-check-input deletebox" type="checkbox" value="1" />
-                                </div>
-                            </td>
-                            <!--end::Checkbox-->
-                            <!--begin::User=-->
-                            <td class="d-flex align-items-center justify-content-center">
-                                <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                    <i class="fa-duotone fa-bars fs-4"></i>
-                                </button>
-                                <!--end::Svg Icon--></a>
-                                <!--begin::Menu-->
-                                <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-                                    <!--begin::Menu item-->
-                                    <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Edit</a>
+                <div class="table-responsive">
+                    <!--begin::Table-->
+                    <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_kategori">
+                        <!--begin::Table head-->
+                        <thead>
+                            <!--begin::Table row-->
+                            <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
+                                <th class="w-10px pe-2">
+                                    <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
+                                        <input class="form-check-input" type="checkbox" name="maincheckbox" data-kt-check="true" data-kt-check-target="#kt_table_kategori .form-check-input" value="1" />
                                     </div>
-                                    <!--end::Menu item-->
-                                    <!--begin::Menu item-->
-                                    <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
+                                </th>
+                                <th class="min-w-50px text-center">Aksi</th>
+                                <th class="min-w-100px text-center">No</th>
+                                <th class="min-w-125px text-center">Nama</th>
+                            </tr>
+                            <!--end::Table row-->
+                        </thead>
+                        <!--end::Table head-->
+                        <!--begin::Table body-->
+                        <tbody class="text-gray-600 fw-bold">
+                            <!--begin::Table row-->
+                            <tr>
+                                <!--begin::Checkbox-->
+                                <td>
+                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                        <input class="form-check-input deletebox" type="checkbox" value="1" />
                                     </div>
-                                    <!--end::Menu item-->
-                                </div>
-                            </td>
-                            <!--end::User=-->
-                            <!--begin::Role=-->
-                            <td>
-                                <p class="text-center mb-0">1</p>
-                            </td>
-                            <!--end::Role=-->
-                            <!--begin::Last login=-->
-                            <td>
-                                <p class="text-center">
-                                    SPP Januari 2021
-                                </p>
-                            </td>
-                            <!--end::Last login=-->
-                            <!--begin::Joined-->
-                            <!--begin::Joined-->
-                            <!--begin::Action=-->
-                            <!--end::Action=-->
-                        </tr>
+                                </td>
+                                <!--end::Checkbox-->
+                                <!--begin::User=-->
+                                <td class="d-flex align-items-center justify-content-center">
+                                    <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                        <i class="fa-duotone fa-bars fs-4"></i>
+                                    </button>
+                                    <!--end::Svg Icon--></a>
+                                    <!--begin::Menu-->
+                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Edit</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                    </div>
+                                </td>
+                                <!--end::User=-->
+                                <!--begin::Role=-->
+                                <td>
+                                    <p class="text-center mb-0">1</p>
+                                </td>
+                                <!--end::Role=-->
+                                <!--begin::Last login=-->
+                                <td>
+                                    <p class="text-center">
+                                        SPP Januari 2021
+                                    </p>
+                                </td>
+                                <!--end::Last login=-->
+                                <!--begin::Joined-->
+                                <!--begin::Joined-->
+                                <!--begin::Action=-->
+                                <!--end::Action=-->
+                            </tr>
 
-                        <tr>
-                            <!--begin::Checkbox-->
-                            <td>
-                                <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                    <input class="form-check-input deletebox" type="checkbox" value="1" />
-                                </div>
-                            </td>
-                            <!--end::Checkbox-->
-                            <!--begin::User=-->
-                            <td class="d-flex align-items-center justify-content-center">
-                                <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                    <i class="fa-duotone fa-bars fs-4"></i>
-                                </button>
-                                <!--end::Svg Icon--></a>
-                                <!--begin::Menu-->
-                                <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-                                    <!--begin::Menu item-->
-                                    <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Edit</a>
+                            <tr>
+                                <!--begin::Checkbox-->
+                                <td>
+                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                        <input class="form-check-input deletebox" type="checkbox" value="1" />
                                     </div>
-                                    <!--end::Menu item-->
-                                    <!--begin::Menu item-->
-                                    <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
+                                </td>
+                                <!--end::Checkbox-->
+                                <!--begin::User=-->
+                                <td class="d-flex align-items-center justify-content-center">
+                                    <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                        <i class="fa-duotone fa-bars fs-4"></i>
+                                    </button>
+                                    <!--end::Svg Icon--></a>
+                                    <!--begin::Menu-->
+                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Edit</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
+                                        </div>
+                                        <!--end::Menu item-->
                                     </div>
-                                    <!--end::Menu item-->
-                                </div>
-                            </td>
-                            <!--end::User=-->
-                            <!--begin::Role=-->
-                            <td>
-                                <p class="text-center mb-0">2</p>
-                            </td>
-                            <!--end::Role=-->
-                            <!--begin::Last login=-->
-                            <td>
-                                <p class="text-center">
-                                    SPP Februari 2021
-                                </p>
-                            </td>
-                            <!--end::Last login=-->
-                            <!--begin::Joined-->
-                            <!--begin::Joined-->
-                            <!--begin::Action=-->
-                            <!--end::Action=-->
-                        </tr>
+                                </td>
+                                <!--end::User=-->
+                                <!--begin::Role=-->
+                                <td>
+                                    <p class="text-center mb-0">2</p>
+                                </td>
+                                <!--end::Role=-->
+                                <!--begin::Last login=-->
+                                <td>
+                                    <p class="text-center">
+                                        SPP Februari 2021
+                                    </p>
+                                </td>
+                                <!--end::Last login=-->
+                                <!--begin::Joined-->
+                                <!--begin::Joined-->
+                                <!--begin::Action=-->
+                                <!--end::Action=-->
+                            </tr>
 
-                        <tr>
-                            <!--begin::Checkbox-->
-                            <td>
-                                <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                    <input class="form-check-input deletebox" type="checkbox" value="1" />
-                                </div>
-                            </td>
-                            <!--end::Checkbox-->
-                            <!--begin::User=-->
-                            <td class="d-flex align-items-center justify-content-center">
-                                <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                    <i class="fa-duotone fa-bars fs-4"></i>
-                                </button>
-                                <!--end::Svg Icon--></a>
-                                <!--begin::Menu-->
-                                <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-                                    <!--begin::Menu item-->
-                                    <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3">Edit</a>
+                            <tr>
+                                <!--begin::Checkbox-->
+                                <td>
+                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                        <input class="form-check-input deletebox" type="checkbox" value="1" />
                                     </div>
-                                    <!--end::Menu item-->
-                                    <!--begin::Menu item-->
-                                    <div class="menu-item px-3">
-                                        <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
+                                </td>
+                                <!--end::Checkbox-->
+                                <!--begin::User=-->
+                                <td class="d-flex align-items-center justify-content-center">
+                                    <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                        <i class="fa-duotone fa-bars fs-4"></i>
+                                    </button>
+                                    <!--end::Svg Icon--></a>
+                                    <!--begin::Menu-->
+                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Edit</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
+                                        </div>
+                                        <!--end::Menu item-->
                                     </div>
-                                    <!--end::Menu item-->
-                                </div>
-                            </td>
-                            <!--end::User=-->
-                            <!--begin::Role=-->
-                            <td>
-                                <p class="text-center mb-0">3</p>
-                            </td>
-                            <!--end::Role=-->
-                            <!--begin::Last login=-->
-                            <td>
-                                <p class="text-center">
-                                    SPP Maret 2021
-                                </p>
-                            </td>
-                            <!--end::Last login=-->
-                            <!--begin::Joined-->
-                            <!--begin::Joined-->
-                            <!--begin::Action=-->
-                            <!--end::Action=-->
-                        </tr>
-                        <!--end::Table row-->
-                    </tbody>
-                    <!--end::Table body-->
-                </table>
-                <!--end::Table-->
+                                </td>
+                                <!--end::User=-->
+                                <!--begin::Role=-->
+                                <td>
+                                    <p class="text-center mb-0">3</p>
+                                </td>
+                                <!--end::Role=-->
+                                <!--begin::Last login=-->
+                                <td>
+                                    <p class="text-center">
+                                        SPP Maret 2021
+                                    </p>
+                                </td>
+                                <!--end::Last login=-->
+                                <!--begin::Joined-->
+                                <!--begin::Joined-->
+                                <!--begin::Action=-->
+                                <!--end::Action=-->
+                            </tr>
+                            <!--end::Table row-->
+                        </tbody>
+                        <!--end::Table body-->
+                    </table>
+                    <!--end::Table-->
+                </div>
             </div>
             <!--end::Card body-->
         </div>

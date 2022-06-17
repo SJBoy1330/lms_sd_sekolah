@@ -38,95 +38,97 @@
         <!--begin::Card-->
         <div class="card">
             <div class="card-body py-4">
-                <!--begin::Table-->
-                <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_users">
-                    <!--begin::Table head-->
-                    <thead>
-                        <!--begin::Table row-->
-                        <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
-                            <th class="w-10px pe-2">No</th>
-                            <th class="min-w-50px text-center">Periode</th>
-                            <th class="min-w-100px text-center">Tagihan</th>
-                            <th class="min-w-125px text-center">Pembayaran</th>
-                            <th class="min-w-125px text-center">Download</th>
-                        </tr>
-                        <!--end::Table row-->
-                    </thead>
-                    <!--end::Table head-->
-                    <!--begin::Table body-->
-                    <tbody class="text-gray-600 fw-bold">
-                        <!--begin::Table row-->
-                        <tr>
-                            <!--begin::Role=-->
-                            <td>
-                                <p class="text-center">1</p>
-                            </td>
-                            <!--end::Role=-->
-                            <!--begin::Last login=-->
-                            <td>
-                                <p class="text-center">
-                                    Juli 2021
-                                </p>
-                            </td>
+                <div class="table-responsive">
+                    <!--begin::Table-->
+                    <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_users">
+                        <!--begin::Table head-->
+                        <thead>
+                            <!--begin::Table row-->
+                            <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
+                                <th class="w-10px pe-2">No</th>
+                                <th class="min-w-50px text-center">Periode</th>
+                                <th class="min-w-100px text-center">Tagihan</th>
+                                <th class="min-w-125px text-center">Pembayaran</th>
+                                <th class="min-w-200px text-center">Download</th>
+                            </tr>
+                            <!--end::Table row-->
+                        </thead>
+                        <!--end::Table head-->
+                        <!--begin::Table body-->
+                        <tbody class="text-gray-600 fw-bold">
+                            <!--begin::Table row-->
+                            <tr>
+                                <!--begin::Role=-->
+                                <td>
+                                    <p class="text-center">1</p>
+                                </td>
+                                <!--end::Role=-->
+                                <!--begin::Last login=-->
+                                <td>
+                                    <p class="text-center">
+                                        Juli 2021
+                                    </p>
+                                </td>
 
-                            <td>
-                                <p class="text-center">
-                                    Rp.0
-                                </p>
-                            </td>
+                                <td>
+                                    <p class="text-center">
+                                        Rp.0
+                                    </p>
+                                </td>
 
-                            <td>
-                                <p class="text-center">
-                                    Rp.0
-                                </p>
-                            </td>
+                                <td>
+                                    <p class="text-center">
+                                        Rp.0
+                                    </p>
+                                </td>
 
-                            <td>
-                                <p class="text-center">
-                                    <span class="badge bg-danger">Tidak ada transaksi</span>
-                                </p>
-                            </td>
-                        </tr>
+                                <td>
+                                    <p class="text-center">
+                                        <span class="badge bg-danger">Tidak ada transaksi</span>
+                                    </p>
+                                </td>
+                            </tr>
 
-                        <tr>
-                            <!--begin::Role=-->
-                            <td>
-                                <p class="text-center">2</p>
-                            </td>
-                            <!--end::Role=-->
-                            <!--begin::Last login=-->
-                            <td>
-                                <p class="text-center">
-                                    Agustus 2021
-                                </p>
-                            </td>
+                            <tr>
+                                <!--begin::Role=-->
+                                <td>
+                                    <p class="text-center">2</p>
+                                </td>
+                                <!--end::Role=-->
+                                <!--begin::Last login=-->
+                                <td>
+                                    <p class="text-center">
+                                        Agustus 2021
+                                    </p>
+                                </td>
 
-                            <td>
-                                <p class="text-center">
-                                    Rp.100.000
-                                </p>
-                            </td>
+                                <td>
+                                    <p class="text-center">
+                                        Rp.100.000
+                                    </p>
+                                </td>
 
-                            <td>
-                                <p class="text-center">
-                                    Rp.200.000
-                                </p>
-                            </td>
+                                <td>
+                                    <p class="text-center">
+                                        Rp.200.000
+                                    </p>
+                                </td>
 
-                            <td>
-                                <p class="text-center">
-                                <button type="button" class="btn btn-sm btn-light-success">
-                                <span class="svg-icon svg-icon-2 me-0">
-                                    <i class="fa-duotone fa-file-excel" style="font-size: 20px;"></i>
-                                </span>
-                                Download Excel</button>
-                                </p>
-                            </td>
-                        </tr>
-                    </tbody>
-                    <!--end::Table body-->
-                </table>
-                <!--end::Table-->
+                                <td>
+                                    <p class="text-center">
+                                    <button type="button" class="btn btn-sm btn-light-success">
+                                    <span class="svg-icon svg-icon-2 me-0">
+                                        <i class="fa-duotone fa-file-excel" style="font-size: 20px;"></i>
+                                    </span>
+                                    Download Excel</button>
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <!--end::Table body-->
+                    </table>
+                    <!--end::Table-->
+                </div>
             </div>
             <!--end::Card body-->
         </div>

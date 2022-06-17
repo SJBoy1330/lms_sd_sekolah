@@ -50205,6 +50205,23 @@ body {
 }
 
 /* CSS PRIBADI */
+.wrapper-cols2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper-cols2 {
+    flex-wrap: wrap;
+    display: block;
+  }
+
+  .cards1{
+    margin-bottom: 1.25rem !important;
+  }
+}
+
 .card.identitas-sekolah{
   min-height: 190px;
 }
