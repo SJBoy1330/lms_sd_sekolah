@@ -6,7 +6,7 @@ class Controller_ctl extends MY_Admin
 	{
 		// Load the constructer from MY_Controller
 		parent::__construct();
-		access_url(['akademik/materi_dokumen', 'akademik/materi_video', 'akademik/tugas_siswa']);
+		access_url(['akademik/materi_dokumen', 'akademik/materi_video', 'akademik/tugas_siswa', 'akademik/tugas_staf']);
 	}
 
 
@@ -147,11 +147,33 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Tugas Siswa';
 
+		// LOAD CSS
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/akademik/tugas.css') . '">';
+
 		// LOAD JS
 		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/tugassiswa.js') . '"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('tugas_siswa', $mydata, TRUE);
+		$this->display();
+	}
+
+	public function tugas_staf()
+	{
+		// LOAD TITLE
+		$this->data['title'] = 'Akademik';
+
+		// LOAD BREADCRUMB
+		$mydata['breadcrumb']['menu'] = 'Tugas Staf';
+
+		// LOAD CSS
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/akademik/tugas.css') . '">';
+
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/tugasstaf.js') . '"></script>';
+
+		// LOAD VIEW
+		$this->data['content'] = $this->load->view('tugas_staf', $mydata, TRUE);
 		$this->display();
 	}
 

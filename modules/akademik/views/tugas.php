@@ -2,170 +2,7 @@
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
     <div class="container mb-4">
         <div class="card shodow-sm mb-4">
-            <div class="card-body">
-                <div class="modal fade" id="modalPengaturanKBM" tabindex="-1" aria-hidden="true">
-                    <!--begin::Modal dialog-->
-                    <div class="modal-dialog modal-dialog-centered mw-850px">
-                        <!--begin::Modal content-->
-                        <div class="modal-content">
-                            <!--begin::Modal header-->
-                            <div class="modal-header">
-                                <!--begin::Modal title-->
-                                <h2 class="fw-bolder">Tambah Tugas</h2>
-                                <!--end::Modal title-->
-                                <!--begin::Close-->
-                                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
-                                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                                    <span class="svg-icon svg-icon-1">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
-                                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
-                                        </svg>
-                                    </span>
-                                    <!--end::Svg Icon-->
-                                </div>
-                                <!--end::Close-->
-                            </div>
-                            <!--end::Modal header-->
-                            <!--begin::Modal body-->
-                            <div class="modal-body scroll-y mx-10 my-2">
-                                <div class="row">
-                                    <div class="col-md-4 col-xl-4">
-                                        <div class="d-flex flex-column mb-8 fv-row">
-                                            <!--begin::Label-->
-                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                <span class="required">Kelas</span>
-                                            </label>
-                                            <div>
-                                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Kelas">
-                                                    <option></option>
-                                                    <option value="1">Bab 1</option>
-                                                    <option value="2">Bab 2</option>
-                                                    <option value="2">Bab 3</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-xl-4">
-                                        <div class="d-flex flex-column mb-8 fv-row">
-                                            <!--begin::Label-->
-                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                <span class="required">Pelajaran</span>
-                                            </label>
-                                            <div>
-                                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Pelajaran">
-                                                    <option></option>
-                                                    <option value="1">Materi 1</option>
-                                                    <option value="2">Materi 2</option>
-                                                    <option value="2">Materi 3</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-xl-4">
-                                        <div class="d-flex flex-column mb-8 fv-row">
-                                            <!--begin::Label-->
-                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                <span class="required">Guru</span>
-                                            </label>
-                                            <div>
-                                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Guru">
-                                                    <option></option>
-                                                    <option value="1">Admin Sidoarjo</option>
-                                                    <option value="2">Sri Handayani S.Pd</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="d-flex flex-column mb-8 fv-row">
-                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                <span class="required">File Tugas</span>
-                                            </label>
-                                            <div class="mb-3">
-                                                <input class="form-control" type="file" id="formFile">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="d-flex flex-column mb-8 fv-row">
-                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                <span class="required">Judul Tugas</span>
-                                            </label>
-                                            <div class="position-relative d-flex align-items-center">
-                                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                                    <i class="fa-duotone fa-h1" style="font-size: 1.3rem;"></i>
-                                                </span>
-                                                <input class="form-control form-control-solid ps-12" value="Pelajaran 01" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="d-flex flex-column mb-8 fv-row">
-                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                <span class="required">Batas Waktu</span>
-                                            </label>
-                                            <div class="position-relative d-flex align-items-center">
-                                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                                    <i class="fa-duotone fa-calendar" style="font-size: 1.3rem;"></i>
-                                                </span>
-                                                <input class="form-control form-control-solid ps-12" name="tanggal" placeholder="Tanggal" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="d-flex flex-column mb-8 fv-row">
-                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                <span class="required">Keterangan</span>
-                                            </label>
-                                            <div class="position-relative d-flex align-items-center">
-                                                <form id="kt_forms_widget_1_form" class="ql-quil ql-quil-plain pb-3" style="width: 100%;">
-
-                                                    <div id="kt_forms_widget_1_editor_tugas" class="py-6"></div>
-
-                                                    <div class="separator"></div>
-
-                                                    <div id="kt_forms_widget_1_editor_toolbar_tugas" class="ql-toolbar d-flex flex-stack py-2">
-                                                        <div class="me-2">
-                                                            <span class="ql-formats ql-size ms-0">
-                                                                <select class="ql-size w-75px"></select>
-                                                            </span>
-                                                            <span class="ql-formats">
-                                                                <button class="ql-bold"></button>
-                                                                <button class="ql-italic"></button>
-                                                                <button class="ql-underline"></button>
-                                                                <button class="ql-strike"></button>
-                                                                <button class="ql-link"></button>
-                                                                <button class="ql-clean"></button>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row mb-4">
-                                    <div class="d-flex justify-content-end">
-                                        <button type="button" class="btn btn-primary">
-                                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                                            <span class="svg-icon svg-icon-2">
-                                                <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-                                            </span>
-                                            <!--end::Svg Icon-->Simpan
-                                        </button>
-                                        <!--end::Add user-->
-                                    </div>
-                                </div>
-                            </div>
-                            <!--end::Modal body-->
-                        </div>
-                        <!--end::Modal content-->
-                    </div>
-                    <!--end::Modal dialog-->
-                </div>
-
+            <div class="card-body">        
                 <form action="">
                     <div class="row">
 
@@ -309,6 +146,9 @@
                                             <a href="<?= base_url('akademik/tugas_siswa') ?>" class="menu-link px-3">Tugas Siswa</a>
                                         </div>
                                         <div class="menu-item px-3">
+                                            <a href="<?= base_url('akademik/tugas_staf') ?>" class="menu-link px-3">Tugas Staf</a>
+                                        </div>
+                                        <div class="menu-item px-3">
                                             <a href="#" class="menu-link px-3">Hapus</a>
                                         </div>
                                     </div>
@@ -370,6 +210,168 @@
         <!--end::Card-->
     </div>
     <!--end::Container-->
-
 </div>
 <!--end::Content-->
+
+<div class="modal fade" id="modalPengaturanKBM" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-850px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header">
+                <!--begin::Modal title-->
+                <h2 class="fw-bolder">Tambah Tugas</h2>
+                <!--end::Modal title-->
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <!--end::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y mx-10 my-2">
+                <div class="row">
+                    <div class="col-md-4 col-xl-4">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <!--begin::Label-->
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Kelas</span>
+                            </label>
+                            <div>
+                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Kelas">
+                                    <option></option>
+                                    <option value="1">Bab 1</option>
+                                    <option value="2">Bab 2</option>
+                                    <option value="2">Bab 3</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xl-4">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <!--begin::Label-->
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Pelajaran</span>
+                            </label>
+                            <div>
+                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Pelajaran">
+                                    <option></option>
+                                    <option value="1">Materi 1</option>
+                                    <option value="2">Materi 2</option>
+                                    <option value="2">Materi 3</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xl-4">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <!--begin::Label-->
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Guru</span>
+                            </label>
+                            <div>
+                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Guru">
+                                    <option></option>
+                                    <option value="1">Admin Sidoarjo</option>
+                                    <option value="2">Sri Handayani S.Pd</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">File Tugas</span>
+                            </label>
+                            <div class="mb-3">
+                                <input class="form-control" type="file" id="formFile">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Judul Tugas</span>
+                            </label>
+                            <div class="position-relative d-flex align-items-center">
+                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                    <i class="fa-duotone fa-h1" style="font-size: 1.3rem;"></i>
+                                </span>
+                                <input class="form-control form-control-solid ps-12" value="Pelajaran 01" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Batas Waktu</span>
+                            </label>
+                            <div class="position-relative d-flex align-items-center">
+                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                    <i class="fa-duotone fa-calendar" style="font-size: 1.3rem;"></i>
+                                </span>
+                                <input class="form-control form-control-solid ps-12" name="tanggal" placeholder="Tanggal" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Keterangan</span>
+                            </label>
+                            <div class="position-relative d-flex align-items-center">
+                                <form id="kt_forms_widget_1_form" class="ql-quil ql-quil-plain pb-3" style="width: 100%;">
+
+                                    <div id="kt_forms_widget_1_editor_tugas" class="py-6"></div>
+
+                                    <div class="separator"></div>
+
+                                    <div id="kt_forms_widget_1_editor_toolbar_tugas" class="ql-toolbar d-flex flex-stack py-2">
+                                        <div class="me-2">
+                                            <span class="ql-formats ql-size ms-0">
+                                                <select class="ql-size w-75px"></select>
+                                            </span>
+                                            <span class="ql-formats">
+                                                <button class="ql-bold"></button>
+                                                <button class="ql-italic"></button>
+                                                <button class="ql-underline"></button>
+                                                <button class="ql-strike"></button>
+                                                <button class="ql-link"></button>
+                                                <button class="ql-clean"></button>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-primary">
+                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                            <span class="svg-icon svg-icon-2">
+                                <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                            </span>
+                            <!--end::Svg Icon-->Simpan
+                        </button>
+                        <!--end::Add user-->
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal body-->
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>

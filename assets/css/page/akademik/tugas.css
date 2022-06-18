@@ -1,0 +1,12 @@
+.wrapper-tugas iframe{
+    width: 100%;
+    height: 500px;
+}
+
+.document-tugas{
+    width: 350px !important;
+}
+
+.document-tugas-kumpulkan{
+    width: 329px !important;
+}

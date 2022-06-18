@@ -135,111 +135,264 @@
                         <!--end:Options-->
                     </div>
                 </div>
-                <!--begin::Table-->
-                <div class="table-responsive">
-                    <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_tugas_siswa">
-                        <!--begin::Table head-->
-                        <thead>
-                            <!--begin::Table row-->
-                            <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
-                                <th class="w-10px pe-2">
-                                    <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
-                                        <input class="form-check-input" name="maincheckbox" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_tugas_siswa .form-check-input" value="1" />
-                                    </div>
-                                </th>
-                                <th class="min-w-125px text-center">Aksi</th>
-                                <th class="min-w-100px text-center">No</th>
-                                <th class="min-w-175px text-center">Nama</th>
-                                <th class="min-w-175px text-center">Tanggal</th>
-                                <th class="min-w-250px text-center">Batas</th>
-                                <th class="min-w-150px text-center">Kelas</th>
-                                <th class="min-w-200px text-center">Pelajaran</th>
-                                <th class="min-w-250px text-center">Guru</th>
-                                <th class="min-w-300px text-center">File</th>
-                            </tr>
-                            <!--end::Table row-->
-                        </thead>
-                        <!--end::Table head-->
-                        <!--begin::Table body-->
-                        <tbody class="text-gray-600 fw-bold">
-                            <!--begin::Table row-->
-                            <tr>
-                                <!--begin::Checkbox-->
-                                <td>
-                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input deletebox" type="checkbox" value="1" />
-                                    </div>
-                                </td>
-                                <!--end::Checkbox-->
-                                <!--begin::User=-->
-                                <td class="text-center">
-                                    <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                        <i class="fa-duotone fa-bars fs-4"></i>
-                                    </button>
-                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-175px py-4" data-kt-menu="true">
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Edit</a>
-                                        </div>
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Hapus</a>
-                                        </div>
-                                    </div>
-                                </td>
-                                <!--end::User=-->
-                                <!--begin::Role=-->
-                                <td>
-                                    <p class="text-center mb-0">1</p>
-                                </td>
-                                <!--end::Role=-->
-                                <!--begin::Last login=-->
-                                <td>
-                                    <p class="text-center">
-                                        Admin Sdioarjo
-                                    </p>
-                                </td>
+                
+            </div>
+            <!--end::Card body-->
+        </div>
 
-                                <td>
-                                    <p class="text-center">
-                                        22-04-2022 00:00:00
-                                    </p>
-                                </td>
-                                <td>
-                                    <p class="text-center">
-                                        30-04-2022 12:00:00
-                                    </p>
-                                </td>
-                                <td>
-                                    <p class="text-center">
-                                        X-IPA-1
-                                    </p>
-                                </td>
-                                <td>
-                                    <p class="text-center">
-                                        Pelajaran 01
-                                    </p>
-                                </td>
-                                <td>
-                                    <p class="text-center">
-                                        Drs. Hendrawati Kusumaningsih Sagaru Saputri
-                                    </p>
-                                </td>
-                                <td>
-                                    <p class="text-center">
-                                        <a href="#" class="btn btn-light w-50">
-                                            <img alt="Logo" src="<?= base_url() ?>assets/img/file.svg" class="h-20px me-3">Tugas
+        <div class="card mt-5">
+            <!--begin::Card body-->
+            <div class="card-body py-4">
+                <div class="box-info">
+                    <div class="fv-row">
+                        <!--begin::Label-->
+                        <label class="d-flex align-items-center fs-3 fw-bold mt-4">
+                            <span>Tugas 1 ~ Bagaimana cara menghitung jari jari lingkaran</span>
+                        </label>
+                        <label class="d-flex align-items-center fs-7 fw-bold text-muted mb-1">
+                            <span>Jaden Smith Riyadi - 1 Januari 2022</span>
+                        </label>
+                        <label class="d-flex align-items-center justify-content-between fs-6 mb-4">
+                            <span class="fw-bold text-primary">100 Poin</span>
+                            <span class="fw-bold">Tenggat : 5 Januari 2022</span>
+                        </label>
+                        <div class="border-bottom border-bottom-3 mb-6"></div>
+                        <!--end::Label-->
+                        <!--begin:Options-->
+                        <div class="row fv-plugins-icon-container fv-plugins-bootstrap5-row-valid">
+                            <div class="col-xl-8 col-lg-12">
+                                <!--begin:Option-->
+                                <label class="d-flex flex-stack mb-5 flex-wrap">
+                                    <!--begin:Label-->
+                                    <span class="d-flex align-items-center fs-6 mb-3">
+                                        Berikut adalah materi mengenai pengenalan menghitung jari jari lingkaran
+                                    </span>
+
+                                    <span class="d-flex align-items-center fw-bolder fs-6 mb-3">
+                                        Silahkan di pahami dan kerjakan latihan soal pada modul di bawah ini halaman 100 "Ayo Latihan 01"
+                                    </span>
+
+                                    <span class="d-flex align-items-center fw-bolder fs-6 mb-3">
+                                        Kumpulkan hasil pekerjaan paling lambat hari senin di aplikasi KlasQ sesuai tenggat yang berlaku di atas!!!
+                                    </span>
+                                    <!--end:Label-->
+                                </label>
+                                <!--end::Option-->
+
+                                <div class="d-flex flex-wrap">
+                                    <a data-bs-toggle="modal" data-bs-target="#modalPreviewTugas" role="button">
+                                        <div class="d-flex align-items-center bg-light rounded p-5 mb-7 me-3 document-tugas">
+                                            <!--begin::Icon-->
+                                            <span class="svg-icon me-5">
+                                                <i class="fa-solid fa-file-pdf" style="font-size: 2.8rem;"></i>
+                                            </span>
+                                            <!--end::Icon-->
+                                            <!--begin::Title-->
+                                            <div class="flex-grow-1 me-2">
+                                                <span class="fw-bolder text-gray-800 text-hover-primary fs-6">Pengertian Lingkaran</span>
+                                                <span class="text-muted fw-bold d-block">PDF File</span>
+                                            </div>
+                                            <!--end::Title-->
+                                        </div>
+                                    </a>
+
+                                    <a data-bs-toggle="modal" data-bs-target="#modalPreviewTugas" role="button">
+                                        <div class="d-flex align-items-center bg-light rounded p-5 mb-7 me-3 document-tugas">
+                                            <!--begin::Icon-->
+                                            <span class="svg-icon me-5">
+                                                <i class="fa-solid fa-file-word" style="font-size: 2.8rem;"></i>
+                                            </span>
+                                            <!--end::Icon-->
+                                            <!--begin::Title-->
+                                            <div class="flex-grow-1 me-2">
+                                                <span class="fw-bolder text-gray-800 text-hover-primary fs-6">Bagaimana seharusnya menghit...</span>
+                                                <span class="text-muted fw-bold d-block">Word File</span>
+                                            </div>
+                                            <!--end::Title-->
+                                        </div>
+                                    </a>
+
+                                    <a data-bs-toggle="modal" data-bs-target="#modalPreviewTugas" role="button">
+                                        <div class="d-flex align-items-center bg-light rounded p-5 mb-7 me-3 document-tugas">
+                                            <!--begin::Icon-->
+                                            <span class="svg-icon me-5">
+                                                <i class="fa-solid fa-file-excel" style="font-size: 2.8rem;"></i>
+                                            </span>
+                                            <!--end::Icon-->
+                                            <!--begin::Title-->
+                                            <div class="flex-grow-1 me-2">
+                                                <span class="fw-bolder text-gray-800 text-hover-primary fs-6">Bagaimana cara jari - jari lingkaran..</span>
+                                                <span class="text-muted fw-bold d-block">Excel File</span>
+                                            </div>
+                                            <!--end::Title-->
+                                        </div>
+                                    </a>
+
+                                    <a data-bs-toggle="modal" data-bs-target="#modalPreviewTugas" role="button">
+                                        <div class="d-flex align-items-center bg-light rounded p-5 mb-7 me-3 document-tugas">
+                                            <!--begin::Icon-->
+                                            <span class="svg-icon me-5">
+                                                <i class="fa-solid fa-file-image" style="font-size: 2.8rem;"></i>
+                                            </span>
+                                            <!--end::Icon-->
+                                            <!--begin::Title-->
+                                            <div class="flex-grow-1 me-2">
+                                                <span class="fw-bolder text-gray-800 text-hover-primary fs-6">Foto Jari Jari Lingkararan dan Radius</span>
+                                                <span class="text-muted fw-bold d-block">PNG File</span>
+                                            </div>
+                                            <!--end::Title-->
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-12">
+                                <div class="card card-xl-stretch shadow-sm mb-xl-8">
+                                    <!--begin::Beader-->
+                                    <div class="card-header border-0 pt-5">
+                                        <h3 class="card-title align-items-start flex-column">
+                                            <span class="card-label fw-bolder fs-4 mb-1">Tugas Anda</span>
+                                        </h3>
+                                        <h3 class="card-title align-items-start flex-column">
+                                            <span class="card-label fw-medium text-primary fs-7 mb-1">Tidak Ada</span>
+                                        </h3>
+                                    </div>
+                                    <!--end::Header-->
+                                    <!--begin::Body-->
+                                    <div class="card-body d-flex flex-column pt-5 pb-0 my-0" style="overflow-y: scroll; height: 300px;">
+                                        <a data-bs-toggle="modal" data-bs-target="#modalPreviewTugas" role="button">
+                                            <div class="d-flex align-items-center bg-light rounded p-5 mb-7 me-3 document-tugas-kumpulkan">
+                                                <!--begin::Icon-->
+                                                <span class="svg-icon me-5">
+                                                    <i class="fa-solid fa-file-pdf" style="font-size: 2.8rem;"></i>
+                                                </span>
+                                                <!--end::Icon-->
+                                                <!--begin::Title-->
+                                                <div class="flex-grow-1 me-2">
+                                                    <span class="fw-bolder text-gray-800 text-hover-primary fs-6">Pengertian Lingkaran</span>
+                                                    <span class="text-muted fw-bold d-block">PDF File</span>
+                                                </div>
+                                                <!--end::Title-->
+                                            </div>
                                         </a>
-                                    </p>
-                                </td>
-                            </tr>
-                        </tbody>
-                        <!--end::Table body-->
-                    </table>
+
+                                        <a data-bs-toggle="modal" data-bs-target="#modalPreviewTugas" role="button">
+                                            <div class="d-flex align-items-center bg-light rounded p-5 mb-7 me-3 document-tugas-kumpulkan">
+                                                <!--begin::Icon-->
+                                                <span class="svg-icon me-5">
+                                                    <i class="fa-solid fa-file-word" style="font-size: 2.8rem;"></i>
+                                                </span>
+                                                <!--end::Icon-->
+                                                <!--begin::Title-->
+                                                <div class="flex-grow-1 me-2">
+                                                    <span class="fw-bolder text-gray-800 text-hover-primary fs-6">Bagaimana seharusnya menghit...</span>
+                                                    <span class="text-muted fw-bold d-block">Word File</span>
+                                                </div>
+                                                <!--end::Title-->
+                                            </div>
+                                        </a>
+
+                                        <a data-bs-toggle="modal" data-bs-target="#modalPreviewTugas" role="button">
+                                            <div class="d-flex align-items-center bg-light rounded p-5 mb-7 me-3 document-tugas-kumpulkan">
+                                                <!--begin::Icon-->
+                                                <span class="svg-icon me-5">
+                                                    <i class="fa-solid fa-file-excel" style="font-size: 2.8rem;"></i>
+                                                </span>
+                                                <!--end::Icon-->
+                                                <!--begin::Title-->
+                                                <div class="flex-grow-1 me-2">
+                                                    <span class="fw-bolder text-gray-800 text-hover-primary fs-6">Bagaimana cara jari - jari lingkaran..</span>
+                                                    <span class="text-muted fw-bold d-block">Excel File</span>
+                                                </div>
+                                                <!--end::Title-->
+                                            </div>
+                                        </a>
+
+                                        <a data-bs-toggle="modal" data-bs-target="#modalPreviewTugas" role="button">
+                                            <div class="d-flex align-items-center bg-light rounded p-5 mb-7 me-3 document-tugas-kumpulkan">
+                                                <!--begin::Icon-->
+                                                <span class="svg-icon me-5">
+                                                    <i class="fa-solid fa-file-image" style="font-size: 2.8rem;"></i>
+                                                </span>
+                                                <!--end::Icon-->
+                                                <!--begin::Title-->
+                                                <div class="flex-grow-1 me-2">
+                                                    <span class="fw-bolder text-gray-800 text-hover-primary fs-6">Foto Jari Jari Lingkararan dan Radius</span>
+                                                    <span class="text-muted fw-bold d-block">PNG File</span>
+                                                </div>
+                                                <!--end::Title-->
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--end::Body-->
+                                    <div class="card-footer mt-0 pt-0">
+                                        <a href="#" class="btn btn-outline-primary w-100 py-3 mb-3">Tambah Tugas</a>
+                                        <a href="#" class="btn btn-primary w-100 py-3">Serahkan</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fv-plugins-message-container invalid-feedback"></div>
+                        </div>
+                        <!--end:Options-->
+                    </div>
                 </div>
-                <!--end::Table-->
+                
             </div>
             <!--end::Card body-->
         </div>
         <!--end::Card-->
     </div>
     <!--end::Container-->
+</div>
+
+<div class="modal fade" id="modalPreviewTugas" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-850px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header">
+                <!--begin::Modal title-->
+                <h2 class="fw-bolder">Lihat Tugas</h2>
+                <!--end::Modal title-->
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <!--end::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y mx-10 my-2">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="wrapper-tugas">
+                            <iframe src="<?= base_url('assets/demo_tugas.pdf')?>" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-primary">
+                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                            <span class="svg-icon svg-icon-2">
+                                <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                            </span>
+                            <!--end::Svg Icon-->Download tugas
+                        </button>
+                        <!--end::Add user-->
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal body-->
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
 </div>
