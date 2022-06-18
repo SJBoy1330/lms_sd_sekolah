@@ -8,5 +8,15 @@
 }
 
 .document-tugas-kumpulkan{
-    width: 329px !important;
+    width: 320px !important;
 }
+
+@media only screen and (max-width: 600px) {
+    .document-tugas{
+        width: 275px !important;
+    }
+    
+    .document-tugas-kumpulkan{
+        width: 225px !important;
+    }
+  }
