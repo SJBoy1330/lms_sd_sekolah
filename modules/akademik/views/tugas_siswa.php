@@ -324,7 +324,7 @@
                                         </a>
                                     </div>
                                     <!--end::Body-->
-                                    <div class="card-footer mt-0 pt-0">
+                                    <div class="card-footer mt-0 pt-8">
                                         <a href="#" class="btn btn-outline-primary w-100 py-3 mb-3">Tambah Tugas</a>
                                         <a href="#" class="btn btn-primary w-100 py-3">Serahkan</a>
                                     </div>
