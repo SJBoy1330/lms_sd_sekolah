@@ -5,9 +5,9 @@
         <div class="card">
             <!--begin::Card body-->
             <div class="card-body py-4">
+                
                 <div class="box-info">
                     <div class="card-toolbar">
-                        <!--begin::Toolbar-->
                         <div class="d-flex justify-content-end">
                             <button type="button" class="btn btn-sm btn-light-danger me-2 " id="deleteall" style="display: none;">
                                 <span class="svg-icon svg-icon-2 me-0">
@@ -17,124 +17,82 @@
                         </div>
                     </div>
                     <div class="fv-row">
-                        <!--begin::Label-->
                         <label class="d-flex align-items-center fs-5 fw-bold my-4">
                             <span>Keterangan</span>
                         </label>
-                        <!--end::Label-->
-                        <!--begin:Options-->
                         <div class="row fv-plugins-icon-container fv-plugins-bootstrap5-row-valid">
                             <div class="col-xl-6 col-lg-12">
-                                <!--begin:Option-->
                                 <label class="d-flex flex-stack mb-5 cursor-pointer">
-                                    <!--begin:Label-->
                                     <span class="d-flex align-items-center me-2">
-                                        <!--begin:Icon-->
                                         <span class="symbol symbol-50px me-6">
                                             <span class="symbol-label bg-light-lighten">
-                                                <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
                                                 <span class="svg-icon svg-icon-1 svg-icon-primary">
                                                     <i class="fa-duotone fa-h1" style="font-size: 1.8rem;"></i>
                                                 </span>
-                                                <!--end::Svg Icon-->
                                             </span>
                                         </span>
-                                        <!--end:Icon-->
-                                        <!--begin:Info-->
                                         <span class="d-flex flex-column">
                                             <span class="fw-bolder fs-6">Judul Tugas</span>
                                             <span class="fs-7 text-muted">Membahan Fotosintesis</span>
                                         </span>
-                                        <!--end:Info-->
                                     </span>
-                                    <!--end:Label-->
                                 </label>
-                                <!--end::Option-->
 
-                                <!--begin:Option-->
                                 <label class="d-flex flex-stack mb-5 cursor-pointer">
-                                    <!--begin:Label-->
                                     <span class="d-flex align-items-center me-2">
-                                        <!--begin:Icon-->
                                         <span class="symbol symbol-50px me-6">
                                             <span class="symbol-label">
-                                                <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
                                                 <span class="svg-icon svg-icon-1 svg-icon-primary">
                                                     <i class="fa-duotone fa-chalkboard-user" style="font-size: 1.8rem;"></i>
                                                 </span>
-                                                <!--end::Svg Icon-->
                                             </span>
                                         </span>
-                                        <!--end:Icon-->
-                                        <!--begin:Info-->
                                         <span class="d-flex flex-column">
                                             <span class="fw-bolder fs-6">Kelas</span>
                                             <span class="fs-7 text-muted">Kelas Abu Bakar As-Sidiq</span>
                                         </span>
-                                        <!--end:Info-->
                                     </span>
-                                    <!--end:Label-->
                                 </label>
-                                <!--end::Option-->
                             </div>
+
                             <div class="col-xl-6 col-lg-12">
-                                <!--begin:Option-->
                                 <label class="d-flex flex-stack mb-5 cursor-pointer">
-                                    <!--begin:Label-->
                                     <span class="d-flex align-items-center me-2">
-                                        <!--begin:Icon-->
                                         <span class="symbol symbol-50px me-6">
                                             <span class="symbol-label bg-light-lighten">
-                                                <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
                                                 <span class="svg-icon svg-icon-1 svg-icon-primary">
                                                     <i class="fa-brands fa-stack-overflow" style="font-size: 1.8rem;"></i>
                                                 </span>
-                                                <!--end::Svg Icon-->
                                             </span>
                                         </span>
-                                        <!--end:Icon-->
-                                        <!--begin:Info-->
                                         <span class="d-flex flex-column">
                                             <span class="fw-bolder fs-6">Mata Pelajaran</span>
                                             <span class="fs-7 text-muted">Matematika</span>
                                         </span>
-                                        <!--end:Info-->
                                     </span>
-                                    <!--end:Label-->
                                 </label>
-                                <!--end::Option-->
 
-                                <!--begin:Option-->
                                 <label class="d-flex flex-stack mb-5 cursor-pointer">
-                                    <!--begin:Label-->
                                     <span class="d-flex align-items-center me-2">
-                                        <!--begin:Icon-->
                                         <span class="symbol symbol-50px me-6">
                                             <span class="symbol-label">
-                                                <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
                                                 <span class="svg-icon svg-icon-1 svg-icon-primary">
                                                     <i class="fa-duotone fa-calendar" style="font-size: 1.8rem;"></i>
                                                 </span>
-                                                <!--end::Svg Icon-->
                                             </span>
                                         </span>
-                                        <!--end:Icon-->
-                                        <!--begin:Info-->
                                         <span class="d-flex flex-column">
                                             <span class="fw-bolder fs-6">Tanggal Tugas</span>
                                             <span class="fs-7 text-muted">2022-06-14 13:00:00</span>
                                         </span>
-                                        <!--end:Info-->
                                     </span>
-                                    <!--end:Label-->
                                 </label>
-                                <!--end::Option-->
                             </div>
                             <div class="fv-plugins-message-container invalid-feedback"></div>
                         </div>
-                        <!--end:Options-->
                     </div>
                 </div>
+
                 <!--begin::Table-->
                 <div class="table-responsive">
                     <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_tugas_siswa">
