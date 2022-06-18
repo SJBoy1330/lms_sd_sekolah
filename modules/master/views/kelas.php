@@ -104,6 +104,13 @@
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div class="col-12">
+                                        <div class="d-flex flex-column mb-8 fv-row">
+                                            <label class="form-label">Siswa</label>
+                                            <input class="form-control d-flex align-items-center" value="" id="kt_tagify_users" />
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="row mb-4">
                                     <div class="d-flex justify-content-end">
