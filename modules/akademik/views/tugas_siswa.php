@@ -325,7 +325,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="wrapper-tugas">
-                            <iframe src="<?= base_url('assets/demo_tugas.pdf')?>" frameborder="0"></iframe>
+                            <!-- <iframe src="<?= base_url('assets/demo_tugas.pdf')?>" frameborder="0"></iframe> -->
                         </div>
                     </div>
                 </div>
