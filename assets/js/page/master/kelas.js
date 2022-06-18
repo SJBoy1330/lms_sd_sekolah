@@ -110,10 +110,10 @@ function getAddAllSuggestionsElm() {
     // suggestions items should be based on "dropdownItem" template
     return tagify.parseTemplate('dropdownItem', [{
         class: "addAll",
-        name: "Add all",
+        name: "Tambah Semua",
         email: tagify.settings.whitelist.reduce(function (remainingSuggestions, item) {
             return tagify.isTagDuplicate(item.value) ? remainingSuggestions : remainingSuggestions + 1
-        }, 0) + " Members"
+        }, 0) + " Siswa"
     }]
     )
 }

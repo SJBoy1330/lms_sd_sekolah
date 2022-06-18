@@ -14,6 +14,11 @@
                                     <i class="fa-duotone fa-trash" style="font-size: 18px;"></i>
                                 </span>
                                 Hapus</button>
+                            <button type="button" class="btn btn-sm btn-light-danger me-2 " id="newbutton" style="display: none;">
+                                <span class="svg-icon svg-icon-2 me-0">
+                                    <i class="fa-duotone fa-trash" style="font-size: 18px;"></i>
+                                </span>
+                                Hapus2</button>
                         </div>
                     </div>
                     <div class="fv-row">
@@ -215,7 +220,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="wrapper-tugas">
-                            <!-- <iframe src="<?= base_url('assets/demo_tugas.pdf')?>" frameborder="0"></iframe> -->
+                            <iframe src="<?= base_url('assets/demo_tugas.pdf') ?>" frameborder="0"></iframe>
                         </div>
                     </div>
                 </div>
