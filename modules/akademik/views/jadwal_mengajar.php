@@ -7,7 +7,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Tahun Ajaran</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">2021</option>
                                 <option value="2">2022</option>
@@ -15,7 +15,7 @@
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Tingkat</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">X</option>
                                 <option value="2">XI</option>
@@ -24,7 +24,7 @@
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Bulan</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">Januari</option>
                                 <option value="2">Febuari</option>
@@ -57,105 +57,105 @@
                     </div>
                     <div class="col overflow-auto my-5">
                         <div class="table-responsive">
-                        <table class="table table-light table-bordered gs-7 gy-4 gx-7 no-footer">
-                            <!--begin::Table head-->
-                            <thead class=" fs-7 fw-bolder">
-                                <!--begin::Table row-->
-                                <tr class=" text-white text-uppercase gs-0 align-middle text-center">
-                                    <th class="min-w-100px bg-danger border border-white">Hari</th>
-                                    <th class="min-w-50px bg-danger border border-white">Jam</th>
-                                    <th class="min-w-50px bg-danger border border-white">Waktu</th>
-                                    <th class="min-w-150px bg-danger border border-white">Hell Class</th>
-                                </tr>
-                                <!--end::Table row-->
-                            </thead>
-                            <!--end::Table head-->
-                            <!--begin::Table body-->
-                            <tbody class="fs-6 fw-bold text-gray-600">
-                                <tr class="align-middle text-center text-dark">
-                                    <td rowspan="8" class="border border-white">Minggu</td>
-                                    <td class="border border-white">1</td>
-                                    <td class="border border-white">07:00 - 07:45</td>
-                                    <td class="border border-white"><button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalTambahJadwal">Tambah Jadwal</button></td>
-                                </tr>
-                                <tr class="align-middle text-dark">
-                                    <td class="border text-center border-white">2</td>
-                                    <td class="border text-center border-white">07:00 - 07:45</td>
-                                    <td class="border border-white">
-                                        <div class="row">
-                                            <div class="col-12 d-flex justify-content-center align-items-center wrapper-jadwal">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item bg-transparent border-0"><i class="fa-brands fa-stack-overflow fs-1 me-3"></i>Pelajaran 01</li>
-                                                    <li class="list-group-item bg-transparent border-0"><i class="fa-solid fa-chalkboard-user me-3"></i>Sri Handayani S.Pd</li>
-                                                </ul>
-                                                <button class="btn btn-sm btn-danger btn-hapus-jadwal py-4"><i class="fa-duotone fa-trash fs-3 pe-0"></i></button>
+                            <table class="table table-light table-bordered gs-7 gy-4 gx-7 no-footer">
+                                <!--begin::Table head-->
+                                <thead class=" fs-7 fw-bolder">
+                                    <!--begin::Table row-->
+                                    <tr class=" text-white text-uppercase gs-0 align-middle text-center">
+                                        <th class="min-w-100px bg-danger border border-white">Hari</th>
+                                        <th class="min-w-50px bg-danger border border-white">Jam</th>
+                                        <th class="min-w-50px bg-danger border border-white">Waktu</th>
+                                        <th class="min-w-150px bg-danger border border-white">Hell Class</th>
+                                    </tr>
+                                    <!--end::Table row-->
+                                </thead>
+                                <!--end::Table head-->
+                                <!--begin::Table body-->
+                                <tbody class="fs-6 fw-bold text-gray-600">
+                                    <tr class="align-middle text-center text-dark">
+                                        <td rowspan="8" class="border border-white">Minggu</td>
+                                        <td class="border border-white">1</td>
+                                        <td class="border border-white">07:00 - 07:45</td>
+                                        <td class="border border-white"><button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalTambahJadwal">Tambah Jadwal</button></td>
+                                    </tr>
+                                    <tr class="align-middle text-dark">
+                                        <td class="border text-center border-white">2</td>
+                                        <td class="border text-center border-white">07:00 - 07:45</td>
+                                        <td class="border border-white">
+                                            <div class="row">
+                                                <div class="col-12 d-flex justify-content-center align-items-center wrapper-jadwal">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item bg-transparent border-0"><i class="fa-brands fa-stack-overflow fs-1 me-3"></i>Pelajaran 01</li>
+                                                        <li class="list-group-item bg-transparent border-0"><i class="fa-solid fa-chalkboard-user me-3"></i>Sri Handayani S.Pd</li>
+                                                    </ul>
+                                                    <button class="btn btn-sm btn-danger btn-hapus-jadwal py-4"><i class="fa-duotone fa-trash fs-3 pe-0"></i></button>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr class="align-middle text-dark">
-                                    <td class="border text-center border-white">3</td>
-                                    <td class="border text-center border-white">07:00 - 07:45</td>
-                                    <td class="border text-center border-white"><button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalTambahJadwal">Tambah Jadwal</button></td>
-                                </tr>
-                                <tr class="align-middle text-dark">
-                                    <td class="border text-center border-white">4</td>
-                                    <td class="border text-center border-white">07:00 - 07:45</td>
-                                    <td class="border border-white">
-                                        <div class="row">
-                                            <div class="col-12 d-flex justify-content-center align-items-center wrapper-jadwal">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item bg-transparent border-0"><i class="fa-brands fa-stack-overflow fs-1 me-3"></i>Pelajaran 01</li>
-                                                    <li class="list-group-item bg-transparent border-0"><i class="fa-solid fa-chalkboard-user me-3"></i>Sri Handayani S.Pd</li>
-                                                </ul>
-                                                <button class="btn btn-sm btn-danger btn-hapus-jadwal py-4"><i class="fa-duotone fa-trash fs-3 pe-0"></i></button>
+                                        </td>
+                                    </tr>
+                                    <tr class="align-middle text-dark">
+                                        <td class="border text-center border-white">3</td>
+                                        <td class="border text-center border-white">07:00 - 07:45</td>
+                                        <td class="border text-center border-white"><button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalTambahJadwal">Tambah Jadwal</button></td>
+                                    </tr>
+                                    <tr class="align-middle text-dark">
+                                        <td class="border text-center border-white">4</td>
+                                        <td class="border text-center border-white">07:00 - 07:45</td>
+                                        <td class="border border-white">
+                                            <div class="row">
+                                                <div class="col-12 d-flex justify-content-center align-items-center wrapper-jadwal">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item bg-transparent border-0"><i class="fa-brands fa-stack-overflow fs-1 me-3"></i>Pelajaran 01</li>
+                                                        <li class="list-group-item bg-transparent border-0"><i class="fa-solid fa-chalkboard-user me-3"></i>Sri Handayani S.Pd</li>
+                                                    </ul>
+                                                    <button class="btn btn-sm btn-danger btn-hapus-jadwal py-4"><i class="fa-duotone fa-trash fs-3 pe-0"></i></button>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr class="align-middle text-dark">
-                                    <td class="border text-center border-white">5</td>
-                                    <td class="border text-center border-white">07:00 - 07:45</td>
-                                    <td class="border text-center border-white"><button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalTambahJadwal">Tambah Jadwal</button></td>
-                                </tr>
-                                <tr class="align-middle text-dark">
-                                    <td class="border text-center border-white">6</td>
-                                    <td class="border text-center border-white">07:00 - 07:45</td>
-                                    <td class="border border-white">
-                                        <div class="row">
-                                            <div class="col-12 d-flex justify-content-center align-items-center wrapper-jadwal">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item bg-transparent border-0"><i class="fa-brands fa-stack-overflow fs-1 me-3"></i>Pelajaran 01</li>
-                                                    <li class="list-group-item bg-transparent border-0"><i class="fa-solid fa-chalkboard-user me-3"></i>Sri Handayani S.Pd</li>
-                                                </ul>
-                                                <button class="btn btn-sm btn-danger btn-hapus-jadwal py-4"><i class="fa-duotone fa-trash fs-3 pe-0"></i></button>
+                                        </td>
+                                    </tr>
+                                    <tr class="align-middle text-dark">
+                                        <td class="border text-center border-white">5</td>
+                                        <td class="border text-center border-white">07:00 - 07:45</td>
+                                        <td class="border text-center border-white"><button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalTambahJadwal">Tambah Jadwal</button></td>
+                                    </tr>
+                                    <tr class="align-middle text-dark">
+                                        <td class="border text-center border-white">6</td>
+                                        <td class="border text-center border-white">07:00 - 07:45</td>
+                                        <td class="border border-white">
+                                            <div class="row">
+                                                <div class="col-12 d-flex justify-content-center align-items-center wrapper-jadwal">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item bg-transparent border-0"><i class="fa-brands fa-stack-overflow fs-1 me-3"></i>Pelajaran 01</li>
+                                                        <li class="list-group-item bg-transparent border-0"><i class="fa-solid fa-chalkboard-user me-3"></i>Sri Handayani S.Pd</li>
+                                                    </ul>
+                                                    <button class="btn btn-sm btn-danger btn-hapus-jadwal py-4"><i class="fa-duotone fa-trash fs-3 pe-0"></i></button>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr class="align-middle text-dark">
-                                    <td class="border text-center border-white">7</td>
-                                    <td class="border text-center border-white">07:00 - 07:45</td>
-                                    <td class="border text-center border-white"><button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalTambahJadwal">Tambah Jadwal</button></td>
-                                </tr>
-                                <tr class="align-middle text-dark">
-                                    <td class="border text-center border-white">8</td>
-                                    <td class="border text-center border-white">07:00 - 07:45</td>
-                                    <td class="border border-white">
-                                        <div class="row">
-                                            <div class="col-12 d-flex justify-content-center align-items-center wrapper-jadwal">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item bg-transparent border-0"><i class="fa-brands fa-stack-overflow fs-1 me-3"></i>Pelajaran 01</li>
-                                                    <li class="list-group-item bg-transparent border-0"><i class="fa-solid fa-chalkboard-user me-3"></i>Sri Handayani S.Pd</li>
-                                                </ul>
-                                                <button class="btn btn-sm btn-danger btn-hapus-jadwal py-4"><i class="fa-duotone fa-trash fs-3 pe-0"></i></button>
+                                        </td>
+                                    </tr>
+                                    <tr class="align-middle text-dark">
+                                        <td class="border text-center border-white">7</td>
+                                        <td class="border text-center border-white">07:00 - 07:45</td>
+                                        <td class="border text-center border-white"><button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#modalTambahJadwal">Tambah Jadwal</button></td>
+                                    </tr>
+                                    <tr class="align-middle text-dark">
+                                        <td class="border text-center border-white">8</td>
+                                        <td class="border text-center border-white">07:00 - 07:45</td>
+                                        <td class="border border-white">
+                                            <div class="row">
+                                                <div class="col-12 d-flex justify-content-center align-items-center wrapper-jadwal">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item bg-transparent border-0"><i class="fa-brands fa-stack-overflow fs-1 me-3"></i>Pelajaran 01</li>
+                                                        <li class="list-group-item bg-transparent border-0"><i class="fa-solid fa-chalkboard-user me-3"></i>Sri Handayani S.Pd</li>
+                                                    </ul>
+                                                    <button class="btn btn-sm btn-danger btn-hapus-jadwal py-4"><i class="fa-duotone fa-trash fs-3 pe-0"></i></button>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                            <!--end::Table body-->
-                        </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <!--end::Table body-->
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -221,11 +221,12 @@
                     <div class="row mb-4">
                         <div class="d-flex justify-content-end">
                             <button type="button" class="btn btn-primary">
-                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                            <span class="svg-icon svg-icon-2">
-                                <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-                            </span>
-                            <!--end::Svg Icon-->Simpan</button>
+                                <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                                <span class="svg-icon svg-icon-2">
+                                    <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                                </span>
+                                <!--end::Svg Icon-->Simpan
+                            </button>
                             <!--end::Add user-->
                         </div>
                     </div>

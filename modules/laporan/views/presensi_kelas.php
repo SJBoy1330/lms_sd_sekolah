@@ -7,7 +7,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Tahun Ajaran</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">2021/2022</option>
                                 <option value="2">2022/2023</option>
@@ -15,7 +15,7 @@
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Kelas</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">XII</option>
                                 <option value="2">XI</option>
@@ -176,7 +176,8 @@
                                 </label>
                                 <!--end::Option-->
                             </div>
-                        <div class="fv-plugins-message-container invalid-feedback"></div></div>
+                            <div class="fv-plugins-message-container invalid-feedback"></div>
+                        </div>
                         <!--end:Options-->
                     </div>
                 </div>

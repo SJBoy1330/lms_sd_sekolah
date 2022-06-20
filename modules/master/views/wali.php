@@ -8,7 +8,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Tahun Ajaran</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">2019/2020</option>
                                 <option value="2">2020/2021</option>
@@ -17,7 +17,7 @@
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Tingkat</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">Kelas Abu Bakar</option>
                                 <option value="2">Kelas Abu Lahab</option>
@@ -26,7 +26,7 @@
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Kelas</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">Kelas 1</option>
                                 <option value="2">Kelas 2</option>
@@ -232,7 +232,7 @@
             <div class="modal-body scroll-y mx-10 my-2">
                 <div class="row">
                     <div class="col-12 d-flex flex-column justify-content-center align-items-center mb-15">
-                        <img src="<?= base_url('assets/media/avatars/150-1.jpg');?>" alt="" class="img-responsive rounded-circle" style="width: 250px; height: 250px;">
+                        <img src="<?= base_url('assets/media/avatars/150-1.jpg'); ?>" alt="" class="img-responsive rounded-circle" style="width: 250px; height: 250px;">
                         <span class="d-flex flex-column fw-bolder fs-5 mt-3">
                             Wali Murid Max Smith
                         </span>

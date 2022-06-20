@@ -82,7 +82,7 @@
                                 <label for="contoh" class="col-sm-4 col-12 col-form-label">Contoh Format Excel</label>
                                 <div class="col-sm-8 col-12">
                                     <a href="#" class="btn btn-light w-auto  text-start ps-8">
-                                        <img alt="Logo" src="<?= base_url('assets/img/xls.png')?>" class="h-20px me-3">Download Excel
+                                        <img alt="Logo" src="<?= base_url('assets/img/xls.png') ?>" class="h-20px me-3">Download Excel
                                     </a>
                                 </div>
                             </div>
@@ -98,11 +98,12 @@
                             <div class="row mb-4">
                                 <div class="d-flex justify-content-end">
                                     <button type="button" class="btn btn-primary">
-                                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                                    <span class="svg-icon svg-icon-2">
-                                        <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-                                    </span>
-                                    <!--end::Svg Icon-->Simpan</button>
+                                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                                        <span class="svg-icon svg-icon-2">
+                                            <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                                        </span>
+                                        <!--end::Svg Icon-->Simpan
+                                    </button>
                                     <!--end::Add user-->
                                 </div>
                             </div>
@@ -116,15 +117,15 @@
                                 <label for="contoh" class="col-sm-4 col-12 col-form-label">Contoh Format Excel</label>
                                 <div class="col-sm-8 col-12">
                                     <a href="#" class="btn btn-light w-auto  text-start ps-8">
-                                        <img alt="Logo" src="<?= base_url('assets/img/xls.png')?>" class="h-20px me-3">Download Excel
+                                        <img alt="Logo" src="<?= base_url('assets/img/xls.png') ?>" class="h-20px me-3">Download Excel
                                     </a>
                                 </div>
                             </div>
 
                             <div class="row mb-3">
-                                <label  class="col-sm-4 col-form-label">Tahun Ajaran <span class="text-danger">*</span></label>
+                                <label class="col-sm-4 col-form-label">Tahun Ajaran <span class="text-danger">*</span></label>
                                 <div class="col-sm-8 col-12">
-                                    <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Pilih">
+                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
                                         <option></option>
                                         <option value="1">2020/2021</option>
                                         <option value="2">2021/2022</option>
@@ -137,7 +138,7 @@
                                 <label for="id_tingkat_kelas" class="col-sm-4 col-12 col-form-label">Tingkat <span class="text-danger">*</span></label>
                                 <!--end::Label-->
                                 <div class="col-sm-8 col-12">
-                                    <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Pilih">
+                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
                                         <option></option>
                                         <option value="1">X</option>
                                         <option value="2">XI</option>
@@ -149,7 +150,7 @@
                             <div class="row mb-3">
                                 <label for="id_wali_kelas" class="col-sm-4 col-12 col-form-label">Wali Kelas <span class="text-danger">*</span></label>
                                 <div class="col-sm-8 col-12">
-                                    <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Pilih">
+                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
                                         <option></option>
                                         <option value="1">Dian S.Pd</option>
                                         <option value="2">Indrawan S.Pd</option>
@@ -169,11 +170,12 @@
                             <div class="row mb-4">
                                 <div class="d-flex justify-content-end">
                                     <button type="button" class="btn btn-primary">
-                                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                                    <span class="svg-icon svg-icon-2">
-                                        <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-                                    </span>
-                                    <!--end::Svg Icon-->Simpan</button>
+                                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                                        <span class="svg-icon svg-icon-2">
+                                            <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                                        </span>
+                                        <!--end::Svg Icon-->Simpan
+                                    </button>
                                     <!--end::Add user-->
                                 </div>
                             </div>
@@ -187,7 +189,7 @@
                                 <label for="contoh" class="col-sm-4 col-12 col-form-label">Contoh Format Excel</label>
                                 <div class="col-sm-8 col-12">
                                     <a href="#" class="btn btn-light w-auto  text-start ps-8">
-                                        <img alt="Logo" src="<?= base_url('assets/img/xls.png')?>" class="h-20px me-3">Download Excel
+                                        <img alt="Logo" src="<?= base_url('assets/img/xls.png') ?>" class="h-20px me-3">Download Excel
                                     </a>
                                 </div>
                             </div>
@@ -195,7 +197,7 @@
                             <div class="row mb-3">
                                 <label for="id_tahun_ajaran_siswa" class="col-sm-4 col-form-label">Tahun Ajaran <span class="text-danger">*</span></label>
                                 <div class="col-sm-8 col-12">
-                                    <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Pilih">
+                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
                                         <option></option>
                                         <option value="1">2020/2021</option>
                                         <option value="2">2021/2022</option>
@@ -208,7 +210,7 @@
                                 <label for="id_tingkat_siswa" class="col-sm-4 col-12 col-form-label">Tingkat <span class="text-danger">*</span></label>
                                 <!--end::Label-->
                                 <div class="col-sm-8 col-12">
-                                    <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Pilih">
+                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
                                         <option></option>
                                         <option value="1">X</option>
                                         <option value="2">XI</option>
@@ -221,7 +223,7 @@
                                 <label for="id_kelas_siswa" class="col-sm-4 col-12 col-form-label">Kelas <span class="text-danger">*</span></label>
                                 <!--end::Label-->
                                 <div class="col-sm-8 col-12">
-                                    <select class="form-select form-select-solid" data-control="select2"  data-placeholder="Pilih">
+                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
                                         <option></option>
                                         <option value="1">X IPA 1</option>
                                         <option value="2">XI IPA 1</option>
@@ -241,11 +243,12 @@
                             <div class="row mb-4">
                                 <div class="d-flex justify-content-end">
                                     <button type="button" class="btn btn-primary">
-                                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                                    <span class="svg-icon svg-icon-2">
-                                        <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-                                    </span>
-                                    <!--end::Svg Icon-->Simpan</button>
+                                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                                        <span class="svg-icon svg-icon-2">
+                                            <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                                        </span>
+                                        <!--end::Svg Icon-->Simpan
+                                    </button>
                                     <!--end::Add user-->
                                 </div>
                             </div>

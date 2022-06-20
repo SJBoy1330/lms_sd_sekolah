@@ -7,7 +7,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Tahun</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">2021</option>
                                 <option value="2">2022</option>
@@ -15,7 +15,7 @@
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Bulan</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">Januari</option>
                                 <option value="2">Febuari</option>
@@ -82,7 +82,7 @@
                                     <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                         <i class="fa-duotone fa-calendar" style="font-size: 1.3rem;"></i>
                                     </span>
-                                    <input  type="text" class="form-control form-control-solid ps-12" value="2022" readonly />
+                                    <input type="text" class="form-control form-control-solid ps-12" value="2022" readonly />
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-12 mb-2">
@@ -91,7 +91,7 @@
                                     <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                         <i class="fa-duotone fa-calendar" style="font-size: 1.3rem;"></i>
                                     </span>
-                                    <input  type="text" class="form-control form-control-solid ps-12" value="Maret" readonly />
+                                    <input type="text" class="form-control form-control-solid ps-12" value="Maret" readonly />
                                 </div>
                             </div>
                         </div>

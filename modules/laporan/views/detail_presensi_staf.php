@@ -7,7 +7,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Tahun</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">2021</option>
                                 <option value="2">2022</option>
@@ -15,7 +15,7 @@
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Bulan</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">maret</option>
                                 <option value="2">april</option>
@@ -23,14 +23,14 @@
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Staf</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">Aku</option>
                                 <option value="2">kamu</option>
                             </select>
                         </div>
                         <div class="col-md-4 offset-md-8 offset-xl-8 d-flex justify-content-end" style="padding:5px;">
-                        <button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Tampil</button>
+                            <button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Tampil</button>
                         </div>
                     </div>
                 </form>
@@ -90,7 +90,7 @@
                                     <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                         <i class="fa-duotone fa-calendar" style="font-size: 1.3rem;"></i>
                                     </span>
-                                    <input  type="text" class="form-control form-control-solid ps-12" value="2022" readonly />
+                                    <input type="text" class="form-control form-control-solid ps-12" value="2022" readonly />
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-12 mb-2">
@@ -99,7 +99,7 @@
                                     <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                         <i class="fa-duotone fa-calendar" style="font-size: 1.3rem;"></i>
                                     </span>
-                                    <input  type="text" class="form-control form-control-solid ps-12" value="Maret" readonly />
+                                    <input type="text" class="form-control form-control-solid ps-12" value="Maret" readonly />
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-12 mb-2">
@@ -108,7 +108,7 @@
                                     <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                         <i class="fa-duotone fa-chalkboard-user" style="font-size: 1.3rem;"></i>
                                     </span>
-                                    <input  type="text" class="form-control form-control-solid ps-12" value="Max Smith" readonly />
+                                    <input type="text" class="form-control form-control-solid ps-12" value="Max Smith" readonly />
                                 </div>
                             </div>
                         </div>

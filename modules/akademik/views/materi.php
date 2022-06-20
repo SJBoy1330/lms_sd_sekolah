@@ -233,7 +233,7 @@
                                 <span class="required">Tingkat</span>
                             </label>
                             <div>
-                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih">
+                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
                                     <option></option>
                                     <option value="1">X</option>
                                     <option value="2">XI</option>
@@ -249,7 +249,7 @@
                                 <span class="required">Pelajaran</span>
                             </label>
                             <div>
-                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih">
+                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
                                     <option></option>
                                     <option value="1">Ilumu Pengetahuan Alam</option>
                                     <option value="2">Ilmu Pengetahuan Sosial</option>
@@ -265,7 +265,7 @@
                                 <span class="required">Nama Bab</span>
                             </label>
                             <div>
-                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih">
+                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
                                     <option></option>
                                     <option value="1">Bab 1</option>
                                     <option value="2">Bab 2</option>

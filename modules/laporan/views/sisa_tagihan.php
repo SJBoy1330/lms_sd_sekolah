@@ -7,7 +7,7 @@
                     <div class="row">
                         <div class="col-md-3 col-xl-3" style="padding:5px;">
                             <label class="form-label fw-bold">Tahun Ajaran</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">2021/2022</option>
                                 <option value="2">2022/2023</option>
@@ -15,7 +15,7 @@
                         </div>
                         <div class="col-md-3 col-xl-3" style="padding:5px;">
                             <label class="form-label fw-bold">Tingkat</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="true">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="true">
                                 <option></option>
                                 <option value="1">X</option>
                                 <option value="2">XI</option>
@@ -23,7 +23,7 @@
                         </div>
                         <div class="col-md-3 col-xl-3" style="padding:5px;">
                             <label class="form-label fw-bold">Kelas</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">XII</option>
                                 <option value="2">XI</option>
@@ -31,7 +31,7 @@
                         </div>
                         <div class="col-md-3 col-xl-3" style="padding:5px;">
                             <label class="form-label fw-bold">Siswa</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="true">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="true">
                                 <option></option>
                                 <option value="1">aku</option>
                                 <option value="2">kamu</option>

@@ -188,7 +188,7 @@
                                 <span class="required">Nama Pelajaran</span>
                             </label>
                             <div>
-                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih">
+                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
                                     <option></option>
                                     <option value="1">Pelajaran 01</option>
                                     <option value="2">Pelajaran 02</option>
