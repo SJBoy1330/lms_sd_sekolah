@@ -47,11 +47,21 @@
                         <div class="row d-flex justify-content-around align-items-center mt-8">
                             <div class="col-xl-6 col-md-12 mb-2">
                                 <label class="form-label fw-bold">Tahun Ajaran</label>
-                                <input type="text" class="form-control form-control-solid" value="2021 / 2022" readonly>
+                                <div class="position-relative d-flex align-items-center">
+                                    <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                        <i class="fa-duotone fa-globe-stand" style="font-size: 1.3rem;"></i>
+                                    </span>
+                                    <input type="text" class="form-control form-control-solid ps-12" value="2021 / 2022" readonly />
+                                </div>
                             </div>
                             <div class="col-xl-6 col-md-12 mb-2">
                                 <label class="form-label fw-bold">Tingkat Kelas</label>
-                                <input type="text" class="form-control form-control-solid" value="X" readonly>
+                                <div class="position-relative d-flex align-items-center">
+                                    <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                        <i class="fa-duotone fa-layer-group" style="font-size: 1.3rem;"></i>
+                                    </span>
+                                    <input type="text" class="form-control form-control-solid ps-12" value="Tingkat 6" readonly />
+                                </div>
                             </div>
                         </div>
                     </div>

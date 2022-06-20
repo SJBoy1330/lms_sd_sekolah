@@ -393,7 +393,7 @@
 
                                     <div class="form-floating mb-4" id="req_password">
                                         <input type="password" class="form-control" name="password" id="password_siswa" placeholder="Password" autocomplete="off">
-                                        <label for="password_siswa" class="ms-2 mb-3">Password</label>
+                                        <label for="password_siswa" class="ms-2 mb-3">Kata sandi</label>
                                         <div class="input-group-append show-hide">
                                             <span class="input-group-text">
                                                 <i class="bi bi-eye" id="togglePasswordSiswa" style="cursor: pointer"></i>
@@ -444,7 +444,7 @@
 
                                     <div class="form-floating mb-4" id="req_staf_password">
                                         <input type="password" class="form-control" name="password" id="password_staf" placeholder="Password" autocomplete="off">
-                                        <label for="password_staf" class="ms-2 mb-3">Password</label>
+                                        <label for="password_staf" class="ms-2 mb-3">Kata sandi</label>
                                         <div class="input-group-append show-hide">
                                             <span class="input-group-text">
                                                 <i class="bi bi-eye" id="togglePasswordStaf" style="cursor: pointer"></i>
@@ -495,7 +495,7 @@
 
                                     <div class="form-floating mb-4" id="req_wali_password">
                                         <input type="password" class="form-control" name="password" id="password_wali" placeholder="Password" autocomplete="off">
-                                        <label for="password_wali" class="ms-2 mb-3">Password</label>
+                                        <label for="password_wali" class="ms-2 mb-3">Kata sandi</label>
                                         <div class="input-group-append show-hide">
                                             <span class="input-group-text">
                                                 <i class="bi bi-eye" id="togglePasswordWali" style="cursor: pointer"></i>

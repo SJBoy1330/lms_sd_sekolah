@@ -74,3 +74,18 @@ function search(element, id_tabel) {
         $(this).toggle($(this).text().toLowerCase().indexOf(element.value.toLowerCase()) > -1);
     });
 }
+
+function password_show_hide(element,target) {
+
+    const togglePasswordSiswa = document.querySelector('#'+element.id);
+    const password_siswa = document.querySelector(target);
+
+    togglePasswordSiswa.addEventListener("click", function () {
+    
+    const type = password_siswa.getAttribute("type") === "password" ? "text" : "password";
+    password_siswa.setAttribute("type", type);
+        this.classList.toggle('fa-duotone fa-eye');
+        this.classList.toggle('fa-duotone fa-eye-slash');
+    });
+
+}
