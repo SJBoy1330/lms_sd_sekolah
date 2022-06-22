@@ -66,6 +66,53 @@ function suggestionItemTemplate(tagData) {
     `
 }
 
+// create a "add all" custom suggestion element every time the dropdown changes
+function getAddAllSuggestionsElm() {
+    // suggestions items should be based on "dropdownItem" template
+    return tagify.parseTemplate('dropdownItem', [{
+        class: "addAll",
+        name: "Tambah Semua",
+        email: tagify.settings.whitelist.reduce(function (remainingSuggestions, item) {
+            return tagify.isTagDuplicate(item.value) ? remainingSuggestions : remainingSuggestions + 1
+        }, 0) + " Siswa"
+    }]
+    )
+}
+
+
+$(document).ready(function () {
+    $('#btn-filter').on('click', function () {
+        let redirect = `${BASE_URL}/master/kelas`;
+
+        let tahun_ajaran = $('#select_tahun_ajaran option:selected').val();
+        if (tahun_ajaran !== null && tahun_ajaran !== "") {
+            redirect = redirect + "?" + `tahun_ajaran=${tahun_ajaran}`;
+        }
+
+        location.href = redirect;
+    });
+
+    $('.btn-tambah-edit-modal-kelas').on('click', function () {
+        console.log("ewewewewe")
+
+        let idkelas = $(this).data('idkelas');
+
+        $.ajax({
+            url: `${BASE_URL}/master/modal_edit_tambah_kelas`,
+            method: "POST",
+            data: {
+                id_kelas: idkelas
+            },
+            beforeSend: function () {
+                $('#content-edit-tambah-kelas').html(null);
+            },
+            success: function (data) {
+                $('#content-edit-tambah-kelas').html(data);
+            }
+        });
+    });
+});
+
 // initialize Tagify on the above input node reference
 var tagify = new Tagify(inputElm, {
     tagTextProp: 'name', // very important since a custom template is used with this property as text. allows typing a "value" or a "name" to match input with whitelist
@@ -83,9 +130,6 @@ var tagify = new Tagify(inputElm, {
     },
     whitelist: usersList
 })
-
-tagify.on('dropdown:show dropdown:updated', onDropdownShow)
-tagify.on('dropdown:select', onSelectSuggestion)
 
 var addAllSuggestionsElm;
 
@@ -105,30 +149,5 @@ function onSelectSuggestion(e) {
         tagify.dropdown.selectAll.call(tagify);
 }
 
-// create a "add all" custom suggestion element every time the dropdown changes
-function getAddAllSuggestionsElm() {
-    // suggestions items should be based on "dropdownItem" template
-    return tagify.parseTemplate('dropdownItem', [{
-        class: "addAll",
-        name: "Tambah Semua",
-        email: tagify.settings.whitelist.reduce(function (remainingSuggestions, item) {
-            return tagify.isTagDuplicate(item.value) ? remainingSuggestions : remainingSuggestions + 1
-        }, 0) + " Siswa"
-    }]
-    )
-}
-
-
-
-$(document).ready(function () {
-    $('#btn-filter').on('click', function () {
-        let redirect = `${BASE_URL}/master/kelas`;
-
-        let tahun_ajaran = $('#select_tahun_ajaran option:selected').val();
-        if (tahun_ajaran !== null && tahun_ajaran !== "") {
-            redirect = redirect + "?" + `tahun_ajaran=${tahun_ajaran}`;
-        }
-
-        location.href = redirect;
-    });
-})
+tagify.on('dropdown:show dropdown:updated', onDropdownShow)
+tagify.on('dropdown:select', onSelectSuggestion)

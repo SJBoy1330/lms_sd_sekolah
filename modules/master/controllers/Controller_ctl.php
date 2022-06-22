@@ -6,7 +6,7 @@ class Controller_ctl extends MY_Admin
 	{
 		// Load the constructer from MY_Controller
 		parent::__construct();
-		access_url(['master/modal_detail_staf', 'master/modal_edit_tambah', 'master/modal_detail_siswa', 'master/modal_edit_tambah_siswa']);
+		access_url(['master/modal_detail_staf', 'master/modal_edit_tambah', 'master/modal_detail_siswa', 'master/modal_edit_tambah_siswa', 'master/modal_edit_tambah_kelas']);
 	}
 
 
@@ -300,5 +300,40 @@ class Controller_ctl extends MY_Admin
 		}
 
 		$this->load->view("modal/modal_tambah_edit_siswa", $mydata);
+	}
+
+	public function modal_edit_tambah_kelas()
+	{
+		$id_kelas = $this->input->post('id_kelas');
+		$mydata['is_edit'] = $id_kelas !== null;
+
+		$idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+		$response_tahun_ajaran = curl_get('atribut/tahun_ajaran');
+		$mydata['tahun_ajaran'] = $response_tahun_ajaran->data;
+
+		$response_tingkat = curl_get('atribut/tingkat', ['id_sekolah' => $idsekolah]);
+		$mydata['tingkat'] = $response_tingkat->data;
+
+		$response_staf = curl_get('staf', ['id_sekolah' => $idsekolah]);
+		$mydata['staf'] = $response_staf->data;
+
+		if ($mydata['is_edit']) {
+			$mydata['modal_title'] = "Ubah Kelas";
+			$mydata['url_action'] = "func_master/edit_kelas/" . $id_kelas;
+
+
+			$request_filter = [
+				'id_sekolah' => $idsekolah,
+				'id_kelas' => $id_kelas
+			];
+
+			$response = curl_get('kelas', $request_filter);
+			$mydata['kelas_data'] = $response->data;
+		} else {
+			$mydata['modal_title'] = "Tambah Kelas";
+			$mydata['url_action'] = base_url("func_master/insert_kelas");
+		}
+
+		$this->load->view("modal/modal_tambah_edit_kelas", $mydata);
 	}
 }
