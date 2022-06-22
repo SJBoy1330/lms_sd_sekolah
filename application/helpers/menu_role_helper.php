@@ -110,6 +110,11 @@ function get_master()
                 'icon' => '<i class="fa-duotone fa-graduation-cap" style="font-size: 1.3rem;"></i>',
             ],
             [
+                'menu_name' => 'Orang Tua',
+                'url' => 'master/wali',
+                'icon' => '<i class="fa-duotone fa-family" style="font-size: 1.3rem;"></i>',
+            ],
+            [
                 'menu_name' => 'Kelas',
                 'url' => 'master/kelas',
                 'icon' => '<i class="fa-duotone fa-screen-users" style="font-size: 1.3rem;"></i>',
@@ -118,11 +123,6 @@ function get_master()
                 'menu_name' => 'Guru',
                 'url' => 'master/guru',
                 'icon' => '<i class="fa-duotone fa-person-chalkboard" style="font-size: 1.3rem;"></i>',
-            ],
-            [
-                'menu_name' => 'Orang Tua',
-                'url' => 'master/wali',
-                'icon' => '<i class="fa-duotone fa-family" style="font-size: 1.3rem;"></i>',
             ],
             [
                 'menu_name' => 'Mata Pelajaran',
@@ -439,7 +439,7 @@ function get_laporan($role)
         'url' => 'laporan/tagihan',
         'icon' => $icon,
     ];
-    
+
     $laporan_ujian = [
         'menu_name' => 'Laporan Ujian',
         'url' => 'laporan/laporan_ujian',
@@ -514,7 +514,7 @@ function access_url($list_except = null)
     if ($list_except !== null && count($list_except) > 0) {
         array_push($url_list, ...$list_except);
     }
-    
+
     foreach (get_menu_by_role() as $menu) {
         if ($menu['submenu'] === null) {
             array_push($url_list, $menu['url']);

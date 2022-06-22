@@ -79,7 +79,6 @@ function getAddAllSuggestionsElm() {
     )
 }
 
-
 $(document).ready(function () {
     $('#btn-filter').on('click', function () {
         let redirect = `${BASE_URL}/master/kelas`;
@@ -93,7 +92,6 @@ $(document).ready(function () {
     });
 
     $('.btn-tambah-edit-modal-kelas').on('click', function () {
-        console.log("ewewewewe")
 
         let idkelas = $(this).data('idkelas');
 
@@ -112,42 +110,3 @@ $(document).ready(function () {
         });
     });
 });
-
-// initialize Tagify on the above input node reference
-var tagify = new Tagify(inputElm, {
-    tagTextProp: 'name', // very important since a custom template is used with this property as text. allows typing a "value" or a "name" to match input with whitelist
-    enforceWhitelist: true,
-    skipInvalid: true, // do not remporarily add invalid tags
-    dropdown: {
-        closeOnSelect: false,
-        enabled: 0,
-        classname: 'users-list',
-        searchKeys: ['name', 'email']  // very important to set by which keys to search for suggesttions when typing
-    },
-    templates: {
-        tag: tagTemplate,
-        dropdownItem: suggestionItemTemplate
-    },
-    whitelist: usersList
-})
-
-var addAllSuggestionsElm;
-
-function onDropdownShow(e) {
-    var dropdownContentElm = e.detail.tagify.DOM.dropdown.content;
-
-    if (tagify.suggestedListItems.length > 1) {
-        addAllSuggestionsElm = getAddAllSuggestionsElm();
-
-        // insert "addAllSuggestionsElm" as the first element in the suggestions list
-        dropdownContentElm.insertBefore(addAllSuggestionsElm, dropdownContentElm.firstChild)
-    }
-}
-
-function onSelectSuggestion(e) {
-    if (e.detail.elm == addAllSuggestionsElm)
-        tagify.dropdown.selectAll.call(tagify);
-}
-
-tagify.on('dropdown:show dropdown:updated', onDropdownShow)
-tagify.on('dropdown:select', onSelectSuggestion)
