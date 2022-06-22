@@ -320,11 +320,21 @@
                 <div class="row d-flex justify-content-around align-items-center">
                     <div class="col-xl-6 col-md-12 mb-2">
                         <label class="form-label fw-bold">Lunas</label>
-                        <input type="text" class="form-control form-control-solid" value="Rp. 2.150.000" readonly>
+                        <div class="position-relative d-flex align-items-center">
+                            <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                <i class="fa-duotone fa-ballot-check" style="font-size: 1.3rem;"></i>
+                            </span>
+                            <input type="text" class="form-control form-control-solid ps-12" value="Rp. 2.150.000" readonly="">
+                        </div>
                     </div>
                     <div class="col-xl-6 col-md-12 mb-2">
                         <label class="form-label fw-bold">Belum Lunas</label>
-                        <input type="text" class="form-control form-control-solid" value="Rp. 3.500.000" readonly>
+                        <div class="position-relative d-flex align-items-center">
+                            <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                <i class="fa-duotone fa-ballot-check" style="font-size: 1.3rem;"></i>
+                            </span>
+                            <input type="text" class="form-control form-control-solid ps-12" value="Rp. 3.500.000" readonly="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -398,7 +408,7 @@
                                 <th class="min-w-50px text-center">Aksi</th>
                                 <th class="min-w-100px text-center">No</th>
                                 <th class="min-w-125px text-center">NIS</th>
-                                <th class="min-w-125px text-center">Siswa</th>
+                                <th class="min-w-200px text-center">Siswa</th>
                                 <th class="min-w-125px text-center">Tgl Tahihan</th>
                                 <th class="min-w-125px text-center">No Tahihan</th>
                                 <th class="min-w-125px text-center">Kategori Tahihan</th>

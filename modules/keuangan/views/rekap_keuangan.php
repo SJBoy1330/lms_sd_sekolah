@@ -46,7 +46,7 @@
                             <!--begin::Table row-->
                             <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
                                 <th class="w-10px pe-2">No</th>
-                                <th class="min-w-50px text-center">Periode</th>
+                                <th class="min-w-150px text-center">Periode</th>
                                 <th class="min-w-100px text-center">Tagihan</th>
                                 <th class="min-w-125px text-center">Pembayaran</th>
                                 <th class="min-w-200px text-center">Download</th>
