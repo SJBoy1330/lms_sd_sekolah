@@ -127,9 +127,9 @@
                             <div style="width:100vw;">
                                 <select class="form-select form-select-solid load_select" data-control="select2" data-placeholder="Pilih Bidang Tugas" name="bidang_tugas">
                                     <option disabled></option>
-                                    <option value="1" <?= $staf_data->id_bidang_tugas === '1' ? 'selected' : '' ?>>Jabatan 1</option>
-                                    <option value="2" <?= $staf_data->id_bidang_tugas === '2' ? 'selected' : '' ?>>Jataban 2</option>
-                                    <option value="3" <?= $staf_data->id_bidang_tugas === '3' ? 'selected' : '' ?>>Jataban 3</option>
+                                    <?php foreach ($bidang_tugas as $bt) : ?>
+                                        <option value="<?= $bt->id_bidang_tugas ?>" <?= $kelas_data->id_bidang_tugas === $bt->id_bidang_tugas ? 'selected' : '' ?>><?= $bt->nama ?></option>
+                                    <?php endforeach; ?>
                                 </select>
                             </div>
                         </div>

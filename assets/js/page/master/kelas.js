@@ -109,4 +109,48 @@ $(document).ready(function () {
             }
         });
     });
+
+    $('.btn-hapus-kelas').on('click', function () {
+
+        let idkelas = $(this).data('idkelas');
+        let idstaf = $(this).data('idstaf');
+
+        console.log("idkelas", idkelas);
+        console.log("idstaf", idstaf);
+
+        $.ajax({
+            url: `${BASE_URL}/func_master/hapus_kelas`,
+            method: "POST",
+            data: {
+                id_kelas: idkelas,
+                id_staf: idstaf
+            },
+            beforeSend: function () {
+                $(this).prop('disabled', true);
+            },
+            success: function (data) {
+                $(this).prop('disabled', false);
+                data = JSON.parse(data);
+
+                if (data.status == true) {
+                    var icon = 'success';
+                } else {
+                    var icon = 'warning';
+                }
+
+                Swal.fire({
+                    title: data.alert.title,
+                    text: data.alert.message,
+                    icon: icon,
+                    buttonsStyling: !1,
+                    confirmButtonText: "Ok",
+                    customClass: {
+                        confirmButton: "btn btn-primary"
+                    }
+                }).then(function () {
+                    location.href = data.redirect;
+                });
+            }
+        });
+    });
 });

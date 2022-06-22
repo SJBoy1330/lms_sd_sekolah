@@ -231,11 +231,14 @@ class Controller_ctl extends MY_Admin
 		$id_staf = $this->input->post('id_staf');
 		$mydata['is_edit'] = $id_staf !== null;
 
+		$idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+		$response_bidang_tugas = curl_get('bidang_tugas', ['id_sekolah' => $idsekolah]);
+		$mydata['bidang_tugas'] = $response_bidang_tugas->data;
+
 		if ($mydata['is_edit']) {
 			$mydata['modal_title'] = "Ubah Staf";
 			$mydata['url_action'] = "func_master/edit_staf/" . $id_staf;
 
-			$idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
 
 			$request_filter = [
 				'id_sekolah' => $idsekolah,
@@ -314,13 +317,12 @@ class Controller_ctl extends MY_Admin
 		$response_tingkat = curl_get('atribut/tingkat', ['id_sekolah' => $idsekolah]);
 		$mydata['tingkat'] = $response_tingkat->data;
 
-		$response_staf = curl_get('staf', ['id_sekolah' => $idsekolah]);
+		$response_staf = curl_get('staf', ['id_sekolah' => $idsekolah, 'tipe' => '3']);
 		$mydata['staf'] = $response_staf->data;
 
 		if ($mydata['is_edit']) {
 			$mydata['modal_title'] = "Ubah Kelas";
-			$mydata['url_action'] = "func_master/edit_kelas/" . $id_kelas;
-
+			$mydata['url_action'] = base_url("func_master/edit_kelas/" . $id_kelas);
 
 			$request_filter = [
 				'id_sekolah' => $idsekolah,
