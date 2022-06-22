@@ -1,10 +1,12 @@
 <!--begin::Content-->
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
-    <div class="container mb-4">
-        <div class="card shodow-sm mb-4">
-            <div class="card-body">
-                <form action="">
-                    <div class="row">
+    <!--begin::Container-->
+    <div class="container-xxl" id="kt_content_container">
+        <!--begin::Card-->
+        <div class="card">
+            <div class="row mt-8" style="padding: 0 2.25rem;">
+                <div class="box-info">
+                    <div class="row mb-8">
                         <div class="col-md-12 col-xl-12 d-flex justify-content-between align-items-center">
                             <a href="<?= base_url('akademik/materi'); ?>" class="btn btn-sm btn-secondary">
                                 <span class="svg-icon svg-icon-2 me-0">
@@ -19,29 +21,6 @@
                                 Materi Video</button>
                         </div>
                     </div>
-                    <div class="row d-flex justify-content-around align-items-center mt-8">
-                        <div class="col-md-6 col-sm-12 mb-2">
-                            <label class="form-label fw-bold">Bab</label>
-                            <input type="text" class="form-control form-control-solid" value="Bab 1 Pelajaran 1" readonly>
-                        </div>
-                        <div class="col-md-6 col-sm-12 mb-2">
-                            <label class="form-label fw-bold">Materi</label>
-                            <input type="text" class="form-control form-control-solid" value="Materi 1 Bab 1 Pelajaran 1" readonly>
-                        </div>
-                    </div>
-
-                </form>
-
-            </div>
-        </div>
-    </div>
-
-    <!--begin::Container-->
-    <div class="container-xxl" id="kt_content_container">
-        <!--begin::Card-->
-        <div class="card">
-            <div class="row mt-8" style="padding: 0 2.25rem;">
-                <div class="box-info">
                     <div class="fv-row">
                         <!--begin::Label-->
                         <label class="d-flex align-items-center fs-5 fw-bold mb-4">
@@ -50,7 +29,7 @@
                         <!--end::Label-->
                         <!--begin:Options-->
                         <div class="row fv-plugins-icon-container fv-plugins-bootstrap5-row-valid">
-                            <div class="col-12">
+                            <div class="col-xl-6 col-md-12">
                                 <!--begin:Option-->
                                 <label class="d-flex flex-stack mb-5 cursor-pointer">
                                     <!--begin:Label-->
@@ -76,7 +55,8 @@
                                     <!--end:Label-->
                                 </label>
                                 <!--end::Option-->
-
+                            </div>
+                            <div class="col-xl-6 col-md-12">
                                 <!--begin:Option-->
                                 <label class="d-flex flex-stack mb-5 cursor-pointer">
                                     <!--begin:Label-->
