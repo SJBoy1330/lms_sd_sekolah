@@ -1,22 +1,38 @@
-.wrapper-tugas iframe{
+.wrapper-tugas iframe {
     width: 100%;
     height: 500px;
 }
 
-.document-tugas{
+.document-tugas {
     width: 350px !important;
+    height: 75px !important;
 }
 
-.document-tugas-kumpulkan{
+.document-tugas-kumpulkan {
     width: 320px !important;
+    height: 75px !important;
 }
 
 @media only screen and (max-width: 600px) {
-    .document-tugas{
+    .document-tugas {
         width: 275px !important;
+        height: 75 !important;
     }
 
-    .document-tugas-kumpulkan{
+    .document-tugas-kumpulkan {
         width: 225px !important;
+        height: 75px !important;
+    }
+}
+
+@media only screen and (min-width: 932px) {
+    .document-tugas {
+        width: 320px !important;
+        height: 75px !important;
+    }
+
+    .document-tugas-kumpulkan {
+        width: 265px !important;
+        height: 75px !important;
     }
 }
