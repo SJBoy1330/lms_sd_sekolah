@@ -120,3 +120,15 @@ function getAddAllSuggestionsElm() {
 
 
 
+$(document).ready(function () {
+    $('#btn-filter').on('click', function () {
+        let redirect = `${BASE_URL}/master/kelas`;
+
+        let tahun_ajaran = $('#select_tahun_ajaran option:selected').val();
+        if (tahun_ajaran !== null && tahun_ajaran !== "") {
+            redirect = redirect + "?" + `tahun_ajaran=${tahun_ajaran}`;
+        }
+
+        location.href = redirect;
+    });
+})

@@ -88,6 +88,23 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Kelas';
 
+		// Load Meta Data
+		$idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+
+		$request_filter['id_sekolah'] = $idsekolah;
+		if ($_GET['tahun_ajaran']) {
+			$request_filter['id_tahun_ajaran'] = $_GET['tahun_ajaran'];
+		}
+
+		$response_kelas = curl_get('kelas', $request_filter);
+		$mydata['data_kelas'] = $response_kelas->data;
+
+		$response_tahun_ajaran = curl_get('atribut/tahun_ajaran');
+		$mydata['tahun_ajaran'] = $response_tahun_ajaran->data;
+
+		$response_tingkat = curl_get('atribut/tingkat', ['id_sekolah' => $idsekolah]);
+		$mydata['tingkat'] = $response_tingkat->data;
+
 		//LOAD JS
 		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/kelas.js"></script>';
 
