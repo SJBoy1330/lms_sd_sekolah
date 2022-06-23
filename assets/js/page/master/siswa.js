@@ -13,6 +13,21 @@ $(function() {
 
 });
 
+function previewImage() {
+    const photo = document.querySelector('#photo');
+    const getPhoto = document.querySelector('#photouser');
+
+    getPhoto.style.display = 'block';
+
+    const oFReader = new FileReader();
+    oFReader.readAsDataURL(photo.files[0]);
+
+    oFReader.onload = function (oFREvent) {
+        getPhoto.src = oFREvent.target.result;
+    }
+}
+
+
 $(document).ready(function () {
     $('#btn-filter').on('click', function () {
         let redirect = `${BASE_URL}/master/siswa`;
@@ -73,7 +88,6 @@ $(document).ready(function () {
                 $('#content-edit-tambah-siswa').html(null);
             },
             success: function (data) {
-
                 $('#content-edit-tambah-siswa').html(data);
 
             }

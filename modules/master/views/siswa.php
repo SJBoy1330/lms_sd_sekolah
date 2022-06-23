@@ -8,7 +8,7 @@
                     <div class="row">
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Tahun Ajaran</label>
-                            <select id="select_tahun_ajaran" class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select id="select_tahun_ajaran" class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <?php foreach ($tahun_ajaran as $ta) : ?>
                                     <option value="<?= $ta->id_tahun_ajaran ?>" <?= $_GET['tahun_ajaran'] === $ta->id_tahun_ajaran ? 'selected' : '' ?>><?= $ta->nama ?></option>
@@ -17,7 +17,7 @@
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Tingkat</label>
-                            <select id="select_tingkat" class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select id="select_tingkat" class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <?php foreach ($tingkat as $t) : ?>
                                     <option value="<?= $t->id_tingkat ?>" <?= $_GET['tingkat'] === $t->id_tingkat ? 'selected' : '' ?>><?= $t->nama ?></option>
@@ -26,7 +26,7 @@
                         </div>
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
                             <label class="form-label fw-bold">Kelas</label>
-                            <select id="select_kelas" class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select id="select_kelas" class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <?php foreach ($kelas as $k) : ?>
                                     <option value="<?= $k->id_kelas ?>" <?= $_GET['kelas'] === $k->id_kelas ? 'selected' : '' ?>><?= $k->nama ?></option>
@@ -161,7 +161,7 @@
                                 <div class="row mb-5">
                                     <div class="col-md-4 col-xl-4" style="padding:5px;">
                                         <label class="form-label fw-bold">Tahun Ajaran</label>
-                                        <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                                        <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                             <option></option>
                                             <option value="1">2021/2022</option>
                                             <option value="2">2022/2023</option>
@@ -169,7 +169,7 @@
                                     </div>
                                     <div class="col-md-4 col-xl-4" style="padding:5px;">
                                         <label class="form-label fw-bold">Tingkat</label>
-                                        <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                                        <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                             <option></option>
                                             <option value="1">XII</option>
                                             <option value="2">XI</option>
@@ -177,7 +177,7 @@
                                     </div>
                                     <div class="col-md-4 col-xl-4" style="padding:5px;">
                                         <label class="form-label fw-bold">Kelas</label>
-                                        <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                                        <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                             <option></option>
                                             <option value="1">XI IPA 1</option>
                                             <option value="2">XI IPA 2</option>

@@ -40,7 +40,7 @@
                                             <!--end::Label-->
                                             <div class="position-relative d-flex align-items-center">
                                                 <div style="width:100vw;">
-                                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih">
+                                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
                                                         <option></option>
                                                         <option value="1">X</option>
                                                         <option value="2">XI</option>
@@ -60,7 +60,7 @@
                                             <!--end::Label-->
                                             <div class="position-relative d-flex align-items-center">
                                                 <div style="width:100vw;">
-                                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih">
+                                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
                                                         <option></option>
                                                         <option value="1">Bahasa Indonesia</option>
                                                         <option value="2">Matematika</option>

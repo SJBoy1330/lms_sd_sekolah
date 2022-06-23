@@ -239,7 +239,7 @@
                             <!--end::Label-->
                             <div class="position-relative d-flex align-items-center">
                                 <div style="width:100vw;">
-                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih">
+                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
                                         <option></option>
                                         <option value="1">2020/2021</option>
                                         <option value="2">2021/2022</option>
@@ -259,7 +259,7 @@
                             <!--end::Label-->
                             <div class="position-relative d-flex align-items-center">
                                 <div style="width:100vw;">
-                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih">
+                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
                                         <option></option>
                                         <option value="1">X</option>
                                         <option value="2">XI</option>
@@ -279,7 +279,7 @@
                             <!--end::Label-->
                             <div class="position-relative d-flex align-items-center">
                                 <div style="width:100vw;">
-                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih">
+                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
                                         <option></option>
                                         <option value="1">Indrawan S.Pd</option>
                                         <option value="2">Muklis S.Pd</option>
@@ -301,6 +301,13 @@
                                 </span>
                                 <input class="form-control form-control-solid ps-12" placeholder="Masukkan nama kelas" />
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <label class="form-label">Pilih Siswa</label>
+                            <input class="form-control form-control-solid" placeholder="Pilih siswa" id="kt_tagify_users" />
                         </div>
                     </div>
                 </div>

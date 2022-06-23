@@ -40,7 +40,7 @@
                                             <!--end::Label-->
                                             <div class="position-relative d-flex align-items-center">
                                                 <div style="width:100vw;">
-                                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih">
+                                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
                                                         <option></option>
                                                         <option value="1">Jabatan 1</option>
                                                         <option value="2">Jabatan 2</option>

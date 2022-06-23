@@ -7,7 +7,7 @@
                     <div class="row">
                         <div class="col-md-3 col-xl-3" style="padding:5px;">
                             <label class="form-label fw-bold">Tahun Ajaran</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">2021/2022</option>
                                 <option value="2">2022/2023</option>
@@ -15,7 +15,7 @@
                         </div>
                         <div class="col-md-3 col-xl-3" style="padding:5px;">
                             <label class="form-label fw-bold">Kelas</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
                                 <option></option>
                                 <option value="1">XII</option>
                                 <option value="2">XI</option>
@@ -23,7 +23,7 @@
                         </div>
                         <div class="col-md-3 col-xl-3" style="padding:5px;">
                             <label class="form-label fw-bold">Siswa</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="true">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="true">
                                 <option></option>
                                 <option value="1">aku</option>
                                 <option value="2">kamu</option>
@@ -31,15 +31,15 @@
                         </div>
                         <div class="col-md-3 col-xl-3" style="padding:5px;">
                             <label class="form-label fw-bold">Bulan</label>
-                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Pilih" data-allow-clear="true">
+                            <select class="form-select form-select-solid form-select-sm" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="true">
                                 <option></option>
                                 <option value="1">Maret 2022</option>
                                 <option value="2">September 2023</option>
                             </select>
                         </div>
                         <div class="col-md-12 col-xl-12 align-self-end text-end" style="padding:5px; margin-top:7px;">
-							<button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Tampil</button>
-						</div>
+                            <button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Tampil</button>
+                        </div>
                     </div>
                 </form>
             </div>
@@ -218,7 +218,8 @@
                             </label>
                             <!--end::Option-->
                         </div>
-                    <div class="fv-plugins-message-container invalid-feedback"></div></div>
+                        <div class="fv-plugins-message-container invalid-feedback"></div>
+                    </div>
                 </div>
 
                 <div class="row mb-3">
@@ -490,8 +491,8 @@
                                 </label>
                                 <!--end::Option-->
 
-                                 <!--begin:Option-->
-                                 <label class="d-flex flex-stack mb-5 cursor-pointer">
+                                <!--begin:Option-->
+                                <label class="d-flex flex-stack mb-5 cursor-pointer">
                                     <!--begin:Label-->
                                     <span class="d-flex align-items-center me-2">
                                         <!--begin:Icon-->
@@ -499,7 +500,7 @@
                                             <span class="symbol-label bg-light-lighten">
                                                 <!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
                                                 <span class="svg-icon svg-icon-1 svg-icon-primary">
-                                                    <i class="fa-duotone fa-ban" style="font-size: 1.8rem; color:"></i>
+                                                    <i class="fa-duotone fa-ban" style="font-size: 1.8rem;"></i>
                                                 </span>
                                                 <!--end::Svg Icon-->
                                             </span>
@@ -594,7 +595,8 @@
                                 </label>
                                 <!--end::Option-->
                             </div>
-                        <div class="fv-plugins-message-container invalid-feedback"></div></div>
+                            <div class="fv-plugins-message-container invalid-feedback"></div>
+                        </div>
                         <!--end:Options-->
                     </div>
                 </div>
