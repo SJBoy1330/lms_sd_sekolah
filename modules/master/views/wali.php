@@ -665,18 +665,13 @@
                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                                 <span class="required">Kata sandi</span>
                             </label>
-                            <!--end::Label-->
-                            <div class="position-relative d-flex align-items-center">
-                                <!--begin::Icon-->
-                                <!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
-                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                    <i class="fa-duotone fa-key-skeleton" style="font-size: 1.3rem;"></i>
-                                </span>
-                                <!--end::Svg Icon-->
-                                <!--end::Icon-->
-                                <!--begin::Datepicker-->
-                                <input type="password" class="form-control form-control-solid ps-12" placeholder="Masukkan kata sandi" />
-                                <!--end::Datepicker-->
+                            <div class="input-group input-group-solid">
+                                <input type="password" class="form-control form-control-solid" id="password_wali" placeholder="Password" autocomplete="off">
+                                <div class="input-group-append show-hide">
+                                    <span class="input-group-text">
+                                        <i class="fa-duotone fa-eye" id="toggle1" onclick="password_show_hide(this,'#password_wali')" style="cursor: pointer; font-size: 1.2rem;"></i>
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -687,18 +682,13 @@
                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                                 <span class="required">Konfirmasi kata sandi</span>
                             </label>
-                            <!--end::Label-->
-                            <div class="position-relative d-flex align-items-center">
-                                <!--begin::Icon-->
-                                <!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
-                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                    <i class="fa-duotone fa-key-skeleton" style="font-size: 1.3rem;"></i>
-                                </span>
-                                <!--end::Svg Icon-->
-                                <!--end::Icon-->
-                                <!--begin::Datepicker-->
-                                <input type="password" class="form-control form-control-solid ps-12" placeholder="Konfirmasi kata sandi" />
-                                <!--end::Datepicker-->
+                            <div class="input-group input-group-solid">
+                                <input type="password" class="form-control form-control-solid" id="konfirmasi_password_ortu" placeholder="Password" autocomplete="off">
+                                <div class="input-group-append show-hide">
+                                    <span class="input-group-text">
+                                        <i class="fa-duotone fa-eye" id="toggle2" onclick="password_show_hide(this,'#konfirmasi_password_ortu')" style="cursor: pointer; font-size: 1.2rem;"></i>
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>

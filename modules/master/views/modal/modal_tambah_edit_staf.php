@@ -196,11 +196,19 @@
                         <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                             <span class="required">Kata Sandi</span>
                         </label>
-                        <div class="position-relative d-flex align-items-center">
+                        <!-- <div class="position-relative d-flex align-items-center">
                             <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                 <i class="fa-duotone fa-key" style="font-size: 1.3rem;"></i>
                             </span>
                             <input type="password" class="form-control form-control-solid ps-12" placeholder="Masukkan kata sandi" name="password" />
+                        </div> -->
+                        <div class="input-group input-group-solid">
+                            <input type="password" class="form-control form-control-solid" name="password" id="password_staf" placeholder="Password" autocomplete="off">
+                            <div class="input-group-append show-hide">
+                                <span class="input-group-text">
+                                    <i class="fa-duotone fa-eye" id="toggle1" onclick="password_show_hide(this,'#password_staf')" style="cursor: pointer; font-size: 1.2rem;"></i>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -209,11 +217,19 @@
                         <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                             <span class="required">Konfirmasi Kata Sandi</span>
                         </label>
-                        <div class="position-relative d-flex align-items-center">
+                        <!-- <div class="position-relative d-flex align-items-center">
                             <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                 <i class="fa-duotone fa-key" style="font-size: 1.3rem;"></i>
                             </span>
                             <input type="password" class="form-control form-control-solid ps-12" placeholder="Konfirmasi kata sandi" name="password_ulang" />
+                        </div> -->
+                        <div class="input-group input-group-solid">
+                            <input type="password" class="form-control form-control-solid" name="password_ulang" id="konfirmasi_password_staf" placeholder="Password" autocomplete="off">
+                            <div class="input-group-append show-hide">
+                                <span class="input-group-text">
+                                    <i class="fa-duotone fa-eye" id="toggle2" onclick="password_show_hide(this,'#konfirmasi_password_staf')" style="cursor: pointer; font-size: 1.2rem;"></i>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
