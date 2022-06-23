@@ -66,45 +66,6 @@ function suggestionItemTemplate(tagData) {
     `
 }
 
-// initialize Tagify on the above input node reference
-var tagify = new Tagify(inputElm, {
-    tagTextProp: 'name', // very important since a custom template is used with this property as text. allows typing a "value" or a "name" to match input with whitelist
-    enforceWhitelist: true,
-    skipInvalid: true, // do not remporarily add invalid tags
-    dropdown: {
-        closeOnSelect: false,
-        enabled: 0,
-        classname: 'users-list',
-        searchKeys: ['name', 'email']  // very important to set by which keys to search for suggesttions when typing
-    },
-    templates: {
-        tag: tagTemplate,
-        dropdownItem: suggestionItemTemplate
-    },
-    whitelist: usersList
-})
-
-tagify.on('dropdown:show dropdown:updated', onDropdownShow)
-tagify.on('dropdown:select', onSelectSuggestion)
-
-var addAllSuggestionsElm;
-
-function onDropdownShow(e) {
-    var dropdownContentElm = e.detail.tagify.DOM.dropdown.content;
-
-    if (tagify.suggestedListItems.length > 1) {
-        addAllSuggestionsElm = getAddAllSuggestionsElm();
-
-        // insert "addAllSuggestionsElm" as the first element in the suggestions list
-        dropdownContentElm.insertBefore(addAllSuggestionsElm, dropdownContentElm.firstChild)
-    }
-}
-
-function onSelectSuggestion(e) {
-    if (e.detail.elm == addAllSuggestionsElm)
-        tagify.dropdown.selectAll.call(tagify);
-}
-
 // create a "add all" custom suggestion element every time the dropdown changes
 function getAddAllSuggestionsElm() {
     // suggestions items should be based on "dropdownItem" template
@@ -118,5 +79,78 @@ function getAddAllSuggestionsElm() {
     )
 }
 
+$(document).ready(function () {
+    $('#btn-filter').on('click', function () {
+        let redirect = `${BASE_URL}/master/kelas`;
 
+        let tahun_ajaran = $('#select_tahun_ajaran option:selected').val();
+        if (tahun_ajaran !== null && tahun_ajaran !== "") {
+            redirect = redirect + "?" + `tahun_ajaran=${tahun_ajaran}`;
+        }
 
+        location.href = redirect;
+    });
+
+    $('.btn-tambah-edit-modal-kelas').on('click', function () {
+
+        let idkelas = $(this).data('idkelas');
+
+        $.ajax({
+            url: `${BASE_URL}/master/modal_edit_tambah_kelas`,
+            method: "POST",
+            data: {
+                id_kelas: idkelas
+            },
+            beforeSend: function () {
+                $('#content-edit-tambah-kelas').html(null);
+            },
+            success: function (data) {
+                $('#content-edit-tambah-kelas').html(data);
+            }
+        });
+    });
+
+    $('.btn-hapus-kelas').on('click', function () {
+
+        let idkelas = $(this).data('idkelas');
+        let idstaf = $(this).data('idstaf');
+
+        console.log("idkelas", idkelas);
+        console.log("idstaf", idstaf);
+
+        $.ajax({
+            url: `${BASE_URL}/func_master/hapus_kelas`,
+            method: "POST",
+            data: {
+                id_kelas: idkelas,
+                id_staf: idstaf
+            },
+            beforeSend: function () {
+                $(this).prop('disabled', true);
+            },
+            success: function (data) {
+                $(this).prop('disabled', false);
+                data = JSON.parse(data);
+
+                if (data.status == true) {
+                    var icon = 'success';
+                } else {
+                    var icon = 'warning';
+                }
+
+                Swal.fire({
+                    title: data.alert.title,
+                    text: data.alert.message,
+                    icon: icon,
+                    buttonsStyling: !1,
+                    confirmButtonText: "Ok",
+                    customClass: {
+                        confirmButton: "btn btn-primary"
+                    }
+                }).then(function () {
+                    location.href = data.redirect;
+                });
+            }
+        });
+    });
+});
