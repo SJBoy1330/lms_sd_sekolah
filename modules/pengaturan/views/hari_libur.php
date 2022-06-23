@@ -73,7 +73,7 @@
                                 <th class="min-w-125px text-center">Aksi</th>
                                 <th class="min-w-125px text-center">No</th>
                                 <th class="min-w-125px text-center">Tanggal</th>
-                                <th class="min-w-125px text-center">Keterangan</th>
+                                <th class="min-w-200px text-center">Keterangan</th>
                             </tr>
                             <!--end::Table row-->
                         </thead>
