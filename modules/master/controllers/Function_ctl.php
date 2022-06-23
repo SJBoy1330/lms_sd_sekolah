@@ -266,4 +266,123 @@ class Function_ctl extends MY_Admin
             exit;
         }
     }
+
+    public function insert_kelas()
+    {
+        $arrVar['tahun_ajaran'] = 'Tahun Ajaran';
+        $arrVar['tingkat'] = 'Tingkat';
+        $arrVar['wali_kelas'] = 'Wali Kelas';
+        $arrVar['nama_kelas'] = 'Nama Kelas';
+
+        foreach ($arrVar as $var => $value) {
+            $$var = $this->input->post($var);
+            if (!$$var) {
+                $data['required'][] = ['req_' . $var, $value . ' tidak boleh kosong !'];
+                $arrAccess[] = false;
+            } else {
+                $arrAccess[] = true;
+            }
+        }
+
+        if (!in_array(false, $arrAccess)) {
+            $idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+
+            $request_data = array(
+                'id_sekolah' => $idsekolah,
+                'id_tahun_ajaran' => $this->input->post('tahun_ajaran'),
+                'id_tingkat' => $this->input->post('tingkat'),
+                'id_staf' => $this->input->post('wali_kelas'),
+                'nama' => $this->input->post('nama_kelas'),
+            );
+
+            $response = curl_post('kelas/tambah', $request_data);
+
+            if ($response) {
+                $data['status'] = !$response->error;
+                if ($response->error) {
+                    $data['alert'] = $this->set_alert('PERINGATAN', $response->message);
+                } else {
+                    $data['redirect'] = base_url('master/kelas');
+                    $data['alert'] = $this->set_alert('PEMBERITAHUAN', $response->message);
+                }
+            } else {
+                $data['status'] = false;
+                $data['alert'] = $this->set_alert('PERINGATAN', "Server tidak memberi response, hubungi pengembang!");
+            }
+            echo json_encode($data);
+            exit;
+        } else {
+            $data['status'] = false;
+            echo json_encode($data);
+            exit;
+        }
+    }
+
+    public function edit_kelas($id_kelas)
+    {
+        $arrVar['tahun_ajaran'] = 'Tahun Ajaran';
+        $arrVar['tingkat'] = 'Tingkat';
+        $arrVar['wali_kelas'] = 'Wali Kelas';
+        $arrVar['nama_kelas'] = 'Nama Kelas';
+
+        foreach ($arrVar as $var => $value) {
+            $$var = $this->input->post($var);
+            if (!$$var) {
+                $data['required'][] = ['req_' . $var, $value . ' tidak boleh kosong !'];
+                $arrAccess[] = false;
+            } else {
+                $arrAccess[] = true;
+            }
+        }
+
+
+        if (!in_array(false, $arrAccess)) {
+            $idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+            $request_data = array(
+                'id_sekolah' => $idsekolah,
+                'id_kelas' => $id_kelas,
+                'id_tahun_ajaran' => $this->input->post('tahun_ajaran'),
+                'id_tingkat' => $this->input->post('tingkat'),
+                'id_staf' => $this->input->post('wali_kelas'),
+                'nama' => $this->input->post('nama_kelas'),
+            );
+
+            $response = curl_post('kelas/edit', $request_data);
+
+            $data['status'] = !$response->error;
+            if ($response->error) {
+                $data['alert'] = $this->set_alert('PERINGATAN', $response->message);
+            } else {
+                $data['redirect'] = base_url('master/kelas');
+                $data['alert'] = $this->set_alert('PEMBERITAHUAN', $response->message);
+            }
+            echo json_encode($data);
+            exit;
+        } else {
+            $data['status'] = false;
+            echo json_encode($data);
+            exit;
+        }
+    }
+
+    public function hapus_kelas()
+    {
+        $idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+        $request_data = array(
+            'id_sekolah' => $idsekolah,
+            'id_kelas' => $this->input->post("id_kelas"),
+            'id_staf' => $this->input->post("id_staf"),
+        );
+
+        $response = curl_post('kelas/hapus', $request_data);
+        $data['status'] = !$response->error;
+        if ($response->error) {
+            $data['alert'] = $this->set_alert('PERINGATAN', $response->message);
+        } else {
+            $data['redirect'] = base_url('master/kelas');
+            $data['alert'] = $this->set_alert('PEMBERITAHUAN', $response->message);
+        }
+        echo json_encode($data);
+        exit;
+    }
 }
