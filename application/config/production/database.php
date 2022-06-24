@@ -158,7 +158,7 @@ $db['default'] = array(
 
 	'password' => '',
 
-	'database' => 'lms_sd_manager',
+	'database' => '',
 
 	'dbdriver' => 'mysqli',
 
