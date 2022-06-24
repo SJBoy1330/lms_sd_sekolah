@@ -1,0 +1,13 @@
+
+
+@media only screen and (max-width: 600px) {
+    .liburbtn{
+        padding: .5rem !important;
+        max-width: 125px !important;
+    }
+    
+    .liburbtn i{
+    
+        font-size: 10px !important;
+    }
+  }
