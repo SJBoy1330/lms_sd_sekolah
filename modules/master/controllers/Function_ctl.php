@@ -385,4 +385,109 @@ class Function_ctl extends MY_Admin
         echo json_encode($data);
         exit;
     }
+
+    public function insert_bidang_tugas()
+    {
+        $arrVar['nama'] = 'Nama Bidang Tugas';
+
+        foreach ($arrVar as $var => $value) {
+            $$var = $this->input->post($var);
+            if (!$$var) {
+                $data['required'][] = ['req_' . $var, $value . ' tidak boleh kosong !'];
+                $arrAccess[] = false;
+            } else {
+                $arrAccess[] = true;
+            }
+        }
+
+        if (!in_array(false, $arrAccess)) {
+            $idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+
+            $request_data = array(
+                'id_sekolah' => $idsekolah,
+                'nama' => $this->input->post('nama'),
+            );
+
+            $response = curl_post('bidang_tugas/tambah', $request_data);
+
+            if ($response) {
+                $data['status'] = !$response->error;
+                if ($response->error) {
+                    $data['alert'] = $this->set_alert('PERINGATAN', $response->message);
+                } else {
+                    $data['redirect'] = base_url('master/bidang_tugas');
+                    $data['alert'] = $this->set_alert('PEMBERITAHUAN', $response->message);
+                }
+            } else {
+                $data['status'] = false;
+                $data['alert'] = $this->set_alert('PERINGATAN', "Server tidak memberi response, hubungi pengembang!");
+            }
+            echo json_encode($data);
+            exit;
+        } else {
+            $data['status'] = false;
+            echo json_encode($data);
+            exit;
+        }
+    }
+
+    public function edit_bidang_tugas($id_bidang_tugas)
+    {
+        $arrVar['nama'] = 'Nama Bidang Tugas';
+
+        foreach ($arrVar as $var => $value) {
+            $$var = $this->input->post($var);
+            if (!$$var) {
+                $data['required'][] = ['req_' . $var, $value . ' tidak boleh kosong !'];
+                $arrAccess[] = false;
+            } else {
+                $arrAccess[] = true;
+            }
+        }
+
+        if (!in_array(false, $arrAccess)) {
+            $idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+            $request_data = array(
+                'id_sekolah' => $idsekolah,
+                'id_bidang_tugas' => $id_bidang_tugas,
+                'nama' => $this->input->post('nama'),
+            );
+
+            $response = curl_post('kelas/edit', $request_data);
+
+            $data['status'] = !$response->error;
+            if ($response->error) {
+                $data['alert'] = $this->set_alert('PERINGATAN', $response->message);
+            } else {
+                $data['redirect'] = base_url('master/kelas');
+                $data['alert'] = $this->set_alert('PEMBERITAHUAN', $response->message);
+            }
+            echo json_encode($data);
+            exit;
+        } else {
+            $data['status'] = false;
+            echo json_encode($data);
+            exit;
+        }
+    }
+
+    public function hapus_bidang_tugas($id_bidang_tugas)
+    {
+        $idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+        $request_data = array(
+            'id_sekolah' => $idsekolah,
+            'id_bidang_tugas' => $id_bidang_tugas,
+        );
+
+        $response = curl_post('bidang_tugas/hapus', $request_data);
+        $data['status'] = !$response->error;
+        if ($response->error) {
+            $data['alert'] = $this->set_alert('PERINGATAN', $response->message);
+        } else {
+            $data['redirect'] = base_url('master');
+            $data['alert'] = $this->set_alert('PEMBERITAHUAN', $response->message);
+        }
+        echo json_encode($data);
+        exit;
+    }
 }
