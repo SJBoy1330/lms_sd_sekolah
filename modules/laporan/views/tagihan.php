@@ -80,7 +80,7 @@
                                 <tr class=" text-white text-uppercase gs-0 align-middle text-center">
                                     <th scope="col" class=" min-w-65p bg-danger border border-white ps-3 ">No</th>
                                     <th scope="col" class=" bg-danger border border-white">No Tagihan</th>
-                                    <th scope="col" class=" bg-danger border border-white">Tanggal Tagihan</th>
+                                    <th scope="col" class="min-w-125px bg-danger border border-white">Tanggal Tagihan</th>
                                     <th scope="col" class=" bg-danger border border-white">NIS</th>
                                     <th scope="col" class=" bg-danger border border-white">Nama Siswa</th>
                                     <th scope="col" class=" bg-danger border border-white">Kategori</th>

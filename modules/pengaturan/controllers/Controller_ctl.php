@@ -50,6 +50,9 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Presensi Staf';
 
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/pengaturan/presensistaf.js') . '"></script>';
+
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('presensi_staf', $mydata, TRUE);
 		$this->display();
@@ -62,6 +65,9 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Presensi Siswa';
+
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/pengaturan/presensisiswa.js') . '"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('presensi_siswa', $mydata, TRUE);

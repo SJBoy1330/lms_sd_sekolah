@@ -118,19 +118,19 @@
                             <thead class="bg-light">
                                 <tr class="fw-bolder text-white text-uppercase gs-0 align-middle text-center">
                                     <th rowspan="2" class="text-center bg-danger text-uppercase border border-white">NO</th>
-                                    <th rowspan="2" class="text-center bg-danger text-uppercase border border-white">Tanggal</th>
+                                    <th rowspan="2" class="min-w-125px text-center bg-danger text-uppercase border border-white">Tanggal</th>
                                     <th colspan="3" class="text-center bg-danger text-uppercase border border-white">HADIR</th>
                                     <th colspan="3" class="text-center bg-danger text-uppercase border border-white">PULANG</th>
-                                    <th rowspan="2" class="text-center bg-danger text-uppercase border border-white">JUMLAH JAM KERJA</th>
+                                    <th rowspan="2" class="min-w-150px text-center bg-danger text-uppercase border border-white">JUMLAH JAM KERJA</th>
                                     <th rowspan="2" class="text-center bg-danger text-uppercase border border-white">JUMLAH JAM HADIR</th>
                                 </tr>
                                 <tr class="fw-bolder text-white text-uppercase gs-0 align-middle text-center">
                                     <th class="bg-danger text-uppercase border border-white">JADWAL</th>
                                     <th class="bg-danger text-uppercase border border-white text-center">SCAN HADIR</th>
-                                    <th class="bg-danger text-uppercase border border-white">Terlambat</th>
+                                    <th class="min-w-150px bg-danger text-uppercase border border-white">Terlambat</th>
                                     <th class="bg-danger text-uppercase border border-white">JADWAL</th>
                                     <th class="bg-danger text-uppercase border border-white text-center">SCAN PULANG</th>
-                                    <th class="bg-danger text-uppercase border border-white text-center">Pulang Cepat</th>
+                                    <th class="min-w-150px bg-danger text-uppercase border border-white text-center">Pulang Cepat</th>
                                 </tr>
                             </thead>
                             <tbody>

@@ -28,7 +28,7 @@
                                 <!--end::Svg Icon-->
                                 <!--end::Icon-->
                                 <!--begin::Datepicker-->
-                                <input class="form-control form-control-solid ps-12" id="demo-input" placeholder="Jam Masuk" />
+                                <input class="form-control form-control-solid ps-12" id="masuk" placeholder="Jam Masuk" />
                                 <!--end::Datepicker-->
                             </div>
                         </div>
@@ -50,7 +50,7 @@
                                 <!--end::Svg Icon-->
                                 <!--end::Icon-->
                                 <!--begin::Datepicker-->
-                                <input class="form-control form-control-solid ps-12" placeholder="Jam Pulang" />
+                                <input class="form-control form-control-solid ps-12" id="pulang" placeholder="Jam Pulang" />
                                 <!--end::Datepicker-->
                             </div>
                         </div>
@@ -73,7 +73,7 @@
                                 <!--end::Svg Icon-->
                                 <!--end::Icon-->
                                 <!--begin::Datepicker-->
-                                <input class="form-control form-control-solid ps-12" placeholder="Jam Masuk Mulai" />
+                                <input class="form-control form-control-solid ps-12" id="masukmulai" placeholder="Jam Masuk Mulai" />
                                 <!--end::Datepicker-->
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                 <!--end::Svg Icon-->
                                 <!--end::Icon-->
                                 <!--begin::Datepicker-->
-                                <input class="form-control form-control-solid ps-12" placeholder="Jam Masuk Selesai" />
+                                <input class="form-control form-control-solid ps-12" id="masukselesai" placeholder="Jam Masuk Selesai" />
                                 <!--end::Datepicker-->
                             </div>
                         </div>
@@ -118,7 +118,7 @@
                                 <!--end::Svg Icon-->
                                 <!--end::Icon-->
                                 <!--begin::Datepicker-->
-                                <input class="form-control form-control-solid ps-12" placeholder="Jam Pulang Mulai" />
+                                <input class="form-control form-control-solid ps-12" id="pulangmulai" placeholder="Jam Pulang Mulai" />
                                 <!--end::Datepicker-->
                             </div>
                         </div>
@@ -140,7 +140,7 @@
                                 <!--end::Svg Icon-->
                                 <!--end::Icon-->
                                 <!--begin::Datepicker-->
-                                <input class="form-control form-control-solid ps-12" placeholder="Jam Pulang Selesai" />
+                                <input class="form-control form-control-solid ps-12" id="pulangselesai" placeholder="Jam Pulang Selesai" />
                                 <!--end::Datepicker-->
                             </div>
                         </div>
@@ -214,11 +214,12 @@
                 <div class="row mb-4">
                     <div class="d-flex justify-content-end">
                         <button type="button" class="btn btn-primary">
-                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                        <span class="svg-icon svg-icon-2">
-                            <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-                        </span>
-                        <!--end::Svg Icon-->Simpan</button>
+                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                            <span class="svg-icon svg-icon-2">
+                                <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                            </span>
+                            <!--end::Svg Icon-->Simpan
+                        </button>
                         <!--end::Add user-->
                     </div>
                 </div>
