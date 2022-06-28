@@ -29,11 +29,8 @@ $(document).ready(function () {
         let idmapel = $(this).data('idmapel');
 
         $.ajax({
-            url: `${BASE_URL}/func_master/hapus_mapel`,
+            url: `${BASE_URL}/func_master/hapus_mapel/${idmapel}`,
             method: "POST",
-            data: {
-                id_mapel: idmapel,
-            },
             beforeSend: function () {
                 $(this).prop('disabled', true);
             },

@@ -585,4 +585,27 @@ class Function_ctl extends MY_Admin
             exit;
         }
     }
+
+    public function hapus_mapel($id_mapel)
+    {
+        $idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+        $id_staf = $this->session->userdata('lms_sekolah_id_user');
+        $request_data = array(
+            'id_sekolah' => $idsekolah,
+            'id_pelajaran' => $id_mapel,
+            'id_staf' => $id_staf,
+        );
+
+        $response = curl_post('pelajaran/hapus', $request_data);
+        $data['status'] = !$response->error;
+        if ($response->error) {
+            $data['alert'] = $this->set_alert('PERINGATAN', $response->message);
+        } else {
+            $data['redirect'] = base_url('master/mapel');
+            $data['alert'] = $this->set_alert('PEMBERITAHUAN', $response->message);
+        }
+        echo json_encode($data);
+        exit;
+    }
+
 }
