@@ -19,8 +19,8 @@
                         <div class="col-md-3 col-xl-3" style="padding:5px;">
                             <label class="form-label fw-bold">Tingkat</label>
                             <div>
-                                <select id="select_tingkat" class="form-select form-select-sm form-select-solid" data-control="select2" data-placeholder="Semua">
-                                    <option></option>
+                                <select id="select_tingkat" class="form-select form-select-sm form-select-solid" data-control="select2">
+                                    <option value="">Semua</option>
                                     <?php foreach ($tingkat as $t) : ?>
                                         <option value="<?= $t->id_tingkat ?>" <?= $_GET['tingkat'] === $t->id_tingkat ? 'selected' : '' ?>><?= $t->nama ?></option>
                                     <?php endforeach; ?>
