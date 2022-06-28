@@ -87,13 +87,13 @@
                 <form action="">
                     <div class="row">
                         <div class="col-md-3 col-xl-3" style="padding:5px;">
-                            <label class="form-label fw-bold">Tingkat</label>
+                            <label class="form-label fw-bold">Bidang tugas</label>
                             <div>
                                 <select class="form-select form-select-sm form-select-solid" data-control="select2" data-placeholder="Semua">
-                                    <option></option>
-                                    <option value="1">X</option>
-                                    <option value="2">XI</option>
-                                    <option value="2">XII</option>
+                                    <option value="">Semua</option>
+                                    <option value="1">Kuli</option>
+                                    <option value="2">Kepsek</option>
+                                    <option value="2">Staf</option>
                                 </select>
                             </div>
                         </div>
