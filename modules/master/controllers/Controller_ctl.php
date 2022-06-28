@@ -13,7 +13,8 @@ class Controller_ctl extends MY_Admin
 			'master/modal_edit_tambah_siswa',
 			'master/modal_edit_tambah_kelas',
 			'master/modal_edit_tambah_bidang_tugas',
-			'master/modal_edit_tambah_mapel'
+			'master/modal_edit_tambah_mapel',
+			'master/modal_edit_tambah_jenis_tugas'
 		]);
 
 	}
@@ -214,6 +215,18 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Jenis Tugas Staf';
 
+		// Meta Data
+		$idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+		$request_filter['id_sekolah'] = $idsekolah;
+		if ($_GET['bidang_tugas']) {
+			$request_filter['id_bidang_tugas'] = $_GET['bidang_tugas'];
+		}
+		$response_bidang_tugas = curl_get('bidang_tugas', $request_filter);
+		$mydata['data_bidang_tugas'] = $response_bidang_tugas->data;
+
+		$response_jenis_tugas = curl_get('jenis_tugas_staf', ['id_sekolah' => $idsekolah]);
+		$mydata['data_jenis_tugas'] = $response_jenis_tugas->data;
+
 		//LOAD JS
 		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/jenis_tugas_staf.js"></script>';
 
@@ -408,5 +421,28 @@ class Controller_ctl extends MY_Admin
 		}
 
 		$this->load->view("modal/modal_tambah_edit_mapel", $mydata);
+	}
+
+	public function modal_edit_tambah_jenis_tugas()
+	{
+		$id_jenis_tugas = $this->input->post('id_jenis_tugas');
+		$mydata['is_edit'] = $id_jenis_tugas !== null;
+
+		$idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+		$response_bidang_tugas = curl_get('bidang_tugas', ['id_sekolah' => $idsekolah]);
+		$mydata['data_bidang_tugas'] = $response_bidang_tugas->data;
+
+		if ($mydata['is_edit']) {
+			$mydata['modal_title'] = "Ubah Jenis Tugas Staf";
+			$mydata['url_action'] = base_url("func_master/edit_jenis_tugas/" . $id_jenis_tugas);
+
+			$response_jenis_tugas = curl_get('jenis_tugas_staf', ['id_sekolah' => $idsekolah, 'id_jenis_tugas_staf' => $id_jenis_tugas]);
+			$mydata['data_jenis_tugas'] = $response_jenis_tugas->data;
+		} else {
+			$mydata['modal_title'] = "Tambah Jenis Tugas Staf";
+			$mydata['url_action'] = base_url("func_master/insert_jenis_tugas");
+		}
+
+		$this->load->view("modal/modal_tambah_edit_jenis_tugas", $mydata);
 	}
 }

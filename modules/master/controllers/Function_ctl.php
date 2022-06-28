@@ -608,4 +608,119 @@ class Function_ctl extends MY_Admin
         exit;
     }
 
+    public function insert_jenis_tugas()
+    {
+        $arrVar['bidang_tugas'] = 'Nama Bidang Tugas';
+        $arrVar['nama'] = 'Nama Jenis Tugas Bidang Staf';
+
+        foreach ($arrVar as $var => $value) {
+            $$var = $this->input->post($var);
+            if (!$$var) {
+                $data['required'][] = ['req_' . $var, $value . ' tidak boleh kosong !'];
+                $arrAccess[] = false;
+            } else {
+                $arrAccess[] = true;
+            }
+        }
+
+        if (!in_array(false, $arrAccess)) {
+            $idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+
+            $request_data = array(
+                'id_sekolah' => $idsekolah,
+                'nama' => $this->input->post('nama'),
+                'id_bidang_tugas' => $this->input->post('bidang_tugas'),
+            );
+
+            $response = curl_post('jenis_tugas_staf/tambah', $request_data);
+
+            if ($response) {
+                $data['status'] = !$response->error;
+                if ($response->error) {
+                    $data['alert'] = $this->set_alert('PERINGATAN', $response->message);
+                } else {
+                    $data['redirect'] = base_url('master/jenis_tugas_staf');
+                    $data['alert'] = $this->set_alert('PEMBERITAHUAN', $response->message);
+                }
+            } else {
+                $data['status'] = false;
+                $data['alert'] = $this->set_alert('PERINGATAN', "Server tidak memberi response, hubungi pengembang!");
+            }
+            echo json_encode($data);
+            exit;
+        } else {
+            $data['status'] = false;
+            echo json_encode($data);
+            exit;
+        }
+    }
+
+    public function edit_jenis_tugas($idjenis_tugas)
+    {
+        $arrVar['bidang_tugas'] = 'Nama Bidang Tugas';
+        $arrVar['nama'] = 'Nama Jenis Tugas Bidang Staf';
+
+        foreach ($arrVar as $var => $value) {
+            $$var = $this->input->post($var);
+            if (!$$var) {
+                $data['required'][] = ['req_' . $var, $value . ' tidak boleh kosong !'];
+                $arrAccess[] = false;
+            } else {
+                $arrAccess[] = true;
+            }
+        }
+
+        if (!in_array(false, $arrAccess)) {
+            $idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+
+            $request_data = array(
+                'id_sekolah' => $idsekolah,
+                'id_jenis_tugas_staf' => $idjenis_tugas,
+                'id_bidang_tugas' => $this->input->post('bidang_tugas'),
+                'nama' => $this->input->post('nama'),
+            );
+
+            $response = curl_post('jenis_tugas_staf/edit', $request_data);
+
+            if ($response) {
+                $data['status'] = !$response->error;
+                if ($response->error) {
+                    $data['alert'] = $this->set_alert('PERINGATAN', $response->message);
+                } else {
+                    $data['redirect'] = base_url('master/jenis_tugas_staf');
+                    $data['alert'] = $this->set_alert('PEMBERITAHUAN', $response->message);
+                }
+            } else {
+                $data['status'] = false;
+                $data['alert'] = $this->set_alert('PERINGATAN', "Server tidak memberi response, hubungi pengembang!");
+            }
+            echo json_encode($data);
+            exit;
+        } else {
+            $data['status'] = false;
+            echo json_encode($data);
+            exit;
+        }
+    }
+
+    public function hapus_jenis_tugas($idjenis_tugas)
+    {
+        $idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+        $request_data = array(
+            'id_sekolah' => $idsekolah,
+            'id_jenis_tugas_staf' => $idjenis_tugas,
+        );
+
+        $response = curl_post('jenis_tugas_staf/delete', $request_data);
+        $data['status'] = !$response->error;
+        if ($response->error) {
+            $data['alert'] = $this->set_alert('PERINGATAN', $response->message);
+        } else {
+            $data['redirect'] = base_url('master/jenis_tugas_staf');
+            $data['alert'] = $this->set_alert('PEMBERITAHUAN', $response->message);
+        }
+        echo json_encode($data);
+        exit;
+    }
+
 }

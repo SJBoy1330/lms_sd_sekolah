@@ -8,77 +8,7 @@
                     <!--begin::Modal dialog-->
                     <div class="modal-dialog modal-dialog-centered mw-850px">
                         <!--begin::Modal content-->
-                        <div class="modal-content">
-                            <!--begin::Modal header-->
-                            <div class="modal-header">
-                                <!--begin::Modal title-->
-                                <h2 class="fw-bolder">Tambah Jenis Tugas Staf</h2>
-                                <!--end::Modal title-->
-                                <!--begin::Close-->
-                                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
-                                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                                    <span class="svg-icon svg-icon-1">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
-                                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
-                                        </svg>
-                                    </span>
-                                    <!--end::Svg Icon-->
-                                </div>
-                                <!--end::Close-->
-                            </div>
-                            <!--end::Modal header-->
-                            <!--begin::Modal body-->
-                            <div class="modal-body scroll-y mx-10 my-2">
-                                <div class="row">
-                                    <div class="col-!2">
-                                        <div class="d-flex flex-column mb-8 fv-row">
-                                            <!--begin::Label-->
-                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                <span class="required">Nama Bidang Tugas</span>
-                                            </label>
-                                            <!--end::Label-->
-                                            <div class="position-relative d-flex align-items-center">
-                                                <div style="width:100vw;">
-                                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
-                                                        <option></option>
-                                                        <option value="1">Jabatan 1</option>
-                                                        <option value="2">Jabatan 2</option>
-                                                        <option value="2">Jabatan 3</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-12">
-                                        <div class="d-flex flex-column mb-8 fv-row">
-                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                <span class="required">Nama Jenis Tugas Bidang Staf</span>
-                                            </label>
-                                            <div class="position-relative d-flex align-items-center">
-                                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                                    <i class="fa-duotone fa-bars-progress" style="font-size: 1.3rem;"></i>
-                                                </span>
-                                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan nama jenis tugas staf" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row mb-4">
-                                    <div class="d-flex justify-content-end">
-                                        <button type="button" class="btn btn-primary">
-                                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                                            <span class="svg-icon svg-icon-2">
-                                                <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-                                            </span>
-                                            <!--end::Svg Icon-->Simpan
-                                        </button>
-                                        <!--end::Add user-->
-                                    </div>
-                                </div>
-                            </div>
-                            <!--end::Modal body-->
+                        <div class="modal-content" id="content-edit-tambah-jenis-tugas">
                         </div>
                         <!--end::Modal content-->
                     </div>
@@ -89,16 +19,16 @@
                         <div class="col-md-3 col-xl-3" style="padding:5px;">
                             <label class="form-label fw-bold">Bidang tugas</label>
                             <div>
-                                <select class="form-select form-select-sm form-select-solid" data-control="select2" data-placeholder="Semua">
+                                <select class="form-select form-select-sm form-select-solid" data-control="select2" data-placeholder="Semua" id="select_bidang_tugas">
                                     <option value="">Semua</option>
-                                    <option value="1">Kuli</option>
-                                    <option value="2">Kepsek</option>
-                                    <option value="2">Staf</option>
+                                    <?php foreach ($data_bidang_tugas as $bidang_tugas) : ?>
+                                        <option value="<?= $bidang_tugas->id_bidang_tugas ?>" <?= $_GET['bidang_tugas'] === $bidang_tugas->id_bidang_tugas ? 'selected' : '' ?>><?= $bidang_tugas->nama ?></option>
+                                    <?php endforeach; ?>
                                 </select>
                             </div>
                         </div>
                         <div class="col-md-3 col-xl-3 align-self-end text-start" style="padding:5px; margin-top:7px;">
-                            <button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Tampil</button>
+                            <button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true" id="btn-filter">Tampil</button>
                         </div>
                     </div>
                 </form>
@@ -132,7 +62,7 @@
                                 <i class="fa-duotone fa-trash" style="font-size: 18px;"></i>
                             </span>
                             Hapus</button>
-                        <button type="button" class="btn btn-sm btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahPelajaran">
+                        <button type="button" class="btn btn-sm btn-light-success btn-tambah-edit-modal-jenis-tugas" data-bs-toggle="modal" data-bs-target="#modalTambahPelajaran">
                             <span class="svg-icon svg-icon-2 me-0">
                                 <i class="fa-duotone fa-plus" style="font-size: 18px;"></i>
                             </span>
@@ -166,95 +96,60 @@
                         <!--end::Table head-->
                         <!--begin::Table body-->
                         <tbody class="text-gray-600 fw-bold">
-                            <tr>
-                                <!--begin::Checkbox-->
-                                <td>
-                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input deletebox " type="checkbox" value="1" />
-                                    </div>
-                                </td>
-                                <!--end::Checkbox-->
-                                <!--begin::User=-->
-                                <td class="text-center">
-                                    <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                        <i class="fa-duotone fa-bars fs-4"></i>
-                                    </button>
-                                    <!--end::Svg Icon--></a>
-                                    <!--begin::Menu-->
-                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Edit</a>
-                                        </div>
-                                        <!--end::Menu item-->
-                                        <!--begin::Menu item-->
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
-                                        </div>
-                                        <!--end::Menu item-->
-                                    </div>
-                                </td>
+                            <?php if ($data_jenis_tugas) : ?>
+                                <?php foreach ($data_jenis_tugas as $i => $jenis_tugas) : ?>
+                                    <tr>
+                                        <!--begin::Checkbox-->
+                                        <td>
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                                <input class="form-check-input deletebox " type="checkbox" value="1" />
+                                            </div>
+                                        </td>
+                                        <!--end::Checkbox-->
+                                        <!--begin::User=-->
+                                        <td class="text-center">
+                                            <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                <i class="fa-duotone fa-bars fs-4"></i>
+                                            </button>
+                                            <!--end::Svg Icon--></a>
+                                            <!--begin::Menu-->
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
+                                                <div class="menu-item px-3">
+                                                    <a class="menu-link px-3 btn-tambah-edit-modal-jenis-tugas" data-bs-toggle="modal" data-bs-target="#modalTambahPelajaran" data-idjenis-tugas="<?= $jenis_tugas->id_jenis_tugas_staf ?>">Edit</a>
+                                                </div>
+                                                <!--end::Menu item-->
+                                                <!--begin::Menu item-->
+                                                <div class="menu-item px-3">
+                                                    <a class="menu-link px-3 btn-hapus-jenis-tugas" data-kt-users-table-filter="delete_row" data-idjenis-tugas="<?= $jenis_tugas->id_jenis_tugas_staf ?>">Hapus</a>
+                                                </div>
+                                                <!--end::Menu item-->
+                                            </div>
+                                        </td>
 
-                                <td>
-                                    <p class="text-center mb-0">1</p>
-                                </td>
+                                        <td>
+                                            <p class="text-center mb-0"><?= $i + 1 ?></p>
+                                        </td>
 
-                                <td>
-                                    <p class="text-center">
-                                        Jabatan 1
-                                    </p>
-                                </td>
+                                        <td>
+                                            <p class="text-center">
+                                                <?= $jenis_tugas->nama_bidang ?>
+                                            </p>
+                                        </td>
 
-                                <td>
-                                    <p class="text-center">
-                                        Jenis Tugas 1
-                                    </p>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <!--begin::Checkbox-->
-                                <td>
-                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input deletebox " type="checkbox" value="1" />
-                                    </div>
-                                </td>
-                                <!--end::Checkbox-->
-                                <!--begin::User=-->
-                                <td class="text-center">
-                                    <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                        <i class="fa-duotone fa-bars fs-4"></i>
-                                    </button>
-                                    <!--end::Svg Icon--></a>
-                                    <!--begin::Menu-->
-                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Edit</a>
-                                        </div>
-                                        <!--end::Menu item-->
-                                        <!--begin::Menu item-->
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
-                                        </div>
-                                        <!--end::Menu item-->
-                                    </div>
-                                </td>
-
-                                <td>
-                                    <p class="text-center mb-0">2</p>
-                                </td>
-
-                                <td>
-                                    <p class="text-center">
-                                        Jabatan 2
-                                    </p>
-                                </td>
-
-                                <td>
-                                    <p class="text-center">
-                                        Jenis Tugas Staf 2
-                                    </p>
-                                </td>
-                            </tr>
+                                        <td>
+                                            <p class="text-center">
+                                                <?= $jenis_tugas->nama ?>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            <?php else : ?>
+                                <tr>
+                                    <td colspan="8">
+                                        <center>Tidak ada data jenis tugas staf</center>
+                                    </td>
+                                </tr>
+                            <?php endif; ?>
                         </tbody>
                         <!--end::Table body-->
                     </table>
