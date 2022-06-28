@@ -490,4 +490,99 @@ class Function_ctl extends MY_Admin
         echo json_encode($data);
         exit;
     }
+
+    public function insert_mapel()
+    {
+        $arrVar['tingkat'] = 'Tingkat';
+        $arrVar['nama'] = 'Nama Pelajaran';
+
+        foreach ($arrVar as $var => $value) {
+            $$var = $this->input->post($var);
+            if (!$$var) {
+                $data['required'][] = ['req_' . $var, $value . ' tidak boleh kosong !'];
+                $arrAccess[] = false;
+            } else {
+                $arrAccess[] = true;
+            }
+        }
+
+        if (!in_array(false, $arrAccess)) {
+            $idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+
+            $request_data = array(
+                'id_sekolah' => $idsekolah,
+                'nama' => $this->input->post('nama'),
+                'id_tingkat' => $this->input->post('tingkat'),
+            );
+
+            $response = curl_post('pelajaran/tambah', $request_data);
+
+            if ($response) {
+                $data['status'] = !$response->error;
+                if ($response->error) {
+                    $data['alert'] = $this->set_alert('PERINGATAN', $response->message);
+                } else {
+                    $data['redirect'] = base_url('master/mapel');
+                    $data['alert'] = $this->set_alert('PEMBERITAHUAN', $response->message);
+                }
+            } else {
+                $data['status'] = false;
+                $data['alert'] = $this->set_alert('PERINGATAN', "Server tidak memberi response, hubungi pengembang!");
+            }
+            echo json_encode($data);
+            exit;
+        } else {
+            $data['status'] = false;
+            echo json_encode($data);
+            exit;
+        }
+    }
+
+    public function edit_mapel($idmapel)
+    {
+        $arrVar['tingkat'] = 'Tingkat';
+        $arrVar['nama'] = 'Nama Pelajaran';
+
+        foreach ($arrVar as $var => $value) {
+            $$var = $this->input->post($var);
+            if (!$$var) {
+                $data['required'][] = ['req_' . $var, $value . ' tidak boleh kosong !'];
+                $arrAccess[] = false;
+            } else {
+                $arrAccess[] = true;
+            }
+        }
+
+        if (!in_array(false, $arrAccess)) {
+            $idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+
+            $request_data = array(
+                'id_sekolah' => $idsekolah,
+                'id_pelajaran' => $idmapel,
+                'nama' => $this->input->post('nama'),
+                'id_tingkat' => $this->input->post('tingkat'),
+            );
+
+            $response = curl_post('pelajaran/edit', $request_data);
+
+            if ($response) {
+                $data['status'] = !$response->error;
+                if ($response->error) {
+                    $data['alert'] = $this->set_alert('PERINGATAN', $response->message);
+                } else {
+                    $data['redirect'] = base_url('master/mapel');
+                    $data['alert'] = $this->set_alert('PEMBERITAHUAN', $response->message);
+                }
+            } else {
+                $data['status'] = false;
+                $data['alert'] = $this->set_alert('PERINGATAN', "Server tidak memberi response, hubungi pengembang!");
+            }
+            echo json_encode($data);
+            exit;
+        } else {
+            $data['status'] = false;
+            echo json_encode($data);
+            exit;
+        }
+    }
 }

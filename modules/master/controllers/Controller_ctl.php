@@ -6,7 +6,16 @@ class Controller_ctl extends MY_Admin
 	{
 		// Load the constructer from MY_Controller
 		parent::__construct();
-		access_url(['master/modal_detail_staf', 'master/modal_edit_tambah', 'master/modal_detail_siswa', 'master/modal_edit_tambah_siswa', 'master/modal_edit_tambah_kelas', 'master/modal_edit_tambah_bidang_tugas']);
+		access_url([
+			'master/modal_detail_staf',
+			'master/modal_edit_tambah',
+			'master/modal_detail_siswa',
+			'master/modal_edit_tambah_siswa',
+			'master/modal_edit_tambah_kelas',
+			'master/modal_edit_tambah_bidang_tugas',
+			'master/modal_edit_tambah_mapel'
+		]);
+
 	}
 
 
@@ -152,6 +161,20 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Mata Pelajaran';
+
+		// Meta Data
+		$idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+
+		$request_filter['id_sekolah'] = $idsekolah;
+		if ($_GET['tingkat']) {
+			$request_filter['id_tingkat'] = $_GET['tingkat'];
+		}
+
+		$response_mapel = curl_get('pelajaran', $request_filter);
+		$mydata['data_mapel'] = $response_mapel->data;
+
+		$response_tingkat = curl_get('atribut/tingkat', ['id_sekolah' => $idsekolah]);
+		$mydata['tingkat'] = $response_tingkat->data;
 
 		//LOAD JS
 		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/matapelajaran.js"></script>';
@@ -362,5 +385,28 @@ class Controller_ctl extends MY_Admin
 		}
 
 		$this->load->view("modal/modal_tambah_edit_bidang_tugas", $mydata);
+	}
+
+	public function modal_edit_tambah_mapel()
+	{
+		$id_mapel = $this->input->post('id_mapel');
+		$mydata['is_edit'] = $id_mapel !== null;
+
+		$idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+		$response_tingkat = curl_get('atribut/tingkat', ['id_sekolah' => $idsekolah]);
+		$mydata['tingkat'] = $response_tingkat->data;
+
+		if ($mydata['is_edit']) {
+			$mydata['modal_title'] = "Ubah Mata Pelajaran";
+			$mydata['url_action'] = base_url("func_master/edit_mapel/" . $id_mapel);
+
+			$response_mapel = curl_get('pelajaran', ['id_sekolah' => $idsekolah, 'id_pelajaran' => $id_mapel]);
+			$mydata['data_mapel'] = $response_mapel->data;
+		} else {
+			$mydata['modal_title'] = "Tambah Mata Pelajaran";
+			$mydata['url_action'] = base_url("func_master/insert_mapel");
+		}
+
+		$this->load->view("modal/modal_tambah_edit_mapel", $mydata);
 	}
 }
