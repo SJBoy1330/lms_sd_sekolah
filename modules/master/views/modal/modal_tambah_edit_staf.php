@@ -114,7 +114,7 @@
                                 <i class="fa-duotone fa-phone" style="font-size: 1.3rem;"></i> +62
                             </span>
 
-                            <input class="form-control form-control-solid ps-25" placeholder="Masukkan nomor telpon" value="<?= $staf_data->telp ?>" name="telp" />
+                            <input class="form-control form-control-solid ps-25" placeholder="Masukkan nomor telepon" value="<?= $staf_data->telp ?>" name="telp" />
                         </div>
                     </div>
                 </div>

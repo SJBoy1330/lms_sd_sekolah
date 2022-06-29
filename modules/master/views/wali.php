@@ -645,7 +645,7 @@
                                 <!--end::Svg Icon-->
                                 <!--end::Icon-->
                                 <!--begin::Datepicker-->
-                                <input class="form-control form-control-solid ps-25" placeholder="Masukkan telpon" />
+                                <input class="form-control form-control-solid ps-25" placeholder="Masukkan nomor telepon" />
                                 <!--end::Datepicker-->
                             </div>
                         </div>
