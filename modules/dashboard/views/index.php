@@ -29,7 +29,7 @@
                         <div class="card-flex-container wrap">
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein">
+                            <div class="card card-stretch fadein-bottom">
                                 <!--begin::Link-->
                                 <a href="<?= base_url('dashboard/instruksi_ujian') ?>" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-success fs-8 fw-bolder notif">Ujian Berlangsung</span>
@@ -46,7 +46,7 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein">
+                            <div class="card card-stretch fadein-bottom">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-warning fs-8 fw-bolder notif">Belum Ujian</span>
@@ -63,7 +63,7 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein">
+                            <div class="card card-stretch fadein-bottom">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-danger fs-8 fw-bolder notif">Tidak Ujian</span>
@@ -80,7 +80,7 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein">
+                            <div class="card card-stretch fadein-bottom">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-success fs-8 fw-bolder notif">Ujian Berlangsung</span>
@@ -97,7 +97,7 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein">
+                            <div class="card card-stretch fadein-bottom">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-warning fs-8 fw-bolder notif">Belum Ujian</span>
@@ -114,7 +114,7 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein">
+                            <div class="card card-stretch fadein-bottom">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-danger fs-8 fw-bolder notif">Tidak Ujian</span>
