@@ -29,11 +29,11 @@
                         <div class="card-flex-container wrap">
 
                             <!--begin::Card-->
-                            <div class="card card-stretch">
+                            <div class="card card-stretch fadein">
                                 <!--begin::Link-->
                                 <a href="<?= base_url('dashboard/instruksi_ujian') ?>" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-success fs-8 fw-bolder notif">Ujian Berlangsung</span>
-                                    <span class="svg-icon svg-icon-3x mb-5 fadein-left">
+                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right">
                                         <i class="fa-duotone fa-book-bookmark mt-5 mb-7" style="font-size: 3rem;"></i>
                                     </span>
                                     <span class="fs-4 fw-bolder fadein-bottom">Paket Ujian 01</span>
@@ -46,11 +46,11 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch">
+                            <div class="card card-stretch fadein">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-warning fs-8 fw-bolder notif">Belum Ujian</span>
-                                    <span class="svg-icon svg-icon-3x mb-5 fadein-left">
+                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right">
                                         <i class="fa-duotone fa-book-bookmark mt-5 mb-7" style="font-size: 3rem;"></i>
                                     </span>
                                     <span class="fs-4 fw-bolder fadein-bottom">Paket Ujian 02</span>
@@ -63,11 +63,11 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch">
+                            <div class="card card-stretch fadein">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-danger fs-8 fw-bolder notif">Tidak Ujian</span>
-                                    <span class="svg-icon svg-icon-3x mb-5 fadein-left">
+                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right">
                                         <i class="fa-duotone fa-book-bookmark mt-5 mb-7" style="font-size: 3rem;"></i>
                                     </span>
                                     <span class="fs-4 fw-bolder fadein-bottom">Paket Ujian 03</span>
@@ -80,11 +80,11 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch">
+                            <div class="card card-stretch fadein">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-success fs-8 fw-bolder notif">Ujian Berlangsung</span>
-                                    <span class="svg-icon svg-icon-3x mb-5 fadein-left">
+                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right">
                                         <i class="fa-duotone fa-book-bookmark mt-5 mb-7" style="font-size: 3rem;"></i>
                                     </span>
                                     <span class="fs-4 fw-bolder fadein-bottom">Paket Ujian 04</span>
@@ -97,11 +97,11 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch">
+                            <div class="card card-stretch fadein">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-warning fs-8 fw-bolder notif">Belum Ujian</span>
-                                    <span class="svg-icon svg-icon-3x mb-5 fadein-left">
+                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right">
                                         <i class="fa-duotone fa-book-bookmark mt-5 mb-7" style="font-size: 3rem;"></i>
                                     </span>
                                     <span class="fs-4 fw-bolder fadein-bottom">Paket Ujian 05</span>
@@ -114,11 +114,11 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch">
+                            <div class="card card-stretch fadein">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-danger fs-8 fw-bolder notif">Tidak Ujian</span>
-                                    <span class="svg-icon svg-icon-3x mb-5 fadein-left">
+                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right">
                                         <i class="fa-duotone fa-book-bookmark mt-5 mb-7" style="font-size: 3rem;"></i>
                                     </span>
                                     <span class="fs-4 fw-bolder fadein-bottom">Paket Ujian 06</span>

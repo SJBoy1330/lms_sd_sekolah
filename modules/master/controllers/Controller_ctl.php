@@ -41,6 +41,9 @@ class Controller_ctl extends MY_Admin
 		$response = curl_get('staf', $request_filter);
 		$mydata['data_staf'] = $response->data;
 
+		// LOAD CSS
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/master/staf.css') . '">';
+
 		// Load JS
 		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/staf.js"></script>';
 
@@ -56,6 +59,9 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Siswa';
+
+		// LOAD CSS
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/master/siswa.css') . '">';
 
 		//LOAD JS
 		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/siswa.js"></script>';
@@ -149,6 +155,9 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Orang Tua';
+
+		// LOAD CSS
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/master/wali.css') . '">';
 
 		//LOAD JS
 		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/wali.js"></script>';

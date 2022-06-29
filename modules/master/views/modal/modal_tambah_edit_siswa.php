@@ -224,13 +224,13 @@
                 <div class="col-12">
                     <div class="d-flex flex-column mb-8 fv-row">
                         <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                            <span>No. Telp</span>
+                            <span>No. Telepon</span>
                         </label>
                         <div class="position-relative d-flex align-items-center">
-                            <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                <i class="fa-duotone fa-phone" style="font-size: 1.3rem;"></i>
+                            <span class="svg-icon svg-icon-2 position-absolute p-4 fw-bold telepon-input">
+                                <i class="fa-duotone fa-phone" style="font-size: 1.3rem;"></i> +62
                             </span>
-                            <input class="form-control form-control-solid ps-12" placeholder="Masukkan nomor telpon" name="telp" />
+                            <input class="form-control form-control-solid ps-25" placeholder="Masukkan nomor telpon" name="telp" />
                         </div>
                     </div>
                 </div>

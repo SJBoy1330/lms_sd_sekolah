@@ -3,35 +3,45 @@
     z-index: -9999;
     position: fixed;
     border-radius: 50%;
-    background: rgb(233, 230, 230);
+    background: rgb(219, 219, 219);
     animation: ripple 10s infinite;
     bottom: -10%;
     right: -10%;
   }
   
   .small{
-    width: 15vw;
-    min-height: 20vh;
+    width: 200px;
+    height: 200px;
+    right: -100px;
+    bottom: -100px;
   }
   
   .medium{
-    width: 30vw;
-    min-height: 40vh;
+    width: 400px;
+    height: 400px;
+    right: -200px;
+    bottom: -200px;
   }
   
   .large{
-    width: 45vw;
-    min-height: 60vh;
+    width: 600px;
+    height: 600px;
+    right: -300px;
+    bottom: -300px;
   }
   
   .xlarge{
-    width: 60vw;
-    min-height: 80vh;
+    width: 800px;
+    height: 800px;
+    right: -400px;
+    bottom: -400px;
   }
   
   .xxlarge{
-    width: 75vw;
-    min-height: 100vh;
+    width: 1000px;
+    height: 1000px;
+    right: -500px;
+    bottom: -500px;
   }
   
   .shade1{
@@ -69,7 +79,7 @@
   
 
 .fadein-bottom{
-    animation: fadeInBottom 1s;
+    animation: fadeInBottom 1.5s;
 }
 
 @keyframes fadeInBottom {
@@ -82,11 +92,11 @@
     }
 }
 
-.fadein-left{
-    animation: fadeInLeft 1s;
+.fadein-right{
+    animation: fadeInRight 1.5s;
 }
 
-@keyframes fadeInLeft {
+@keyframes fadeInRight {
     from {
         opacity: 0;
         transform: translateX(50%);
@@ -94,6 +104,19 @@
     to { 
         opacity: 1;
     }
+}
+
+.fadein{
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeInLeft {
+  from {
+      opacity: 0;
+  }
+  to { 
+      opacity: 1;
+  }
 }
 
 .card.three-card{
