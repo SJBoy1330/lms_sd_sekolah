@@ -29,7 +29,7 @@
                         <div class="card-flex-container wrap">
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein-bottom anim-4">
+                            <div class="card card-stretch anim-4" style="opacity: 0;">
                                 <!--begin::Link-->
                                 <a href="<?= base_url('dashboard/instruksi_ujian') ?>" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-success fs-8 fw-bolder notif fadein anim-4 anim-delay-5" style="opacity: 0;">Ujian Berlangsung</span>
@@ -45,7 +45,7 @@
                             <!--end::Card-->
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein-bottom anim-4">
+                            <div class="card card-stretch anim-4" style="opacity: 0;">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-warning fs-8 fw-bolder notif fadein anim-4 anim-delay-5" style="opacity: 0;">Belum Ujian</span>
@@ -62,7 +62,7 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein-bottom anim-4">
+                            <div class="card card-stretch anim-4" style="opacity: 0;">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-danger fs-8 fw-bolder notif fadein anim-4 anim-delay-5" style="opacity: 0;">Tidak Ujian</span>
@@ -79,7 +79,7 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein-bottom anim-4">
+                            <div class="card card-stretch anim-4" style="opacity: 0;">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-success fs-8 fw-bolder notif fadein anim-4 anim-delay-5" style="opacity: 0;">Ujian Berlangsung</span>
@@ -96,7 +96,7 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein-bottom anim-4">
+                            <div class="card card-stretch anim-4" style="opacity: 0;">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-warning fs-8 fw-bolder notif fadein anim-4 anim-delay-5" style="opacity: 0;">Belum Ujian</span>
@@ -113,7 +113,7 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein-bottom anim-4">
+                            <div class="card card-stretch anim-4" style="opacity: 0;">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-danger fs-8 fw-bolder notif fadein anim-4 anim-delay-5" style="opacity: 0;">Tidak Ujian</span>
@@ -129,7 +129,7 @@
                             <!--end::Card-->
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein-bottom anim-4">
+                            <div class="card card-stretch anim-4" style="opacity: 0;">
                                 <!--begin::Link-->
                                 <a href="<?= base_url('dashboard/instruksi_ujian') ?>" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
                                     <span class="badge badge-light-success fs-8 fw-bolder notif fadein anim-4 anim-delay-5" style="opacity: 0;">Ujian Berlangsung</span>
@@ -156,7 +156,7 @@
                 <div class="row g-5 g-xl-8">
                     <div class="col-xl-4">
                         <!--begin::List Widget 5-->
-                        <div class="card mb-5 mb-xl-8 three-card">
+                        <div class="card mb-5 mb-xl-8 three-card anim-4" style="opacity: 0;">
                             <!--begin::Header-->
                             <div class="card-header align-items-center border-0 mt-4">
                                 <h3 class="card-title align-items-start flex-column">
@@ -368,7 +368,7 @@
                     </div>
                     <div class="col-xl-4">
                         <!--begin::List Widget 4-->
-                        <div class="card mb-5 mb-xl-8 three-card">
+                        <div class="card mb-5 mb-xl-8 three-card anim-4" style="opacity: 0;">
                             <!--begin::Header-->
                             <div class="card-header border-0 pt-5">
                                 <h3 class="card-title align-items-start flex-column">
@@ -518,7 +518,7 @@
                     </div>
                     <div class="col-xl-4">
                         <!--begin::List Widget 4-->
-                        <div class="card mb-5 mb-xl-8 three-card">
+                        <div class="card mb-5 mb-xl-8 three-card anim-4" style="opacity: 0;">
                             <!--begin::Header-->
                             <div class="card-header border-0 pt-5">
                                 <h3 class="card-title align-items-start flex-column">
