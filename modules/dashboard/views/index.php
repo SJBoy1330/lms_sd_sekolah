@@ -44,6 +44,21 @@
                             </div>
                             <!--end::Card-->
 
+                            <!--begin::Card-->
+                            <div class="card card-stretch fadein-bottom anim-4">
+                                <!--begin::Link-->
+                                <a href="<?= base_url('dashboard/instruksi_ujian') ?>" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
+                                    <span class="badge badge-light-success fs-8 fw-bolder notif fadein anim-4 anim-delay-5" style="opacity: 0;">Ujian Berlangsung</span>
+                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right anim-4 anim-delay-3 " style="opacity: 0;">
+                                        <i class="fa-duotone fa-book-bookmark mt-5 mb-7" style="font-size: 3rem;"></i>
+                                    </span>
+                                    <span class="fs-4 fw-bolder fadein-bottom anim-4 anim-delay-4 " style="opacity: 0;">Paket Ujian 01</span>
+                                    <span class="fs-5 fw-medium fadein-bottom anim-4 anim-delay-4 " style="opacity: 0;">Bahasa Indonesia</span>
+                                    <span class="fs-7 fw-medium fadein-bottom anim-4 anim-delay-4 " style="opacity: 0;">20 Agustus 2022 | 08:00 - 10:00</span>
+                                </a>
+                                <!--end::Link-->
+                            </div>
+                            <!--end::Card-->
 
                             <!--begin::Card-->
                             <div class="card card-stretch fadein-bottom anim-4">
