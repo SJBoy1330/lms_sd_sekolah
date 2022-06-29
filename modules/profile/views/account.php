@@ -73,7 +73,7 @@
                         </div>
                         <div class="col-8">
                             <div class="row p-5 detail-profil">
-                                <label class="col-lg-4 fw-bold text-muted">Username</label>
+                                <label class="col-lg-4 fw-bold text-muted">ID Pengguna</label>
                                 <label class="col-lg-2 fw-bold text-muted">:</label>
                                 <div class="col-lg-6">
                                     <span class="fw-bolder fs-6 text-gray-800">Max Smith</span>
@@ -156,26 +156,13 @@
                     <div class="col-12">
                         <div class="d-flex flex-column mb-8 fv-row">
                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                <span class="required">Username</span>
-                            </label>
-                            <div class="position-relative d-flex align-items-center">
-                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                    <i class="fa-duotone fa-file-user" style="font-size: 1.3rem;"></i>
-                                </span>
-                                <input class="form-control form-control-solid ps-12"/>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="d-flex flex-column mb-8 fv-row">
-                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
                                 <span class="required">Nama</span>
                             </label>
                             <div class="position-relative d-flex align-items-center">
                                 <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                     <i class="fa-duotone fa-user" style="font-size: 1.3rem;"></i>
                                 </span>
-                                <input class="form-control form-control-solid ps-12"/>
+                                <input class="form-control form-control-solid ps-12" placeholder="Masuukan nama"/>
                             </div>
                         </div>
                     </div>
@@ -188,20 +175,20 @@
                                 <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                     <i class="fa-duotone fa-location-dot" style="font-size: 1.3rem;"></i>
                                 </span>
-                                <input class="form-control form-control-solid ps-12"/>
+                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan alamat"/>
                             </div>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="d-flex flex-column mb-8 fv-row">
                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                <span class="required">Telepon</span>
+                                <span class="required">No. Telepon</span>
                             </label>
                             <div class="position-relative d-flex align-items-center">
                                 <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                     <i class="fa-duotone fa-phone" style="font-size: 1.3rem;"></i>
                                 </span>
-                                <input class="form-control form-control-solid ps-12"/>
+                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan no telpon"/>
                             </div>
                         </div>
                     </div>
@@ -214,7 +201,7 @@
                                 <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                     <i class="fa-duotone fa-envelope" style="font-size: 1.3rem;"></i>
                                 </span>
-                                <input class="form-control form-control-solid ps-12"/>
+                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan email"/>
                             </div>
                         </div>
                     </div>

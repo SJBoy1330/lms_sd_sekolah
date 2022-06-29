@@ -26,7 +26,7 @@
                 <div class="card-header cursor-pointer">
                     <!--begin::Card title-->
                     <div class="card-title m-0">
-                        <h3 class="fw-bolder m-0">Ubah Password</h3>
+                        <h3 class="fw-bolder m-0">Ubah Kata Sandi</h3>
                     </div>
                     <!--end::Card title-->
                     <!--begin::Action-->
@@ -51,41 +51,47 @@
                         <div class="col-8">
                             <div class="row p-5 detail-profil">
                                 <div class="col-12">
-                                    <div class="d-flex flex-column mb-8 fv-row">
+                                    <div class="d-flex flex-column mb-8 fv-row" id="req_sandi">
                                         <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                            <span class="required">Kata Sandi Lama</span>
+                                            <span class="required" for="password_lama">Kata Sandi Siswa</span>
                                         </label>
-                                        <div class="position-relative d-flex align-items-center">
-                                            <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                                <i class="fa-duotone fa-lock-keyhole" style="font-size: 1.3rem;"></i>
-                                            </span>
-                                            <input type="password" class="form-control form-control-solid ps-12" placeholder="Masukkan kata sandi lama"/>
+                                        <div class="input-group input-group-solid">
+                                            <input type="password" class="form-control form-control-solid" name="sandi" id="password_lama" placeholder="Masukkan kata sandi lama" autocomplete="off">
+                                            <div class="input-group-append show-hide">
+                                                <span class="input-group-text">
+                                                    <i class="fa-duotone fa-eye" id="toggle1" onclick="password_show_hide(this,'#password_lama')" style="cursor: pointer; font-size: 1.2rem;"></i>
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <div class="d-flex flex-column mb-8 fv-row">
+                                    <div class="d-flex flex-column mb-8 fv-row" id="req_sandi">
                                         <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                            <span class="required">Kata Sandi Baru</span>
+                                            <span class="required" for="password_baru">Kata Sandi Baru</span>
                                         </label>
-                                        <div class="position-relative d-flex align-items-center">
-                                            <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                                <i class="fa-duotone fa-lock-keyhole" style="font-size: 1.3rem;"></i>
-                                            </span>
-                                            <input type="password" class="form-control form-control-solid ps-12" placeholder="Masukkan kata sandi baru"/>
+                                        <div class="input-group input-group-solid">
+                                            <input type="password" class="form-control form-control-solid" name="sandi" id="password_baru" placeholder="Masukkan kata sandi baru" autocomplete="off">
+                                            <div class="input-group-append show-hide">
+                                                <span class="input-group-text">
+                                                    <i class="fa-duotone fa-eye" id="toggle2" onclick="password_show_hide(this,'#password_baru')" style="cursor: pointer; font-size: 1.2rem;"></i>
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <div class="d-flex flex-column mb-8 fv-row">
+                                    <div class="d-flex flex-column mb-8 fv-row" id="req_sandi">
                                         <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                            <span class="required">Ulangi Kata Sandi</span>
+                                            <span class="required" for="konfirmasi_password">Ulangi Kata Sandi</span>
                                         </label>
-                                        <div class="position-relative d-flex align-items-center">
-                                            <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                                <i class="fa-duotone fa-lock-keyhole" style="font-size: 1.3rem;"></i>
-                                            </span>
-                                            <input type="password" class="form-control form-control-solid ps-12" placeholder="Konfirmasi kata sandi"/>
+                                        <div class="input-group input-group-solid">
+                                            <input type="password" class="form-control form-control-solid" name="sandi" id="konfirmasi_password" placeholder="Konfirmasi kata sandi" autocomplete="off">
+                                            <div class="input-group-append show-hide">
+                                                <span class="input-group-text">
+                                                    <i class="fa-duotone fa-eye" id="toggle3" onclick="password_show_hide(this,'#konfirmasi_password')" style="cursor: pointer; font-size: 1.2rem;"></i>
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

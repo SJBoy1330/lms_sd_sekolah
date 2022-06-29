@@ -165,12 +165,18 @@ $route['informasi/(:any)'] = 'informasi/controller_ctl/$1';
 $route['informasi/(:any)/(:any)'] = 'informasi/controller_ctl/$1/$2';
 
 
-
 $route['jurnal']  = 'jurnal/controller_ctl';
 
 $route['jurnal/(:any)'] = 'jurnal/controller_ctl/$1';
 
 $route['jurnal/(:any)/(:any)'] = 'jurnal/controller_ctl/$1/$2';
+
+
+$route['ujian']  = 'ujian/controller_ctl';
+
+$route['ujian/(:any)'] = 'ujian/controller_ctl/$1';
+
+$route['ujian/(:any)/(:any)'] = 'ujian/controller_ctl/$1/$2';
 
 
 $route['akademik']  = 'akademik/controller_ctl';
