@@ -29,16 +29,16 @@
                         <div class="card-flex-container wrap">
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein-bottom">
+                            <div class="card card-stretch fadein-bottom anim-4">
                                 <!--begin::Link-->
                                 <a href="<?= base_url('dashboard/instruksi_ujian') ?>" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
-                                    <span class="badge badge-light-success fs-8 fw-bolder notif">Ujian Berlangsung</span>
-                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right">
+                                    <span class="badge badge-light-success fs-8 fw-bolder notif fadein anim-4 anim-delay-3" style="opacity: 0;">Ujian Berlangsung</span>
+                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right anim-4 anim-delay-3 " style="opacity: 0;">
                                         <i class="fa-duotone fa-book-bookmark mt-5 mb-7" style="font-size: 3rem;"></i>
                                     </span>
-                                    <span class="fs-4 fw-bolder fadein-bottom">Paket Ujian 01</span>
-                                    <span class="fs-5 fw-medium fadein-bottom">Bahasa Indonesia</span>
-                                    <span class="fs-7 fw-medium fadein-bottom">20 Agustus 2022 | 08:00 - 10:00</span>
+                                    <span class="fs-4 fw-bolder fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">Paket Ujian 01</span>
+                                    <span class="fs-5 fw-medium fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">Bahasa Indonesia</span>
+                                    <span class="fs-7 fw-medium fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">20 Agustus 2022 | 08:00 - 10:00</span>
                                 </a>
                                 <!--end::Link-->
                             </div>
@@ -46,16 +46,16 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein-bottom">
+                            <div class="card card-stretch fadein-bottom anim-4">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
-                                    <span class="badge badge-light-warning fs-8 fw-bolder notif">Belum Ujian</span>
-                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right">
+                                    <span class="badge badge-light-warning fs-8 fw-bolder notif fadein anim-4 anim-delay-3" style="opacity: 0;">Belum Ujian</span>
+                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right anim-4 anim-delay-3 " style="opacity: 0;">
                                         <i class="fa-duotone fa-book-bookmark mt-5 mb-7" style="font-size: 3rem;"></i>
                                     </span>
-                                    <span class="fs-4 fw-bolder fadein-bottom">Paket Ujian 02</span>
-                                    <span class="fs-5 fw-medium fadein-bottom">Bahasa Indonesia</span>
-                                    <span class="fs-7 fw-medium fadein-bottom">20 Agustus 2022 | 11:00 - 12:00</span>
+                                    <span class="fs-4 fw-bolder fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">Paket Ujian 02</span>
+                                    <span class="fs-5 fw-medium fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">Bahasa Indonesia</span>
+                                    <span class="fs-7 fw-medium fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">20 Agustus 2022 | 11:00 - 12:00</span>
                                 </a>
                                 <!--end::Link-->
                             </div>
@@ -63,16 +63,16 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein-bottom">
+                            <div class="card card-stretch fadein-bottom anim-4">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
-                                    <span class="badge badge-light-danger fs-8 fw-bolder notif">Tidak Ujian</span>
-                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right">
+                                    <span class="badge badge-light-danger fs-8 fw-bolder notif fadein anim-4 anim-delay-3" style="opacity: 0;">Tidak Ujian</span>
+                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right anim-4 anim-delay-3 " style="opacity: 0;">
                                         <i class="fa-duotone fa-book-bookmark mt-5 mb-7" style="font-size: 3rem;"></i>
                                     </span>
-                                    <span class="fs-4 fw-bolder fadein-bottom">Paket Ujian 03</span>
-                                    <span class="fs-5 fw-medium fadein-bottom">Bahasa Indonesia</span>
-                                    <span class="fs-7 fw-medium fadein-bottom">20 Agustus 2022 | 13:00 - 14:00</span>
+                                    <span class="fs-4 fw-bolder fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">Paket Ujian 03</span>
+                                    <span class="fs-5 fw-medium fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">Bahasa Indonesia</span>
+                                    <span class="fs-7 fw-medium fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">20 Agustus 2022 | 13:00 - 14:00</span>
                                 </a>
                                 <!--end::Link-->
                             </div>
@@ -80,16 +80,16 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein-bottom">
+                            <div class="card card-stretch fadein-bottom anim-4">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
-                                    <span class="badge badge-light-success fs-8 fw-bolder notif">Ujian Berlangsung</span>
-                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right">
+                                    <span class="badge badge-light-success fs-8 fw-bolder notif fadein anim-4 anim-delay-3" style="opacity: 0;">Ujian Berlangsung</span>
+                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right anim-4 anim-delay-3 " style="opacity: 0;">
                                         <i class="fa-duotone fa-book-bookmark mt-5 mb-7" style="font-size: 3rem;"></i>
                                     </span>
-                                    <span class="fs-4 fw-bolder fadein-bottom">Paket Ujian 04</span>
-                                    <span class="fs-5 fw-medium fadein-bottom">Bahasa Indonesia</span>
-                                    <span class="fs-7 fw-medium fadein-bottom">20 Agustus 2022 | 08:00 - 10:00</span>
+                                    <span class="fs-4 fw-bolder fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">Paket Ujian 04</span>
+                                    <span class="fs-5 fw-medium fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">Bahasa Indonesia</span>
+                                    <span class="fs-7 fw-medium fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">20 Agustus 2022 | 08:00 - 10:00</span>
                                 </a>
                                 <!--end::Link-->
                             </div>
@@ -97,16 +97,16 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein-bottom">
+                            <div class="card card-stretch fadein-bottom anim-4">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
-                                    <span class="badge badge-light-warning fs-8 fw-bolder notif">Belum Ujian</span>
-                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right">
+                                    <span class="badge badge-light-warning fs-8 fw-bolder notif fadein anim-4 anim-delay-3" style="opacity: 0;">Belum Ujian</span>
+                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right anim-4 anim-delay-3 " style="opacity: 0;">
                                         <i class="fa-duotone fa-book-bookmark mt-5 mb-7" style="font-size: 3rem;"></i>
                                     </span>
-                                    <span class="fs-4 fw-bolder fadein-bottom">Paket Ujian 05</span>
-                                    <span class="fs-5 fw-medium fadein-bottom">Bahasa Indonesia</span>
-                                    <span class="fs-7 fw-medium fadein-bottom">20 Agustus 2022 | 11:00 - 12:00</span>
+                                    <span class="fs-4 fw-bolder fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">Paket Ujian 05</span>
+                                    <span class="fs-5 fw-medium fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">Bahasa Indonesia</span>
+                                    <span class="fs-7 fw-medium fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">20 Agustus 2022 | 11:00 - 12:00</span>
                                 </a>
                                 <!--end::Link-->
                             </div>
@@ -114,16 +114,16 @@
 
 
                             <!--begin::Card-->
-                            <div class="card card-stretch fadein-bottom">
+                            <div class="card card-stretch fadein-bottom anim-4">
                                 <!--begin::Link-->
                                 <a href="#" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10 card-ujian">
-                                    <span class="badge badge-light-danger fs-8 fw-bolder notif">Tidak Ujian</span>
-                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right">
+                                    <span class="badge badge-light-danger fs-8 fw-bolder notif fadein anim-4 anim-delay-3" style="opacity: 0;">Tidak Ujian</span>
+                                    <span class="svg-icon svg-icon-3x mb-5 fadein-right anim-4 anim-delay-3 " style="opacity: 0;">
                                         <i class="fa-duotone fa-book-bookmark mt-5 mb-7" style="font-size: 3rem;"></i>
                                     </span>
-                                    <span class="fs-4 fw-bolder fadein-bottom">Paket Ujian 06</span>
-                                    <span class="fs-5 fw-medium fadein-bottom">Bahasa Indonesia</span>
-                                    <span class="fs-7 fw-medium fadein-bottom">20 Agustus 2022 | 13:00 - 14:00</span>
+                                    <span class="fs-4 fw-bolder fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">Paket Ujian 06</span>
+                                    <span class="fs-5 fw-medium fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">Bahasa Indonesia</span>
+                                    <span class="fs-7 fw-medium fadein-bottom anim-4 anim-delay-3 " style="opacity: 0;">20 Agustus 2022 | 13:00 - 14:00</span>
                                 </a>
                                 <!--end::Link-->
                             </div>
