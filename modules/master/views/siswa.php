@@ -60,6 +60,19 @@
                     </div>
                     <!--end::Search-->
                 </div>
+                <div class="card-toolbar float-end  d-block d-sm-none">
+                    <button class=" btn btn-sm btn-icon btn-bg-light btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                        <i class="bi bi-three-dots fs-3"></i>
+                    </button>
+                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
+                        <div class="menu-item px-3">
+                            <a href="#" class="menu-link px-3"> <i class="fa-duotone fa-file-excel me-3" style="font-size: 20px;"></i>Download Excel</a>
+                        </div>
+                        <div class="menu-item px-3">
+                            <a id="btn-export-pdf" class="menu-link px-3"> <i class="fa-duotone fa-file-pdf me-3" style="font-size: 20px;"></i> Download PDF</a>
+                        </div>
+                    </div>
+                </div>
                 <!--begin::Card title-->
                 <!--begin::Card toolbar-->
                 <div class="card-toolbar">
@@ -81,7 +94,7 @@
                                 <i class="fa-duotone fa-upload" style="font-size: 20px;"></i>
                             </span>
                             Unggah</button>
-                        <button class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                        <button class="d-none d-sm-block btn btn-sm btn-icon btn-bg-light btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
                             <i class="bi bi-three-dots fs-3"></i>
                         </button>
                         <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">

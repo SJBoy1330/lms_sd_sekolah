@@ -60,31 +60,45 @@
                         </span>
                         <!--end::Svg Icon-->
                         <input type="text" data-kt-user-table-filter="search" class="form-control form-control-solid form-control-sm w-250px ps-14" placeholder="Pencarian" />
+
                     </div>
                     <!--end::Search-->
+                </div>
+                <div class="card-toolbar float-end  d-block d-sm-none">
+                    <button class=" btn btn-sm btn-icon btn-bg-light btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                        <i class="bi bi-three-dots fs-3"></i>
+                    </button>
+                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
+                        <div class="menu-item px-3">
+                            <a href="#" class="menu-link px-3"> <i class="fa-duotone fa-file-excel me-3" style="font-size: 20px;"></i>Download Excel</a>
+                        </div>
+                        <div class="menu-item px-3">
+                            <a id="btn-export-pdf" class="menu-link px-3"> <i class="fa-duotone fa-file-pdf me-3" style="font-size: 20px;"></i> Download PDF</a>
+                        </div>
+                    </div>
                 </div>
                 <!--begin::Card title-->
                 <!--begin::Card toolbar-->
                 <div class="card-toolbar">
                     <!--begin::Toolbar-->
                     <div class="d-flex justify-content-end">
-                        <button type="button" class="btn btn-sm btn-light-danger me-2 " id="deleteall" style="display: none;">
+                        <button type="button" class="btn btn-sm btn-light-danger me-2 px-4 text-nowrap" id="deleteall" style="display: none;">
                             <span class="svg-icon svg-icon-2 me-0">
                                 <i class="fa-duotone fa-trash" style="font-size: 18px;"></i>
                             </span>
                             Hapus</button>
-                        <button type="button" class="btn btn-sm btn-light-success me-2" data-bs-toggle="modal" data-bs-target="#modalTambahWali">
+                        <button type="button" class="btn btn-sm btn-light-success me-2 px-4 text-nowrap" data-bs-toggle="modal" data-bs-target="#modalTambahWali">
                             <span class="svg-icon svg-icon-2 me-0">
                                 <i class="fa-duotone fa-plus" style="font-size: 18px;"></i>
                             </span>
                             Orang Tua</button>
 
-                        <button type="button" class="btn btn-sm btn-light-info me-2" data-bs-toggle="modal" data-bs-target="#modalUnggah">
+                        <button type="button" class="btn btn-sm btn-light-info me-2 px-4 text-nowrap" data-bs-toggle="modal" data-bs-target="#modalUnggah">
                             <span class="svg-icon svg-icon-2 me-0">
                                 <i class="fa-duotone fa-upload" style="font-size: 20px;"></i>
                             </span>
                             Unggah</button>
-                        <button class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                        <button class="d-none d-sm-block btn btn-sm btn-icon btn-bg-light btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
                             <i class="bi bi-three-dots fs-3"></i>
                         </button>
                         <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
@@ -92,7 +106,7 @@
                                 <a href="#" class="menu-link px-3"> <i class="fa-duotone fa-file-excel me-3" style="font-size: 20px;"></i>Download Excel</a>
                             </div>
                             <div class="menu-item px-3">
-                                <a href="#" class="menu-link px-3"> <i class="fa-duotone fa-file-pdf me-3" style="font-size: 20px;"></i> Download PDF</a>
+                                <a id="btn-export-pdf-siswa" class="menu-link px-3"> <i class="fa-duotone fa-file-pdf me-3" style="font-size: 20px;"></i> Download PDF</a>
                             </div>
                         </div>
                     </div>

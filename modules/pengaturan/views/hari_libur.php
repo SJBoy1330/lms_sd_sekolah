@@ -26,14 +26,14 @@
                 <!--begin::Card toolbar-->
                 <div class="card-toolbar">
                     <!--begin::Toolbar-->
-                    <div class="d-flex justify-content-end" data-kt-user-table-toolbar="base">
-                        <button type="button" class="btn btn-sm btn-light-danger me-2 " id="deleteall" style="display: none;">
+                    <div class="d-flex justify-content-between nowrap" data-kt-user-table-toolbar="base">
+                        <button type="button" class=" btn btn-sm btn-light-danger me-2 px-4 text-nowrap liburbtn" id="deleteall" style="display: none;">
                             <span class="svg-icon svg-icon-2 me-0">
                                 <i class="fa-duotone fa-trash" style="font-size: 18px;"></i>
                             </span>
                             Hapus</button>
                         <!--begin::Filter-->
-                        <button type="button" class="btn btn-sm btn-light-success me-3" data-bs-toggle="modal" data-bs-target="#modalTambahHariLibur">
+                        <button type="button" class="btn btn-sm btn-light-success me-3 px-4 text-nowrap liburbtn" data-bs-toggle="modal" data-bs-target="#modalTambahHariLibur">
                             <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
                             <span class="svg-icon svg-icon-2 me-0">
                                 <i class="fa-solid fa-plus" style="font-size: 20px;"></i>
@@ -42,7 +42,7 @@
                         </button>
 
                         <!--begin::Add user-->
-                        <button type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#modalLiburNasional">
+                        <button type="button" class="btn btn-sm btn-success px-4 text-nowrap liburbtn" data-bs-toggle="modal" data-bs-target="#modalLiburNasional">
                             <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
                             <span class="svg-icon svg-icon-2">
                                 <i class="fa-duotone fa-calendar-week" style="font-size: 18px;"></i>
