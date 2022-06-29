@@ -96,12 +96,13 @@ function get_master()
 {
     $master = [
         'menu_name' => 'Master',
-        'url' => null,
+        'url' => 'master',
         'icon' => '<i class="fa-duotone fa-brain" style="font-size: 2rem;"></i>',
+        'arr_sub' => ['staf', 'siswa', 'wali', 'kelas', 'guru', 'mapel', 'bidang_tugas', 'jenis_tugas_staf', 'import'],
         'submenu' => [
             [
                 'menu_name' => 'Staf',
-                'url' => 'master',
+                'url' => 'master/staf',
                 'icon' => '<i class="fa-duotone fa-chalkboard-user" style="font-size: 1.3rem;"></i>',
             ],
             [
@@ -204,9 +205,10 @@ function get_akademik($role)
     // main menu
     $akademik = [
         'menu_name' => 'Akademik',
-        'url' => null,
+        'url' => 'akademik',
         'icon' => '<i class="fa-duotone fa-book-atlas" style="font-size: 2rem;"></i>',
-        'submenu' => array()
+        'submenu' => array(),
+        'arr_sub' => ['waktu', 'jadwal_mengajar', 'bab', 'materi', 'kbm', 'tugas', 'surat_ijin', 'mapel'],
     ];
 
     switch ($role) {
@@ -236,12 +238,13 @@ function get_jurnal()
 {
     $jurnal = [
         'menu_name' => 'Jurnal',
-        'url' => null,
+        'url' => 'jurnal',
         'icon' => '<i class="fa-duotone fa-book" style="font-size: 2rem;"></i>',
+        'arr_sub' => ['jurnal_staf', 'jurnal_guru'],
         'submenu' => [
             [
                 'menu_name' => 'Jurnal Staf',
-                'url' => 'jurnal',
+                'url' => 'jurnal/juran_staf',
                 'icon' => '<i class="fa-duotone fa-book" style="font-size: 1.3rem;"></i>',
             ],
             [
@@ -259,7 +262,7 @@ function get_ujian($role)
 {
     $bank_soal = [
         'menu_name' => 'Bank Soal',
-        'url' => '',
+        'url' => 'ujian',
         'icon' => '<i class="fa-duotone fa-box" style="font-size: 1.3rem;"></i>',
     ];
 
@@ -312,7 +315,7 @@ function get_informasi($role)
 
     $kategori_berita = [
         'menu_name' => 'Kategori Berita',
-        'url' => 'informasi',
+        'url' => 'informasi/kategori_berita',
         'icon' => '<i class="fa-duotone fa-folder-open" style="font-size: 1.3rem;"></i>',
     ];
 
@@ -332,7 +335,8 @@ function get_informasi($role)
     // main menu
     $informasi = [
         'menu_name' => 'Informasi',
-        'url' => null,
+        'url' => 'informasi',
+        'arr_sub' => ['kategori_berita', 'berita', 'pengumuman'],
         'icon' => '<i class="fa-duotone fa-memo-circle-info" style="font-size: 2rem;"></i>',
         'submenu' => array()
     ];

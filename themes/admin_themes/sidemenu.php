@@ -19,7 +19,7 @@
                         <?php foreach (get_menu_by_role()  as $menu) : ?>
                             <?php if ($menu['submenu'] === null) : ?>
                                 <div class="menu-item py-3">
-                                    <a class="menu-link" href="<?= base_url($menu['url']) ?>" title="<?= $menu['menu_name'] ?>" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <a class="menu-link <?= (set_active($this->uri->segment(1), $menu['url'], $this->uri->segment(2), array())) ?>" href="<?= base_url($menu['url']) ?>" title="<?= $menu['menu_name'] ?>" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <?= $menu['icon'] ?>
                                         </span>
@@ -27,7 +27,7 @@
                                 </div>
                             <?php else : ?>
                                 <div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-3">
-                                    <span class="menu-link" title="<?= $menu['menu_name'] ?>" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <span class="menu-link <?= (set_active($this->uri->segment(1), $menu['url'], $this->uri->segment(2), $menu['arr_sub'])) ?>" title="<?= $menu['menu_name'] ?>" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                         <span class="menu-icon">
                                             <?= $menu['icon'] ?>
                                         </span>
@@ -40,7 +40,7 @@
                                         </div>
                                         <?php foreach ($menu['submenu']  as $submenu) : ?>
                                             <div class="menu-item">
-                                                <a class="menu-link" href="<?= base_url($submenu['url']) ?>" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                                <a class="menu-link  <?= (set_active($this->uri->segment(1), $submenu['url'], $this->uri->segment(2))) ?>" href="<?= base_url($submenu['url']) ?>" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                                                     <span class="menu-icon">
                                                         <?= $submenu['icon'] ?>
                                                     </span>

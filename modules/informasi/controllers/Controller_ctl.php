@@ -12,6 +12,10 @@ class Controller_ctl extends MY_Admin
 
 	public function index()
 	{
+		redirect('informasi/kategori_berita');
+	}
+	public function kategori_berita()
+	{
 		// LOAD TITLE
 		$this->data['title'] = 'Informasi';
 

@@ -16,11 +16,14 @@ class Controller_ctl extends MY_Admin
 			'master/modal_edit_tambah_mapel',
 			'master/modal_edit_tambah_jenis_tugas'
 		]);
-
 	}
 
 
 	public function index()
+	{
+		redirect('master/staf');
+	}
+	public function staf()
 	{
 		// LOAD TITLE
 		$this->data['title'] = 'Master';

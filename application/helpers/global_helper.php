@@ -148,6 +148,11 @@ function set_active($uri1, $controller, $uri2 = "", $arrtarget = array())
     } else {
       return "active";
     }
+  } else {
+    $url = $uri1 . '/' . $uri2;
+    if ($url == $controller) {
+      return "active";
+    }
   }
 }
 

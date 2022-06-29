@@ -2,15 +2,27 @@
 
 class Controller_ctl extends MY_Admin
 {
+	protected $id_sekolah = '';
+	protected $role = '';
+	protected $id_user = '';
 	public function __construct()
 	{
 		// Load the constructer from MY_Controller
+
 		parent::__construct();
+		$this->id_sekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+		$this->role = $this->session->userdata('lms_sekolah_role');
+		$this->id_user = $this->session->userdata('lms_sekolah_id_user');
 		access_url(['akademik/materi_dokumen', 'akademik/materi_video', 'akademik/tugas_siswa', 'akademik/tugas_staf']);
 	}
 
 
 	public function index()
+	{
+		redirect('akademik/waktu');
+	}
+
+	public function waktu()
 	{
 		// LOAD TITLE
 		$this->data['title'] = 'Akademik';
