@@ -25,9 +25,9 @@
                         <span class="fw-bolder text-dark">Daftar Ujian</span>
                         <a class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#modalAbsen">Absen</a>
                     </h2>
-                    <div class="scrollmenu">
-                        <div class="card-flex-container wrap">
 
+                    <div class="tns tns-default">
+                        <div class="my-slider" style="display: flex;">
                             <!--begin::Card-->
                             <div class="card card-stretch anim-4" style="opacity: 0;">
                                 <!--begin::Link-->
@@ -143,9 +143,15 @@
                                 <!--end::Link-->
                             </div>
                             <!--end::Card-->
-
+                        </div>
+                        <div id="controls">
+                            <button class="previous btn btn-tranparent"><i class="fas fa-chevron-left fs-1"></i></button>
+                            <button class="next btn btn-tranparent"><i class="fas fa-chevron-right fs-1"></i></button>
                         </div>
                     </div>
+
+
+
                 </div>
                 <!--end::Misc Widget 1-->
             </div>
