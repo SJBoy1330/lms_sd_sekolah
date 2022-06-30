@@ -24,7 +24,7 @@ class Controller_ctl extends MY_Admin
 		$response = curl_get_staf("profil", ['id_sekolah' => $idsekolah, 'id_staf' => $idstaf]);
 		$mydata['data_profile'] = $response->data;
 
-        // LOAD CSS
+		// LOAD CSS
 		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// Load JS
@@ -35,7 +35,7 @@ class Controller_ctl extends MY_Admin
 		$this->display();
 	}
 
-    public function ubah_password()
+	public function ubah_password()
 	{
 		// LOAD TITLE
 		$this->data['title'] = 'Profil';
@@ -47,7 +47,7 @@ class Controller_ctl extends MY_Admin
 		$mydata['data_profile'] = $response->data;
 
 		// LOAD BREADCRUMB
-		$mydata['breadcrumb']['menu'] = 'Ubah Password';
+		$mydata['breadcrumb']['menu'] = 'Ubah Kata Sandi';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('ubah_password', $mydata, TRUE);

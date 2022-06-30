@@ -5,7 +5,7 @@
         <div id="kt_content_container" class="container-xxl">
             <!--begin::Navbar-->
             <div class="card" style="border-radius: 20px 20px 0px 0px">
-                <div class="card-body pt-9 pb-0">
+                <div class="card-body pt-9 pb-0" style="display : flex;justify-content: space-between;">
                     <!--begin::Navs-->
                     <ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bolder">
                         <!--begin::Nav item-->
@@ -17,22 +17,14 @@
                         </li>
                     </ul>
                     <!--begin::Navs-->
+                    <a data-bs-toggle="modal" data-bs-target="#modalEditProfil" class="btn btn-primary align-self-center">Edit Profil</a>
                 </div>
+
             </div>
             <!--end::Navbar-->
             <!--begin::details View-->
             <div class="card mb-5 mb-xl-10" id="kt_profile_details_view" style="border-radius: 00px 00px 20px 20px">
                 <!--begin::Card header-->
-                <div class="card-header cursor-pointer">
-                    <!--begin::Card title-->
-                    <div class="card-title m-0">
-                        <h3 class="fw-bolder m-0">Detail Profil</h3>
-                    </div>
-                    <!--end::Card title-->
-                    <!--begin::Action-->
-                    <a data-bs-toggle="modal" data-bs-target="#modalEditProfil" class="btn btn-primary align-self-center">Edit Profil</a>
-                    <!--end::Action-->
-                </div>
                 <!--begin::Card header-->
                 <!--begin::Card body-->
                 <div class="card-body p-9">
@@ -157,13 +149,13 @@
                         <div class="col-12">
                             <div class="d-flex flex-column mb-8 fv-row" id="req_username">
                                 <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                    <span class="required">Username</span>
+                                    <span class="required">ID Pengguna</span>
                                 </label>
                                 <div class="position-relative d-flex align-items-center">
                                     <span class="svg-icon svg-icon-2 position-absolute mx-4">
                                         <i class="fa-duotone fa-user" style="font-size: 1.3rem;"></i>
                                     </span>
-                                    <input class="form-control form-control-solid ps-12" placeholder="Masuukan username" name="username" value="<?= $data_profile->username ?>" />
+                                    <input class="form-control form-control-solid ps-12" placeholder="Masuukan ID Pengguna" name="username" value="<?= $data_profile->username ?>" />
                                 </div>
                             </div>
                             <div class="col-12">

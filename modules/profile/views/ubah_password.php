@@ -5,7 +5,7 @@
         <div id="kt_content_container" class="container-xxl">
             <!--begin::Navbar-->
             <div class="card" style="border-radius: 20px 20px 0px 0px">
-                <div class="card-body pt-9 pb-0">
+                <div class="card-body pt-9 pb-0" style="display : flex;justify-content: space-between;">
                     <!--begin::Navs-->
                     <ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bolder">
                         <!--begin::Nav item-->
@@ -15,7 +15,9 @@
                         <li class="nav-item mt-2">
                             <a class="nav-link text-active-primary ms-0 me-10 py-5 active" href="<?= base_url('profile/ubah_password'); ?>">Ubah Kata Sandi</a>
                         </li>
+
                     </ul>
+                    <a class="btn btn-primary align-self-end" onclick="submit_form(this, '#formEditPassword', 0)" id="btn_submitFormEditPassword">Simpan</a>
                     <!--begin::Navs-->
                 </div>
             </div>
@@ -23,16 +25,6 @@
             <!--begin::details View-->
             <div class="card mb-5 mb-xl-10" id="kt_profile_details_view" style="border-radius: 00px 00px 20px 20px">
                 <!--begin::Card header-->
-                <div class="card-header cursor-pointer">
-                    <!--begin::Card title-->
-                    <div class="card-title m-0">
-                        <h3 class="fw-bolder m-0">Ubah Kata Sandi</h3>
-                    </div>
-                    <!--end::Card title-->
-                    <!--begin::Action-->
-                    <a class="btn btn-primary align-self-center" onclick="submit_form(this, '#formEditPassword', 0)" id="btn_submitFormEditPassword">Simpan</a>
-                    <!--end::Action-->
-                </div>
                 <!--begin::Card header-->
                 <!--begin::Card body-->
                 <div class="card-body p-9">
