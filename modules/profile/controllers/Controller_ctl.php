@@ -6,6 +6,7 @@ class Controller_ctl extends MY_Admin
 	{
 		// Load the constructer from MY_Controller
 		parent::__construct();
+		access_url();
 	}
 
 
@@ -17,8 +18,17 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Profil';
 
+		// Meta Data 
+		$idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+		$idstaf = $this->session->userdata('lms_sekolah_id_user');
+		$response = curl_get_staf("profil", ['id_sekolah' => $idsekolah, 'id_staf' => $idstaf]);
+		$mydata['data_profile'] = $response->data;
+
         // LOAD CSS
 		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
+
+		// Load JS
+		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/profile/profile.js"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('account', $mydata, TRUE);
@@ -29,6 +39,12 @@ class Controller_ctl extends MY_Admin
 	{
 		// LOAD TITLE
 		$this->data['title'] = 'Profil';
+
+		// Meta Data 
+		$idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
+		$idstaf = $this->session->userdata('lms_sekolah_id_user');
+		$response = curl_get_staf("profil", ['id_sekolah' => $idsekolah, 'id_staf' => $idstaf]);
+		$mydata['data_profile'] = $response->data;
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Ubah Password';

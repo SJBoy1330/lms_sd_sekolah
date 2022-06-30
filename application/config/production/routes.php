@@ -193,6 +193,13 @@ $route['profile/(:any)'] = 'profile/controller_ctl/$1';
 $route['profile/(:any)/(:any)'] = 'profile/controller_ctl/$1/$2';
 
 
+$route['func_profile']  = 'profile/function_ctl';
+
+$route['func_profile/(:any)'] = 'profile/function_ctl/$1';
+
+$route['func_profile/(:any)/(:any)'] = 'profile/function_ctl/$1/$2';
+
+
 $route['master']  = 'master/controller_ctl';
 
 $route['master/(:any)'] = 'master/controller_ctl/$1';
