@@ -63,6 +63,8 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Rekap Keuangan';
 
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/keuangan/rekap.js') . '"></script>';
+
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('rekap_keuangan', $mydata, TRUE);
 		$this->display();

@@ -4,7 +4,7 @@
     <!--begin::Container-->
     <div class="container-xxl" id="kt_content_container">
         <!--begin::Card-->
-        <div class="card">
+        <div class="card fadein-bottom anim-4">
             <!--begin::Card header-->
             <div class="card-header border-0 pt-6">
                 <!--begin::Card title-->
@@ -61,7 +61,7 @@
                         <!--begin::Table body-->
                         <tbody class="text-gray-600 fw-bold">
                             <!--begin::Table row-->
-                            <tr>
+                            <tr class="anim-2" style="opacity: 0;">
                                 <!--begin::Checkbox-->
                                 <td>
                                     <div class="form-check form-check-sm form-check-custom form-check-solid">
@@ -70,7 +70,7 @@
                                 </td>
                                 <!--end::Checkbox-->
                                 <!--begin::User=-->
-                                <td >
+                                <td>
                                     <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
                                         <i class="fa-duotone fa-bars fs-4"></i>
                                     </button>

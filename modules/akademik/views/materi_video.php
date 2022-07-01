@@ -3,7 +3,7 @@
     <!--begin::Container-->
     <div class="container-xxl" id="kt_content_container">
         <!--begin::Card-->
-        <div class="card">
+        <div class="card fadein-bottom anim-4">
             <div class="row mt-8" style="padding: 0 2.25rem;">
                 <div class="box-info">
                     <div class="row mb-8">
@@ -146,7 +146,7 @@
                         <!--begin::Table body-->
                         <tbody class="text-gray-600 fw-bold">
                             <!--begin::Table row-->
-                            <tr>
+                            <tr class="anim-2" style="opacity: 0;">
                                 <!--begin::Checkbox-->
                                 <td>
                                     <div class="form-check form-check-sm form-check-custom form-check-solid">

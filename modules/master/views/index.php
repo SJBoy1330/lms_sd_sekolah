@@ -3,7 +3,7 @@
     <!--begin::Container-->
     <div class="container-xxl" id="kt_content_container">
         <!--begin::Card-->
-        <div class="card fadein-bottom anim-2">
+        <div class="card fadein-bottom anim-4">
             <div class="card-header border-0 pt-6">
                 <!--begin::Card title-->
                 <div class="card-title">

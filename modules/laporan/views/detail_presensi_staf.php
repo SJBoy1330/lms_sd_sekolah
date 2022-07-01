@@ -2,7 +2,7 @@
     <!--begin::Toolbar-->
     <div class="container mb-4">
         <div class="card shadow-sm">
-            <div class="card-body">
+            <div class="card-body fadein anim-4">
                 <form action="">
                     <div class="row">
                         <div class="col-md-4 col-xl-4" style="padding:5px;">
@@ -39,7 +39,7 @@
     </div>
 
     <div class="container mb-4">
-        <div class="card shadow-sm">
+        <div class="card shadow-sm fadein-bottom anim-4">
             <div class="card-body">
                 <div class="row my-3">
                     <!-- <div class="col-12 mb-3">

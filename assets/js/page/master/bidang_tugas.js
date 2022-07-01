@@ -1,3 +1,11 @@
+setTimeout(function() {
+    $('tr').each(function(i) {
+        setTimeout(function() {
+             $('tr').eq(i).addClass('fadein-left');
+        }, 200 * i);
+    });
+}, 150 );
+
 $(function() {
     $("#kt_table_bidang_tugas").on("click", function() {
         $("#deleteall").toggle($(this).find(".deletebox:checked").length > 0);
@@ -7,6 +15,8 @@ $(function() {
             $('input[name="maincheckbox"]').prop('checked', true);
         }
     })
+
+    
 
     $('input[name="maincheckbox"]').on("click", function() {
         $('.deletebox').prop('checked', this.checked);

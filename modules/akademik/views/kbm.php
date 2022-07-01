@@ -3,7 +3,7 @@
 
 
     <div class="container mb-4">
-        <div class="card shodow-sm mb-4">
+        <div class="card shodow-sm mb-4 fadein anim-4">
             <div class="card-body">
                 <form action="">
                     <div class="row">
@@ -47,7 +47,7 @@
     </div>
 
     <div class="container mb-4">
-        <div class="card shadow-sm">
+        <div class="card shadow-sm fadein-bottom anim-4">
             <div class="card-body">
                 <div class="row my-3">
                     <div class="col overflow-auto my-5">

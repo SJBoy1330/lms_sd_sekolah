@@ -2,7 +2,7 @@
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
     <!--begin::Container-->
     <div class="container-xxl" id="kt_content_container">
-        <div class="card shadow-sm mb-4">
+        <div class="card shadow-sm mb-4 fadein anim-4">
             <div class="card-body">
                 <form action="">
                     <div class="row">
@@ -26,7 +26,7 @@
         </div>
 
         <!--begin::Card-->
-        <div class="card">
+        <div class="card fadein-bottom anim-4 ">
             <div class="card-header border-0 pt-6">
                 <!--begin::Card title-->
                 <div class="card-title">
@@ -90,7 +90,7 @@
                         <tbody class="text-gray-600 fw-bold">
                             <?php if ($data_kelas) : ?>
                                 <?php foreach ($data_kelas as $i => $kelas) : ?>
-                                    <tr>
+                                    <tr class="anim-2" style="opacity: 0;">
                                         <!--begin::Checkbox-->
                                         <td>
                                             <div class="form-check form-check-sm form-check-custom form-check-solid">

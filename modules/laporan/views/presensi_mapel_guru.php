@@ -1,7 +1,7 @@
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
     <!--begin::Toolbar-->
     <div class="container mb-4">
-        <div class="card shadow-sm">
+        <div class="card shadow-sm fadein anim-4">
             <div class="card-body">
                 <form action="">
                     <div class="row">
@@ -19,7 +19,7 @@
     </div>
 
     <div class="container mb-4">
-        <div class="card shadow-sm">
+        <div class="card shadow-sm fadein-bottom anim-4">
             <div class="card-body">
                 <div class="row my-3">
                     <div class="card-toolbar">
@@ -154,7 +154,8 @@
                                 </label>
                                 <!--end::Option-->
                             </div>
-                        <div class="fv-plugins-message-container invalid-feedback"></div></div>
+                            <div class="fv-plugins-message-container invalid-feedback"></div>
+                        </div>
                         <!--end:Options-->
                     </div>
                 </div>

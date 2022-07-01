@@ -2,7 +2,7 @@
     <!--begin::Container-->
     <div class="container-xxl" id="kt_content_container">
         <!--begin::Card-->
-        <div class="card">
+        <div class="card fadein-bottom anim-3">
             <div class="card-header">
                 <div class="card-toolbar">
                     <h3>Setting Presensi Staf</h3>

@@ -16,7 +16,7 @@ setTimeout(function() {
     $('tr').each(function(i) {
         setTimeout(function() {
              $('tr').eq(i).addClass('fadein-left');
-        }, 150 * i);
+        }, 200 * i);
     });
 }, 150 );
 

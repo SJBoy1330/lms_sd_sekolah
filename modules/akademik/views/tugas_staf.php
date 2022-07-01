@@ -2,10 +2,10 @@
     <!--begin::Container-->
     <div class="container-xxl" id="kt_content_container">
         <!--begin::Card-->
-        <div class="card">
+        <div class="card fadein-bottom anim-4">
             <!--begin::Card body-->
             <div class="card-body py-4">
-                
+
                 <div class="box-info">
                     <div class="card-toolbar">
                         <div class="d-flex justify-content-end">
@@ -123,7 +123,7 @@
                         <!--end::Table head-->
                         <!--begin::Table body-->
                         <tbody class="text-gray-600 fw-bold">
-                            <tr>
+                            <tr class="anim-2" style="opacity: 0;">
                                 <!--begin::Checkbox-->
                                 <td>
                                     <div class="form-check form-check-sm form-check-custom form-check-solid">
@@ -278,7 +278,7 @@
                             </label>
                             <div class="position-relative d-flex align-items-center">
                                 <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                    <i class="fa-duotone fa-feather"" style="font-size: 1.3rem;"></i>
+                                    <i class="fa-duotone fa-feather"" style=" font-size: 1.3rem;"></i>
                                 </span>
                                 <input type="number" class="form-control form-control-solid ps-12" placeholder="Input Nilai Siswa" name="password_ulang">
                             </div>

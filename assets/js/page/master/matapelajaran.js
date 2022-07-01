@@ -12,6 +12,14 @@ $(function () {
     });
 });
 
+setTimeout(function() {
+    $('tr').each(function(i) {
+        setTimeout(function() {
+             $('tr').eq(i).addClass('fadein-left');
+        }, 200 * i);
+    });
+}, 150 );
+
 $(document).ready(function () {
     $('#btn-filter').on('click', function () {
         let redirect = `${BASE_URL}/master/mapel`;

@@ -28,3 +28,11 @@ $(function() {
     maxYear: parseInt(moment().format('YYYY'),10)
   });
 });
+
+setTimeout(function() {
+  $('tr').each(function(i) {
+      setTimeout(function() {
+           $('tr').eq(i).addClass('fadein-left');
+      }, 200 * i);
+  });
+}, 150 );

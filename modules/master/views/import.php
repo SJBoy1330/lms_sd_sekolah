@@ -2,7 +2,7 @@
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
     <!--begin::Container-->
     <div class="container-xxl" id="kt_content_container">
-        <div class="card shadow-sm" id="card">
+        <div class="card shadow-sm fadein anim-3" id="card">
             <div class="card-header pt-5">
                 <!--begin::Title-->
                 <h3 class="card-title align-items-start flex-column">
@@ -14,7 +14,7 @@
 
                 <ul class="nav nav-pills nav-pills-custom mb-3 mx-9 justify-content-center">
                     <!--begin::Item-->
-                    <li class="nav-item mb-3 me-3 me-lg-12">
+                    <li class="nav-item mb-3 me-3 me-lg-12 fadein-bottom anim-5">
                         <!--begin::Link-->
                         <a class="nav-link row justify-content-center btn btn-outline btn-flex btn-active-color-primary flex-column overflow-hidden w-150px h-125px active" data-bs-toggle="pill" id="kt_charts_widget_10_tab_2" href="#kt_charts_widget_10_tab_content_2">
                             <!--begin::Icon-->
@@ -34,7 +34,7 @@
                     <!--end::Item-->
 
                     <!--begin::Item-->
-                    <li class="nav-item mb-3 me-3 me-lg-12">
+                    <li class="nav-item mb-3 me-3 me-lg-12 fadein-top anim-5">
                         <!--begin::Link-->
                         <a class="nav-link row justify-content-center btn btn-outline btn-flex btn-active-color-primary flex-column overflow-hidden w-150px h-125px" data-bs-toggle="pill" id="kt_charts_widget_10_tab_3" href="#kt_charts_widget_10_tab_content_3">
                             <!--begin::Icon-->
@@ -54,7 +54,7 @@
                     <!--end::Item-->
 
                     <!--begin::Item-->
-                    <li class="nav-item mb-3 me-3 me-lg-12">
+                    <li class="nav-item mb-3 me-3 me-lg-12 fadein-bottom anim-5">
                         <!--begin::Link-->
                         <a class="nav-link row justify-content-center btn btn-outline btn-flex btn-active-color-primary flex-column overflow-hidden w-150px h-125px" data-bs-toggle="pill" id="kt_charts_widget_10_tab_4" href="#kt_charts_widget_10_tab_content_4">
                             <!--begin::Icon-->

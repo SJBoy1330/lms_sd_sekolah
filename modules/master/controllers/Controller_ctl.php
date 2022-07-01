@@ -124,6 +124,9 @@ class Controller_ctl extends MY_Admin
 		$response_tingkat = curl_get('atribut/tingkat', ['id_sekolah' => $idsekolah]);
 		$mydata['tingkat'] = $response_tingkat->data;
 
+		// LOAD CSS
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/master/kelas.css') . '">';
+
 		//LOAD JS
 		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/kelas.js"></script>';
 
@@ -139,6 +142,10 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Guru';
+
+		// LOAD CSS
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/master/guru.css') . '">';
+
 
 		//LOAD JS
 		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/guru.js"></script>';
@@ -189,6 +196,10 @@ class Controller_ctl extends MY_Admin
 		$response_tingkat = curl_get('atribut/tingkat', ['id_sekolah' => $idsekolah]);
 		$mydata['tingkat'] = $response_tingkat->data;
 
+		// LOAD CSS
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/master/matapelajaran.css') . '">';
+
+
 		//LOAD JS
 		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/matapelajaran.js"></script>';
 
@@ -209,6 +220,10 @@ class Controller_ctl extends MY_Admin
 		$idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
 		$response_bidang_tugas = curl_get('bidang_tugas', ['id_sekolah' => $idsekolah]);
 		$mydata['data_bidang_tugas'] = $response_bidang_tugas->data;
+
+		// LOAD CSS
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/master/bidang_tugas.css') . '">';
+
 
 		//LOAD JS
 		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/bidang_tugas.js"></script>';
@@ -239,6 +254,10 @@ class Controller_ctl extends MY_Admin
 		$response_jenis_tugas = curl_get('jenis_tugas_staf', ['id_sekolah' => $idsekolah]);
 		$mydata['data_jenis_tugas'] = $response_jenis_tugas->data;
 
+		// LOAD CSS
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/master/jenis_tugas_staf.css') . '">';
+
+
 		//LOAD JS
 		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/master/jenis_tugas_staf.js"></script>';
 
@@ -254,6 +273,9 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Jenis Tugas Staf';
+
+		// LOAD CSS
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/master/import.css') . '">';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('import', $mydata, TRUE);

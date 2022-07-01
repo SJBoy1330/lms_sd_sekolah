@@ -47,6 +47,9 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Jadwal Mengajar';
 
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/akademik/jadwal_mengajar.js') . '"></script>';
+
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('jadwal_mengajar', $mydata, TRUE);
 		$this->display();

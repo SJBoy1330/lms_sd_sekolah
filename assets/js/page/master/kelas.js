@@ -13,6 +13,14 @@ $(function() {
 
 });
 
+setTimeout(function() {
+    $('tr').each(function(i) {
+        setTimeout(function() {
+             $('tr').eq(i).addClass('fadein-left');
+        }, 200 * i);
+    });
+}, 150 );
+
 var inputElm = document.querySelector('#kt_tagify_users');
 
 const usersList = [

@@ -92,9 +92,9 @@
             </div>
         </div> -->
 
-        <div class="card mt-5">
+        <div class="card mt-5 fadein-bottom anim-4">
             <!--begin::Card body-->
-            <div class="card-body py-4">
+            <div class="card-body py-4 ">
                 <div class="box-info">
                     <div class="fv-row">
                         <!--begin::Label-->
@@ -287,7 +287,7 @@
                         <!--end:Options-->
                     </div>
                 </div>
-                
+
             </div>
             <!--end::Card body-->
         </div>
@@ -325,7 +325,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="wrapper-tugas">
-                            <!-- <iframe src="<?= base_url('assets/demo_tugas.pdf')?>" frameborder="0"></iframe> -->
+                            <!-- <iframe src="<?= base_url('assets/demo_tugas.pdf') ?>" frameborder="0"></iframe> -->
                         </div>
                     </div>
                 </div>
