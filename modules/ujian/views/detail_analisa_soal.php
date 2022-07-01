@@ -1,11 +1,11 @@
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
     <div class="post d-flex flex-column-fluid" id="kt_post">
 		<div id="kt_content_container" class="container">
-			<div class="card shadow-sm" id="card">
+			<div class="card shadow-sm">
                 <div class="card-header border-0">
                     <div class="card-toolbar">
                         <div class="d-flex justify-content-end">
-                            <a href="#" class="btn btn-md btn-light">
+                            <a href="<?= base_url('ujian/analisa_soal');?>" class="btn btn-md btn-light">
                                 <span class="svg-icon svg-icon-2 me-0">
                                     <i class="fa-duotone fa-arrow-left-long" style="font-size: 1rem;"></i>
                                 </span>

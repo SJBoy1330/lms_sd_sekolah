@@ -60,11 +60,11 @@
             </div>
         </div>
 
-        <div class="card shadow-sm mb-5" id="card">
+        <div class="card shadow-sm mb-5">
             <div class="card-header border-0">
                 <!--begin::Card title-->
                 <div class="card-title">
-                    <a href="#" class="btn btn-sm btn-light">
+                    <a href="<?= base_url('ujian')?>" class="btn btn-sm btn-light">
                         <span class="svg-icon svg-icon-2 me-0">
                             <i class="fa-duotone fa-arrow-left-long" style="font-size: 1rem;"></i>
                         </span>
@@ -96,8 +96,85 @@
                 </div>
                 <!--end::Card toolbar-->
             </div> 
-            <div class="row">
+            <div class="row p-5">
+                <div class="col-md-12 pe-md-10 mb-10 mb-md-0">
+                    <div class="card border cursor-pointer m-0">
+                        <div class="card-header bg-light d-flex align-items-center collapsible py-3 toggle mb-0 collapsed" data-bs-toggle="collapse" data-bs-target="#soal_1">
+                            <div style="display:flex; justify-content:center; flex-direction: column; width:75%;">
+                                <div style="display : flex;align-items:center; flex-wrap: wrap;">
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                </div>
+                                <p class="text-dark fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
+                            </div>
+                            <div class="d-flex">
+                                <div class="me-3">
+                                    <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-flip="top-end">
+                                        <span class="svg-icon svg-icon-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                    <rect x="5" y="5" width="5" height="5" rx="1" fill="#000000" />
+                                                    <rect x="14" y="5" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
+                                                    <rect x="5" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
+                                                    <rect x="14" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
+                                        <div class="menu-item px-3">
+                                            <div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Aksi</div>
+                                        </div>
+                                        <div class="separator border-gray-200"></div>
+                                        <div class="menu-item px-3">
+                                            <a class="menu-link px-3" data-bs-toggle="modal" href="#exampleModalToggle"><i class="fa-duotone fa-pen-to-square me-3" style="font-size:1.5rem;"></i></i>Edit Soal</a>
+                                        </div>
+                                        <div class="menu-item px-3">
+                                            <a class="menu-link px-3" data-bs-toggle="modal" href="#modal_delete_instruksi"><i class="fa-duotone fa-trash me-3" style="font-size:1.5rem;"></i></i>Hapus Soal</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn btn-sm btn-icon mw-20px btn-active-color-primary me-5">
+                                    <span class="svg-icon toggle-on svg-icon-primary svg-icon-1 svg_manual">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="black" />
+                                            <rect x="6.0104" y="10.9247" width="12" height="2" rx="1" fill="black" />
+                                        </svg>
+                                    </span>
+                                    <span class="svg-icon toggle-off svg-icon-1 svg_manual">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="black" />
+                                            <rect x="10.8891" y="17.8033" width="12" height="2" rx="1" transform="rotate(-90 10.8891 17.8033)" fill="black" />
+                                            <rect x="6.01041" y="10.9247" width="12" height="2" rx="1" fill="black" />
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="soal_1" class="collapse fs-6 ms-1">
+                            <div class="my-5 text-gray-600 fw-bold fs-6 px-7">
+                                <h6>Instruksi</h6>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque non at animi saepe neque ex debitis praesentium quod! Rerum accusantium fugiat facilis maiores? Rerum, similique consectetur in dolor commodi aliquam?
+                            </div>
 
+                            <div class="my-5 text-gray-600 fw-bold fs-6 px-7">
+                                <h6>Pengaturan</h6>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque non at animi saepe neque ex debitis praesentium quod! Rerum accusantium fugiat facilis maiores? Rerum, similique consectetur in dolor commodi aliquam?
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
             </div>                          
         </div>
     </div>
