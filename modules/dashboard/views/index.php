@@ -144,7 +144,7 @@
                             </div>
                             <!--end::Card-->
                         </div>
-                        <div id="controls">
+                        <div id="controls" class="fadein anim-5 anim-delay-5" style="opacity: 0;">
                             <button class="previous btn btn-tranparent"><i class="fas fa-chevron-left fs-1"></i></button>
                             <button class="next btn btn-tranparent"><i class="fas fa-chevron-right fs-1"></i></button>
                         </div>

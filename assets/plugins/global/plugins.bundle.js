@@ -34572,7 +34572,7 @@ var tns = function() {
 				}));
 				else {
 					for (var i = "", n = It ? "" : 'style="display:none"', a = 0; a < me; a++) i += '<button type="button" data-nav="' + a + '" tabindex="-1" aria-controls="' + xt + '" ' + n + ' aria-label="' + oi + (a + 1) + '"></button>';
-					i = '<div class="tns-nav" aria-label="Carousel Pagination">' + i + "</div>", ce.insertAdjacentHTML(Oi(e.navPosition), i), Qt = ce.querySelector(".tns-nav"), Jt = Qt.children
+					i = '<div class="tns-nav fadein anim-5 anim-delay-5" style="opacity:0;" aria-label="Carousel Pagination">' + i + "</div>", ce.insertAdjacentHTML(Oi(e.navPosition), i), Qt = ce.querySelector(".tns-nav"), Jt = Qt.children
 				}
 				if (Kn(), z) {
 					var r = z.substring(0, z.length - 18).toLowerCase(),
