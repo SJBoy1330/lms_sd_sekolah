@@ -3,7 +3,7 @@
     <!--begin::Container-->
     <div class="container-xxl" id="kt_content_container">
         <!--begin::Card-->
-        <div class="card">
+        <div class="card fadein-bottom anim-2">
             <div class="card-header border-0 pt-6">
                 <!--begin::Card title-->
                 <div class="card-title">
@@ -104,7 +104,7 @@
                         <tbody class="text-gray-600 fw-bold">
                             <?php if ($data_staf) : ?>
                                 <?php foreach ($data_staf as $i => $staf) : ?>
-                                    <tr>
+                                    <tr class="anim-1" style="opacity: 0;">
                                         <!--begin::Checkbox-->
                                         <td>
                                             <div class="form-check form-check-sm form-check-custom form-check-solid">

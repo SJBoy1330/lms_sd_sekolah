@@ -11,7 +11,9 @@ setTimeout(function() {
     });
 }, 150 );
 
-var slider = tns({
+
+$(document).ready(function() {
+  var slider = tns({
     container: '.my-slider',
     controlsContainer: '#controls',
     prevButton: '.previous',
@@ -38,4 +40,7 @@ var slider = tns({
       }
     }
   });
+
+
+ });
 

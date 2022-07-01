@@ -12,6 +12,13 @@ function previewImage() {
     }
 }
 
+setTimeout(function() {
+    $('tr').each(function(i) {
+        setTimeout(function() {
+             $('tr').eq(i).addClass('fadein-left');
+        }, 150 * i);
+    });
+}, 150 );
 
 $(function () {
     $("#kt_table_staf").on("click", function () {
