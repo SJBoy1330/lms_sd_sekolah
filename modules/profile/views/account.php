@@ -68,7 +68,7 @@
                                 <label class="col-lg-4 fw-bold text-muted">ID Pengguna</label>
                                 <label class="col-lg-2 fw-bold text-muted">:</label>
                                 <div class="col-lg-6">
-                                    <span class="fw-bolder fs-6 text-gray-800"><?= $data_profile->id_staf ?></span>
+                                    <span class="fw-bolder fs-6 text-gray-800"><?= $data_profile->username ?></span>
                                 </div>
                             </div>
                             <div class="row p-5 detail-profil2">
