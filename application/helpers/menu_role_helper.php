@@ -268,19 +268,19 @@ function get_ujian($role)
 
     $paket_ujian = [
         'menu_name' => 'Paket Ujian',
-        'url' => '',
+        'url' => 'ujian/paket_ujian',
         'icon' => '<i class="fa-duotone fa-box-archive" style="font-size: 1.3rem;"></i>',
     ];
 
     $analisa_butir_soal = [
         'menu_name' => 'Analisa Butir Soal',
-        'url' => '',
+        'url' => 'ujian/analisa_soal',
         'icon' => '<i class="fa-duotone fa-magnifying-glass-chart" style="font-size: 1.3rem;"></i>',
     ];
 
     $instruksi_ujian = [
         'menu_name' => 'Instruksi Ujian',
-        'url' => '',
+        'url' => 'ujian/instruksi_ujian',
         'icon' => '<i class="fa-duotone fa-book-user" style="font-size: 1.3rem;"></i>',
     ];
 

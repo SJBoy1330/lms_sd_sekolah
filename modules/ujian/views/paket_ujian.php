@@ -57,18 +57,18 @@
                 <div class="card-toolbar">
                     <!--begin::Toolbar-->
                     <div class="d-flex justify-content-end">
-                        <button type="button" class="btn btn-sm btn-light-danger me-2 " id="deleteall" style="display: none;">
+                        <button type="button" class="btn btn-sm btn-light-info me-2" data-bs-toggle="modal" data-bs-target="#modalUnggah">
                             <span class="svg-icon svg-icon-2 me-0">
-                                <i class="fa-duotone fa-trash" style="font-size: 18px;"></i>
+                                <i class="fa-duotone fa-clone" style="font-size: 18px;"></i>
                             </span>
-                            Hapus</button>
+                            Clone</button>
                         <!--begin::Filter-->
                         <button type="button" class="btn btn-sm btn-light-success me-3" data-bs-toggle="modal" data-bs-target="#modalGrupSoal">
                             <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
                             <span class="svg-icon svg-icon-2 me-0">
                                 <i class="fa-solid fa-plus" style="font-size: 18px;"></i>
                             </span>
-                            <!--end::Svg Icon-->Grup Soal
+                            <!--end::Svg Icon-->Paket Ujian
                         </button>
                     </div>
                 </div>
@@ -91,8 +91,11 @@
                                 </th>
                                 <th class="min-w-125px text-center">Aksi</th>
                                 <th class="min-w-100px text-center">No</th>
-                                <th class="min-w-175px text-center">Nama Grup Soal</th>
+                                <th class="min-w-175px text-center">Jadwal</th>
+                                <th class="min-w-175px text-center">Waktu</th>
+                                <th class="min-w-175px text-center">Paket Ujian</th>
                                 <th class="min-w-175px text-center">Mata Pelajaran</th>
+                                <th class="min-w-175px text-center">Kondisi</th>
                             </tr>
                             <!--end::Table row-->
                         </thead>
@@ -114,7 +117,16 @@
                                     </button>
                                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-175px py-4" data-kt-menu="true">
                                         <div class="menu-item px-3">
-                                            <a href="<?= base_url('ujian/grup_soal'); ?>" class="menu-link px-3">Lihat</a>
+                                            <a href="#" class="menu-link px-3">Daftar Peserta</a>
+                                        </div>
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Hasil Ujian</a>
+                                        </div>
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Monitoring Ujian</a>
+                                        </div>
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Detail</a>
                                         </div>
                                         <div class="menu-item px-3">
                                             <a href="#" class="menu-link px-3">Edit</a>
@@ -133,14 +145,33 @@
                                 <!--begin::Last login=-->
                                 <td>
                                     <p class="text-center">
-                                        Grup Soal 1
+                                        18-04-2022 16:00
                                     </p>
                                 </td>
 
                                 <td>
                                     <p class="text-center">
+                                        90 menit
+                                    </p>
+                                </td>
+
+                                <td>
+                                    <p class="text-center">
+                                        Paket Ujian 01
+                                    </p>
+                                </td>
+                                
+                                <td>
+                                    <p class="text-center">
                                         Matematika
                                     </p>
+                                </td>
+
+                                <td class="d-flex justify-content-center align-items-center">
+                                    <div class="form-check form-switch form-switch-sm form-check-custom form-check-solid">
+                                        <input class="form-check-input" type="checkbox" checked="checked">
+                                        <label class="form-check-label">Diaktifkan</label>
+                                    </div>
                                 </td>
                             </tr>
 
@@ -159,7 +190,16 @@
                                     </button>
                                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-175px py-4" data-kt-menu="true">
                                         <div class="menu-item px-3">
-                                            <a href="<?= base_url('ujian/grup_soal'); ?>" class="menu-link px-3">Lihat</a>
+                                            <a href="#" class="menu-link px-3">Daftar Peserta</a>
+                                        </div>
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Hasil Ujian</a>
+                                        </div>
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Monitoring Ujian</a>
+                                        </div>
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Detail</a>
                                         </div>
                                         <div class="menu-item px-3">
                                             <a href="#" class="menu-link px-3">Edit</a>
@@ -172,20 +212,39 @@
                                 <!--end::User=-->
                                 <!--begin::Role=-->
                                 <td>
-                                    <p class="text-center mb-0">1</p>
+                                    <p class="text-center mb-0">2</p>
                                 </td>
                                 <!--end::Role=-->
                                 <!--begin::Last login=-->
                                 <td>
                                     <p class="text-center">
-                                        Grup Soal 2
+                                        19-04-2022 16:00
                                     </p>
                                 </td>
 
                                 <td>
                                     <p class="text-center">
+                                        90 Menit
+                                    </p>
+                                </td>
+
+                                <td>
+                                    <p class="text-center">
+                                        Paket Ujian 02
+                                    </p>
+                                </td>
+                                
+                                <td>
+                                    <p class="text-center">
                                         Ilmu Pengetahuan Alam
                                     </p>
+                                </td>
+
+                                <td class="d-flex justify-content-center align-items-center text-start">
+                                    <div class="form-check form-switch form-switch-sm form-check-custom form-check-solid">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label">Nonaktif</label>
+                                    </div>
                                 </td>
                             </tr>
                         </tbody>

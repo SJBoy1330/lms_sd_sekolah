@@ -213,11 +213,11 @@
 										<div class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10">
 											<!--begin::Svg Icon | path: icons/duotune/technology/teh004.svg-->
 											<span class="mt-2 mb-5"style="width: 39px; height: 39px;">
-												<i class="fa-light fa-map-pin" style="font-size: 3rem;"></i>
+												<i class="fa-duotone fa-chalkboard-user" style="font-size: 3rem;"></i>
 											</span>
 											<!--end::Svg Icon-->
-											<span class="fs-4 fw-bolder mb-1">Latitude</span>
-											<span class="fs-4 fw-medium">-7.7084159</span>
+											<span class="fs-4 fw-bolder mb-1">Jumlah Staf</span>
+											<span class="fs-4 fw-medium">250 Staf</span>
 										</div>
 										<!--end::Link-->
 									</div>
@@ -232,11 +232,11 @@
 										<div class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10">
 											<!--begin::Svg Icon | path: icons/duotune/abstract/abs025.svg-->
 											<span class="mt-2 mb-5"style="width: 39px; height: 39px;">
-												<i class="fa-duotone fa-map-pin" style="font-size: 3rem;"></i>
+												<i class="fa-duotone fa-graduation-cap" style="font-size: 3rem;"></i>
 											</span>
 											<!--end::Svg Icon-->
-											<span class="fs-4 fw-bolder mb-1">Longitude</span>
-											<span class="fs-4 fw-medium">112.4174668	</span>
+											<span class="fs-4 fw-bolder mb-1">Jumlah Siswa</span>
+											<span class="fs-4 fw-medium">1.396 Siswa</span>
 										</div>
 										<!--end::Link-->
 									</div>
