@@ -40,4 +40,68 @@ class Controller_ctl extends MY_Admin
 		$this->data['content'] = $this->load->view('grup_soal', $mydata, TRUE);
 		$this->display();
 	}
+
+	public function paket_ujian()
+	{
+		// LOAD TITLE
+		$this->data['title'] = 'Ujian';
+
+		// LOAD BREADCRUMB
+		$mydata['breadcrumb']['menu'] = 'Analisa Butir Soal';
+
+        // LOAD CSS
+		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
+
+		// LOAD VIEW
+		$this->data['content'] = $this->load->view('paket_ujian', $mydata, TRUE);
+		$this->display();
+	}
+
+	public function analisa_soal()
+	{
+		// LOAD TITLE
+		$this->data['title'] = 'Ujian';
+
+		// LOAD BREADCRUMB
+		$mydata['breadcrumb']['menu'] = 'Analisa Butir Soal';
+
+        // LOAD CSS
+		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
+
+		// LOAD VIEW
+		$this->data['content'] = $this->load->view('analisa_soal', $mydata, TRUE);
+		$this->display();
+	}
+
+	public function detail_analisa_soal()
+	{
+		// LOAD TITLE
+		$this->data['title'] = 'Ujian';
+
+		// LOAD BREADCRUMB
+		$mydata['breadcrumb']['menu'] = 'Detail Analisa Soal';
+
+        // LOAD CSS
+		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
+
+		// LOAD VIEW
+		$this->data['content'] = $this->load->view('detail_analisa_soal', $mydata, TRUE);
+		$this->display();
+	}
+
+	public function instruksi_ujian()
+	{
+		// LOAD TITLE
+		$this->data['title'] = 'Ujian';
+
+		// LOAD BREADCRUMB
+		$mydata['breadcrumb']['menu'] = 'Instruksi Ujian';
+
+        // LOAD CSS
+		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
+
+		// LOAD VIEW
+		$this->data['content'] = $this->load->view('instruksi_ujian', $mydata, TRUE);
+		$this->display();
+	}
 }
