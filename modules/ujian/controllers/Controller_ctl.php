@@ -17,7 +17,7 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Grup Soal';
 
-        // LOAD CSS
+		// LOAD CSS
 		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// LOAD VIEW
@@ -25,7 +25,7 @@ class Controller_ctl extends MY_Admin
 		$this->display();
 	}
 
-    public function grup_soal()
+	public function grup_soal()
 	{
 		// LOAD TITLE
 		$this->data['title'] = 'Ujian';
@@ -33,7 +33,7 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Grup Soal';
 
-        // LOAD CSS
+		// LOAD CSS
 		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/ujian/soal.css') . '">';
 
 		// Load JS
@@ -52,7 +52,7 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Analisa Butir Soal';
 
-        // LOAD CSS
+		// LOAD CSS
 		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// LOAD VIEW
@@ -68,7 +68,7 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Analisa Butir Soal';
 
-        // LOAD CSS
+		// LOAD CSS
 		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// LOAD VIEW
@@ -84,7 +84,7 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Detail Analisa Soal';
 
-        // LOAD CSS
+		// LOAD CSS
 		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// LOAD VIEW
@@ -100,8 +100,11 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Instruksi Ujian';
 
-        // LOAD CSS
+		// LOAD CSS
 		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
+
+		// Load JS
+		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/ujian/instruksi_ujian.js"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('instruksi_ujian', $mydata, TRUE);
