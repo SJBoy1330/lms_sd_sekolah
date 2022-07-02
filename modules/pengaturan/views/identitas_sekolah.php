@@ -311,7 +311,7 @@
 						<div class="d-flex flex-column mb-8 fv-row">
 							<!--begin::Label-->
 							<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-								<span class="required">Telepon Sekolah</span>
+								<span>Telepon Sekolah</span>
 							</label>
 							<!--end::Label-->
 							<div class="position-relative d-flex align-items-center">
@@ -332,7 +332,7 @@
 						<div class="d-flex flex-column mb-8 fv-row">
 							<!--begin::Label-->
 							<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-								<span class="required">Telepon Admin</span>
+								<span>Telepon Admin</span>
 							</label>
 							<!--end::Label-->
 							<div class="position-relative d-flex align-items-center">
@@ -353,7 +353,7 @@
 						<div class="d-flex flex-column mb-8 fv-row">
 							<!--begin::Label-->
 							<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-								<span class="required">Alamat Sekolah</span>
+								<span>Alamat Sekolah</span>
 							</label>
 							<!--end::Label-->
 							<div class="position-relative d-flex align-items-center">
@@ -374,7 +374,7 @@
 						<div class="d-flex flex-column mb-8 fv-row">
 							<!--begin::Label-->
 							<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-								<span class="required">Telp. Keuangan Sekolah</span>
+								<span>Telp. Keuangan Sekolah</span>
 							</label>
 							<!--end::Label-->
 							<div class="position-relative d-flex align-items-center">
@@ -437,7 +437,7 @@
 						<div class="d-flex flex-column mb-8 fv-row">
 							<!--begin::Label-->
 							<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-								<span class="required">Latitude Sekolah</span>
+								<span>Latitude Sekolah</span>
 							</label>
 							<!--end::Label-->
 							<div class="position-relative d-flex align-items-center">
@@ -458,7 +458,7 @@
 						<div class="d-flex flex-column mb-8 fv-row">
 							<!--begin::Label-->
 							<label class="d-flex align-items-center fs-6 fw-bold mb-2">
-								<span class="required">Logitude Sekolah</span>
+								<span>Logitude Sekolah</span>
 							</label>
 							<!--end::Label-->
 							<div class="position-relative d-flex align-items-center">
