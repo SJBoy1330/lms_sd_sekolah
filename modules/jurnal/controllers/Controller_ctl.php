@@ -12,6 +12,11 @@ class Controller_ctl extends MY_Admin
 
 	public function index()
 	{
+		redirect('jurnal_staf');
+	}
+
+	public function jurnal_staf()
+	{
 		// LOAD TITLE
 		$this->data['title'] = 'Jurnal';
 
@@ -29,7 +34,8 @@ class Controller_ctl extends MY_Admin
 		$this->display();
 	}
 
-    public function jurnal_guru()
+
+	public function jurnal_guru()
 	{
 		// LOAD TITLE
 		$this->data['title'] = 'Jurnal';

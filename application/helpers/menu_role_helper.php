@@ -244,7 +244,7 @@ function get_jurnal()
         'submenu' => [
             [
                 'menu_name' => 'Jurnal Staf',
-                'url' => 'jurnal/juran_staf',
+                'url' => 'jurnal/jurnal_staf',
                 'icon' => '<i class="fa-duotone fa-book" style="font-size: 1.3rem;"></i>',
             ],
             [
