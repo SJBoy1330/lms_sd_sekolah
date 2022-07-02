@@ -104,7 +104,7 @@
                         <tbody class="text-gray-600 fw-bold">
                             <?php if ($data_staf) : ?>
                                 <?php foreach ($data_staf as $i => $staf) : ?>
-                                    <tr class="anim-1" style="opacity: 0;">
+                                    <tr class="anim-2" style="opacity: 0;">
                                         <!--begin::Checkbox-->
                                         <td>
                                             <div class="form-check form-check-sm form-check-custom form-check-solid">

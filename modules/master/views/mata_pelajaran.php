@@ -4,16 +4,7 @@
     <div class="container-xxl" id="kt_content_container">
         <div class="card shadow-sm mb-4 fadein anim-4">
             <div class="card-body">
-                <div class="modal fade" id="modalTambahPelajaran" tabindex="-1" aria-hidden="true">
-                    <!--begin::Modal dialog-->
-                    <div class="modal-dialog modal-dialog-centered mw-850px">
-                        <!--begin::Modal content-->
-                        <div class="modal-content" id="content-edit-tambah-mapel">
-                        </div>
-                        <!--end::Modal content-->
-                    </div>
-                    <!--end::Modal dialog-->
-                </div>
+
                 <form action="">
                     <div class="row">
                         <div class="col-md-3 col-xl-3" style="padding:5px;">
@@ -164,3 +155,14 @@
     <!--end::Container-->
 </div>
 <!--end::Content-->
+
+<div class="modal fade" id="modalTambahPelajaran" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-850px">
+        <!--begin::Modal content-->
+        <div class="modal-content" id="content-edit-tambah-mapel">
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>
