@@ -4,107 +4,6 @@
     <div class="container-xxl" id="kt_content_container">
         <div class="card shadow-sm mb-4 fadein anim-4">
             <div class="card-body">
-                <div class="modal fade" id="modalTambahGuru" tabindex="-1" aria-hidden="true">
-                    <!--begin::Modal dialog-->
-                    <div class="modal-dialog modal-dialog-centered mw-850px">
-                        <!--begin::Modal content-->
-                        <div class="modal-content">
-                            <!--begin::Modal header-->
-                            <div class="modal-header">
-                                <!--begin::Modal title-->
-                                <h2 class="fw-bolder">Tambah Guru</h2>
-                                <!--end::Modal title-->
-                                <!--begin::Close-->
-                                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
-                                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                                    <span class="svg-icon svg-icon-1">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
-                                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
-                                        </svg>
-                                    </span>
-                                    <!--end::Svg Icon-->
-                                </div>
-                                <!--end::Close-->
-                            </div>
-                            <!--end::Modal header-->
-                            <!--begin::Modal body-->
-                            <div class="modal-body scroll-y mx-10 my-2">
-                                <div class="row">
-                                    <div class="col-xl-6 col-md-12">
-                                        <div class="d-flex flex-column mb-8 fv-row">
-                                            <!--begin::Label-->
-                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                <span class="required">Tingkat</span>
-                                            </label>
-                                            <!--end::Label-->
-                                            <div class="position-relative d-flex align-items-center">
-                                                <div style="width:100vw;">
-                                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
-                                                        <option></option>
-                                                        <option value="1">X</option>
-                                                        <option value="2">XI</option>
-                                                        <option value="2">XII</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-xl-6 col-md-12">
-                                        <div class="d-flex flex-column mb-8 fv-row">
-                                            <!--begin::Label-->
-                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                <span class="required">Pelajaran</span>
-                                            </label>
-                                            <!--end::Label-->
-                                            <div class="position-relative d-flex align-items-center">
-                                                <div style="width:100vw;">
-                                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
-                                                        <option></option>
-                                                        <option value="1">Bahasa Indonesia</option>
-                                                        <option value="2">Matematika</option>
-                                                        <option value="2">Ilmu Pengetahuan Sosial</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-12">
-                                        <div class="d-flex flex-column mb-8 fv-row">
-                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                <span class="required">Nama Guru</span>
-                                            </label>
-                                            <div class="position-relative d-flex align-items-center">
-                                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                                    <i class="fa-duotone fa-screen-users" style="font-size: 1.3rem;"></i>
-                                                </span>
-                                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan nama guru" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row mb-4">
-                                    <div class="d-flex justify-content-end">
-
-                                        <button type="button" class="btn btn-primary">
-                                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                                            <span class="svg-icon svg-icon-2">
-                                                <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-                                            </span>
-                                            <!--end::Svg Icon-->Simpan
-                                        </button>
-                                        <!--end::Add user-->
-                                    </div>
-                                </div>
-                            </div>
-                            <!--end::Modal body-->
-                        </div>
-                        <!--end::Modal content-->
-                    </div>
-                    <!--end::Modal dialog-->
-                </div>
                 <form action="">
                     <div class="row">
                         <div class="col-md-3 col-xl-3" style="padding:5px;">
@@ -315,3 +214,106 @@
     <!--end::Container-->
 </div>
 <!--end::Content-->
+
+
+<div class="modal fade" id="modalTambahGuru" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-850px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header">
+                <!--begin::Modal title-->
+                <h2 class="fw-bolder">Tambah Guru</h2>
+                <!--end::Modal title-->
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <!--end::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y mx-10 my-2">
+                <div class="row">
+                    <div class="col-xl-6 col-md-12">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <!--begin::Label-->
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Tingkat</span>
+                            </label>
+                            <!--end::Label-->
+                            <div class="position-relative d-flex align-items-center">
+                                <div style="width:100vw;">
+                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
+                                        <option></option>
+                                        <option value="1">X</option>
+                                        <option value="2">XI</option>
+                                        <option value="2">XII</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-md-12">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <!--begin::Label-->
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Pelajaran</span>
+                            </label>
+                            <!--end::Label-->
+                            <div class="position-relative d-flex align-items-center">
+                                <div style="width:100vw;">
+                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua">
+                                        <option></option>
+                                        <option value="1">Bahasa Indonesia</option>
+                                        <option value="2">Matematika</option>
+                                        <option value="2">Ilmu Pengetahuan Sosial</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Nama Guru</span>
+                            </label>
+                            <div class="position-relative d-flex align-items-center">
+                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                    <i class="fa-duotone fa-screen-users" style="font-size: 1.3rem;"></i>
+                                </span>
+                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan nama guru" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="d-flex justify-content-end">
+
+                        <button type="button" class="btn btn-primary">
+                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                            <span class="svg-icon svg-icon-2">
+                                <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                            </span>
+                            <!--end::Svg Icon-->Simpan
+                        </button>
+                        <!--end::Add user-->
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal body-->
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>
