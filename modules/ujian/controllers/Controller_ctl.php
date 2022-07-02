@@ -15,7 +15,7 @@ class Controller_ctl extends MY_Admin
 		$this->data['title'] = 'Ujian';
 
 		// LOAD BREADCRUMB
-		$mydata['breadcrumb']['menu'] = 'Bank Soal';
+		$mydata['breadcrumb']['menu'] = 'Grup Soal';
 
         // LOAD CSS
 		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
@@ -34,7 +34,10 @@ class Controller_ctl extends MY_Admin
 		$mydata['breadcrumb']['menu'] = 'Grup Soal';
 
         // LOAD CSS
-		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/ujian/soal.css') . '">';
+
+		// Load JS
+		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/ujian/bank_soal.js"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('grup_soal', $mydata, TRUE);
