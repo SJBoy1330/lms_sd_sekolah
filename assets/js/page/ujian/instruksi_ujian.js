@@ -37,6 +37,11 @@ function tambah_input_instruksi(count) {
 }
 $('#tambah_instruksi').click(function() {
 	$('#input_instruksi').html('');
+	$('#input_peraturan').html('');
+	$("#label_tambah_peraturan").addClass('opacity-0').removeClass('opacity-1');
+	$("#button_tambah_peraturan").addClass('d-none').removeClass('d-block');
+	$("#button_buat_peraturan").text("Tambahkan Peraturan");
+	$("#button_buat_peraturan").attr("onclick","buat_input_peraturan()");
 	tambah_input_instruksi(1);
 });
 
