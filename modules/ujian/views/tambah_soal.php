@@ -612,7 +612,7 @@
                         <span class="svg-icon svg-icon-2 position-absolute mx-4">
                             <i class="fa-duotone fa-h1" style="font-size: 1.3rem;"></i>
                         </span>
-                        <input class="form-control form-control-solid ps-12" placeholder="Masukkan nama instruksi"/>
+                        <input class="form-control form-control-solid ps-12" placeholder="Masukkan nama kelompok soal"/>
                     </div>
                 </div>
 

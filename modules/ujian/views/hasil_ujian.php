@@ -23,7 +23,7 @@
                     <h2 clas="mb-0">Paket Ujian 01</h2>
                     <p class="fw-normal fs-5">Matematika</p>
                     <div class="table-responsive">
-                        <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_tugas">
+                        <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer">
                             <!--begin::Table head-->
                             <thead>
                                 <!--begin::Table row-->
