@@ -20,6 +20,9 @@ class Controller_ctl extends MY_Admin
 		// LOAD CSS
 		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
+		// Load JS
+		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/ujian/banksoal.js"></script>';
+
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('bank_soal', $mydata, TRUE);
 		$this->display();
@@ -68,7 +71,7 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Paket Ujian';
 
-        // LOAD CSS
+		// LOAD CSS
 		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// LOAD VIEW
@@ -84,7 +87,7 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Tambah Soal';
 
-        // LOAD CSS
+		// LOAD CSS
 		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// LOAD VIEW
@@ -100,7 +103,7 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Tambah Peserta';
 
-        // LOAD CSS
+		// LOAD CSS
 		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// LOAD VIEW
@@ -116,7 +119,7 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Koreksi Jawaban';
 
-        // LOAD CSS
+		// LOAD CSS
 		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// LOAD VIEW
@@ -132,7 +135,7 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Hasil Ujian';
 
-        // LOAD CSS
+		// LOAD CSS
 		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// LOAD VIEW
@@ -148,7 +151,7 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Hasil Ujian';
 
-        // LOAD CSS
+		// LOAD CSS
 		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// LOAD VIEW
@@ -164,7 +167,7 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Monitoring Ujian';
 
-        // LOAD CSS
+		// LOAD CSS
 		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// LOAD VIEW
@@ -180,7 +183,7 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Tambah Paket Ujian';
 
-        // LOAD CSS
+		// LOAD CSS
 		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// LOAD VIEW

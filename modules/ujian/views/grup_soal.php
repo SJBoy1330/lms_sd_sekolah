@@ -3,7 +3,7 @@
     <div class="container-xxl" id="kt_content_container">
         <div class="row g-5 g-xl-8">
             <div class="col-xl-3">
-                <div class="card bgi-no-repeat card-xl-stretch mb-xl-8" style="background-position: right top; background-size: 40% auto; background-image: url(<?= base_url('assets/media/svg/shapes/abstract-1.svg');?>)">
+                <div class="card bgi-no-repeat card-xl-stretch mb-xl-8" style="background-position: right top; background-size: 40% auto; background-image: url(<?= base_url('assets/media/svg/shapes/abstract-1.svg'); ?>)">
                     <!--begin::Link-->
                     <div class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 flex-column justfiy-content-start align-items-start text-start w-100 p-10">
                         <span class="svg-icon svg-icon-3x mb-5">
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="col-xl-3">
-                <div class="card bgi-no-repeat card-xl-stretch mb-xl-8" style="background-position: right top; background-size: 40% auto; background-image: url(<?= base_url('assets/media/svg/shapes/abstract-2.svg');?>)">
+                <div class="card bgi-no-repeat card-xl-stretch mb-xl-8" style="background-position: right top; background-size: 40% auto; background-image: url(<?= base_url('assets/media/svg/shapes/abstract-2.svg'); ?>)">
                     <!--begin::Link-->
                     <div class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 flex-column justfiy-content-start align-items-start text-start w-100 p-10">
                         <span class="svg-icon svg-icon-3x mb-5">
@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="col-xl-3">
-                <div class="card bgi-no-repeat card-xl-stretch mb-xl-8" style="background-position: right top; background-size: 40% auto; background-image: url(<?= base_url('assets/media/svg/shapes/abstract-3.svg');?>)">
+                <div class="card bgi-no-repeat card-xl-stretch mb-xl-8" style="background-position: right top; background-size: 40% auto; background-image: url(<?= base_url('assets/media/svg/shapes/abstract-3.svg'); ?>)">
                     <!--begin::Link-->
                     <div class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 flex-column justfiy-content-start align-items-start text-start w-100 p-10">
                         <span class="svg-icon svg-icon-3x mb-5">
@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="col-xl-3">
-                <div class="card bgi-no-repeat card-xl-stretch mb-xl-8" style="background-position: right top; background-size: 40% auto; background-image: url(<?= base_url('assets/media/svg/shapes/abstract-4.svg');?>)">
+                <div class="card bgi-no-repeat card-xl-stretch mb-xl-8" style="background-position: right top; background-size: 40% auto; background-image: url(<?= base_url('assets/media/svg/shapes/abstract-4.svg'); ?>)">
                     <!--begin::Link-->
                     <div class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 flex-column justfiy-content-start align-items-start text-start w-100 p-10">
                         <span class="svg-icon svg-icon-3x mb-5">
@@ -64,7 +64,7 @@
             <div class="card-header border-0">
                 <!--begin::Card title-->
                 <div class="card-title">
-                    <a href="<?= base_url('ujian')?>" class="btn btn-sm btn-light">
+                    <a href="<?= base_url('ujian') ?>" class="btn btn-sm btn-light">
                         <span class="svg-icon svg-icon-2 me-0">
                             <i class="fa-duotone fa-arrow-left-long" style="font-size: 1rem;"></i>
                         </span>
@@ -86,7 +86,7 @@
                             <!--end::Svg Icon-->
                             <input type="text" data-kt-user-table-filter="search" class="form-control form-control-solid form-control-sm w-250px ps-14" placeholder="Pencarian">
                         </div>
-                        <button type="button" class="btn btn-sm btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahSoal">
+                        <button type="button" id="modal_soal" class="btn btn-sm btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahSoal">
                             <span class="svg-icon svg-icon-2 me-0">
                                 <i class="fa-duotone fa-plus" style="font-size: 18px;"></i>
                             </span>
@@ -95,7 +95,7 @@
                     <!--end::Toolbar-->
                 </div>
                 <!--end::Card toolbar-->
-            </div> 
+            </div>
             <div class="row p-5">
                 <div class="col-md-12 pe-md-10 mb-10 mb-md-0">
                     <!-- Pilihan Ganda -->
@@ -103,24 +103,24 @@
                         <div class="card-header bg-light d-flex align-items-center collapsible py-3 toggle mb-0 collapsed" data-bs-toggle="collapse" data-bs-target="#soal_1">
                             <div style="display:flex; justify-content:center; flex-direction: column; width:75%;">
                                 <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
                                 </div>
                                 <p class="text-dark fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                             </div>
                             <div class="d-flex">
                                 <div class="me-3">
-                                    <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-flip="top-end">
+                                    <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary" data-bs-toggle="none" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-flip="top-end">
                                         <span class="svg-icon svg-icon-2">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
                                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -167,35 +167,35 @@
                                 <div>
                                     <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4">
                                         <input class="form-check-input" type="radio" disabled="" checked="">
-                                            <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
-                                                <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
-                                            </div>
+                                        <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
+                                            <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
+                                        </div>
                                     </label>
 
                                     <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4">
                                         <input class="form-check-input" type="radio" disabled="">
-                                            <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
-                                                <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
-                                            </div>
+                                        <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
+                                            <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
+                                        </div>
                                     </label>
 
                                     <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4">
                                         <input class="form-check-input" type="radio" disabled="">
-                                            <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
-                                                <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
-                                            </div>
+                                        <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
+                                            <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
+                                        </div>
                                     </label>
 
                                     <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4">
                                         <input class="form-check-input" type="radio" disabled="">
-                                            <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
-                                                <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
-                                            </div>
+                                        <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
+                                            <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
+                                        </div>
                                     </label>
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                     <!-- Akhir Pilihan Ganda -->
 
@@ -204,7 +204,7 @@
                         <div class="card-header bg-light d-flex align-items-center collapsible py-3 toggle mb-0 collapsed" data-bs-toggle="collapse" data-bs-target="#soal_2">
                             <div style="display:flex; justify-content:center; flex-direction: column; width:75%;">
                                 <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
                                 </div>
                                 <p class="text-dark fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                             </div>
@@ -257,35 +257,35 @@
                                 <div>
                                     <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4">
                                         <input class="form-check-input" type="checkbox" disabled="" checked="">
-                                            <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
-                                                <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
-                                            </div>
+                                        <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
+                                            <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
+                                        </div>
                                     </label>
 
                                     <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4">
                                         <input class="form-check-input" type="checkbox" disabled="">
-                                            <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
-                                                <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
-                                            </div>
+                                        <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
+                                            <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
+                                        </div>
                                     </label>
 
                                     <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4">
                                         <input class="form-check-input" type="checkbox" disabled="">
-                                            <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
-                                                <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
-                                            </div>
+                                        <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
+                                            <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
+                                        </div>
                                     </label>
 
                                     <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4">
                                         <input class="form-check-input" type="checkbox" disabled="">
-                                            <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
-                                                <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
-                                            </div>
+                                        <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
+                                            <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
+                                        </div>
                                     </label>
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                     <!-- Akhir Pilihan Ganda Kompleks -->
 
@@ -294,7 +294,7 @@
                         <div class="card-header bg-light d-flex align-items-center collapsible py-3 toggle mb-0 collapsed" data-bs-toggle="collapse" data-bs-target="#soal_3">
                             <div style="display:flex; justify-content:center; flex-direction: column; width:75%;">
                                 <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
                                 </div>
                                 <p class="text-dark fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                             </div>
@@ -345,11 +345,11 @@
                         <div id="soal_3" class="collapse fs-6 ms-1">
                             <div class="my-5 text-gray-600 fw-bold fs-6 px-7">
                                 <div>
-                                    <input type="text" class="form-control form-control-solid mb-3 bg-light-success"  placeholder="lorem" value="buaya" readonly="">
+                                    <input type="text" class="form-control form-control-solid mb-3 bg-light-success" placeholder="lorem" value="buaya" readonly="">
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                     <!-- Akhir Uraian Singkat -->
 
@@ -358,7 +358,7 @@
                         <div class="card-header bg-light d-flex align-items-center collapsible py-3 toggle mb-0 collapsed" data-bs-toggle="collapse" data-bs-target="#soal_4">
                             <div style="display:flex; justify-content:center; flex-direction: column; width:75%;">
                                 <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
                                 </div>
                                 <p class="text-dark fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                             </div>
@@ -413,7 +413,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                     <!-- Akhir Uraian Panjang -->
 
@@ -422,7 +422,7 @@
                         <div class="card-header bg-light d-flex align-items-center collapsible py-3 toggle mb-0 collapsed" data-bs-toggle="collapse" data-bs-target="#soal_5">
                             <div style="display:flex; justify-content:center; flex-direction: column; width:75%;">
                                 <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
                                 </div>
                                 <p class="text-dark fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                             </div>
@@ -514,11 +514,11 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                     <!-- Akhir Penjodohan -->
                 </div>
-            </div>                          
+            </div>
         </div>
     </div>
     <!--end::Container-->
@@ -553,341 +553,105 @@
                 <div class="row mb-4">
                     <div class="col-12 mb-10">
                         <div class="tab d-flex justify-content-center align-items-center">
-                            <button class="tablinks active" onclick="openCity(event, 'pilgan')">Pilihan Ganda</button>
-                            <button class="tablinks" onclick="openCity(event, 'pilgankompleks')">Pilihan Ganda Kompleks</button>
-                            <button class="tablinks" onclick="openCity(event, 'uraiansingkat')">Uraian Singkat</button>
-                            <button class="tablinks" onclick="openCity(event, 'uraianpanjang')">Uraian Panjang</button>
-                            <button class="tablinks" onclick="openCity(event, 'penjodohan')">Penjodohan</button>
+                            <button class="tablinks active" id="tab_pilgan" onclick="openCity(event, 'pilgan')">Pilihan Ganda</button>
+                            <button class="tablinks" id="tab_pilgankompleks" onclick="openCity(event, 'pilgankompleks')">Pilihan Ganda Kompleks</button>
+                            <button class="tablinks" id="tab_uraiansingkat" onclick="openCity(event, 'uraiansingkat')">Uraian Singkat</button>
+                            <button class="tablinks" id="tab_uraianpanjang" onclick="openCity(event, 'uraianpanjang')">Uraian Panjang</button>
+                            <button class="tablinks" id="tab_penjodohan" onclick="openCity(event, 'penjodohan')">Penjodohan</button>
                         </div>
                     </div>
                 </div>
                 <!-- Inputan untuk mengisi soal -->
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="upload__img-wrap"></div>
-                        </div>
-                        <div class="col-10">
-                            <form id="kt_forms_widget_1_form" class="ql-quil ql-quil-plain pb-3">
-                                <!--begin::Editor-->
-                                <div id="kt_forms_widget_1_editor_grupsoal" class="py-6"></div>
-                                <!--end::Editor-->
-                                <div class="separator"></div>
-                                <!--begin::Toolbar-->
-                                <div id="kt_forms_widget_1_editor_toolbar_grupsoal" class="ql-toolbar d-flex flex-stack py-2">
-                                    <div class="me-2">
-                                        <span class="ql-formats ql-size ms-0">
-                                            <select class="ql-size w-75px"></select>
-                                        </span>
-                                        <span class="ql-formats">
-                                            <button class="ql-bold"></button>
-                                            <button class="ql-italic"></button>
-                                            <button class="ql-underline"></button>
-                                            <button class="ql-strike"></button>
-                                            <button class="ql-link"></button>
-                                            <button class="ql-clean"></button>
-                                        </span>
-                                    </div>
-                                    <div class="me-n3">
-                                        <span class="btn btn-icon btn-sm btn-active-color-primary">
-                                            <i class="flaticon2-clip-symbol icon-ms"></i>
-                                        </span>
-                                        <span class="btn btn-icon btn-sm btn-active-color-primary">
-                                            <i class="flaticon2-pin icon-ms"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                                <!--end::Toolbar-->
-                            </form>
-                        </div>
-                        <div class="col-2 d-flex justify-content-center align-items-center">
-                            <!-- Upload Image Soal -->
-                                <div class="upload__box me-3">
-                                    <div class="upload__btn-box mb-0">
-                                        <label class="btn btn-icon btn-bg-light btn-active-color-primary upload__btn" style="min-width : 40px; min-height : 40px">
-                                            <i class="fa-duotone fa-images" style="font-size: 1.5rem;"></i>
-                                            <input type="file" multiple="" data-max_length="20" class="upload__inputfile">
-                                        </label>
-                                    </div>
-                                </div>
-                            <!-- Akhir Image Soal -->
-
-                            <!-- Upload Audio Soal -->
-                                <label class="btn btn-icon btn-bg-light btn-active-color-primary me-3" style="min-width : 40px; min-height : 40px">
-                                    <input type="file" hidden="">
-                                    <i class="fa-duotone fa-microphone" style="font-size: 1.5rem;"></i>
-                                </label>
-                            <!-- Akhir Audio Soal -->
-                        </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="upload__img-wrap"></div>
                     </div>
+                    <div class="col-10">
+                        <form id="kt_forms_widget_1_form" class="ql-quil ql-quil-plain pb-3">
+                            <!--begin::Editor-->
+                            <div id="kt_forms_widget_1_editor_grupsoal" class="py-6"></div>
+                            <!--end::Editor-->
+                            <div class="separator"></div>
+                            <!--begin::Toolbar-->
+                            <div id="kt_forms_widget_1_editor_toolbar_grupsoal" class="ql-toolbar d-flex flex-stack py-2">
+                                <div class="me-2">
+                                    <span class="ql-formats ql-size ms-0">
+                                        <select class="ql-size w-75px"></select>
+                                    </span>
+                                    <span class="ql-formats">
+                                        <button class="ql-bold"></button>
+                                        <button class="ql-italic"></button>
+                                        <button class="ql-underline"></button>
+                                        <button class="ql-strike"></button>
+                                        <button class="ql-link"></button>
+                                        <button class="ql-clean"></button>
+                                    </span>
+                                </div>
+                                <div class="me-n3">
+                                    <span class="btn btn-icon btn-sm btn-active-color-primary">
+                                        <i class="flaticon2-clip-symbol icon-ms"></i>
+                                    </span>
+                                    <span class="btn btn-icon btn-sm btn-active-color-primary">
+                                        <i class="flaticon2-pin icon-ms"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <!--end::Toolbar-->
+                        </form>
+                    </div>
+                    <div class="col-2 d-flex justify-content-center align-items-center">
+                        <!-- Upload Image Soal -->
+                        <div class="upload__box me-3">
+                            <div class="upload__btn-box mb-0">
+                                <label class="btn btn-icon btn-bg-light btn-active-color-primary upload__btn" style="min-width : 40px; min-height : 40px">
+                                    <i class="fa-duotone fa-images" style="font-size: 1.5rem;"></i>
+                                    <input type="file" multiple="" data-max_length="20" class="upload__inputfile">
+                                </label>
+                            </div>
+                        </div>
+                        <!-- Akhir Image Soal -->
+
+                        <!-- Upload Audio Soal -->
+                        <label class="btn btn-icon btn-bg-light btn-active-color-primary me-3" style="min-width : 40px; min-height : 40px">
+                            <input type="file" hidden="">
+                            <i class="fa-duotone fa-microphone" style="font-size: 1.5rem;"></i>
+                        </label>
+                        <!-- Akhir Audio Soal -->
+                    </div>
+                </div>
                 <!-- Akhir inputan untuk mengisi soal -->
                 <div class="row mb-4">
                     <div class="col-12">
                         <div id="pilgan" class="tabcontent" style="display: block;">
-                            <div class="pilgan">
-                                <!-- Inputan untuk jawaban -->
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="upload__img-wrap"></div>
-                                        </div>
-                                        <div class="col-1 d-flex justify-content-center align-items-center">
-                                            <label class="form-check form-check-sm form-check-custom form-check-solid d-block">
-                                                <input class="form-check-input" type="radio">
-                                            </label>
-                                        </div>
-                                        <div class="col-10 ps-0">
-                                            <form id="kt_forms_widget_1_form" class="ql-quil ql-quil-plain pb-3">
-                                                <!--begin::Editor-->
-                                                <div id="kt_forms_widget_1_editor_jawabanpilgan" class="py-6"></div>
-                                                <!--end::Editor-->
-                                                <div class="separator"></div>
-                                                <!--begin::Toolbar-->
-                                                <div id="kt_forms_widget_1_editor_toolbar_jawabanpilgan" class="ql-toolbar d-flex flex-stack py-2">
-                                                    <div class="me-2">
-                                                        <span class="ql-formats ql-size ms-0">
-                                                            <select class="ql-size w-75px"></select>
-                                                        </span>
-                                                        <span class="ql-formats">
-                                                            <button class="ql-bold"></button>
-                                                            <button class="ql-italic"></button>
-                                                            <button class="ql-underline"></button>
-                                                            <button class="ql-strike"></button>
-                                                            <button class="ql-link"></button>
-                                                            <button class="ql-clean"></button>
-                                                        </span>
-                                                    </div>
-                                                    <div class="me-n3">
-                                                        <span class="btn btn-icon btn-sm btn-active-color-primary">
-                                                            <i class="flaticon2-clip-symbol icon-ms"></i>
-                                                        </span>
-                                                        <span class="btn btn-icon btn-sm btn-active-color-primary">
-                                                            <i class="flaticon2-pin icon-ms"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <!--end::Toolbar-->
-                                            </form>
-                                        </div>
-                                        <div class="col-1  d-flex justify-content-center align-items-center">
-                                            <!-- Upload Image Soal -->
-                                            <div class="upload__box me-3">
-                                                    <div class="upload__btn-box mb-0">
-                                                        <label class="btn btn-icon btn-bg-light btn-active-color-primary upload__btn" style="min-width : 40px; min-height : 40px">
-                                                            <i class="fa-duotone fa-images" style="font-size: 1.5rem;"></i>
-                                                            <input type="file" multiple="" data-max_length="20" class="upload__inputfile">
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            <!-- Akhir Image Soal -->
-                                        </div>
-                                    </div>
-                                <!-- Akhir inputan untuk jawaban -->
+                            <div class="pilgan" id="isi_pilgan">
 
-                                <!-- Inputan ketika tambah opsi -->
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="upload__img-wrap"></div>
-                                        </div>
-                                        <div class="col-1 d-flex justify-content-center align-items-center">
-                                            <label class="form-check form-check-sm form-check-custom form-check-solid d-block">
-                                                <input class="form-check-input" type="radio">
-                                            </label>
-                                        </div>
-                                        <div class="col-9 ps-0">
-                                            <form id="kt_forms_widget_1_form" class="ql-quil ql-quil-plain pb-3">
-                                                <!--begin::Editor-->
-                                                <div id="kt_forms_widget_1_editor_tambahopsipilgan" class="py-6"></div>
-                                                <!--end::Editor-->
-                                                <div class="separator"></div>
-                                                <!--begin::Toolbar-->
-                                                <div id="kt_forms_widget_1_editor_toolbar_tambahopsipilgan" class="ql-toolbar d-flex flex-stack py-2">
-                                                    <div class="me-2">
-                                                        <span class="ql-formats ql-size ms-0">
-                                                            <select class="ql-size w-75px"></select>
-                                                        </span>
-                                                        <span class="ql-formats">
-                                                            <button class="ql-bold"></button>
-                                                            <button class="ql-italic"></button>
-                                                            <button class="ql-underline"></button>
-                                                            <button class="ql-strike"></button>
-                                                            <button class="ql-link"></button>
-                                                            <button class="ql-clean"></button>
-                                                        </span>
-                                                    </div>
-                                                    <div class="me-n3">
-                                                        <span class="btn btn-icon btn-sm btn-active-color-primary">
-                                                            <i class="flaticon2-clip-symbol icon-ms"></i>
-                                                        </span>
-                                                        <span class="btn btn-icon btn-sm btn-active-color-primary">
-                                                            <i class="flaticon2-pin icon-ms"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <!--end::Toolbar-->
-                                            </form>
-                                        </div>
-                                        <div class="col-2 d-flex justify-content-center align-items-center">
-                                            <!-- Upload Image Soal -->
-                                                <div class="upload__box me-3">
-                                                    <div class="upload__btn-box mb-0">
-                                                        <label class="btn btn-icon btn-bg-light btn-active-color-primary upload__btn" style="min-width : 40px; min-height : 40px">
-                                                            <i class="fa-duotone fa-images" style="font-size: 1.5rem;"></i>
-                                                            <input type="file" multiple="" data-max_length="20" class="upload__inputfile">
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            <!-- Akhir Image Soal -->
 
-                                            <!-- Hapus Tambah Opsi -->
-                                                <button type="button" class="btn btn-icon btn-bg-light btn-active-color-primary">                                    
-                                                    <i class="fa-duotone fa-trash" style="font-size: 1.5rem;"></i>                                
-                                                </button>
-                                            <!-- Akhir Hapus Tambah -->
-                                        </div>
-                                    </div>
-                                <!-- Akhir inputan ketika tambah opsi -->
 
-                                <label class="form-check form-check-sm form-check-custom form-check-solid mb-4">
-                                    <button class="btn btn-sm btn-light-primary ms-4">
-                                        <span class="svg-icon svg-icon-2 me-0">
-                                            <i class="fa-duotone fa-plus" style="font-size: 1.3rem;"></i>
-                                        </span>    
-                                    Tambah Opsi</button>
-                                </label>
                             </div>
+                            <label class="form-check form-check-sm form-check-custom form-check-solid mb-4">
+                                <button class="btn btn-sm btn-light-primary ms-4" id="tambah_pilgan_lagi">
+                                    <span class="svg-icon svg-icon-2 me-0">
+                                        <i class="fa-duotone fa-plus" style="font-size: 1.3rem;"></i>
+                                    </span>
+                                    Tambah Opsi</button>
+                            </label>
                         </div>
 
                         <div id="pilgankompleks" class="tabcontent">
-                            <div class="pilgan-kompleks">
-                                <!-- Inputan untuk jawaban -->
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="upload__img-wrap"></div>
-                                        </div>
-                                        <div class="col-1 d-flex justify-content-center align-items-center">
-                                            <label class="form-check form-check-sm form-check-custom form-check-solid d-block">
-                                                <input class="form-check-input" type="checkbox">
-                                            </label>
-                                        </div>
-                                        <div class="col-10 ps-0">
-                                            <form id="kt_forms_widget_1_form" class="ql-quil ql-quil-plain pb-3">
-                                                <!--begin::Editor-->
-                                                <div id="kt_forms_widget_1_editor_jawabanpilgankompleks" class="py-6"></div>
-                                                <!--end::Editor-->
-                                                <div class="separator"></div>
-                                                <!--begin::Toolbar-->
-                                                <div id="kt_forms_widget_1_editor_toolbar_jawabanpilgankompleks" class="ql-toolbar d-flex flex-stack py-2">
-                                                    <div class="me-2">
-                                                        <span class="ql-formats ql-size ms-0">
-                                                            <select class="ql-size w-75px"></select>
-                                                        </span>
-                                                        <span class="ql-formats">
-                                                            <button class="ql-bold"></button>
-                                                            <button class="ql-italic"></button>
-                                                            <button class="ql-underline"></button>
-                                                            <button class="ql-strike"></button>
-                                                            <button class="ql-link"></button>
-                                                            <button class="ql-clean"></button>
-                                                        </span>
-                                                    </div>
-                                                    <div class="me-n3">
-                                                        <span class="btn btn-icon btn-sm btn-active-color-primary">
-                                                            <i class="flaticon2-clip-symbol icon-ms"></i>
-                                                        </span>
-                                                        <span class="btn btn-icon btn-sm btn-active-color-primary">
-                                                            <i class="flaticon2-pin icon-ms"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <!--end::Toolbar-->
-                                            </form>
-                                        </div>
-                                        <div class="col-1  d-flex justify-content-center align-items-center">
-                                            <!-- Upload Image Soal -->
-                                            <div class="upload__box me-3">
-                                                    <div class="upload__btn-box mb-0">
-                                                        <label class="btn btn-icon btn-bg-light btn-active-color-primary upload__btn" style="min-width : 40px; min-height : 40px">
-                                                            <i class="fa-duotone fa-images" style="font-size: 1.5rem;"></i>
-                                                            <input type="file" multiple="" data-max_length="20" class="upload__inputfile">
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            <!-- Akhir Image Soal -->
-                                        </div>
-                                    </div>
-                                <!-- Akhir inputan untuk jawaban -->
+                            <div class="pilgan-kompleks" id="isi_pilgankompleks">
 
-                                <!-- Inputan ketika tambah opsi -->
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="upload__img-wrap"></div>
-                                        </div>
-                                        <div class="col-1 d-flex justify-content-center align-items-center">
-                                            <label class="form-check form-check-sm form-check-custom form-check-solid d-block">
-                                                <input class="form-check-input" type="checkbox">
-                                            </label>
-                                        </div>
-                                        <div class="col-9 ps-0">
-                                            <form id="kt_forms_widget_1_form" class="ql-quil ql-quil-plain pb-3">
-                                                <!--begin::Editor-->
-                                                <div id="kt_forms_widget_1_editor_tambahopsipilgankompleks" class="py-6"></div>
-                                                <!--end::Editor-->
-                                                <div class="separator"></div>
-                                                <!--begin::Toolbar-->
-                                                <div id="kt_forms_widget_1_editor_toolbar_tambahopsipilgankompleks" class="ql-toolbar d-flex flex-stack py-2">
-                                                    <div class="me-2">
-                                                        <span class="ql-formats ql-size ms-0">
-                                                            <select class="ql-size w-75px"></select>
-                                                        </span>
-                                                        <span class="ql-formats">
-                                                            <button class="ql-bold"></button>
-                                                            <button class="ql-italic"></button>
-                                                            <button class="ql-underline"></button>
-                                                            <button class="ql-strike"></button>
-                                                            <button class="ql-link"></button>
-                                                            <button class="ql-clean"></button>
-                                                        </span>
-                                                    </div>
-                                                    <div class="me-n3">
-                                                        <span class="btn btn-icon btn-sm btn-active-color-primary">
-                                                            <i class="flaticon2-clip-symbol icon-ms"></i>
-                                                        </span>
-                                                        <span class="btn btn-icon btn-sm btn-active-color-primary">
-                                                            <i class="flaticon2-pin icon-ms"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <!--end::Toolbar-->
-                                            </form>
-                                        </div>
-                                        <div class="col-2 d-flex justify-content-center align-items-center">
-                                            <!-- Upload Image Soal -->
-                                                <div class="upload__box me-3">
-                                                    <div class="upload__btn-box mb-0">
-                                                        <label class="btn btn-icon btn-bg-light btn-active-color-primary upload__btn" style="min-width : 40px; min-height : 40px">
-                                                            <i class="fa-duotone fa-images" style="font-size: 1.5rem;"></i>
-                                                            <input type="file" multiple="" data-max_length="20" class="upload__inputfile">
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            <!-- Akhir Image Soal -->
 
-                                            <!-- Hapus Tambah Opsi -->
-                                                <button type="button" class="btn btn-icon btn-bg-light btn-active-color-primary">                                    
-                                                    <i class="fa-duotone fa-trash" style="font-size: 1.5rem;"></i>                                
-                                                </button>
-                                            <!-- Akhir Hapus Tambah -->
-                                        </div>
-                                    </div>
-                                <!-- Akhir inputan ketika tambah opsi -->
 
-                                <label class="form-check form-check-sm form-check-custom form-check-solid mb-4">
-                                    <a href="#" class="btn btn-sm btn-light-primary ms-4">
-                                        <span class="svg-icon svg-icon-2 me-0">
-                                            <i class="fa-duotone fa-plus" style="font-size: 1.3rem;"></i>
-                                        </span>    
-                                    Tambah Opsi</a>
-                                </label>
+
+
                             </div>
+                            <label class="form-check form-check-sm form-check-custom form-check-solid mb-4">
+                                <a href="#" id="tambah_pilgankompleks_lagi" class="btn btn-sm btn-light-primary ms-4">
+                                    <span class="svg-icon svg-icon-2 me-0">
+                                        <i class="fa-duotone fa-plus" style="font-size: 1.3rem;"></i>
+                                    </span>
+                                    Tambah Opsi</a>
+                            </label>
                         </div>
 
                         <div id="uraiansingkat" class="tabcontent">
@@ -917,184 +681,38 @@
                                 <div class="row">
                                     <p class="fw-bolder ms-0 ps-0">Daftar Pertanyaan</p>
                                 </div>
-                                <!-- inputan untuk pertanyaan -->
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="upload__img-wrap"></div>
-                                        </div>
-                                        <div class="col-10 ps-0">
-                                            <form id="kt_forms_widget_1_form" class="ql-quil ql-quil-plain pb-3">
-                                                <!--begin::Editor-->
-                                                <div id="kt_forms_widget_1_editor_jawabanpenjodohan" class="py-6"></div>
-                                                <!--end::Editor-->
-                                                <div class="separator"></div>
-                                                <!--begin::Toolbar-->
-                                                <div id="kt_forms_widget_1_editor_toolbar_jawabanpenjodohan" class="ql-toolbar d-flex flex-stack py-2">
-                                                    <div class="me-2">
-                                                        <span class="ql-formats ql-size ms-0">
-                                                            <select class="ql-size w-75px"></select>
-                                                        </span>
-                                                        <span class="ql-formats">
-                                                            <button class="ql-bold"></button>
-                                                            <button class="ql-italic"></button>
-                                                            <button class="ql-underline"></button>
-                                                            <button class="ql-strike"></button>
-                                                            <button class="ql-link"></button>
-                                                            <button class="ql-clean"></button>
-                                                        </span>
-                                                    </div>
-                                                    <div class="me-n3">
-                                                        <span class="btn btn-icon btn-sm btn-active-color-primary">
-                                                            <i class="flaticon2-clip-symbol icon-ms"></i>
-                                                        </span>
-                                                        <span class="btn btn-icon btn-sm btn-active-color-primary">
-                                                            <i class="flaticon2-pin icon-ms"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <!--end::Toolbar-->
-                                            </form>
-                                        </div>
-                                        <div class="col-2  d-flex justify-content-center align-items-center">
-                                            <!-- Pilih Jawaban -->
-                                                <div class="me-3">
-                                                    <select class="form-select form-select-solid" data-control="select2" >
-                                                        <option></option>
-                                                        <option value="1">A</option>
-                                                        <option value="2">B</option>
-                                                        <option value="2">C</option>
-                                                    </select>
-                                                </div>
-                                            <!-- Akhir Pilih Jawaban -->
-                                            <!-- Upload Image Soal -->
-                                                <div class="upload__box">
-                                                    <div class="upload__btn-box mb-0">
-                                                        <label class="btn btn-icon btn-bg-light btn-active-color-primary upload__btn" style="min-width : 40px; min-height : 40px">
-                                                            <i class="fa-duotone fa-images" style="font-size: 1.5rem;"></i>
-                                                            <input type="file" multiple="" data-max_length="20" class="upload__inputfile">
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            <!-- Akhir Image Soal -->
-                                        </div>
-                                    </div>
-                                <!-- Akhir inputan pertanyaan -->
+                                <div id="isi_penjodohan">
 
-                                <!-- Inputan ketika tambah opsi -->
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="upload__img-wrap"></div>
-                                        </div>
-                                        <div class="col-9 ps-0">
-                                            <form id="kt_forms_widget_1_form" class="ql-quil ql-quil-plain pb-3">
-                                                <!--begin::Editor-->
-                                                <div id="kt_forms_widget_1_editor_tambahopsipenjodohan" class="py-6"></div>
-                                                <!--end::Editor-->
-                                                <div class="separator"></div>
-                                                <!--begin::Toolbar-->
-                                                <div id="kt_forms_widget_1_editor_toolbar_tambahopsipenjodohan" class="ql-toolbar d-flex flex-stack py-2">
-                                                    <div class="me-2">
-                                                        <span class="ql-formats ql-size ms-0">
-                                                            <select class="ql-size w-75px"></select>
-                                                        </span>
-                                                        <span class="ql-formats">
-                                                            <button class="ql-bold"></button>
-                                                            <button class="ql-italic"></button>
-                                                            <button class="ql-underline"></button>
-                                                            <button class="ql-strike"></button>
-                                                            <button class="ql-link"></button>
-                                                            <button class="ql-clean"></button>
-                                                        </span>
-                                                    </div>
-                                                    <div class="me-n3">
-                                                        <span class="btn btn-icon btn-sm btn-active-color-primary">
-                                                            <i class="flaticon2-clip-symbol icon-ms"></i>
-                                                        </span>
-                                                        <span class="btn btn-icon btn-sm btn-active-color-primary">
-                                                            <i class="flaticon2-pin icon-ms"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <!--end::Toolbar-->
-                                            </form>
-                                        </div>
-                                        <div class="col-3  d-flex justify-content-center align-items-center">
-                                            <!-- Pilih Jawaban -->
-                                                <div class="me-3">
-                                                    <select class="form-select form-select-solid" data-control="select2" >
-                                                        <option></option>
-                                                        <option value="1">A</option>
-                                                        <option value="2">B</option>
-                                                        <option value="2">C</option>
-                                                    </select>
-                                                </div>
-                                            <!-- Akhir Pilih Jawaban -->
-
-                                            <!-- Upload Image Soal -->
-                                                <div class="upload__box me-3">
-                                                    <div class="upload__btn-box mb-0">
-                                                        <label class="btn btn-icon btn-bg-light btn-active-color-primary upload__btn" style="min-width : 40px; min-height : 40px">
-                                                            <i class="fa-duotone fa-images" style="font-size: 1.5rem;"></i>
-                                                            <input type="file" multiple="" data-max_length="20" class="upload__inputfile">
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            <!-- Akhir Image Soal -->
-
-                                            <!-- Hapus Tambah Opsi -->
-                                            <button id="3" type="button" class="btn btn-icon btn-bg-light btn-active-color-primary">                                    
-                                                    <i class="fa-duotone fa-trash" style="font-size: 1.5rem;"></i>                                
-                                                </button>
-                                            <!-- Akhir Hapus Tambah -->
-                                        </div>
-                                    </div>
-                                <!-- Inputan ketika tambah opsi -->
-
+                                </div>
                                 <!-- Button tambah pertanyaan -->
-                                    <label class="form-check form-check-sm form-check-custom form-check-solid mb-4">
-                                        <a href="#" class="btn btn-sm btn-light-primary ms-4">
-                                            <span class="svg-icon svg-icon-2 me-0">
-                                                <i class="fa-duotone fa-plus" style="font-size: 1.3rem;"></i>
-                                            </span>    
+                                <label class="form-check form-check-sm form-check-custom form-check-solid mb-4">
+                                    <a href="#" id="tambah_penjodohan_lagi" class="btn btn-sm btn-light-primary ms-4">
+                                        <span class="svg-icon svg-icon-2 me-0">
+                                            <i class="fa-duotone fa-plus" style="font-size: 1.3rem;"></i>
+                                        </span>
                                         Tambah Pertanyaan</a>
-                                    </label>
+                                </label>
                                 <!-- Akhir button tambah pertanyaan -->
 
                                 <!-- Inputan untuk jawaban -->
-                                    <div class="row">
-                                        <p class="fw-bolder ms-0 ps-0">Daftar Jawaban</p>
-                                    </div>
+                                <div class="row">
+                                    <p class="fw-bolder ms-0 ps-0">Daftar Jawaban</p>
+                                </div>
+                                <div id="isi_daftar">
 
-                                    <div class="row">
-                                        <div class="d-flex mb-4">
-                                            <div class="numbered d-flex justify center align-items-center fs-5 me-3">1</div>  
-                                            <label class="form-check form-check-sm form-check-custom form-check-solid" style="width:100%;">                        
-                                                <input type="text" class="form-control form-control form-control-solid me-3" placeholder="Daftar Jawaban">                    
-                                            </label> 
-                                        </div>
-                                    </div>
 
-                                    <div class="row">
-                                        <div class="d-flex mb-4">                
-                                            <div class="numbered d-flex justify center align-items-center fs-5 me-3">2</div>                  
-                                            <label class="form-check form-check-sm form-check-custom form-check-solid" style="width:100%;">                        
-                                                <input type="text" class="form-control form-control form-control-solid me-3" placeholder="Daftar Jawaban">                    
-                                            </label>                    
-                                            <button class="btn btn-icon btn-bg-light btn-active-color-primary" style="width:60px;">                        
-                                                <i class="fa-duotone fa-trash" style="font-size: 1.5rem;"></i>                    
-                                            </button>            
-                                        </div>
-                                    </div>
+
+                                </div>
                                 <!-- Akhir inputan jawaban -->
 
                                 <!-- Button tambah jawaban -->
-                                    <label class="form-check form-check-sm form-check-custom form-check-solid mb-4">
-                                        <a href="#" class="btn btn-sm btn-light-primary ms-4">
-                                            <span class="svg-icon svg-icon-2 me-0">
-                                                <i class="fa-duotone fa-plus" style="font-size: 1.3rem;"></i>
-                                            </span>    
+                                <label class="form-check form-check-sm form-check-custom form-check-solid mb-4">
+                                    <a href="#" id="tambah_daftar_lagi" class="btn btn-sm btn-light-primary ms-4">
+                                        <span class="svg-icon svg-icon-2 me-0">
+                                            <i class="fa-duotone fa-plus" style="font-size: 1.3rem;"></i>
+                                        </span>
                                         Tambah Jawaban</a>
-                                    </label>
+                                </label>
                                 <!-- Akhir button tambah jawaban -->
                             </div>
                         </div>
@@ -1119,4 +737,3 @@
     </div>
     <!--end::Modal dialog-->
 </div>
-
