@@ -7,6 +7,8 @@ class Controller_ctl extends MY_Admin
 		// Load the constructer from MY_Controller
 		parent::__construct();
 		access_url();
+
+		$this->idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
 	}
 
 
@@ -23,6 +25,26 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD JS
 		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/pengaturan/identitas.js') . '"></script>';
+
+		// Meta Data
+		$request_filter = ['id_sekolah' => $this->idsekolah];
+		$response = null;
+
+		if (is_siswa()) {
+			$response = curl_get_wali('profil/tentang_sekolah', $request_filter);
+		}
+
+		if (
+			is_staf() || is_operator() || is_admin()
+		) {
+			$response = curl_get_staf('profil/tentang_sekolah', $request_filter);
+		}
+
+		if (is_wali()) {
+			$response = curl_get_wali('profil/tentang_sekolah', $request_filter);
+		}
+
+		$mydata['data_sekolah'] = $response->data;
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('identitas_sekolah', $mydata, TRUE);
