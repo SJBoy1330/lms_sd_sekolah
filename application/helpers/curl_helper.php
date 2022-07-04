@@ -108,6 +108,37 @@ function curl_get_staf($path, $fields = array())
     return json_decode($response);
 }
 
+function curl_get_wali($path, $fields = array())
+{
+    $request_url = API_URL_WALI($path);
+    if (count($fields) > 0 && $fields !== null) {
+        $request_url = $request_url . "?" . http_build_query($fields);
+    }
+    $ch = curl_init($request_url);
+    curl_setopt($ch, CURLOPT_POST, 0);                //0 for a get request
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 3);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 20);
+    $response = curl_exec($ch);
+    curl_close($ch);
+    return json_decode($response);
+}
+
+function curl_get_siswa($path, $fields = array())
+{
+    $request_url = API_URL_SISWA($path);
+    if (count($fields) > 0 && $fields !== null) {
+        $request_url = $request_url . "?" . http_build_query($fields);
+    }
+    $ch = curl_init($request_url);
+    curl_setopt($ch, CURLOPT_POST, 0);                //0 for a get request
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 3);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 20);
+    $response = curl_exec($ch);
+    curl_close($ch);
+    return json_decode($response);
+}
 function response_parser($response)
 {
     $res = json_decode($response);

@@ -133,6 +133,13 @@ $route['pengaturan/(:any)'] = 'pengaturan/controller_ctl/$1';
 $route['pengaturan/(:any)/(:any)'] = 'pengaturan/controller_ctl/$1/$2';
 
 
+$route['func_pengaturan']  = 'pengaturan/function_ctl';
+
+$route['func_pengaturan/(:any)'] = 'pengaturan/function_ctl/$1';
+
+$route['func_pengaturan/(:any)/(:any)'] = 'pengaturan/function_ctl/$1/$2';
+
+
 
 $route['chatting']  = 'chatting/controller_ctl';
 
