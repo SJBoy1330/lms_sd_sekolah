@@ -140,6 +140,22 @@ class Controller_ctl extends MY_Admin
 		$this->display();
 	}
 
+	public function detail_hasil_ujian()
+	{
+		// LOAD TITLE
+		$this->data['title'] = 'Ujian';
+
+		// LOAD BREADCRUMB
+		$mydata['breadcrumb']['menu'] = 'Hasil Ujian';
+
+        // LOAD CSS
+		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
+
+		// LOAD VIEW
+		$this->data['content'] = $this->load->view('detail_hasil_ujian', $mydata, TRUE);
+		$this->display();
+	}
+
 	public function monitoring_ujian()
 	{
 		// LOAD TITLE
