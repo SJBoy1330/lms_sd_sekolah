@@ -57,19 +57,19 @@
                 <div class="card-toolbar">
                     <!--begin::Toolbar-->
                     <div class="d-flex justify-content-end">
-                        <button type="button" class="btn btn-sm btn-light-info me-2" data-bs-toggle="modal" data-bs-target="#modalUnggah">
+                        <button type="button" class="btn btn-sm btn-light-info me-2" data-bs-toggle="modal" data-bs-target="#modalCloning">
                             <span class="svg-icon svg-icon-2 me-0">
                                 <i class="fa-duotone fa-clone" style="font-size: 18px;"></i>
                             </span>
                             Clone</button>
                         <!--begin::Filter-->
-                        <button type="button" class="btn btn-sm btn-light-success me-3" data-bs-toggle="modal" data-bs-target="#modalGrupSoal">
+                        <a href="<?= base_url('ujian/tambah_paket_ujian')?>" class="btn btn-sm btn-light-success me-3">
                             <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
                             <span class="svg-icon svg-icon-2 me-0">
                                 <i class="fa-solid fa-plus" style="font-size: 18px;"></i>
                             </span>
                             <!--end::Svg Icon-->Paket Ujian
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <!--begin::Card title-->
@@ -117,16 +117,16 @@
                                     </button>
                                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-175px py-4" data-kt-menu="true">
                                         <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Daftar Peserta</a>
+                                            <a href="<?= base_url('ujian/tambah_peserta_ujian')?>" class="menu-link px-3">Daftar Peserta</a>
                                         </div>
                                         <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Hasil Ujian</a>
+                                            <a href="<?= base_url('ujian/hasil_ujian')?>" class="menu-link px-3">Hasil Ujian</a>
                                         </div>
                                         <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Monitoring Ujian</a>
+                                            <a href="<?= base_url('ujian/monitoring_ujian')?>" class="menu-link px-3">Monitoring Ujian</a>
                                         </div>
                                         <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Detail</a>
+                                            <a href="<?= base_url('ujian/detail_paket')?>" class="menu-link px-3">Detail</a>
                                         </div>
                                         <div class="menu-item px-3">
                                             <a href="#" class="menu-link px-3">Edit</a>
@@ -190,16 +190,16 @@
                                     </button>
                                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-175px py-4" data-kt-menu="true">
                                         <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Daftar Peserta</a>
+                                            <a href="<?= base_url('ujian/tambah_peserta_ujian')?>" class="menu-link px-3">Daftar Peserta</a>
                                         </div>
                                         <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Hasil Ujian</a>
+                                            <a href="<?= base_url('ujian/hasil_ujian')?>" class="menu-link px-3">Hasil Ujian</a>
                                         </div>
                                         <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Monitoring Ujian</a>
+                                            <a href="<?= base_url('ujian/monitoring_ujian')?>" class="menu-link px-3">Monitoring Ujian</a>
                                         </div>
                                         <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Detail</a>
+                                            <a href="<?= base_url('ujian/detail_paket')?>" class="menu-link px-3">Detail</a>
                                         </div>
                                         <div class="menu-item px-3">
                                             <a href="#" class="menu-link px-3">Edit</a>
@@ -260,7 +260,7 @@
     <!--end::Container-->
 </div>
 
-<div class="modal fade" id="modalGrupSoal" tabindex="-1" aria-hidden="true">
+<div class="modal fade" id="modalCloning" tabindex="-1" aria-hidden="true">
     <!--begin::Modal dialog-->
     <div class="modal-dialog modal-dialog-centered mw-850px">
         <!--begin::Modal content-->
@@ -268,7 +268,7 @@
             <!--begin::Modal header-->
             <div class="modal-header">
                 <!--begin::Modal title-->
-                <h2 class="fw-bolder">Tambah Grup Soal</h2>
+                <h2 class="fw-bolder">Cloning</h2>
                 <!--end::Modal title-->
                 <!--begin::Close-->
                 <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
@@ -286,37 +286,49 @@
             <!--end::Modal header-->
             <!--begin::Modal body-->
             <div class="modal-body scroll-y mx-10 my-2">
-                <div class="row">
-                    <div class="col-md-12 col-xl-12">
-                        <div class="d-flex flex-column mb-8 fv-row">
-                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                <span class="required">Nama Grup Soal</span>
-                            </label>
-                            <div class="position-relative d-flex align-items-center">
-                                <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                    <i class="fa-duotone fa-h1" style="font-size: 1.3rem;"></i>
-                                </span>
-                                <input class="form-control form-control-solid ps-12" placeholder="Masukkan nama grup soal" />
-                            </div>
-                        </div>
+
+                <div class="row mb-8">
+                    <label class="fs-6 fw-bold required mb-2">Tambah Nama Paket Ujian</label>
+                    <div class="position-relative d-flex align-items-center">
+                        <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                            <i class="fa-duotone fa-h1" style="font-size: 1.3rem;"></i>
+                        </span>
+                        <input class="form-control form-control-solid ps-12" placeholder="Masukkan nama instruksi"/>
                     </div>
-                    <div class="col-md-12 col-xl-12">
-                        <div class="d-flex flex-column mb-8 fv-row">
-                            <!--begin::Label-->
-                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                <span class="required">Mata Pelajaran</span>
-                            </label>
-                            <div>
-                                <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Kelas">
-                                    <option></option>
-                                    <option value="1">Matematika</option>
-                                    <option value="2">Ilmu Pengetahuan Alam</option>
-                                    <option value="2">Ilmu Pengetahuan Sosial</option>
-                                </select>
-                            </div>
+                </div>
+
+                <div class="col-md-12 col-xl-12">
+                    <div class="d-flex flex-column mb-8 fv-row">
+                        <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                            <span class="required">Jadwal</span>
+                        </label>
+                        <div class="position-relative d-flex align-items-center">
+                            <span class="svg-icon svg-icon-2 position-absolute mx-4">
+                                <i class="fa-duotone fa-calendar" style="font-size: 1.3rem;"></i>
+                            </span>
+                            <input class="form-control form-control-solid ps-12" type="date"/>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-md-12 col-xl-12">
+                    <div class="d-flex flex-column mb-8 fv-row">
+                        <!--begin::Label-->
+                        <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                            <span class="required">Paket Ujian</span>
+                        </label>
+                        <div>
+                            <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih">
+                                <option></option>
+                                <option value="1">Paket Ujian 1</option>
+                                <option value="2">Paket Ujian 2</option>
+                                <option value="3">Paket Ujian 3</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="row mb-4">
                     <div class="d-flex justify-content-end">
                         <button type="button" class="btn btn-primary">

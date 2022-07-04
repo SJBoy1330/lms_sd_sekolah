@@ -50397,3 +50397,16 @@ animation-delay: 1.25s;
   height: 3.17rem !important;
   width: 3.17rem !important;
 }
+
+.bush{
+  opacity: 0;
+  z-index: -1;
+  margin-left : -50px;
+  transition : 1s
+} 
+.bash:hover .bush{
+  margin-left : 0px;
+  opacity: 1;
+  z-index: 0;
+  transition : 1s
+}

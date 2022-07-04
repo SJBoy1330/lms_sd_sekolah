@@ -71,3 +71,34 @@
     min-height: 40px !important;
     min-width: 40px !important;
 }
+
+
+.tab {
+  overflow: hidden;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 16px;
+  transition: 0.3s;
+  animation: ease-in-out;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.tab button.active {
+  transition: 0.3s;
+  animation: ease-in-out;
+  color: #EC3528;
+  border-bottom: 3px solid #EC3528;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
