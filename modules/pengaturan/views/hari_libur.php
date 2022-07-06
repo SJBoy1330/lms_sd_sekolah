@@ -101,12 +101,12 @@
                                             <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
                                                 <!--begin::Menu item-->
                                                 <div class="menu-item px-3">
-                                                    <a class="menu-link px-3 btn-tambah-edit-modal-hari-libur" data-bs-toggle="modal" data-bs-target="#modalTambahHariLibur">Edit</a>
+                                                    <a class="menu-link px-3 btn-tambah-edit-modal-hari-libur" data-bs-toggle="modal" data-bs-target="#modalTambahHariLibur" data-idhari_libur="<?= $hari_libur->id_hari_libur ?>">Edit</a>
                                                 </div>
                                                 <!--end::Menu item-->
                                                 <!--begin::Menu item-->
                                                 <div class="menu-item px-3">
-                                                    <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
+                                                    <a class="menu-link px-3 btn-hapus-hari-libur" data-kt-users-table-filter="delete_row" data-idhari_libur="<?= $hari_libur->id_hari_libur ?>">Hapus</a>
                                                 </div>
                                                 <!--end::Menu item-->
                                             </div>

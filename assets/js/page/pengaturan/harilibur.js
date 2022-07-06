@@ -17,7 +17,43 @@ $(document).ready(function () {
       }
     });
   });
-})
+
+  $('.btn-hapus-hari-libur').on('click', function () {
+
+    let idhari_libur = $(this).data('idhari_libur');
+
+    $.ajax({
+      url: `${BASE_URL}/func_pengaturan/hapus_hari_libur/${idhari_libur}`,
+      method: "POST",
+      beforeSend: function () {
+        $(this).prop('disabled', true);
+      },
+      success: function (data) {
+        $(this).prop('disabled', false);
+        data = JSON.parse(data);
+
+        if (data.status == true) {
+          var icon = 'success';
+        } else {
+          var icon = 'warning';
+        }
+
+        Swal.fire({
+          title: data.alert.title,
+          text: data.alert.message,
+          icon: icon,
+          buttonsStyling: !1,
+          confirmButtonText: "Ok",
+          customClass: {
+            confirmButton: "btn btn-primary"
+          }
+        }).then(function () {
+          location.href = data.redirect;
+        });
+      }
+    });
+  });
+});
 
 $(function () {
   $('input[name="tanggal"]').daterangepicker({

@@ -115,7 +115,7 @@ class Controller_ctl extends MY_Admin
 			$mydata['modal_title'] = "Ubah Hari Libur";
 			$mydata['url_action'] = base_url("func_pengaturan/edit_hari_libur/" . $id_hari_libur);
 
-			$response = curl_get('hari_libur', ['id_sekolah' => $this->idsekolah]);
+			$response = curl_get('hari_libur', ['id_sekolah' => $this->idsekolah, 'id_hari_libur' => $id_hari_libur]);
 			$mydata['data_hari_libur'] = $response->data;
 		} else {
 			$mydata['modal_title'] = "Tambah Hari Libur";

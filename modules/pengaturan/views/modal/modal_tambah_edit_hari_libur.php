@@ -39,7 +39,7 @@
             <!--begin::Label-->
             <label class="required fs-6 fw-bold form-label mb-2">Keterangan</label>
             <!--end::Label-->
-            <textarea class="form-control form-control-solid" name="keterangan" id="keterangan" cols="30" rows="5"></textarea>
+            <textarea class="form-control form-control-solid" name="keterangan" id="keterangan" cols="30" rows="5"><?= $data_hari_libur->keterangan ?></textarea>
         </div>
         <!--end::Input group-->
         <!--begin::Actions-->
@@ -58,17 +58,34 @@
         <!--end::Actions-->
     </form>
     <!--end::Form-->
-    <script>
-        $(function() {
-            $('input[name="tanggal"]').daterangepicker({
-                timePicker: true,
-                startDate: moment().startOf('hour'),
-                endDate: moment().startOf('hour').add(32, 'hour'),
-                locale: {
-                    format: 'M/DD hh:mm'
-                }
+    <?php if ($data_hari_libur) : ?>
+        <script>
+            let start = '<?= $data_hari_libur->tanggal_mulai ?>';
+            let end = '<?= $data_hari_libur->tanggal_sampai ?>';
+            $(function() {
+                $('input[name="tanggal"]').daterangepicker({
+                    timePicker: true,
+                    startDate: moment(start).startOf('hour'),
+                    endDate: moment(end).startOf('hour').add(32, 'hour'),
+                    locale: {
+                        format: 'M/DD hh:mm'
+                    }
+                });
             });
-        });
-    </script>
+        </script>
+    <?php else : ?>
+        <script>
+            $(function() {
+                $('input[name="tanggal"]').daterangepicker({
+                    timePicker: true,
+                    startDate: moment().startOf('hour'),
+                    endDate: moment().startOf('hour').add(32, 'hour'),
+                    locale: {
+                        format: 'M/DD hh:mm'
+                    }
+                });
+            });
+        </script>
+    <?php endif ?>
 </div>
 <!--end::Modal body-->
