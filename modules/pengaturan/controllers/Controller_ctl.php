@@ -6,7 +6,7 @@ class Controller_ctl extends MY_Admin
 	{
 		// Load the constructer from MY_Controller
 		parent::__construct();
-		access_url();
+		access_url(['pengaturan/modal_tambah_edit_hari_libur']);
 
 		$this->idsekolah = $this->session->userdata('lms_sekolah_id_sekolah');
 	}
@@ -59,6 +59,10 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Hari Libur';
 
+		// Meta Data
+		$response = curl_get('hari_libur', ['id_sekolah' => $this->idsekolah]);
+		$mydata['data_hari_libur'] = $response->data;
+
 		// LOAD CSS
 		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/pengaturan/libur.css') . '">';
 
@@ -100,5 +104,24 @@ class Controller_ctl extends MY_Admin
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('presensi_siswa', $mydata, TRUE);
 		$this->display();
+	}
+
+	public function modal_tambah_edit_hari_libur()
+	{
+		$id_hari_libur = $this->input->post('id_hari_libur');
+		$mydata['is_edit'] = $id_hari_libur !== null;
+
+		if ($mydata['is_edit']) {
+			$mydata['modal_title'] = "Ubah Hari Libur";
+			$mydata['url_action'] = base_url("func_pengaturan/edit_hari_libur/" . $id_hari_libur);
+
+			$response = curl_get('hari_libur', ['id_sekolah' => $this->idsekolah]);
+			$mydata['data_hari_libur'] = $response->data;
+		} else {
+			$mydata['modal_title'] = "Tambah Hari Libur";
+			$mydata['url_action'] = base_url("func_pengaturan/insert_hari_libur");
+		}
+
+		$this->load->view("modal/modal_tambah_edit_hari_libur", $mydata);
 	}
 }

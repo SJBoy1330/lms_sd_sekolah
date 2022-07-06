@@ -1,7 +1,5 @@
 <?php
 
-use FontLib\Table\Type\post;
-
 defined('BASEPATH') or exit('No direct script access allowed');
 
 class function_ctl extends MY_Admin
@@ -67,5 +65,52 @@ class function_ctl extends MY_Admin
             echo json_encode($data);
             exit;
         }
+    }
+
+    public function insert_hari_libur()
+    {
+        $arrVar['tanggal'] = 'Tanggal';
+        $arrVar['keterangan'] = 'Keterangan';
+
+        foreach ($arrVar as $var => $value) {
+            $$var = $this->input->post($var);
+            if (!$$var) {
+                $data['required'][] = ['req_' . $var, $value . ' tidak boleh kosong !'];
+                $arrAccess[] = false;
+            } else {
+                $arrAccess[] = true;
+            }
+        }
+
+        if (!in_array(false, $arrAccess)) {
+            $request_data = array(
+                'id_sekolah' => $this->idsekolah,
+                'tanggal' => $this->input->post('tanggal'),
+                'keterangan' => $this->input->post('keterangan'),
+            );
+
+            $response = curl_post('hari_libur/tambah', $request_data);
+
+            $data['status'] = !$response->error;
+            if ($response->error) {
+                $data['alert']['title'] = 'PERINGATAN';
+                $data['alert']['message'] = $response->message;
+            } else {
+                $data['redirect'] = base_url('pengaturan/hari_libur');
+                $data['alert']['title'] = 'PEMBERITAHUAN';
+                $data['alert']['message'] = $response->message;
+            }
+
+            echo json_encode($data);
+        } else {
+            $data['status'] = false;
+            echo json_encode($data);
+            exit;
+        }
+    }
+
+    public function edit_hari_libur()
+    {
+        # code...
     }
 }
