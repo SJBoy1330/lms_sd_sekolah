@@ -129,445 +129,247 @@
                     <div class="card-body border">
                         <div class="row">
                             <div class="col-md-12 mb-10 mb-md-0">
-                                <!-- Pilihan Ganda -->
+
+                                <!-- Design Pilihan Ganda Baru -->
                                 <div class="card border cursor-pointer mb-3 m-0">
-                                    <div class="card-header bg-light d-flex align-items-center collapsible py-3 toggle mb-0 collapsed" data-bs-toggle="collapse" data-bs-target="#soal_1">
-                                        <div style="display:flex; justify-content:center; flex-direction: column; width:75%;">
+                                    <div class="position-absolute btn-aksi">
+                                        <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary"  data-bs-toggle="modal" data-bs-target="#modalInputSkor">
+                                            <p class="mb-0" style="font-weight: medium;">
+                                                20</p>
+                                        </button>
+                                        <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-flip="top-end">
+                                            <span class="svg-icon svg-icon-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                        <rect x="5" y="5" width="5" height="5" rx="1" fill="#000000"></rect>
+                                                        <rect x="14" y="5" width="5" height="5" rx="1" fill="#000000" opacity="0.3"></rect>
+                                                        <rect x="5" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3"></rect>
+                                                        <rect x="14" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3"></rect>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                        <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
+                                            <div class="menu-item px-3">
+                                                <div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Aksi</div>
+                                            </div>
+                                            <div class="separator border-gray-200"></div>
+                                            <div class="menu-item px-3">
+                                                <a class="menu-link px-3" data-bs-toggle="modal" href="#exampleModalToggle"><i class="fa-duotone fa-pen-to-square me-3" style="font-size:1.5rem;"></i>Edit Soal</a>
+                                            </div>
+                                            <div class="menu-item px-3">
+                                                <a class="menu-link px-3" data-bs-toggle="modal" href="#modal_delete_instruksi"><i class="fa-duotone fa-trash me-3" style="font-size:1.5rem;"></i>Hapus Soal</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalPilgan" class="card-header bg-light d-flex align-items-center py-3 toggle mb-0">
+                                        <div style="display:flex; justify-content:center; flex-direction: column;">
+                                            <div class="d-flex flex-column text-start mt-2 mb-4">
+                                                <p class="text-dark fw-bolder text-hover-primary mb-0 fs-5">Tipe Soal</p>
+                                                <span class="text-muted fw-bold d-block fs-7">Pilihan Ganda</span>
+                                            </div>
                                             <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                                <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                                <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                                <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                                <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                                <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                                <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                                <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                                <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                                <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                                <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                                <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                                <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                                <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                                <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
                                             </div>
                                             <p class="text-dark fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                                         </div>
-                                        <div class="d-flex">
-                                            <div class="me-3">
-                                                <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary"  data-bs-toggle="modal" data-bs-target="#modalInputSkor">
-                                                    <p class="mb-0" style="font-weight: medium;">
-                                                        20</p>
-                                                </button>
-                                                <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-flip="top-end">
-                                                    <span class="svg-icon svg-icon-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-                                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                                <rect x="5" y="5" width="5" height="5" rx="1" fill="#000000" />
-                                                                <rect x="14" y="5" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
-                                                                <rect x="5" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
-                                                                <rect x="14" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
-                                                            </g>
-                                                        </svg>
-                                                    </span>
-                                                </button>
-                                                <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
-                                                    <div class="menu-item px-3">
-                                                        <div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Aksi</div>
-                                                    </div>
-                                                    <div class="separator border-gray-200"></div>
-                                                    <div class="menu-item px-3">
-                                                        <a class="menu-link px-3" data-bs-toggle="modal" href="#exampleModalToggle"><i class="fa-duotone fa-pen-to-square me-3" style="font-size:1.5rem;"></i></i>Edit Soal</a>
-                                                    </div>
-                                                    <div class="menu-item px-3">
-                                                        <a class="menu-link px-3" data-bs-toggle="modal" href="#modal_delete_instruksi"><i class="fa-duotone fa-trash me-3" style="font-size:1.5rem;"></i></i>Hapus Soal</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="btn btn-sm btn-icon mw-20px btn-active-color-primary me-5">
-                                                <span class="svg-icon toggle-on svg-icon-primary svg-icon-1 svg_manual">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                        <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="black" />
-                                                        <rect x="6.0104" y="10.9247" width="12" height="2" rx="1" fill="black" />
-                                                    </svg>
-                                                </span>
-                                                <span class="svg-icon toggle-off svg-icon-1 svg_manual">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                        <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="black" />
-                                                        <rect x="10.8891" y="17.8033" width="12" height="2" rx="1" transform="rotate(-90 10.8891 17.8033)" fill="black" />
-                                                        <rect x="6.01041" y="10.9247" width="12" height="2" rx="1" fill="black" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="soal_1" class="collapse fs-6 ms-1">
-                                        <div class="my-5 text-gray-600 fw-bold fs-6 px-7">
-                                            <div>
-                                                <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4">
-                                                    <input class="form-check-input" type="radio" disabled="" checked="">
-                                                        <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
-                                                            <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
-                                                        </div>
-                                                </label>
-
-                                                <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4">
-                                                    <input class="form-check-input" type="radio" disabled="">
-                                                        <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
-                                                            <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
-                                                        </div>
-                                                </label>
-
-                                                <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4">
-                                                    <input class="form-check-input" type="radio" disabled="">
-                                                        <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
-                                                            <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
-                                                        </div>
-                                                </label>
-
-                                                <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4">
-                                                    <input class="form-check-input" type="radio" disabled="">
-                                                        <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
-                                                            <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
-                                                        </div>
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
+                                    </a>
                                 </div>
-                                <!-- Akhir Pilihan Ganda -->
+                                <!-- Akhir Design Pilihan Ganda Baru -->
 
-                                <!-- Pilihan Ganda Kompleks -->
+                                <!-- Design Pilihan Ganda Kompleks Baru -->
                                 <div class="card border cursor-pointer mb-3 m-0">
-                                    <div class="card-header bg-light d-flex align-items-center collapsible py-3 toggle mb-0 collapsed" data-bs-toggle="collapse" data-bs-target="#soal_2">
-                                        <div style="display:flex; justify-content:center; flex-direction: column; width:75%;">
+                                    <div class="position-absolute btn-aksi">
+                                        <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary"  data-bs-toggle="modal" data-bs-target="#modalInputSkor">
+                                            <p class="mb-0" style="font-weight: medium;">
+                                                20</p>
+                                        </button>
+                                        <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-flip="top-end">
+                                            <span class="svg-icon svg-icon-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                        <rect x="5" y="5" width="5" height="5" rx="1" fill="#000000"></rect>
+                                                        <rect x="14" y="5" width="5" height="5" rx="1" fill="#000000" opacity="0.3"></rect>
+                                                        <rect x="5" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3"></rect>
+                                                        <rect x="14" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3"></rect>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                        <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
+                                            <div class="menu-item px-3">
+                                                <div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Aksi</div>
+                                            </div>
+                                            <div class="separator border-gray-200"></div>
+                                            <div class="menu-item px-3">
+                                                <a class="menu-link px-3" data-bs-toggle="modal" href="#exampleModalToggle"><i class="fa-duotone fa-pen-to-square me-3" style="font-size:1.5rem;"></i>Edit Soal</a>
+                                            </div>
+                                            <div class="menu-item px-3">
+                                                <a class="menu-link px-3" data-bs-toggle="modal" href="#modal_delete_instruksi"><i class="fa-duotone fa-trash me-3" style="font-size:1.5rem;"></i>Hapus Soal</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalPilganKompleks" class="card-header bg-light d-flex align-items-center py-3 toggle mb-0">
+                                        <div class="d-flex flex-column text-start mt-2 mb-4">
+                                            <p class="text-dark fw-bolder text-hover-primary mb-0 fs-5">Tipe Soal</p>
+                                            <span class="text-muted fw-bold d-block fs-7">Pilihan Ganda Kompleks</span>
+                                        </div>
+                                        <div style="display:flex; justify-content:center; flex-direction: column;">
                                             <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                                <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                                <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                                <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
                                             </div>
                                             <p class="text-dark fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                                         </div>
-                                        <div class="d-flex">
-                                            <div class="me-3">
-                                                <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary"  data-bs-toggle="modal" data-bs-target="#modalInputSkor">
-                                                    <p class="mb-0" style="font-weight: medium;">
-                                                        20</p>
-                                                </button>
-                                                <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-flip="top-end">
-                                                    <span class="svg-icon svg-icon-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-                                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                                <rect x="5" y="5" width="5" height="5" rx="1" fill="#000000" />
-                                                                <rect x="14" y="5" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
-                                                                <rect x="5" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
-                                                                <rect x="14" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
-                                                            </g>
-                                                        </svg>
-                                                    </span>
-                                                </button>
-                                                <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
-                                                    <div class="menu-item px-3">
-                                                        <div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Aksi</div>
-                                                    </div>
-                                                    <div class="separator border-gray-200"></div>
-                                                    <div class="menu-item px-3">
-                                                        <a class="menu-link px-3" data-bs-toggle="modal" href="#exampleModalToggle"><i class="fa-duotone fa-pen-to-square me-3" style="font-size:1.5rem;"></i></i>Edit Soal</a>
-                                                    </div>
-                                                    <div class="menu-item px-3">
-                                                        <a class="menu-link px-3" data-bs-toggle="modal" href="#modal_delete_instruksi"><i class="fa-duotone fa-trash me-3" style="font-size:1.5rem;"></i></i>Hapus Soal</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="btn btn-sm btn-icon mw-20px btn-active-color-primary me-5">
-                                                <span class="svg-icon toggle-on svg-icon-primary svg-icon-1 svg_manual">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                        <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="black" />
-                                                        <rect x="6.0104" y="10.9247" width="12" height="2" rx="1" fill="black" />
-                                                    </svg>
-                                                </span>
-                                                <span class="svg-icon toggle-off svg-icon-1 svg_manual">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                        <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="black" />
-                                                        <rect x="10.8891" y="17.8033" width="12" height="2" rx="1" transform="rotate(-90 10.8891 17.8033)" fill="black" />
-                                                        <rect x="6.01041" y="10.9247" width="12" height="2" rx="1" fill="black" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="soal_2" class="collapse fs-6 ms-1">
-                                        <div class="my-5 text-gray-600 fw-bold fs-6 px-7">
-                                            <div>
-                                                <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4">
-                                                    <input class="form-check-input" type="checkbox" disabled="" checked="">
-                                                        <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
-                                                            <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
-                                                        </div>
-                                                </label>
-
-                                                <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4">
-                                                    <input class="form-check-input" type="checkbox" disabled="">
-                                                        <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
-                                                            <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
-                                                        </div>
-                                                </label>
-
-                                                <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4">
-                                                    <input class="form-check-input" type="checkbox" disabled="">
-                                                        <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
-                                                            <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
-                                                        </div>
-                                                </label>
-
-                                                <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4">
-                                                    <input class="form-check-input" type="checkbox" disabled="">
-                                                        <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
-                                                            <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
-                                                        </div>
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
+                                    </a>
                                 </div>
-                                <!-- Akhir Pilihan Ganda Kompleks -->
+                                <!-- Akhir Pilihan Ganda Kompleks Baru -->
 
-                                <!-- Uraian Singkat -->
+                                <!-- Design Uraian Singkat -->
                                 <div class="card border cursor-pointer mb-3 m-0">
-                                    <div class="card-header bg-light d-flex align-items-center collapsible py-3 toggle mb-0 collapsed" data-bs-toggle="collapse" data-bs-target="#soal_3">
-                                        <div style="display:flex; justify-content:center; flex-direction: column; width:75%;">
+                                    <div class="position-absolute btn-aksi">
+                                        <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary"  data-bs-toggle="modal" data-bs-target="#modalInputSkor">
+                                            <p class="mb-0" style="font-weight: medium;">
+                                                20</p>
+                                        </button>
+                                        <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-flip="top-end">
+                                            <span class="svg-icon svg-icon-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                        <rect x="5" y="5" width="5" height="5" rx="1" fill="#000000"></rect>
+                                                        <rect x="14" y="5" width="5" height="5" rx="1" fill="#000000" opacity="0.3"></rect>
+                                                        <rect x="5" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3"></rect>
+                                                        <rect x="14" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3"></rect>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                        <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
+                                            <div class="menu-item px-3">
+                                                <div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Aksi</div>
+                                            </div>
+                                            <div class="separator border-gray-200"></div>
+                                            <div class="menu-item px-3">
+                                                <a class="menu-link px-3" data-bs-toggle="modal" href="#exampleModalToggle"><i class="fa-duotone fa-pen-to-square me-3" style="font-size:1.5rem;"></i>Edit Soal</a>
+                                            </div>
+                                            <div class="menu-item px-3">
+                                                <a class="menu-link px-3" data-bs-toggle="modal" href="#modal_delete_instruksi"><i class="fa-duotone fa-trash me-3" style="font-size:1.5rem;"></i>Hapus Soal</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalUraianSingkat" class="card-header bg-light d-flex align-items-center py-3 toggle mb-0">
+                                        <div class="d-flex flex-column text-start mt-2 mb-4">
+                                            <p class="text-dark fw-bolder text-hover-primary mb-0 fs-5">Tipe Soal</p>
+                                            <span class="text-muted fw-bold d-block fs-7">Uraian Singkat</span>
+                                        </div>
+                                        <div style="display:flex; justify-content:center; flex-direction: column;">
                                             <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                                <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                                <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                                <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
                                             </div>
                                             <p class="text-dark fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                                         </div>
-                                        <div class="d-flex">
-                                            <div class="me-3">
-                                                <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary"  data-bs-toggle="modal" data-bs-target="#modalInputSkor">
-                                                    <p class="mb-0" style="font-weight: medium;">
-                                                        20</p>
-                                                </button>
-                                                <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-flip="top-end">
-                                                    <span class="svg-icon svg-icon-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-                                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                                <rect x="5" y="5" width="5" height="5" rx="1" fill="#000000" />
-                                                                <rect x="14" y="5" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
-                                                                <rect x="5" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
-                                                                <rect x="14" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
-                                                            </g>
-                                                        </svg>
-                                                    </span>
-                                                </button>
-                                                <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
-                                                    <div class="menu-item px-3">
-                                                        <div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Aksi</div>
-                                                    </div>
-                                                    <div class="separator border-gray-200"></div>
-                                                    <div class="menu-item px-3">
-                                                        <a class="menu-link px-3" data-bs-toggle="modal" href="#exampleModalToggle"><i class="fa-duotone fa-pen-to-square me-3" style="font-size:1.5rem;"></i></i>Edit Soal</a>
-                                                    </div>
-                                                    <div class="menu-item px-3">
-                                                        <a class="menu-link px-3" data-bs-toggle="modal" href="#modal_delete_instruksi"><i class="fa-duotone fa-trash me-3" style="font-size:1.5rem;"></i></i>Hapus Soal</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="btn btn-sm btn-icon mw-20px btn-active-color-primary me-5">
-                                                <span class="svg-icon toggle-on svg-icon-primary svg-icon-1 svg_manual">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                        <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="black" />
-                                                        <rect x="6.0104" y="10.9247" width="12" height="2" rx="1" fill="black" />
-                                                    </svg>
-                                                </span>
-                                                <span class="svg-icon toggle-off svg-icon-1 svg_manual">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                        <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="black" />
-                                                        <rect x="10.8891" y="17.8033" width="12" height="2" rx="1" transform="rotate(-90 10.8891 17.8033)" fill="black" />
-                                                        <rect x="6.01041" y="10.9247" width="12" height="2" rx="1" fill="black" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="soal_3" class="collapse fs-6 ms-1">
-                                        <div class="my-5 text-gray-600 fw-bold fs-6 px-7">
-                                            <div>
-                                                <input type="text" class="form-control form-control-solid mb-3 bg-light-success"  placeholder="lorem" value="buaya" readonly="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
+                                    </a>
                                 </div>
                                 <!-- Akhir Uraian Singkat -->
 
-                                <!-- Uraian Panjang -->
+                                <!-- Design Uraian Panjang -->
                                 <div class="card border cursor-pointer mb-3 m-0">
-                                    <div class="card-header bg-light d-flex align-items-center collapsible py-3 toggle mb-0 collapsed" data-bs-toggle="collapse" data-bs-target="#soal_4">
-                                        <div style="display:flex; justify-content:center; flex-direction: column; width:75%;">
+                                    <div class="position-absolute btn-aksi">
+                                        <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary"  data-bs-toggle="modal" data-bs-target="#modalInputSkor">
+                                            <p class="mb-0" style="font-weight: medium;">
+                                                20</p>
+                                        </button>
+                                        <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-flip="top-end">
+                                            <span class="svg-icon svg-icon-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                        <rect x="5" y="5" width="5" height="5" rx="1" fill="#000000"></rect>
+                                                        <rect x="14" y="5" width="5" height="5" rx="1" fill="#000000" opacity="0.3"></rect>
+                                                        <rect x="5" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3"></rect>
+                                                        <rect x="14" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3"></rect>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                        <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
+                                            <div class="menu-item px-3">
+                                                <div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Aksi</div>
+                                            </div>
+                                            <div class="separator border-gray-200"></div>
+                                            <div class="menu-item px-3">
+                                                <a class="menu-link px-3" data-bs-toggle="modal" href="#exampleModalToggle"><i class="fa-duotone fa-pen-to-square me-3" style="font-size:1.5rem;"></i>Edit Soal</a>
+                                            </div>
+                                            <div class="menu-item px-3">
+                                                <a class="menu-link px-3" data-bs-toggle="modal" href="#modal_delete_instruksi"><i class="fa-duotone fa-trash me-3" style="font-size:1.5rem;"></i>Hapus Soal</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalUraianPanjang" class="card-header bg-light d-flex align-items-center py-3 toggle mb-0">
+                                        <div class="d-flex flex-column text-start mt-2 mb-4">
+                                            <p class="text-dark fw-bolder text-hover-primary mb-0 fs-5">Tipe Soal</p>
+                                            <span class="text-muted fw-bold d-block fs-7">Uraian Panjang</span>
+                                        </div>
+                                        <div style="display:flex; justify-content:center; flex-direction: column;">
                                             <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                                <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                                <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                                <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
                                             </div>
                                             <p class="text-dark fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                                         </div>
-                                        <div class="d-flex">
-                                            <div class="me-3">
-                                                <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary"  data-bs-toggle="modal" data-bs-target="#modalInputSkor">
-                                                    <p class="mb-0" style="font-weight: medium;">
-                                                        20</p>
-                                                </button>
-                                                <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-flip="top-end">
-                                                    <span class="svg-icon svg-icon-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-                                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                                <rect x="5" y="5" width="5" height="5" rx="1" fill="#000000" />
-                                                                <rect x="14" y="5" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
-                                                                <rect x="5" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
-                                                                <rect x="14" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
-                                                            </g>
-                                                        </svg>
-                                                    </span>
-                                                </button>
-                                                <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
-                                                    <div class="menu-item px-3">
-                                                        <div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Aksi</div>
-                                                    </div>
-                                                    <div class="separator border-gray-200"></div>
-                                                    <div class="menu-item px-3">
-                                                        <a class="menu-link px-3" data-bs-toggle="modal" href="#exampleModalToggle"><i class="fa-duotone fa-pen-to-square me-3" style="font-size:1.5rem;"></i></i>Edit Soal</a>
-                                                    </div>
-                                                    <div class="menu-item px-3">
-                                                        <a class="menu-link px-3" data-bs-toggle="modal" href="#modal_delete_instruksi"><i class="fa-duotone fa-trash me-3" style="font-size:1.5rem;"></i></i>Hapus Soal</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="btn btn-sm btn-icon mw-20px btn-active-color-primary me-5">
-                                                <span class="svg-icon toggle-on svg-icon-primary svg-icon-1 svg_manual">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                        <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="black" />
-                                                        <rect x="6.0104" y="10.9247" width="12" height="2" rx="1" fill="black" />
-                                                    </svg>
-                                                </span>
-                                                <span class="svg-icon toggle-off svg-icon-1 svg_manual">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                        <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="black" />
-                                                        <rect x="10.8891" y="17.8033" width="12" height="2" rx="1" transform="rotate(-90 10.8891 17.8033)" fill="black" />
-                                                        <rect x="6.01041" y="10.9247" width="12" height="2" rx="1" fill="black" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="soal_4" class="collapse fs-6 ms-1">
-                                        <div class="my-5 text-gray-600 fw-bold fs-6 px-7">
-                                            <div>
-                                                <textarea class="form-control form-control-solid mb-3 bg-light-success" placeholder="lorem" style="height: 150px;" disabled="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloribus delectus obcaecati sint maxime quo cumque ratione fuga, placeat perspiciatis exercitationem sequi asperiores saepe corrupti corporis, commodi tenetur natus magni?</textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
+                                    </a>
                                 </div>
                                 <!-- Akhir Uraian Panjang -->
 
-                                <!-- Penjodohan -->
+                                <!-- Design Penjodohan -->
                                 <div class="card border cursor-pointer mb-3 m-0">
-                                    <div class="card-header bg-light d-flex align-items-center collapsible py-3 toggle mb-0 collapsed" data-bs-toggle="collapse" data-bs-target="#soal_5">
-                                        <div style="display:flex; justify-content:center; flex-direction: column; width:75%;">
+                                    <div class="position-absolute btn-aksi">
+                                        <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary"  data-bs-toggle="modal" data-bs-target="#modalInputSkor">
+                                            <p class="mb-0" style="font-weight: medium;">
+                                                20</p>
+                                        </button>
+                                        <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-flip="top-end">
+                                            <span class="svg-icon svg-icon-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
+                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                        <rect x="5" y="5" width="5" height="5" rx="1" fill="#000000"></rect>
+                                                        <rect x="14" y="5" width="5" height="5" rx="1" fill="#000000" opacity="0.3"></rect>
+                                                        <rect x="5" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3"></rect>
+                                                        <rect x="14" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3"></rect>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                        <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
+                                            <div class="menu-item px-3">
+                                                <div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Aksi</div>
+                                            </div>
+                                            <div class="separator border-gray-200"></div>
+                                            <div class="menu-item px-3">
+                                                <a class="menu-link px-3" data-bs-toggle="modal" href="#exampleModalToggle"><i class="fa-duotone fa-pen-to-square me-3" style="font-size:1.5rem;"></i>Edit Soal</a>
+                                            </div>
+                                            <div class="menu-item px-3">
+                                                <a class="menu-link px-3" data-bs-toggle="modal" href="#modal_delete_instruksi"><i class="fa-duotone fa-trash me-3" style="font-size:1.5rem;"></i>Hapus Soal</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalPenjodohan" class="card-header bg-light d-flex align-items-center py-3 toggle mb-0">
+                                        <div class="d-flex flex-column text-start mt-2 mb-4">
+                                            <p class="text-dark fw-bolder text-hover-primary mb-0 fs-5">Tipe Soal</p>
+                                            <span class="text-muted fw-bold d-block fs-7">Penjodohan</span>
+                                        </div>
+                                        <div style="display:flex; justify-content:center; flex-direction: column;">
                                             <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                                <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                                <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                                <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
                                             </div>
                                             <p class="text-dark fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                                         </div>
-                                        <div class="d-flex">
-                                            <div class="me-3">
-                                                <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary"  data-bs-toggle="modal" data-bs-target="#modalInputSkor">
-                                                    <p class="mb-0" style="font-weight: medium;">
-                                                        20</p>
-                                                </button>
-                                                <button class="btn btn-sm btn-icon bg-secondary btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-flip="top-end">
-                                                    <span class="svg-icon svg-icon-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-                                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                                <rect x="5" y="5" width="5" height="5" rx="1" fill="#000000" />
-                                                                <rect x="14" y="5" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
-                                                                <rect x="5" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
-                                                                <rect x="14" y="14" width="5" height="5" rx="1" fill="#000000" opacity="0.3" />
-                                                            </g>
-                                                        </svg>
-                                                    </span>
-                                                </button>
-                                                <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
-                                                    <div class="menu-item px-3">
-                                                        <div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Aksi</div>
-                                                    </div>
-                                                    <div class="separator border-gray-200"></div>
-                                                    <div class="menu-item px-3">
-                                                        <a class="menu-link px-3" data-bs-toggle="modal" href="#exampleModalToggle"><i class="fa-duotone fa-pen-to-square me-3" style="font-size:1.5rem;"></i></i>Edit Soal</a>
-                                                    </div>
-                                                    <div class="menu-item px-3">
-                                                        <a class="menu-link px-3" data-bs-toggle="modal" href="#modal_delete_instruksi"><i class="fa-duotone fa-trash me-3" style="font-size:1.5rem;"></i></i>Hapus Soal</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="btn btn-sm btn-icon mw-20px btn-active-color-primary me-5">
-                                                <span class="svg-icon toggle-on svg-icon-primary svg-icon-1 svg_manual">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                        <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="black" />
-                                                        <rect x="6.0104" y="10.9247" width="12" height="2" rx="1" fill="black" />
-                                                    </svg>
-                                                </span>
-                                                <span class="svg-icon toggle-off svg-icon-1 svg_manual">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                        <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="black" />
-                                                        <rect x="10.8891" y="17.8033" width="12" height="2" rx="1" transform="rotate(-90 10.8891 17.8033)" fill="black" />
-                                                        <rect x="6.01041" y="10.9247" width="12" height="2" rx="1" fill="black" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="soal_5" class="collapse fs-6 ms-1">
-                                        <div class="my-5 text-gray-600 fw-bold fs-6 px-7">
-                                            <div style="width :100%; height : auto; display :flex; justify-content : center; flex-wrap : wrap;">
-                                                <div class="card shadow-sm" style="width:30rem; margin:5px;">
-                                                    <ul class="list-group list-group-flush">
-                                                        <li class="list-group-item bg-secondary">
-                                                            <div style="display:flex; justify-content:center; flex-direction: column;padding-left : 20px;">
-                                                            </div>
-                                                            <table class="table mb-0">
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td>Pertanyaan</td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </li>
-                                                        <li class="list-group-item d-flex justify-content-between align-items-center p-4">
-                                                            <span>1. Jeje</span>
-                                                            <span">[A]</span">
-                                                        </li>
-                                                    </ul>
-                                                </div>
-
-                                                <div class="card shadow-sm" style="width:30rem; margin:5px;">
-                                                    <ul class="list-group list-group-flush">
-                                                        <li class="list-group-item bg-secondary">
-                                                            <div style="display:flex; justify-content:center; flex-direction: column;padding-left : 20px;">
-                                                            </div>
-                                                            <table class="table mb-0">
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td>Jawaban</td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </li>
-                                                        <li class="list-group-item d-flex justify-content-between align-items-center p-4">
-                                                            <span>A. Programmer</span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
+                                    </a>
                                 </div>
                                 <!-- Akhir Penjodohan -->
+                                
                             </div>
                         </div> 
                     </div>
@@ -790,7 +592,7 @@
             <!--begin::Modal header-->
             <div class="modal-header">
                 <!--begin::Modal title-->
-                <h2 class="fw-bolder">Cloning</h2>
+                <h2 class="fw-bolder">Input Skor</h2>
                 <!--end::Modal title-->
                 <!--begin::Close-->
                 <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
@@ -841,6 +643,386 @@
                             <!--end::Svg Icon-->Simpan
                         </button>
                         <!--end::Add user-->
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal body-->
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>
+
+<!-- Modal Soal Pilihan Ganda -->
+<div class="modal fade" id="modalPilgan" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-1000px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header">
+                <!--begin::Modal title-->
+                <h2 class="fw-bolder">Pilihan Ganda</h2>
+                <!--end::Modal title-->
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <!--end::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y mx-10 my-2">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center flex-wrap">
+                        <div style="display : flex; align-items: center; flex-wrap: wrap;">
+                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                        </div>
+                        <p class="text-dark text-center fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
+                    </div>
+
+                    <div class="mt-10">
+                        <label class="form-check form-check-sm form-check-custom form-check-solid bg-light d-flex mx-2 mb-4 py-2 px-3 rounded-3">
+                            <input class="form-check-input" type="radio" disabled="" checked="">
+                            <div style="display:flex; justify-content:center; flex-direction: column ; padding-left : 20px;">
+                                <div style="display : flex;align-items:center; flex-wrap: wrap;">
+                                    <div class="ms-2 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="ms-2 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                </div>
+                                <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
+                            </div>
+                        </label>
+
+                        <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
+                            <input class="form-check-input" type="radio" disabled="">
+                            <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
+                                <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
+                            </div>
+                        </label>
+
+                        <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
+                            <input class="form-check-input" type="radio" disabled="">
+                            <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
+                                <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
+                            </div>
+                        </label>
+
+                        <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
+                            <input class="form-check-input" type="radio" disabled="">
+                            <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
+                                <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal body-->
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>
+
+<!-- Modal Soal Pilihan Ganda Kompleks -->
+<div class="modal fade" id="modalPilganKompleks" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-1000px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header">
+                <!--begin::Modal title-->
+                <h2 class="fw-bolder">Pilihan Ganda Kompleks</h2>
+                <!--end::Modal title-->
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <!--end::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y mx-10 my-2">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center flex-wrap">
+                        <div style="display : flex; align-items: center; flex-wrap: wrap;">
+                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                        </div>
+                        <p class="text-dark text-center fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
+                    </div>
+
+                    <div class="mt-10">
+                        <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
+                            <input class="form-check-input" type="checkbox" disabled="" checked="">
+                            <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
+                                <div style="display : flex;align-items:center; flex-wrap: wrap;">
+                                    <div class="ms-2 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="ms-2 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                </div>
+                                <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
+                            </div>
+                        </label>
+
+                        <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
+                            <input class="form-check-input" type="checkbox" disabled="">
+                            <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
+                                <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
+                            </div>
+                        </label>
+
+                        <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
+                            <input class="form-check-input" type="checkbox" disabled="">
+                            <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
+                                <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
+                            </div>
+                        </label>
+
+                        <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
+                            <input class="form-check-input" type="checkbox" disabled="">
+                            <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
+                                <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal body-->
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>
+
+<!-- Modal Soal Uraian Singkat -->
+<div class="modal fade" id="modalUraianSingkat" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-1000px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header">
+                <!--begin::Modal title-->
+                <h2 class="fw-bolder">Uraian Singkat</h2>
+                <!--end::Modal title-->
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <!--end::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y mx-10 my-2">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center flex-wrap">
+                        <div style="display : flex; align-items: center; flex-wrap: wrap;">
+                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                        </div>
+                        <p class="text-dark text-center fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
+                    </div>
+
+                    <div class="mt-10">
+                        <div class="form-control form-control-solid mb-3 bg-light-success">
+                            <p class="mb-0 text-dark fw-normal">Lorem</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal body-->
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>
+
+<!-- Modal Soal Uraian Panjang -->
+<div class="modal fade" id="modalUraianPanjang" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-1000px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header">
+                <!--begin::Modal title-->
+                <h2 class="fw-bolder">Uraian Panjang</h2>
+                <!--end::Modal title-->
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <!--end::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y mx-10 my-2">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center flex-wrap">
+                        <div style="display : flex; align-items: center; flex-wrap: wrap;">
+                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                        </div>
+                        <p class="text-dark text-center fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
+                    </div>
+
+                    <div class="mt-10">
+                        <div class="form-control form-control-solid mb-3 bg-light-success">
+                            <p class="mb-0 text-dark fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi obcaecati quaerat nesciunt et voluptatum fuga quas, voluptatibus culpa asperiores earum eos dicta, repellendus voluptas perspiciatis illum exercitationem ipsum. Accusamus, eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi obcaecati quaerat nesciunt et voluptatum fuga quas, voluptatibus culpa asperiores earum eos dicta, repellendus voluptas perspiciatis illum exercitationem ipsum. Accusamus, eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi obcaecati quaerat nesciunt et voluptatum fuga quas, voluptatibus culpa asperiores earum eos dicta, repellendus voluptas perspiciatis illum exercitationem ipsum. Accusamus, eveniet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal body-->
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>
+
+<!-- Modal Soal Penjodohan -->
+<div class="modal fade" id="modalPenjodohan" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-1000px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header">
+                <!--begin::Modal title-->
+                <h2 class="fw-bolder">Penjodohan</h2>
+                <!--end::Modal title-->
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <!--end::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y mx-10 my-2">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center flex-wrap">
+                        <div style="display : flex; align-items: center; flex-wrap: wrap;">
+                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                        </div>
+                        <p class="text-dark text-center fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
+                    </div>
+
+                    <div class="mt-10 text-gray-600 fw-bold fs-6 px-7">
+                        <div style="width :100%; height : auto; display :flex; justify-content : center; flex-wrap : wrap;">
+                            <div class="card shadow-sm" style="width:30rem; margin:5px;">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item bg-secondary">
+                                        <div style="display:flex; justify-content:center; flex-direction: column;padding-left : 20px;">
+                                        </div>
+                                        <table class="table mb-0">
+                                            <tbody>
+                                                <tr>
+                                                    <td>Pertanyaan</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                    <li class="list-group-item d-flex flex-column p-4">
+                                        <div style="display : flex; align-items: center; flex-wrap: wrap;">
+                                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                        </div>
+                                        <span class="text-start">1. Jeje</span>
+                                        <span class="position-absolute" style="right: 12px;">[A]</span>
+                                    </li>
+                                    <li class="list-group-item d-flex flex-column p-4">
+                                        <div style="display : flex; align-items: center; flex-wrap: wrap;">
+                                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                        </div>
+                                        <span class="text-start">2. Saka</span>
+                                        <span class="position-absolute" style="right: 12px;">[B]</span>
+                                    </li>
+                                    <li class="list-group-item d-flex flex-column p-4">
+                                        <div style="display : flex; align-items: center; flex-wrap: wrap;">
+                                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                        </div>
+                                        <span class="text-start">3. Harya</span>
+                                        <span class="position-absolute" style="right: 12px;">[C]</span>
+                                    </li>
+                                    <li class="list-group-item d-flex flex-column p-4">
+                                        <div style="display : flex; align-items: center; flex-wrap: wrap;">
+                                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                        </div>
+                                        <span class="text-start">4. Rama</span>
+                                        <span class="position-absolute" style="right: 12px;">[D]</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card shadow-sm" style="width:30rem; margin:5px;">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item bg-secondary">
+                                        <div style="display:flex; justify-content:center; flex-direction: column;padding-left : 20px;">
+                                        </div>
+                                        <table class="table mb-0">
+                                            <tbody>
+                                                <tr>
+                                                    <td>Jawaban</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center p-4">
+                                        <span>A. BE Programmer</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center p-4">
+                                        <span>B. Design Programmer</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center p-4">
+                                        <span>C. Android Programmer</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center p-4">
+                                        <span>D. Quality Ansurrance</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

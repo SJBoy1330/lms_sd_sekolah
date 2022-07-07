@@ -50410,3 +50410,14 @@ animation-delay: 1.25s;
   z-index: 0;
   transition : 1s
 }
+
+
+div.btn-aksi{
+  top: 12px;
+  right: 12px;
+}
+
+button.btn-aksi{
+  top: 12px;
+  right: 12px;
+}
