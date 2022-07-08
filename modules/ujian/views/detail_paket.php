@@ -279,7 +279,7 @@
 
                     <div class="mt-10">
                         <label class="form-check form-check-sm form-check-custom form-check-solid bg-light d-flex mx-2 mb-4 py-2 px-3 rounded-3">
-                            <input class="form-check-input" type="radio" disabled="" checked="">
+                            <input class="form-check-input ujian" type="radio" disabled="" checked="">
                             <div style="display:flex; justify-content:center; flex-direction: column ; padding-left : 20px;">
                                 <div style="display : flex;align-items:center; flex-wrap: wrap;">
                                     <div class="ms-2 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
@@ -290,21 +290,21 @@
                         </label>
 
                         <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
-                            <input class="form-check-input" type="radio" disabled="">
+                            <input class="form-check-input ujian" type="radio" disabled="">
                             <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
                                 <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
                             </div>
                         </label>
 
                         <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
-                            <input class="form-check-input" type="radio" disabled="">
+                            <input class="form-check-input ujian" type="radio" disabled="">
                             <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
                                 <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
                             </div>
                         </label>
 
                         <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
-                            <input class="form-check-input" type="radio" disabled="">
+                            <input class="form-check-input ujian" type="radio" disabled="">
                             <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
                                 <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
                             </div>

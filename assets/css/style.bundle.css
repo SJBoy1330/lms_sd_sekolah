@@ -50421,3 +50421,12 @@ button.btn-aksi{
   top: 12px;
   right: 12px;
 }
+
+.form-check.form-check-solid .form-check-input.ujian:checked {
+  background-color: #EC3528;
+}
+
+.form-check.form-check-solid .form-check-input.ujian {
+  border: 0;
+  background-color: #D5D5D5;
+}

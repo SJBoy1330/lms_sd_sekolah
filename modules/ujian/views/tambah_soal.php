@@ -464,7 +464,6 @@
             <!--end::Modal header-->
             <!--begin::Modal body-->
             <div class="modal-body scroll-y mx-10 my-2">
-
                 <div class="row">
                     <div class="col-md-12 col-xl-4">
                         <label class="d-flex align-items-center fs-6 fw-bold mb-2">
@@ -528,24 +527,28 @@
                                         </tbody>
                                     </table>
                                 </li>
-                                <li class="list-group-item p-4" style="cursor : default;">
-                                    <div class="row">
-                                        <div class="col-12 d-flex justify-content-between align-items-center">
-                                            <span class="badge badge-light-success me-2">Uraian Panjang</span>
-                                            <button type="button" class="btn btn-sm btn-light-success">
-                                                <span class="svg-icon svg-icon-2 me-0">
-                                                    <i class="fa-duotone fa-plus" style="font-size: 18px;"></i>
-                                                </span>
-                                            Tambah</button>
-                                        </div>
+                                <div id="parent">
+                                    <div id="inputan">
+                                        <li class="list-group-item p-4" style="cursor : default;">
+                                            <div class="row">
+                                                <div class="col-12 d-flex justify-content-between align-items-center">
+                                                    <span class="badge badge-light-success me-2">Uraian Panjang</span>
+                                                    <button type="button" onclick="menambah_inputan()" class="btn btn-sm btn-light-success">
+                                                        <span class="svg-icon svg-icon-2 me-0">
+                                                            <i class="fa-duotone fa-plus" style="font-size: 18px;"></i>
+                                                        </span>
+                                                    Tambah</button>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-5">
+                                                <div class="col-12 col-md-12 col-lg-12">
+                                                    <figure class="ms-2 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></figure>
+                                                    <p class="ms-2 mt-2 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non provident, officiis illo blanditiis pariatur repellendus. Vel odit repellat, mollitia facere commodi qui? Reprehenderit harum beatae culpa. At assumenda adipisci sint. ?</p>
+                                                </div>
+                                            </div>
+                                        </li>
                                     </div>
-                                    <div class="row mt-5">
-                                        <div class="col-12 col-md-12 col-lg-12">
-                                            <figure class="ms-2 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg')?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></figure>
-                                            <p class="ms-2 mt-2 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non provident, officiis illo blanditiis pariatur repellendus. Vel odit repellat, mollitia facere commodi qui? Reprehenderit harum beatae culpa. At assumenda adipisci sint. ?</p>
-                                        </div>
-                                    </div>
-                                </li>
+                                </div>
                                 <li class="list-group-item p-4 bg-light-success" style="cursor : default;">
                                     <div class="row">
                                         <div class="col-12 d-flex justify-content-between align-items-center">
@@ -691,7 +694,7 @@
 
                     <div class="mt-10">
                         <label class="form-check form-check-sm form-check-custom form-check-solid bg-light d-flex mx-2 mb-4 py-2 px-3 rounded-3">
-                            <input class="form-check-input" type="radio" disabled="" checked="">
+                            <input class="form-check-input ujian" type="radio" disabled="" checked="">
                             <div style="display:flex; justify-content:center; flex-direction: column ; padding-left : 20px;">
                                 <div style="display : flex;align-items:center; flex-wrap: wrap;">
                                     <div class="ms-2 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
@@ -702,21 +705,21 @@
                         </label>
 
                         <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
-                            <input class="form-check-input" type="radio" disabled="">
+                            <input class="form-check-input ujian" type="radio" disabled="">
                             <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
                                 <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
                             </div>
                         </label>
 
                         <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
-                            <input class="form-check-input" type="radio" disabled="">
+                            <input class="form-check-input ujian" type="radio" disabled="">
                             <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
                                 <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
                             </div>
                         </label>
 
                         <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
-                            <input class="form-check-input" type="radio" disabled="">
+                            <input class="form-check-input ujian" type="radio" disabled="">
                             <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
                                 <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
                             </div>
@@ -769,7 +772,7 @@
 
                     <div class="mt-10">
                         <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
-                            <input class="form-check-input" type="checkbox" disabled="" checked="">
+                            <input class="form-check-input ujian" type="checkbox" disabled="" checked="">
                             <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
                                 <div style="display : flex;align-items:center; flex-wrap: wrap;">
                                     <div class="ms-2 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
@@ -780,21 +783,21 @@
                         </label>
 
                         <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
-                            <input class="form-check-input" type="checkbox" disabled="">
+                            <input class="form-check-input ujian" type="checkbox" disabled="">
                             <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
                                 <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
                             </div>
                         </label>
 
                         <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
-                            <input class="form-check-input" type="checkbox" disabled="">
+                            <input class="form-check-input ujian" type="checkbox" disabled="">
                             <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
                                 <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
                             </div>
                         </label>
 
                         <label class="form-check form-check-sm form-check-custom form-check-solid mx-2 mb-4 bg-light py-2 px-3 rounded-3">
-                            <input class="form-check-input" type="checkbox" disabled="">
+                            <input class="form-check-input ujian" type="checkbox" disabled="">
                             <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
                                 <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
                             </div>
