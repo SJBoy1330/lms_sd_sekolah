@@ -33,7 +33,7 @@
                             </span>
                             Hapus</button>
                         <!--begin::Filter-->
-                        <button type="button" class="btn btn-sm btn-light-success me-3 px-4 text-nowrap liburbtn" data-bs-toggle="modal" data-bs-target="#modalTambahHariLibur">
+                        <button type="button" class="btn btn-sm btn-light-success me-3 px-4 text-nowrap liburbtn btn-tambah-edit-modal-hari-libur" data-bs-toggle="modal" data-bs-target="#modalTambahHariLibur">
                             <!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
                             <span class="svg-icon svg-icon-2 me-0">
                                 <i class="fa-solid fa-plus" style="font-size: 20px;"></i>
@@ -81,161 +81,67 @@
                         <!--begin::Table body-->
                         <tbody class="text-gray-600 fw-bold">
                             <!--begin::Table row-->
-                            <tr class="anim-2" style="opacity: 0;">
-                                <!--begin::Checkbox-->
-                                <td>
-                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input deletebox" type="checkbox" value="1" />
-                                    </div>
-                                </td>
-                                <!--end::Checkbox-->
-                                <!--begin::User=-->
-                                <td class="text-center">
-                                    <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                        <i class="fa-duotone fa-bars fs-4"></i>
-                                    </button>
-                                    <!--end::Svg Icon--></a>
-                                    <!--begin::Menu-->
-                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-                                        <!--begin::Menu item-->
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Edit</a>
-                                        </div>
-                                        <!--end::Menu item-->
-                                        <!--begin::Menu item-->
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
-                                        </div>
-                                        <!--end::Menu item-->
-                                    </div>
-                                </td>
-                                <!--end::User=-->
-                                <!--begin::Role=-->
-                                <td>
-                                    <p class="text-center mb-0">1</p>
-                                </td>
-                                <!--end::Role=-->
-                                <!--begin::Last login=-->
-                                <td>
-                                    <p class="text-center">
-                                        14-03-2022 s/d 14-03-2022
-                                    </p>
-                                </td>
-                                <!--end::Last login=-->
-                                <!--begin::Joined-->
-                                <td>
-                                    <p class="text-center">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </td>
-                                <!--begin::Joined-->
-                                <!--begin::Action=-->
-                                <!--end::Action=-->
-                            </tr>
-
-                            <tr class="anim-2" style="opacity: 0;">
-                                <!--begin::Checkbox-->
-                                <td>
-                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input deletebox" type="checkbox" value="1" />
-                                    </div>
-                                </td>
-                                <!--end::Checkbox-->
-                                <!--begin::User=-->
-                                <td class="text-center">
-                                    <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                        <i class="fa-duotone fa-bars fs-4"></i>
-                                    </button>
-                                    <!--end::Svg Icon--></a>
-                                    <!--begin::Menu-->
-                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-                                        <!--begin::Menu item-->
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Edit</a>
-                                        </div>
-                                        <!--end::Menu item-->
-                                        <!--begin::Menu item-->
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
-                                        </div>
-                                        <!--end::Menu item-->
-                                    </div>
-                                </td>
-                                <!--end::User=-->
-                                <!--begin::Role=-->
-                                <td>
-                                    <p class="text-center mb-0">2</p>
-                                </td>
-                                <!--end::Role=-->
-                                <!--begin::Last login=-->
-                                <td>
-                                    <p class="text-center">
-                                        14-03-2022 s/d 14-03-2022
-                                    </p>
-                                </td>
-                                <!--end::Last login=-->
-                                <!--begin::Joined-->
-                                <td>
-                                    <p class="text-center">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </td>
-                                <!--begin::Joined-->
-                                <!--begin::Action=-->
-                                <!--end::Action=-->
-                            </tr>
-
-                            <tr class="anim-2" style="opacity: 0;">
-                                <!--begin::Checkbox-->
-                                <td>
-                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input deletebox" type="checkbox" value="1" />
-                                    </div>
-                                </td>
-                                <!--end::Checkbox-->
-                                <!--begin::User=-->
-                                <td class="text-center">
-                                    <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                        <i class="fa-duotone fa-bars fs-4"></i>
-                                    </button>
-                                    <!--end::Svg Icon--></a>
-                                    <!--begin::Menu-->
-                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-                                        <!--begin::Menu item-->
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Edit</a>
-                                        </div>
-                                        <!--end::Menu item-->
-                                        <!--begin::Menu item-->
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
-                                        </div>
-                                        <!--end::Menu item-->
-                                    </div>
-                                </td>
-                                <!--end::User=-->
-                                <!--begin::Role=-->
-                                <td>
-                                    <p class="text-center mb-0">3</p>
-                                </td>
-                                <!--end::Role=-->
-                                <!--begin::Last login=-->
-                                <td>
-                                    <p class="text-center">
-                                        14-03-2022 s/d 14-03-2022
-                                    </p>
-                                </td>
-                                <!--end::Last login=-->
-                                <!--begin::Joined-->
-                                <td>
-                                    <p class="text-center">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </td>
-                                <!--begin::Joined-->
-                                <!--begin::Action=-->
-                                <!--end::Action=-->
-                            </tr>
+                            <?php if ($data_hari_libur) : ?>
+                                <?php foreach ($data_hari_libur as $i => $hari_libur) : ?>
+                                    <tr class="anim-2" style="opacity: 0;">
+                                        <!--begin::Checkbox-->
+                                        <td>
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                                <input class="form-check-input deletebox" type="checkbox" value="1" />
+                                            </div>
+                                        </td>
+                                        <!--end::Checkbox-->
+                                        <!--begin::User=-->
+                                        <td class="text-center">
+                                            <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                <i class="fa-duotone fa-bars fs-4"></i>
+                                            </button>
+                                            <!--end::Svg Icon--></a>
+                                            <!--begin::Menu-->
+                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
+                                                <!--begin::Menu item-->
+                                                <div class="menu-item px-3">
+                                                    <a class="menu-link px-3 btn-tambah-edit-modal-hari-libur" data-bs-toggle="modal" data-bs-target="#modalTambahHariLibur" data-idhari_libur="<?= $hari_libur->id_hari_libur ?>">Edit</a>
+                                                </div>
+                                                <!--end::Menu item-->
+                                                <!--begin::Menu item-->
+                                                <div class="menu-item px-3">
+                                                    <a class="menu-link px-3 btn-hapus-hari-libur" data-kt-users-table-filter="delete_row" data-idhari_libur="<?= $hari_libur->id_hari_libur ?>">Hapus</a>
+                                                </div>
+                                                <!--end::Menu item-->
+                                            </div>
+                                        </td>
+                                        <!--end::User=-->
+                                        <!--begin::Role=-->
+                                        <td>
+                                            <p class="text-center mb-0"><?= $i + 1 ?></p>
+                                        </td>
+                                        <!--end::Role=-->
+                                        <!--begin::Last login=-->
+                                        <td>
+                                            <p class="text-center">
+                                                <?= $hari_libur->tanggal_mulai ?> s/d <?= $hari_libur->tanggal_sampai ?>
+                                            </p>
+                                        </td>
+                                        <!--end::Last login=-->
+                                        <!--begin::Joined-->
+                                        <td>
+                                            <p class="text-center">
+                                                <?= $hari_libur->keterangan ?>
+                                            </p>
+                                        </td>
+                                        <!--begin::Joined-->
+                                        <!--begin::Action=-->
+                                        <!--end::Action=-->
+                                    </tr>
+                                <?php endforeach; ?>
+                            <?php else : ?>
+                                <tr>
+                                    <td colspan="8">
+                                        <center>Tidak ada data hari libur</center>
+                                    </td>
+                                </tr>
+                            <?php endif; ?>
                             <!--end::Table row-->
                         </tbody>
                         <!--end::Table body-->
@@ -256,69 +162,7 @@
     <!--begin::Modal dialog-->
     <div class="modal-dialog modal-dialog-centered mw-650px">
         <!--begin::Modal content-->
-        <div class="modal-content">
-            <!--begin::Modal header-->
-            <div class="modal-header">
-                <!--begin::Modal title-->
-                <h2 class="fw-bolder">Tambah Hari Libur</h2>
-                <!--end::Modal title-->
-                <!--begin::Close-->
-                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
-                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                    <span class="svg-icon svg-icon-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
-                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
-                        </svg>
-                    </span>
-                    <!--end::Svg Icon-->
-                </div>
-                <!--end::Close-->
-            </div>
-            <!--end::Modal header-->
-            <!--begin::Modal body-->
-            <div class="modal-body scroll-y mx-5 mx-xl-8 mb-7">
-                <!--begin::Form-->
-                <form id="kt_modal_export_users_form" class="form" action="#">
-                    <!--begin::Input group-->
-                    <div class="fv-row mb-10">
-                        <!--begin::Label-->
-                        <label class="fs-6 fw-bold form-label mb-2">Tanggal</label>
-                        <!--end::Label-->
-                        <div class="position-relative d-flex align-items-center">
-                            <span class="svg-icon svg-icon-2 position-absolute mx-4">
-                                <i class="fa-duotone fa-calendar" style="font-size: 1.3rem;"></i>
-                            </span>
-                            <input class="form-control form-control-solid ps-12" name="tanggal" placeholder="Tanggal" />
-                        </div>
-                    </div>
-                    <!--end::Input group-->
-                    <!--begin::Input group-->
-                    <div class="fv-row mb-10">
-                        <!--begin::Label-->
-                        <label class="required fs-6 fw-bold form-label mb-2">Keterangan</label>
-                        <!--end::Label-->
-                        <textarea class="form-control form-control-solid" name="keterangan" id="keterangan" cols="30" rows="5"></textarea>
-                    </div>
-                    <!--end::Input group-->
-                    <!--begin::Actions-->
-                    <div class="row mb-4">
-                        <div class="d-flex justify-content-end">
-                            <button type="button" class="btn btn-primary">
-                                <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                                <span class="svg-icon svg-icon-2">
-                                    <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-                                </span>
-                                <!--end::Svg Icon-->Simpan
-                            </button>
-                            <!--end::Add user-->
-                        </div>
-                    </div>
-                    <!--end::Actions-->
-                </form>
-                <!--end::Form-->
-            </div>
-            <!--end::Modal body-->
+        <div class="modal-content" id="content-edit-tambah-hari-libur">
         </div>
         <!--end::Modal content-->
     </div>
