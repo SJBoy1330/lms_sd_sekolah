@@ -4,16 +4,6 @@
     <div class="container-xxl" id="kt_content_container">
         <!--begin::Card-->
         <div class="card fadein-bottom anim-4">
-            <div class="modal fade" id="modalTambahBidangTugas" tabindex="-1" aria-hidden="true">
-                <!--begin::Modal dialog-->
-                <div class="modal-dialog modal-dialog-centered mw-850px">
-                    <!--begin::Modal content-->
-                    <div class="modal-content" id="content-edit-tambah-bidang-tugas">
-                    </div>
-                    <!--end::Modal content-->
-                </div>
-                <!--end::Modal dialog-->
-            </div>
             <div class="card-header border-0 pt-6">
                 <!--begin::Card title-->
                 <div class="card-title">
@@ -134,3 +124,15 @@
     <!--end::Container-->
 </div>
 <!--end::Content-->
+
+<!-- Modal Tambah Bidang Tugas -->
+<div class="modal fade" id="modalTambahBidangTugas" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-850px">
+        <!--begin::Modal content-->
+        <div class="modal-content" id="content-edit-tambah-bidang-tugas">
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>

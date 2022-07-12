@@ -12,6 +12,7 @@ $(function() {
     });
 
 });
+
 setTimeout(function() {
     $('tr').each(function(i) {
         setTimeout(function() {

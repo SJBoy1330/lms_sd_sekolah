@@ -113,149 +113,6 @@
             <!--end::Card header-->
             <!--begin::Card body-->
             <div class="card-body py-4">
-                <div class="modal fade" id="modalDetail" tabindex="-1" aria-hidden="true">
-                    <!--begin::Modal dialog-->
-                    <div class="modal-dialog modal-dialog-centered mw-850px">
-                        <!--begin::Modal content-->
-                        <div class="modal-content">
-                            <!--begin::Modal header-->
-                            <div class="modal-header">
-                                <!--begin::Modal title-->
-                                <h2 class="fw-bolder">Detail Siswa</h2>
-                                <!--end::Modal title-->
-                                <!--begin::Close-->
-                                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
-                                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                                    <span class="svg-icon svg-icon-1">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
-                                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
-                                        </svg>
-                                    </span>
-                                    <!--end::Svg Icon-->
-                                </div>
-                                <!--end::Close-->
-                            </div>
-                            <!--end::Modal header-->
-                            <!--begin::Modal body-->
-                            <div class="modal-body scroll-y mx-10 my-2" id="detail-siswa-display">
-                            </div>
-                            <!--end::Modal body-->
-                        </div>
-                        <!--end::Modal content-->
-                    </div>
-                    <!--end::Modal dialog-->
-                </div>
-
-                <div class="modal fade" id="modalUnggah" tabindex="-1" aria-hidden="true">
-                    <!--begin::Modal dialog-->
-                    <div class="modal-dialog modal-dialog-centered mw-850px">
-                        <!--begin::Modal content-->
-                        <div class="modal-content">
-                            <!--begin::Modal header-->
-                            <div class="modal-header">
-                                <!--begin::Modal title-->
-                                <h2 class="fw-bolder">Upload</h2>
-                                <!--end::Modal title-->
-                                <!--begin::Close-->
-                                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
-                                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                                    <span class="svg-icon svg-icon-1">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
-                                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
-                                        </svg>
-                                    </span>
-                                    <!--end::Svg Icon-->
-                                </div>
-                                <!--end::Close-->
-                            </div>
-                            <div class="modal-body scroll-y mx-10 my-2">
-                                <div class="row mb-5">
-                                    <div class="col-md-4 col-xl-4" style="padding:5px;">
-                                        <label class="form-label fw-bold">Tahun Ajaran</label>
-                                        <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
-                                            <option></option>
-                                            <option value="1">2021/2022</option>
-                                            <option value="2">2022/2023</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-md-4 col-xl-4" style="padding:5px;">
-                                        <label class="form-label fw-bold">Tingkat</label>
-                                        <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
-                                            <option></option>
-                                            <option value="1">XII</option>
-                                            <option value="2">XI</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-md-4 col-xl-4" style="padding:5px;">
-                                        <label class="form-label fw-bold">Kelas</label>
-                                        <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
-                                            <option></option>
-                                            <option value="1">XI IPA 1</option>
-                                            <option value="2">XI IPA 2</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="row d-flex justify-content-around align-items-center">
-                                    <div class="col-xl-5 col-md-12">
-                                        <div class="d-flex flex-column mb-8 fv-row">
-                                            <!--begin::Label-->
-                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                <span class="required">File</span>
-                                            </label>
-                                            <!--end::Label-->
-                                            <div class="position-relative d-flex align-items-center">
-                                                <input class="form-control" type="file" id="formFile">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-5 col-md-12">
-                                        <div class="d-flex flex-column mb-8 fv-row">
-                                            <!--begin::Label-->
-                                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
-                                                <span class="required">Contoh Format Excel</span>
-                                            </label>
-                                            <!--end::Label-->
-                                            <div class="position-relative d-flex align-items-center">
-                                                <a href="#" class="btn btn-light w-auto  text-start ps-8">
-                                                    <img alt="Logo" src="<?= base_url('assets/img/xls.png') ?>" class="h-20px me-3">Download Excel
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row mb-4">
-                                    <div class="d-flex justify-content-end">
-                                        <button type="button" class="btn btn-primary">
-                                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                                            <span class="svg-icon svg-icon-2">
-                                                <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
-                                            </span>
-                                            <!--end::Svg Icon-->Simpan
-                                        </button>
-                                        <!--end::Add user-->
-                                    </div>
-                                </div>
-                            </div>
-                            <!--end::Modal body-->
-                        </div>
-                        <!--end::Modal content-->
-                    </div>
-                    <!--end::Modal dialog-->
-                </div>
-
-                <div class="modal fade" id="modalTambahSiswa" tabindex="-1" aria-hidden="true">
-                    <!--begin::Modal dialog-->
-                    <div class="modal-dialog modal-dialog-centered mw-850px">
-                        <!--begin::Modal content-->
-                        <div class="modal-content" id="content-edit-tambah-siswa">
-                        </div>
-                        <!--end::Modal content-->
-                    </div>
-                    <!--end::Modal dialog-->
-                </div>
-
                 <!--begin::Table-->
                 <div class="table-responsive">
                     <table class="table align-middle table-row-dashed fs-6 gy-5 DataTable no-footer" id="kt_table_siswa">
@@ -424,6 +281,153 @@
                     <p>2020 - 08 - 17</p>
                 </div>
                 <!--end::Notice-->
+            </div>
+            <!--end::Modal body-->
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>
+
+
+<!-- Modal Unggah -->
+<div class="modal fade" id="modalUnggah" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-850px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header">
+                <!--begin::Modal title-->
+                <h2 class="fw-bolder">Upload</h2>
+                <!--end::Modal title-->
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <div class="modal-body scroll-y mx-10 my-2">
+                <div class="row mb-5">
+                    <div class="col-md-4 col-xl-4" style="padding:5px;">
+                        <label class="form-label fw-bold">Tahun Ajaran</label>
+                        <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
+                            <option></option>
+                            <option value="1">2021/2022</option>
+                            <option value="2">2022/2023</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 col-xl-4" style="padding:5px;">
+                        <label class="form-label fw-bold">Tingkat</label>
+                        <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
+                            <option></option>
+                            <option value="1">XII</option>
+                            <option value="2">XI</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 col-xl-4" style="padding:5px;">
+                        <label class="form-label fw-bold">Kelas</label>
+                        <select class="form-select form-select-solid" data-kt-select2="true" data-placeholder="Semua" data-allow-clear="">
+                            <option></option>
+                            <option value="1">XI IPA 1</option>
+                            <option value="2">XI IPA 2</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-around align-items-center">
+                    <div class="col-xl-5 col-md-12">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <!--begin::Label-->
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">File</span>
+                            </label>
+                            <!--end::Label-->
+                            <div class="position-relative d-flex align-items-center">
+                                <input class="form-control" type="file" id="formFile">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-md-12">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <!--begin::Label-->
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Contoh Format Excel</span>
+                            </label>
+                            <!--end::Label-->
+                            <div class="position-relative d-flex align-items-center">
+                                <a href="#" class="btn btn-light w-auto  text-start ps-8">
+                                    <img alt="Logo" src="<?= base_url('assets/img/xls.png') ?>" class="h-20px me-3">Download Excel
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-primary">
+                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                            <span class="svg-icon svg-icon-2">
+                                <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                            </span>
+                            <!--end::Svg Icon-->Simpan
+                        </button>
+                        <!--end::Add user-->
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal body-->
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>
+
+<!-- Modal Tambah Siswa -->
+<div class="modal fade" id="modalTambahSiswa" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-850px">
+        <!--begin::Modal content-->
+        <div class="modal-content" id="content-edit-tambah-siswa">
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>
+
+<!-- Modal Siswa -->
+<div class="modal fade" id="modalDetail" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-850px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header">
+                <!--begin::Modal title-->
+                <h2 class="fw-bolder">Detail Siswa</h2>
+                <!--end::Modal title-->
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <!--end::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y mx-10 my-2" id="detail-siswa-display">
             </div>
             <!--end::Modal body-->
         </div>
