@@ -30,7 +30,7 @@
                     <!--end::Label-->
                     <div class="position-relative d-flex align-items-center">
                         <div style="width:100vw;">
-                            <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua" name="tingkat">
+                            <select class="form-select form-select-solid load_select" data-control="select2" data-placeholder="Semua" name="tingkat">
                                 <option></option>
                                 <?php foreach ($tingkat as $t) : ?>
                                     <option value="<?= $t->id_tingkat ?>" <?= $data_mapel->id_tingkat === $t->id_tingkat ? 'selected' : '' ?>><?= $t->nama ?></option>
@@ -70,3 +70,9 @@
     </div>
 </div>
 <!--end::Modal body-->
+
+<script>
+    $('.load_select').select2({
+        dropdownParent: $('.parent_drop_select')
+    });
+</script>
