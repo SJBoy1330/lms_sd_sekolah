@@ -215,7 +215,7 @@
 </div>
 <!--end::Content-->
 
-
+<!-- Modal Tambah Guru -->
 <div class="modal fade" id="modalTambahGuru" tabindex="-1" aria-hidden="true">
     <!--begin::Modal dialog-->
     <div class="modal-dialog modal-dialog-centered mw-850px">
@@ -317,3 +317,4 @@
     </div>
     <!--end::Modal dialog-->
 </div>
+

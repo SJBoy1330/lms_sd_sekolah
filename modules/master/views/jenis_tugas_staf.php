@@ -158,7 +158,7 @@
     <!--begin::Modal dialog-->
     <div class="modal-dialog modal-dialog-centered mw-850px">
         <!--begin::Modal content-->
-        <div class="modal-content" id="content-edit-tambah-jenis-tugas">
+        <div class="modal-content parent_drop_select" id="content-edit-tambah-jenis-tugas">
         </div>
         <!--end::Modal content-->
     </div>

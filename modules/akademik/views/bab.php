@@ -140,6 +140,53 @@
                                     </p>
                                 </td>
                             </tr>
+
+                            <tr class="anim-2" style="opacity: 0;">
+                                <!--begin::Checkbox-->
+                                <td>
+                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                        <input class="form-check-input deletebox" type="checkbox" value="1" />
+                                    </div>
+                                </td>
+                                <!--end::Checkbox-->
+                                <!--begin::User=-->
+                                <td class="text-center">
+                                    <button type="button" class="btn btn-icon btn-light-danger btn-sm fs-7" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                        <i class="fa-duotone fa-bars fs-4"></i>
+                                    </button>
+                                    <!--end::Svg Icon--></a>
+                                    <!--begin::Menu-->
+                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3">Edit</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-3">
+                                            <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Hapus</a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                    </div>
+                                </td>
+                                <!--end::User=-->
+                                <!--begin::Role=-->
+                                <td>
+                                    <p class="text-center mb-0">1</p>
+                                </td>
+                                <!--end::Role=-->
+                                <!--begin::Last login=-->
+                                <td>
+                                    <p class="text-center">
+                                        Pelajaran 01
+                                    </p>
+                                </td>
+
+                                <td>
+                                    <p class="text-center">
+                                        Bab 1 Lorem ipsum dolor sit amet
+                                    </p>
+                                </td>
+                            </tr>
                         </tbody>
                         <!--end::Table body-->
                     </table>

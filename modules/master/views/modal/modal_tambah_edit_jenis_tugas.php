@@ -30,7 +30,7 @@
                     <!--end::Label-->
                     <div class="position-relative d-flex align-items-center">
                         <div style="width:100vw;">
-                            <select class="form-select form-select-solid" data-control="select2" data-placeholder="Semua" name="bidang_tugas">
+                            <select class="form-select form-select-solid load_select" data-control="select2" data-placeholder="Semua" name="bidang_tugas">
                                 <option></option>
                                 <?php foreach ($data_bidang_tugas as $bidang_tugas) : ?>
                                     <option value="<?= $bidang_tugas->id_bidang_tugas ?>" <?= $data_jenis_tugas->id_bidang_tugas === $bidang_tugas->id_bidang_tugas ? 'selected' : '' ?>><?= $bidang_tugas->nama ?></option>
@@ -70,3 +70,9 @@
     </div>
 </div>
 <!--end::Modal body-->
+
+<script>
+    $('.load_select').select2({
+        dropdownParent: $('.parent_drop_select')
+    });
+</script>
