@@ -56,7 +56,7 @@
 
                 <div class="card-toolbar">
                     <!--begin::Toolbar-->
-                    <div class="d-flex justify-content-end">
+                    <div class="bank-soal                                       ">
                         <button type="button" class="btn btn-sm btn-light-danger me-2 " id="deleteall" style="display: none;">
                             <span class="svg-icon svg-icon-2 me-0">
                                 <i class="fa-duotone fa-trash" style="font-size: 18px;"></i>
@@ -114,7 +114,7 @@
                                     </button>
                                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-175px py-4" data-kt-menu="true">
                                         <div class="menu-item px-3">
-                                            <a href="<?= base_url('ujian/grup_soal'); ?>" class="menu-link px-3">Lihat</a>
+                                            <a href="<?= base_url('ujian/soal'); ?>" class="menu-link px-3">Lihat</a>
                                         </div>
                                         <div class="menu-item px-3">
                                             <a href="#" class="menu-link px-3">Edit</a>
@@ -159,7 +159,7 @@
                                     </button>
                                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-175px py-4" data-kt-menu="true">
                                         <div class="menu-item px-3">
-                                            <a href="<?= base_url('ujian/grup_soal'); ?>" class="menu-link px-3">Lihat</a>
+                                            <a href="<?= base_url('ujian/soal'); ?>" class="menu-link px-3">Lihat</a>
                                         </div>
                                         <div class="menu-item px-3">
                                             <a href="#" class="menu-link px-3">Edit</a>

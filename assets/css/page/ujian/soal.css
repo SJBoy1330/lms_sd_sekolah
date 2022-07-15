@@ -102,3 +102,26 @@
   padding: 6px 12px;
   border-top: none;
 }
+
+.card-toolbar .bank-soal{
+  display: flex;
+  justify-content: end;
+}
+
+.img-ujian{
+  width: 125px; 
+  height: 125px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-toolbar .bank-soal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+
+  .img-ujian{
+    width: 100px;
+    height: 100px;
+  }
+}

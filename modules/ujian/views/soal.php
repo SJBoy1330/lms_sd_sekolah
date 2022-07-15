@@ -74,7 +74,7 @@
                 <!--begin::Card toolbar-->
                 <div class="card-toolbar">
                     <!--begin::Toolbar-->
-                    <div class="d-flex justify-content-end">
+                    <div class="bank-soal">
                         <div class="d-flex align-items-center position-relative my-1  me-2">
                             <!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
                             <span class="svg-icon svg-icon-1 position-absolute ms-6">
@@ -132,8 +132,8 @@
                                     <span class="text-muted fw-bold d-block fs-7">Pilihan Ganda</span>
                                 </div>
                                 <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                    <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="img-ujian me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
+                                    <div class="img-ujian me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
                                 </div>
                                 <p class="text-dark fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                             </div>
@@ -174,8 +174,8 @@
                             </div>
                             <div style="display:flex; justify-content:center; flex-direction: column;">
                                 <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                    <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="img-ujian me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
+                                    <div class="img-ujian me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
                                 </div>
                                 <p class="text-dark fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                             </div>
@@ -216,8 +216,8 @@
                             </div>
                             <div style="display:flex; justify-content:center; flex-direction: column;">
                                 <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                    <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="img-ujian me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
+                                    <div class="img-ujian me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
                                 </div>
                                 <p class="text-dark fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                             </div>
@@ -258,8 +258,8 @@
                             </div>
                             <div style="display:flex; justify-content:center; flex-direction: column;">
                                 <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                    <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="img-ujian me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
+                                    <div class="img-ujian me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
                                 </div>
                                 <p class="text-dark fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                             </div>
@@ -300,8 +300,8 @@
                             </div>
                             <div style="display:flex; justify-content:center; flex-direction: column;">
                                 <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                    <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="img-ujian me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
+                                    <div class="img-ujian me-3 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
                                 </div>
                                 <p class="text-dark fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                             </div>
@@ -560,8 +560,8 @@
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center align-items-center flex-wrap">
                         <div style="display : flex; align-items: center; flex-wrap: wrap;">
-                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
+                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
                         </div>
                         <p class="text-dark text-center fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                     </div>
@@ -571,8 +571,8 @@
                             <input class="form-check-input" type="radio" disabled="" checked="">
                             <div style="display:flex; justify-content:center; flex-direction: column ; padding-left : 20px;">
                                 <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                    <div class="ms-2 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="ms-2 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="ms-2 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
+                                    <div class="ms-2 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
                                 </div>
                                 <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
                             </div>
@@ -638,8 +638,8 @@
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center align-items-center flex-wrap">
                         <div style="display : flex; align-items: center; flex-wrap: wrap;">
-                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
+                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
                         </div>
                         <p class="text-dark text-center fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                     </div>
@@ -649,8 +649,8 @@
                             <input class="form-check-input" type="checkbox" disabled="" checked="">
                             <div style="display:flex; justify-content:center; flex-direction: column ;padding-left : 20px;">
                                 <div style="display : flex;align-items:center; flex-wrap: wrap;">
-                                    <div class="ms-2 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                    <div class="ms-2 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                    <div class="ms-2 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
+                                    <div class="ms-2 mb-3 rounded-2" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
                                 </div>
                                 <span class="form-check-label">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus earum dolorum qui similique nulla ullam soluta at dolorem illo enim iusto, in corporis autem rerum optio facere corrupti totam.</span>
                             </div>
@@ -716,8 +716,8 @@
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center align-items-center flex-wrap">
                         <div style="display : flex; align-items: center; flex-wrap: wrap;">
-                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
+                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
                         </div>
                         <p class="text-dark text-center fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                     </div>
@@ -766,8 +766,8 @@
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center align-items-center flex-wrap">
                         <div style="display : flex; align-items: center; flex-wrap: wrap;">
-                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
+                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
                         </div>
                         <p class="text-dark text-center fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                     </div>
@@ -816,8 +816,8 @@
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center align-items-center flex-wrap">
                         <div style="display : flex; align-items: center; flex-wrap: wrap;">
-                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
+                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
                         </div>
                         <p class="text-dark text-center fw-normal mb-0" style="width: 100%">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eligendi laudantium facere sint officia velit, non impedit hic. Quo recusandae doloribus reiciendis sit minima eius quam totam quidem aspernatur pariatur!</p>
                     </div>
@@ -839,32 +839,32 @@
                                     </li>
                                     <li class="list-group-item d-flex flex-column p-4">
                                         <div style="display : flex; align-items: center; flex-wrap: wrap;">
-                                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
+                                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
                                         </div>
                                         <span class="text-start">1. Jeje</span>
                                         <span class="position-absolute" style="right: 12px;">[A]</span>
                                     </li>
                                     <li class="list-group-item d-flex flex-column p-4">
                                         <div style="display : flex; align-items: center; flex-wrap: wrap;">
-                                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
+                                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
                                         </div>
                                         <span class="text-start">2. Saka</span>
                                         <span class="position-absolute" style="right: 12px;">[B]</span>
                                     </li>
                                     <li class="list-group-item d-flex flex-column p-4">
                                         <div style="display : flex; align-items: center; flex-wrap: wrap;">
-                                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
+                                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
                                         </div>
                                         <span class="text-start">3. Harya</span>
                                         <span class="position-absolute" style="right: 12px;">[C]</span>
                                     </li>
                                     <li class="list-group-item d-flex flex-column p-4">
                                         <div style="display : flex; align-items: center; flex-wrap: wrap;">
-                                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
-                                            <div class="me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;  height:125px; width:125px;"></div>
+                                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/about.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
+                                            <div class="img-ujian me-3 mb-3" style="background-image: url(<?= base_url('assets/img/adult-only.jpg') ?>); background-repeat: no-repeat; background-size: cover; position: relative;"></div>
                                         </div>
                                         <span class="text-start">4. Rama</span>
                                         <span class="position-absolute" style="right: 12px;">[D]</span>

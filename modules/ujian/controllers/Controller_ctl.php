@@ -28,7 +28,7 @@ class Controller_ctl extends MY_Admin
 		$this->display();
 	}
 
-	public function grup_soal()
+	public function soal()
 	{
 		// LOAD TITLE
 		$this->data['title'] = 'Ujian';
@@ -43,10 +43,10 @@ class Controller_ctl extends MY_Admin
 		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/ujian/bank_soal.js"></script>';
 
 		// LOAD VIEW
-		$this->data['content'] = $this->load->view('grup_soal', $mydata, TRUE);
+		$this->data['content'] = $this->load->view('soal', $mydata, TRUE);
 		$this->display();
-	}
-
+	}																																				
+                                                                                                                                                        
 	public function paket_ujian()
 	{
 		// LOAD TITLE
@@ -72,7 +72,7 @@ class Controller_ctl extends MY_Admin
 		$mydata['breadcrumb']['menu'] = 'Paket Ujian';
 
 		// LOAD CSS
-		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/soal.css') . '">';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('detail_paket', $mydata, TRUE);
