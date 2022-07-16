@@ -1,4 +1,5 @@
 // console.log('nyambung bi');
+// UPDATE BRO
 var flashdata = [$('.flash-data').data('icon'), $('.flash-data').data('judul'), $('.flash-data').data('message'), $('.flash-data').data('image')];
 // console.log(flashdata);
 if (flashdata[0]) {
@@ -6,10 +7,9 @@ if (flashdata[0]) {
 		title: flashdata[1],
 		html: flashdata[2],
 		icon: flashdata[0],
-		buttonsStyling: false,
-		customClass: {
-			confirmButton: "btn btn-primary"
-		}
+		buttonsStyling: !1,
+		confirmButtonText: 'Ok',
+		customClass: { confirmButton: 'btn shadow-sm' }
 	});
 }
 if (flashdata[3]) {
@@ -19,9 +19,7 @@ if (flashdata[3]) {
 		imageUrl: flashdata[3],
 		imageWidth: 100,
 		imageHeight: 100,
-		customClass: {
-			confirmButton: "btn btn-primary"
-		}
+		customClass: { confirmButton: 'btn shadow-sm' }
 	})
 }
 $('.confirm_alert').on('click', function (e) {
@@ -36,22 +34,16 @@ $('.confirm_alert').on('click', function (e) {
 	if (image) {
 		Swal.fire({
 			title: title,
-			text: message,
+			html: message,
 			imageUrl: image,
 			imageWidth: 100,
-			imageHeight: 100,
-			customClass: {
-				confirmButton: "btn btn-primary"
-			}
+			imageHeight: 100
 		})
 	} else {
 		Swal.fire({
 			title: title,
-			text: message,
-			icon: icon,
-			customClass: {
-				confirmButton: "btn btn-primary"
-			}
+			html: message,
+			icon: icon
 		});
 	}
 });
@@ -67,18 +59,16 @@ $('.question_alert').on('click', function (e) {
 	if (image) {
 		Swal.fire({
 			title: title,
-			text: message,
+			html: message,
 			imageUrl: image,
 			imageWidth: 100,
 			imageHeight: 100,
 			showCancelButton: true,
-			buttons: ["Stop", "Do it!"],
+			buttons: ["batal", "ya"],
 			confirmButtonColor: '#3085d6',
 			cancelButtonColor: '#d33',
-			confirmButtonText: 'Ya',
-			customClass: {
-				confirmButton: "btn btn-primary"
-			}
+			confirmButtonText: "Ya",
+			cancelButtonText: "Batal",
 		}).then((result) => {
 			if (result.isConfirmed) {
 				document.location.href = href;
@@ -87,16 +77,14 @@ $('.question_alert').on('click', function (e) {
 	} else {
 		Swal.fire({
 			title: title,
-			text: message,
+			html: message,
 			icon: icon,
 			showCancelButton: true,
 			confirmButtonColor: '#3085d6',
 			cancelButtonColor: '#969696',
-			confirmButtonText: 'Ya',
-			reverseButtons: true,
-			customClass: {
-				confirmButton: "btn btn-primary"
-			}
+			confirmButtonText: "Ya",
+			cancelButtonText: "Batal",
+			reverseButtons: true
 		}).then((result) => {
 			if (result.isConfirmed) {
 				document.location.href = href;
@@ -104,3 +92,15 @@ $('.question_alert').on('click', function (e) {
 		})
 	}
 });
+
+
+function take_alert(title, message, icon) {
+	Swal.fire({
+		title: title,
+		html: message,
+		icon: icon,
+		buttonsStyling: !1,
+		confirmButtonText: 'Ok',
+		customClass: { confirmButton: css_button }
+	});
+}

@@ -490,7 +490,7 @@
                                     </div>
                                     <!--end::Menu item-->
                                     <div class="menu-item px-5">
-                                        <a href="<?= base_url('auth/logout') ?>" class="menu-link px-5">Keluar</a>
+                                        <a href="<?= base_url('auth/logout') ?>" class="menu-link px-5 question_alert" <?= alert_question('KONFIRMASI', 'Apakah anda akan keluar dari aplikasi KlasQ Staf ?', 'question') ?>>Keluar</a>
                                     </div>
                                 </div>
                                 <!--end::Menu-->

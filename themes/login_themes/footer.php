@@ -79,8 +79,29 @@
 </script>
 
 <!-- Vendor JS Files -->
-<script type="text/javascript">
+<script>
+    var hostUrl = "<?= base_url(); ?>assets/";
     var BASE_URL = baseUrl = '<?= base_url(); ?>';
+    var loading_scene = new bootstrap.Modal(document.getElementById("loading_scene"), {});
+    var loading = $('#loading_scene');
+    var css_button = 'btn btn-block btn-md';
+    var html_loader = '<div class="row loader">\
+                    <div class="col-12 loader">\
+                        <div class="loadingio-spinner-double-ring-x5jbbv5x43o">\
+                            <div class="ldio-wmpldorvik">\
+                                <div></div>\
+                                <div></div>\
+                                <div>\
+                                    <div></div>\
+                                </div>\
+                                <div>\
+                                    <div></div>\
+                                </div>\
+                            </div>\
+                        </div>\
+                        <p class="size-20 fw-medium loader"> Loading... </p>\
+                    </div>\
+                </div>';
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="<?= base_url(); ?>assets/vendor/purecounter/purecounter.js"></script>
@@ -92,6 +113,7 @@
 <script src="<?= base_url(); ?>assets/vendor/php-email-form/validate.js"></script>
 <script src="<?= base_url('assets/js/alert/sweetalert2.all.min.js') ?>"></script>
 <script src="<?= base_url('assets/js/alert/scriptalert.js') ?>"></script>
+
 
 <!-- Template Main JS File -->
 <script src="<?= base_url(); ?>assets/js/main.js"></script>
