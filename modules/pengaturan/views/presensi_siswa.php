@@ -148,6 +148,21 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
+                        <div class="d-flex flex-column mb-8 fv-row" data-select2-id="select2-data-12-u91g">
+                            <!--begin::Label-->
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Hari</span>
+                            </label>
+                            <div data-select2-id="select2-data-11-euly">
+                                <select class="form-select form-select-solid select2-hidden-accessible" data-control="select2" data-placeholder="Semua" data-select2-id="select2-data-7-dlil" tabindex="-1" aria-hidden="true">
+                                    <option data-select2-id="select2-data-9-asbc"></option>
+                                    <option value="1" data-select2-id="select2-data-18-y4ic">Senin</option>
+                                    <option value="2" data-select2-id="select2-data-19-9wf6">Selasa</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
                         <div class="d-flex flex-column mb-8 fv-row">
                             <!--begin::Label-->
                             <label class="d-flex align-items-center fs-6 fw-bold mb-2">
