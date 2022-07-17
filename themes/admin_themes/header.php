@@ -46,10 +46,29 @@
 
         button.swal2-confirm {
             background-color: #f73563 !important;
-            border-color: #f73563 !important;
+            border-color: transparent !important;
             color: #FFFFFF;
             width: 100px;
+            height: 50px;
+            font-size: 16px;
             border-radius: 10px;
+        }
+
+        .swal2-popup .swal2-title {
+            font-weight: 500;
+            font-size: 1.8rem;
+            color: #181c32;
+        }
+
+        .swal2-popup .swal2-content, .swal2-popup .swal2-html-container {
+            font-weight: 400;
+            font-size: 1.1rem;
+            margin-top: 0.75rem !important;
+            color: #3f4254;
+        }
+
+        div#swal2-content {
+            font-size: 1.1rem !important;
         }
     </style>
 
