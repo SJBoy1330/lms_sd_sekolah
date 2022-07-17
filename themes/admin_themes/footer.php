@@ -91,8 +91,6 @@
     <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/clockpicker/bootstrap-clockpicker.min.js"></script>
     <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/clockpicker/demo-clockpicker.js"></script>
 
-    <!-- DateRangePicker script -->
-
     <!-- select2 -->
     <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/select2/js/select2.min.js"></script>
 
