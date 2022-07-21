@@ -55,7 +55,7 @@
                                 <i class="fa-duotone fa-trash" style="font-size: 18px;"></i>
                             </span>
                             Hapus</button>
-                        <button type="button" class="btn btn-sm btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahBerita">
+                        <button type="button" class="btn btn-sm btn-light-success" data-bs-toggle="modal" data-bs-target="#modalTambahJurnal">
                             <span class="svg-icon svg-icon-2 me-0">
                                 <i class="fa-duotone fa-plus" style="font-size: 20px;"></i>
                             </span>
@@ -84,7 +84,6 @@
                                 <th class="min-w-175px text-center">Tanggal</th>
                                 <th class="min-w-250px text-center">Nama</th>
                                 <th class="min-w-250px text-center">Bidang Tugas</th>
-                                <th class="min-w-250px text-center">Tugas</th>
                             </tr>
                             <!--end::Table row-->
                         </thead>
@@ -110,10 +109,10 @@
                                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
                                         <!--begin::Menu item-->
                                         <div class="menu-item px-3">
-                                            <a data-bs-toggle="modal" href="#detailberitaModal" role="button" class="menu-link px-3">Lihat</a>
+                                            <a data-bs-toggle="modal" href="#modalDetail" role="button" class="menu-link px-3">Lihat</a>
                                         </div>
                                         <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3">Edit</a>
+                                            <a data-bs-toggle="modal" href="#modalEditJurnalStaf" role="button" class="menu-link px-3">Edit</a>
                                         </div>
                                         <!--end::Menu item-->
                                         <!--begin::Menu item-->
@@ -145,12 +144,6 @@
                                 <td>
                                     <p class="text-center">
                                         Mengajar Kelas XI IPA 1
-                                    </p>
-                                </td>
-
-                                <td>
-                                    <p class="text-center">
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus commodi.
                                     </p>
                                 </td>
                             </tr>
@@ -185,62 +178,7 @@
 </div>
 <!--end::Content-->
 
-<div class="modal fade" id="detailberitaModal" tabindex="-1" aria-hidden="true">
-    <!--begin::Modal dialog-->
-    <div class="modal-dialog mw-650px modal-dialog-centered">
-        <!--begin::Modal content-->
-        <div class="modal-content">
-            <!--begin::Modal header-->
-            <div class="modal-header pb-0 border-0 justify-content-end">
-                <!--begin::Close-->
-                <div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
-                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                    <span class="svg-icon svg-icon-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
-                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
-                        </svg>
-                    </span>
-                    <!--end::Svg Icon-->
-                </div>
-                <!--end::Close-->
-            </div>
-            <!--begin::Modal header-->
-            <!--begin::Modal body-->
-            <div class="modal-body scroll-y mx-xl-10 pt-5 pb-15">
-                <div>
-                    <img src="<?= base_url('assets/img/news.jpg') ?>" height="300" alt="" style="width: 100%; border-radius: 10px;">
-                    <div class="text-center my-8">
-                        <h2 class="mb-3">Ternyata Koran itu adalah sebuah berita</h2>
-                    </div>
-                    <!--begin::List-->
-                    <div class="mh-300px scroll-y me-n7 pe-7">
-
-                    </div>
-                    <!--end::List-->
-                </div>
-                <!--end::Users-->
-                <!--begin::Notice-->
-                <div>
-                    <p style="text-indent: 0.3in">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sunt eaque blanditiis odit voluptas, reprehenderit eveniet obcaecati error, labore sequi doloribus ipsam quos est quo dolores architecto totam dolore beatae?</p>
-                    <p style="text-indent: 0.3in">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sunt eaque blanditiis odit voluptas, reprehenderit eveniet obcaecati error, labore sequi doloribus ipsam quos est quo dolores architecto totam dolore beatae?</p>
-                    <p style="text-indent: 0.3in">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sunt eaque blanditiis odit voluptas, reprehenderit eveniet obcaecati error, labore sequi doloribus ipsam quos est quo dolores architecto totam dolore beatae?</p>
-                </div>
-
-                <div class="text-start">
-                    <p class="fw-bolder mb-1">Dipublikasikan pada:</p>
-                    <p>2020 - 08 - 17</p>
-                </div>
-                <!--end::Notice-->
-            </div>
-            <!--end::Modal body-->
-        </div>
-        <!--end::Modal content-->
-    </div>
-    <!--end::Modal dialog-->
-</div>
-
-<div class="modal fade" id="modalTambahBerita" tabindex="-1" aria-hidden="true">
+<div class="modal fade" id="modalTambahJurnal" tabindex="-1" aria-hidden="true">
     <!--begin::Modal dialog-->
     <div class="modal-dialog modal-dialog-centered mw-850px">
         <!--begin::Modal content-->
@@ -328,6 +266,164 @@
                             <!--end::Svg Icon-->Simpan
                         </button>
                         <!--end::Add user-->
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal body-->
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>
+
+<div class="modal fade" id="modalEditJurnalStaf" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-850px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header">
+                <!--begin::Modal title-->
+                <h2 class="fw-bolder">Edit Jurnal Guru</h2>
+                <!--end::Modal title-->
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <!--end::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y mx-10 my-2">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <!--begin::Label-->
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Tanggal</span>
+                            </label>
+                            <input class="form-select form-select-solid form-select-sm" type="text" name="tanggal2" value="" />
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <!--begin::Label-->
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Tugas</span>
+                            </label>
+                            <select class="form-select form-select-sm form-select-solid" data-control="select2" data-placeholder="Semua">
+                                <option></option>
+                                <option value="1">Tugas 01</option>
+                                <option value="2">Tugas 02</option>
+                                <option value="2">Tugas 03</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <!--begin::Label-->
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Tugas lain</span>
+                            </label>
+                            <!--end::Label-->
+                            <div class="position-relative d-flex align-items-center">
+                                <textarea class="form-control form-control-solid" rows="3" placeholder="Materi"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-primary">
+                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                            <span class="svg-icon svg-icon-2">
+                                <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                            </span>
+                            <!--end::Svg Icon-->Simpan
+                        </button>
+                        <!--end::Add user-->
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal body-->
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>
+
+<div class="modal fade" id="modalDetail" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-850px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header">
+                <!--begin::Modal title-->
+                <h2 class="fw-bolder">Detail Jurnal Staf</h2>
+                <!--end::Modal title-->
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <!--end::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y mx-10 my-2">
+                <div class="row">
+                    <div class="col-12">
+                        <!--begin:Option-->
+                        <label class="d-flex flex-stack mb-5 cursor-pointer">
+                            <!--begin:Label-->
+                            <span class="d-flex me-2">
+                                <!--begin:Icon-->
+                                <span class="symbol symbol-50px me-6">
+                                    <span class="symbol-label bg-light-secondary">
+                                        <i class="fa-duotone fa-list-check" style="font-size: 1.5rem;"></i>
+                                    </span>
+                                </span>
+                                <!--end:Icon-->
+                                <!--begin:Info-->
+                                <span class="d-flex flex-column">
+                                    <span class="fw-bolder fs-6">Tugas</span>
+                                    <table class="table">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row"><span class="fw-normal text-muted size-18">1</span></th>
+                                                <td><span class="fw-normal text-muted size-18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ratione placeat voluptate officia porro nesciunt in odio laborum vero dolorem delectus fuga ad atque ea, fugit facilis. Adipisci, qui quos?</span></td>
+                                            </tr>
+
+                                            <tr>
+                                                <th scope="row"><span class="fw-normal text-muted size-18">2</span></th>
+                                                <td><span class="fw-normal text-muted size-18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ratione placeat voluptate officia porro nesciunt in odio laborum vero dolorem delectus fuga ad atque ea, fugit facilis. Adipisci, qui quos?</span></td>
+                                            </tr>
+
+                                            <tr>
+                                                <th scope="row"><span class="fw-normal text-muted size-18">3</span></th>
+                                                <td><span class="fw-normal text-muted size-18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ratione placeat voluptate officia porro nesciunt in odio laborum vero dolorem delectus fuga ad atque ea, fugit facilis. Adipisci, qui quos?</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </span>
+                                <!--end:Info-->
+                            </span>
+                        </label>
+                        <!--end::Option-->
                     </div>
                 </div>
             </div>

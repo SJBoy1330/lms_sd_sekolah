@@ -1,8 +1,32 @@
-$(function() {
+  // $(function() {
+  //   $('input[name="tanggal"]').daterangepicker({
+  //     opens: 'left'
+  //   }, function(start, end, label) {
+  //     console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+  //   });
+  // });
+
+  $(function() {
     $('input[name="tanggal"]').daterangepicker({
-      opens: 'left'
+      singleDatePicker: true,
+      showDropdowns: true,
+      minYear: 1901,
+      maxYear: parseInt(moment().format('YYYY'),10)
     }, function(start, end, label) {
-      console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+      var years = moment().diff(start, 'years');
+      alert("You are " + years + " years old!");
+    });
+  });
+
+  $(function() {
+    $('input[name="tanggal2"]').daterangepicker({
+      singleDatePicker: true,
+      showDropdowns: true,
+      minYear: 1901,
+      maxYear: parseInt(moment().format('YYYY'),10)
+    }, function(start, end, label) {
+      var years = moment().diff(start, 'years');
+      alert("You are " + years + " years old!");
     });
   });
 

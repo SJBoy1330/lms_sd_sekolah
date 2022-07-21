@@ -200,6 +200,13 @@ $route['profile/(:any)'] = 'profile/controller_ctl/$1';
 $route['profile/(:any)/(:any)'] = 'profile/controller_ctl/$1/$2';
 
 
+$route['pdf']  = 'pdf/controller_ctl';
+
+$route['pdf/(:any)'] = 'pdf/controller_ctl/$1';
+
+$route['pdf/(:any)/(:any)'] = 'pdf/controller_ctl/$1/$2';
+
+
 $route['func_profile']  = 'profile/function_ctl';
 
 $route['func_profile/(:any)'] = 'profile/function_ctl/$1';
