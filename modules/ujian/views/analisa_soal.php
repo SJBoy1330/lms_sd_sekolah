@@ -55,7 +55,7 @@
                         <!--end::Table head-->
                         <!--begin::Table body-->
                         <tbody class="text-gray-600 fw-bold">
-                            <tr>
+                            <tr class="anim-2" style="opacity: 0;">
                                 <!--end::Checkbox-->
                                 <!--begin::User=-->
                                 <td class="text-center">
@@ -94,7 +94,7 @@
                                 </td>
                             </tr>
 
-                            <tr>
+                            <tr class="anim-2" style="opacity: 0;">
                                 <!--end::Checkbox-->
                                 <!--begin::User=-->
                                 <td class="text-center">

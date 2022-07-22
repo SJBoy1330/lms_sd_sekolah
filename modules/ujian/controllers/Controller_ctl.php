@@ -17,9 +17,6 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Grup Soal';
 
-		// LOAD CSS
-		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
-
 		// Load JS
 		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/ujian/banksoal.js"></script>';
 
@@ -87,9 +84,6 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Tambah Soal';
 
-		// LOAD CSS
-		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
-
 		// Load JS
 		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/ujian/tambah_soal.js"></script>';
 
@@ -106,9 +100,6 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Tambah Peserta';
 
-		// LOAD CSS
-		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
-
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('tambah_peserta_ujian', $mydata, TRUE);
 		$this->display();
@@ -121,9 +112,6 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Koreksi Jawaban';
-
-		// LOAD CSS
-		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('koreksi_ujian', $mydata, TRUE);
@@ -138,9 +126,6 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Hasil Ujian';
 
-		// LOAD CSS
-		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
-
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('hasil_ujian', $mydata, TRUE);
 		$this->display();
@@ -153,9 +138,6 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Hasil Ujian';
-
-		// LOAD CSS
-		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('detail_hasil_ujian', $mydata, TRUE);
@@ -170,9 +152,6 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Monitoring Ujian';
 
-		// LOAD CSS
-		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
-
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('monitoring_ujian', $mydata, TRUE);
 		$this->display();
@@ -185,9 +164,6 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Tambah Paket Ujian';
-
-		// LOAD CSS
-		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('tambah_paket_ujian', $mydata, TRUE);
@@ -202,8 +178,8 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Analisa Butir Soal';
 
-		// LOAD CSS
-		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
+		// Load JS
+		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/ujian/analisa_soal.js"></script>';
 
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('analisa_soal', $mydata, TRUE);
@@ -218,9 +194,6 @@ class Controller_ctl extends MY_Admin
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Detail Analisa Soal';
 
-		// LOAD CSS
-		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
-
 		// LOAD VIEW
 		$this->data['content'] = $this->load->view('detail_analisa_soal', $mydata, TRUE);
 		$this->display();
@@ -233,9 +206,6 @@ class Controller_ctl extends MY_Admin
 
 		// LOAD BREADCRUMB
 		$mydata['breadcrumb']['menu'] = 'Instruksi Ujian';
-
-		// LOAD CSS
-		// $this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/profil/profil.css') . '">';
 
 		// Load JS
 		$this->data['js_add'][] = '<script src="' . base_url() . 'assets/js/page/ujian/instruksi_ujian.js"></script>';

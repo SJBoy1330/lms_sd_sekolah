@@ -102,14 +102,10 @@
                                         <input class="form-check-input" name="maincheckbox" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_suratijin .form-check-input" value="1" />
                                     </div>
                                 </th>
-                                <th class="min-w-125px text-center">Aksi</th>
-                                <th class="min-w-100px text-center">No</th>
-                                <th class="min-w-175px text-center">Tanggal</th>
-                                <th class="min-w-175px text-center">Nis</th>
-                                <th class="min-w-250px text-center">Nama Siswa</th>
-                                <th class="min-w-150px text-center">Status Izin</th>
-                                <th class="min-w-200px text-center">File Surat</th>
-                                <th class="min-w-250px text-center">Tanggal Izin</th>
+                                <th class="min-w-75px text-center">Aksi</th>
+                                <th class="min-w-75px text-center">No</th>
+                                <th class="min-w-275px text-center">Tanggal</th>
+                                <th class="min-w-250px text-center">Status Izin</th>
                             </tr>
                             <!--end::Table row-->
                         </thead>
@@ -132,6 +128,9 @@
                                     </button>
                                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-secondary fw-bold fs-7 w-175px py-4" data-kt-menu="true">
                                         <div class="menu-item px-3">
+                                            <a data-bs-toggle="modal" href="#modalDetail" role="button" class="menu-link px-3" >Lihat</a>
+                                        </div>
+                                        <div class="menu-item px-3">
                                             <a href="#" class="menu-link px-3">Edit</a>
                                         </div>
                                         <div class="menu-item px-3">
@@ -151,32 +150,9 @@
                                         09-04-2022 11:28:32
                                     </p>
                                 </td>
-
-                                <td>
-                                    <p class="text-center">
-                                        10006
-                                    </p>
-                                </td>
-                                <td>
-                                    <p class="text-center">
-                                        Ali
-                                    </p>
-                                </td>
                                 <td>
                                     <p class="text-center">
                                         Sakit
-                                    </p>
-                                </td>
-                                <td>
-                                    <p class="text-center">
-                                        <a href="#" class="btn btn-light-warning w-75">
-                                            <img alt="Logo" src="<?= base_url() ?>assets/img/letter.svg" class="h-20px me-3">Surat
-                                        </a>
-                                    </p>
-                                </td>
-                                <td>
-                                    <p class="text-center">
-                                        2022-04-10 s/d 2022-04-12
                                     </p>
                                 </td>
                             </tr>
@@ -319,6 +295,128 @@
                             <!--end::Svg Icon-->Simpan
                         </button>
                         <!--end::Add user-->
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal body-->
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>
+
+<div class="modal fade" id="modalDetail" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-850px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header">
+                <!--begin::Modal title-->
+                <h2 class="fw-bolder">Detail Surat Izin</h2>
+                <!--end::Modal title-->
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <!--end::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y mx-10 my-2">
+                <div class="row">
+                    <div class="col-12">
+                        <!--begin:Option-->
+                        <label class="d-flex flex-stack mb-5 cursor-pointer">
+                            <!--begin:Label-->
+                            <span class="d-flex me-2">
+                                <!--begin:Icon-->
+                                <span class="symbol symbol-50px me-6">
+                                    <span class="symbol-label bg-light-secondary">
+                                        <i class="fa-duotone fa-calendar" style="font-size: 1.5rem;"></i>
+                                    </span>
+                                </span>
+                                <!--end:Icon-->
+                                <!--begin:Info-->
+                                <span class="d-flex flex-column">
+                                    <span class="fw-bolder fs-6">NIS</span>
+                                    <span class="fs-7 text-muted">10006</span>
+                                </span>
+                                <!--end:Info-->
+                            </span>
+                        </label>
+                        <!--end::Option-->
+                        <!--begin:Option-->
+                        <label class="d-flex flex-stack mb-5 cursor-pointer">
+                            <!--begin:Label-->
+                            <span class="d-flex me-2">
+                                <!--begin:Icon-->
+                                <span class="symbol symbol-50px me-6">
+                                    <span class="symbol-label bg-light-secondary">
+                                        <i class="fa-duotone fa-timer" style="font-size: 1.5rem;"></i>
+                                    </span>
+                                </span>
+                                <!--end:Icon-->
+                                <!--begin:Info-->
+                                <span class="d-flex flex-column">
+                                    <span class="fw-bolder fs-6">Nama siswa</span>
+                                    <span class="fs-7 text-muted">Jhon Doe</span>
+                                </span>
+                                <!--end:Info-->
+                            </span>
+                        </label>
+                        <!--end::Option-->
+                        <!--begin:Option-->
+                        <label class="d-flex flex-stack mb-5 cursor-pointer">
+                            <!--begin:Label-->
+                            <span class="d-flex me-2">
+                                <!--begin:Icon-->
+                                <span class="symbol symbol-50px me-6">
+                                    <span class="symbol-label bg-light-secondary">
+                                        <i class="fa-duotone fa-timer" style="font-size: 1.5rem;"></i>
+                                    </span>
+                                </span>
+                                <!--end:Icon-->
+                                <!--begin:Info-->
+                                <span class="d-flex flex-column">
+                                    <span class="fw-bolder fs-6">Tanggal Izin</span>
+                                    <span class="fs-7 text-muted">2022-04-10 s/d 2022-04-12</span>
+                                </span>
+                                <!--end:Info-->
+                            </span>
+                        </label>
+                        <!--end::Option-->
+                        <!--begin:Option-->
+                        <label class="d-flex flex-stack mb-5 cursor-pointer">
+                            <!--begin:Label-->
+                            <span class="d-flex me-2">
+                                <!--begin:Icon-->
+                                <span class="symbol symbol-50px me-6">
+                                    <span class="symbol-label bg-light-secondary">
+                                        <i class="fa-duotone fa-file" style="font-size: 1.5rem;"></i>
+                                    </span>
+                                </span>
+                                <!--end:Icon-->
+                                <!--begin:Info-->
+                                <span class="d-flex flex-column ">
+                                    <span class="fw-bolder fs-6">File Surat</span>
+                                    <div class="d-flex">
+                                        <a href="#" class="btn btn-sm btn-light-warning me-3">
+                                            <img alt="Logo" src="<?= base_url() ?>assets/img/letter.svg" class="h-20px me-3">Surat
+                                        </a>
+                                    </div>
+                                </span>
+                                <!--end:Info-->
+                            </span>
+                        </label>
+                        <!--end::Option-->
                     </div>
                 </div>
             </div>
