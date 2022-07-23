@@ -388,3 +388,10 @@ label {
      border: 1px solid #2ecc71;
      background-color: #E2FFF7;
 }
+
+
+.tns-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
