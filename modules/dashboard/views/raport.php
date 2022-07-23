@@ -228,6 +228,108 @@
                 </div>
                 <!--end::List Widget 1-->
             </div>
+            <div class="col-xl-6">
+                <!--begin::List Widget 1-->
+                <div class="card card-xl-stretch mb-xl-8">
+                    <!--begin::Header-->
+                    <div class="card-header border-0 pt-5">
+                        <h3 class="card-title align-items-start flex-column">
+                            <span class="card-label fw-bolder text-dark">List Mata Pelajaran</span>
+                        </h3>
+                    </div>
+                    <!--end::Header-->
+                    <!--begin::Body-->
+                    <div class="card-body pt-5">
+                        <!--begin::Item-->
+                        <div class="d-flex align-items-center mb-7">
+                            <!--begin::Symbol-->
+                            <div class="symbol symbol-50px me-5">
+                                <span class="symbol-label bg-light-success">
+                                    <i class="fa-duotone fa-books" style="font-size: 1.5rem; color: #009ef7"></i>
+                                </span>
+                            </div>
+                            <!--end::Symbol-->
+                            <!--begin::Text-->
+                            <a data-bs-toggle="modal" data-bs-target="#modalListUjian" class="d-flex flex-column cursor-pointer">
+                                <span class="text-dark fs-6 fw-bolder">Mata Pelajaran</span>
+                                <span class="text-muted fw-bold">Ilmu Pengetahuan Alam</span>
+                            </a>
+                            <!--end::Text-->
+                        </div>
+                        <!--end::Item-->
+                        <!--begin::Item-->
+                        <div class="d-flex align-items-center mb-7">
+                            <!--begin::Symbol-->
+                            <div class="symbol symbol-50px me-5">
+                                <span class="symbol-label bg-light-warning">
+                                    <i class="fa-duotone fa-books" style="font-size: 1.5rem; color: #ffc700"></i>
+                                </span>
+                            </div>
+                            <!--end::Symbol-->
+                            <!--begin::Text-->
+                            <a data-bs-toggle="modal" data-bs-target="#modalListUjian" class="d-flex flex-column cursor-pointer">
+                                <span class="text-dark fs-6 fw-bolder">Mata Pelajaran</span>
+                                <span class="text-muted fw-bold">Ilmu Pengetahuan Sosial</span>
+                            </a>
+                            <!--end::Text-->
+                        </div>
+                        <!--end::Item-->
+                        <!--begin::Item-->
+                        <div class="d-flex align-items-center mb-7">
+                            <!--begin::Symbol-->
+                            <div class="symbol symbol-50px me-5">
+                                <span class="symbol-label bg-light-primary">
+                                    <i class="fa-duotone fa-books" style="font-size: 1.5rem; color: #b0dc00"></i>
+                                </span>
+                            </div>
+                            <!--end::Symbol-->
+                            <!--begin::Text-->
+                            <a data-bs-toggle="modal" data-bs-target="#modalListUjian" class="d-flex flex-column cursor-pointer">
+                                <span class="text-dark fs-6 fw-bolder">Mata Pelajaran</span>
+                                <span class="text-muted fw-bold">Matematika</span>
+                            </a>
+                            <!--end::Text-->
+                        </div>
+                        <!--end::Item-->
+                        <!--begin::Item-->
+                        <div class="d-flex align-items-center mb-7">
+                            <!--begin::Symbol-->
+                            <div class="symbol symbol-50px me-5">
+                                <span class="symbol-label bg-light-danger">
+                                    <i class="fa-duotone fa-books" style="font-size: 1.5rem; color: #d9214e;"></i>
+                                </span>
+                            </div>
+                            <!--end::Symbol-->
+                            <!--begin::Text-->
+                            <a data-bs-toggle="modal" data-bs-target="#modalListUjian" class="d-flex flex-column cursor-pointer">
+                                <span class="text-dark fs-6 fw-bolder">Mata Pelajaran</span>
+                                <span class="text-muted fw-bold">Pendidikan Jasmani, Olahraga, dan Kesehatan</span>
+                            </a>
+                            <!--end::Text-->
+                        </div>
+                        <!--end::Item-->
+                        <!--begin::Item-->
+                        <div class="d-flex align-items-center">
+                            <!--begin::Symbol-->
+                            <div class="symbol symbol-50px me-5">
+                                <span class="symbol-label bg-light-info">
+                                    <i class="fa-duotone fa-books" style="font-size: 1.5rem; color: #7239ea;"></i>
+                                </span>
+                            </div>
+                            <!--end::Symbol-->
+                            <!--begin::Text-->
+                            <a data-bs-toggle="modal" data-bs-target="#modalListUjian" class="d-flex flex-column cursor-pointer">
+                                <span class="text-dark fs-6 fw-bolder">Mata Pelajaran</span>
+                                <span class="text-muted fw-bold">Bahasa Indonesia</span>
+                            </a>
+                            <!--end::Text-->
+                        </div>
+                        <!--end::Item-->
+                    </div>
+                    <!--end::Body-->
+                </div>
+                <!--end::List Widget 1-->
+            </div>
         </div>
         <!--end::Row-->
     </div>
@@ -237,7 +339,7 @@
 
 <div class="modal fade" id="modalDaftarTugas" tabindex="-1" aria-hidden="true">
     <!--begin::Modal dialog-->
-    <div class="modal-dialog modal-dialog-centered mw-850px">
+    <div class="modal-dialog modal-dialog-centered mw-650px">
         <!--begin::Modal content-->
         <div class="modal-content">
             <!--begin::Modal header-->
@@ -327,6 +429,89 @@
                                         <span class="text-success fw-bold">Sudah Mengerjakan</span>
                                     </div>
                                     <!--end::Text-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal body-->
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>
+
+<div class="modal fade" id="modalListUjian" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-650px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header">
+                <!--begin::Modal title-->
+                <h2 class="fw-bolder">List Ujian</h2>
+                <!--end::Modal title-->
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <!--end::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card shadow-sm mb-5">
+                            <div class="card-body p-5">
+                                <div class="d-flex align-items-sm-center">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-50px me-5">
+                                        <span class="symbol-label bg-light-secondary">
+                                            <i class="fa-duotone fa-books" style="font-size: 1.5rem; color: #c4c4c4"></i>
+                                        </span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Section-->
+                                    <div class="d-flex align-items-center flex-row-fluid flex-wrap">
+                                        <div class="flex-grow-1 me-2">
+                                            <a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bolder">Ilmu Pengetahuan Alam</a>
+                                            <span class="text-success fw-bold d-block fs-7">Sudah mengerjakarn</span>
+                                        </div>
+                                        <span class="badge badge-light fw-bolder my-2">92</span>
+                                    </div>
+                                    <!--end::Section-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card shadow-sm mb-5">
+                            <div class="card-body p-5">
+                                <div class="d-flex align-items-sm-center">
+                                    <!--begin::Symbol-->
+                                    <div class="symbol symbol-50px me-5">
+                                        <span class="symbol-label bg-light-secondary">
+                                            <i class="fa-duotone fa-books" style="font-size: 1.5rem; color: #c4c4c4"></i>
+                                        </span>
+                                    </div>
+                                    <!--end::Symbol-->
+                                    <!--begin::Section-->
+                                    <div class="d-flex align-items-center flex-row-fluid flex-wrap">
+                                        <div class="flex-grow-1 me-2">
+                                            <a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bolder">Pendidikan Jasmani, Olahraga, dan Kesehatan</a>
+                                            <span class="text-danger fw-bold d-block fs-7">Belum mengerjakarn</span>
+                                        </div>
+                                        <span class="badge badge-light fw-bolder my-2">78</span>
+                                    </div>
+                                    <!--end::Section-->
                                 </div>
                             </div>
                         </div>
