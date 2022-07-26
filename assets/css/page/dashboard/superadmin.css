@@ -1,0 +1,398 @@
+
+.circle{
+    z-index: -9999;
+    position: fixed;
+    border-radius: 50%;
+    background: rgb(219, 219, 219);
+    animation: ripple 10s infinite;
+    bottom: -10%;
+    right: -10%;
+  }
+  
+  .small{
+    width: 200px;
+    height: 200px;
+    right: -100px;
+    bottom: -100px;
+  }
+  
+  .medium{
+    width: 400px;
+    height: 400px;
+    right: -200px;
+    bottom: -200px;
+  }
+  
+  .large{
+    width: 600px;
+    height: 600px;
+    right: -300px;
+    bottom: -300px;
+  }
+  
+  .xlarge{
+    width: 800px;
+    height: 800px;
+    right: -400px;
+    bottom: -400px;
+  }
+  
+  .xxlarge{
+    width: 1000px;
+    height: 1000px;
+    right: -500px;
+    bottom: -500px;
+  }
+  
+  .shade1{
+    opacity: 0.2;
+  }
+  .shade2{
+    opacity: 0.5;
+  }
+  
+  .shade3{
+    opacity: 0.7;
+  }
+  
+  .shade4{
+    opacity: 0.8;
+  }
+  
+  .shade5{
+    opacity: 0.9;
+  }
+  
+  @keyframes ripple{
+    0%{
+      transform: scale(0.8);
+    }
+    
+    50%{
+      transform: scale(1.2);
+    }
+    
+    100%{
+      transform: scale(0.8);
+    }
+  }
+
+
+.fadein-bottom{
+    animation: fadeInBottom ;
+    animation-fill-mode: forwards;
+}
+
+.fadein-right{
+  animation: fadeInRight ;
+  animation-fill-mode: forwards;
+}
+
+.fadein{
+  animation: fadeIn 1s ;
+  animation-fill-mode: forwards;
+}
+
+
+.anim-1{
+  animation-duration: 0.25s;
+}
+
+.anim-2{
+  animation-duration: 0.5s;
+}
+
+.anim-3{
+  animation-duration: 0.75s;
+}
+.anim-4{
+  animation-duration: 1s;
+}
+.anim-5{
+  animation-duration: 1.25s;
+}
+
+
+
+.anim-delay-1{
+  animation-delay: 0.25s;
+}
+
+.anim-delay-2{
+  animation-delay: 0.5s;
+}
+.anim-delay-3{
+  animation-delay: 0.75s;
+}
+.anim-delay-4{
+  animation-delay: 1s;
+}
+.anim-delay-5{
+  animation-delay: 1.25s;
+}
+
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    to { 
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50%);
+
+    }
+    to { 
+        opacity: 1;
+    }
+}
+
+
+@keyframes fadeInLeft {
+  from {
+      opacity: 0;
+  }
+  to { 
+      opacity: 1;
+  }
+}
+
+.card.three-card{
+    height: 550px;
+    overflow-y: scroll;
+}
+
+div.card.card-stretch{
+    width: 287px;
+    height: 200px;
+    margin: 10px;
+}
+
+div.scrollmenu .col-3 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+
+
+div.scrollmenu {
+    overflow: scroll;
+    display: flex;
+  }
+
+  .card-flex-container {
+        -ms-box-orient: horizontal;
+        display: flex;
+    }
+
+    .wrap {
+        -webkit-flex-wrap: none;
+        flex-wrap: none;
+        max-height: 100%;
+    }
+  
+  @media only screen and (max-width: 600px) {
+    div.scrollmenu {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        overflow-x: scroll;
+    }
+    .card-flex-container {
+        -ms-box-orient: horizontal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrap {
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        max-height: 100%;
+      }
+  }
+
+span.badge.notif{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:70%;
+    width:100%;
+}
+
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    height:100%;
+    width:100%;
+}
+
+.gmap_canvas iframe{
+    width:100%;
+}
+
+.w-200px{
+    width:200px !important;
+}
+
+.wrapper-soal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bgi-no-repeat.jawaban-gambar{
+    width: 150px;
+}
+
+/* Instruksi Ujian */
+.wrapper-profil{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-profil{
+    margin-right: 1.25rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.keterangan-kelas{
+    display: flex;
+    align-items: center;
+}
+
+.mode-mode{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper-profil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .image-profil{
+        margin-right: 0rem !important;
+    }
+
+    .keterangan-kelas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mode-mode{
+        display: flex;
+        justify-content:center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
+
+/* Tablink Penomoran */
+.tab {
+    color: #C4C4C4;
+  }
+  
+  .tab button {
+    background-color: inherit;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: #009ef7;
+    border: 1px solid #009ef7;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    font-size: 13px;
+  }
+  
+  .tab button.active {
+    border: 2px solid #009ef7;
+    color: #FFFFFF;
+    background-color: #009ef7;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+  }
+
+/* Pilgan */
+
+label {
+    width: 100%;
+}
+
+.card.card-default{
+    border-radius: 8px;
+}
+
+.card-input-element {
+    display: none;
+}
+
+.card-input:hover {
+    cursor: pointer;
+}
+
+.card-input-element:checked + .card-input {
+     border: 1px solid #2ecc71;
+     background-color: #E2FFF7;
+}
+
+/* Checkbox */
+
+label {
+    width: 100%;
+}
+
+.card.card-default-2{
+    border-radius: 8px;
+}
+
+.card-input-element-2 {
+    display: none;
+}
+
+.card-input-2:hover {
+    cursor: pointer;
+}
+
+.card-input-element-2:checked + .card-input-2 {
+     border: 1px solid #2ecc71;
+     background-color: #E2FFF7;
+}
+
+
+.tns-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

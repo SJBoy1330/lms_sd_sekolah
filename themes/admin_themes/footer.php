@@ -94,6 +94,14 @@
     <!-- select2 -->
     <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/select2/js/select2.min.js"></script>
 
+    <!-- Google Chart -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <!-- Kalender -->
+    <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assets/plugins/custom/fullcalendar/locales/ms.js"></script>
+    
+
     <script src="<?= base_url('assets/js/alert/sweetalert2.all.min.js') ?>"></script>
     <script src="<?= base_url('assets/js/alert/scriptalert.js') ?>"></script>
 

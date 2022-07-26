@@ -47,6 +47,26 @@ class Controller_ctl extends MY_Admin
 		$this->display();
 	}
 
+	public function dashboard_superadmin()
+	{
+		// LOAD TITLE
+		$this->data['title'] = 'Dashboard';
+
+		// LOAD BREADCRUMB
+		$mydata['breadcrumb']['menu'] = 'Dashboard';
+
+		// LOAD CSS
+		$this->data['css_add'][] = '<link rel="stylesheet" href="' . base_url('assets/css/page/dashboard/superadmin.css') . '">';
+
+		// LOAD JS
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/js/page/dashboard/dashboard_superadmin.js') . '"></script>';
+		$this->data['js_add'][] = '<script type="text/javascript" src="' . base_url('assets/plugins/custom/fullcalendar/locales/ms.js') . '"></script>';
+
+		// LOAD VIEW
+		$this->data['content'] = $this->load->view('dashboard_superadmin', $mydata, TRUE);
+		$this->display();
+	}
+
 	public function raport()
 	{
 		// LOAD TITLE
