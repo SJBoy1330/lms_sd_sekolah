@@ -52,6 +52,12 @@
                                 <i class="fa-duotone fa-trash" style="font-size: 18px;"></i>
                             </span>
                             Hapus</button>
+                        <button type="button" class="btn btn-sm btn-light-warning me-2" data-bs-toggle="modal" data-bs-target="#modalDistribusi">
+                            <span class="svg-icon svg-icon-2 me-0">
+                                <i class="fa-duotone fa-chart-network"></i>
+                            </span>
+                            Distribusi
+                        </button>
                         <button type="button" class="btn btn-sm btn-light-success btn-tambah-edit-modal-kelas" data-bs-toggle="modal" data-bs-target="#modalTambahKelas">
                             <span class="svg-icon svg-icon-2 me-0">
                                 <i class="fa-duotone fa-plus" style="font-size: 18px;"></i>
@@ -184,6 +190,145 @@
     <div class="modal-dialog modal-dialog-centered mw-850px">
         <!--begin::Modal content-->
         <div class="modal-content" id="content-edit-tambah-kelas">
+        </div>
+        <!--end::Modal content-->
+    </div>
+    <!--end::Modal dialog-->
+</div>
+
+<!-- Modal Distribusi -->
+<div class="modal fade" id="modalDistribusi" tabindex="-1" aria-hidden="true">
+    <!--begin::Modal dialog-->
+    <div class="modal-dialog modal-dialog-centered mw-850px">
+        <!--begin::Modal content-->
+        <div class="modal-content">
+            <!--begin::Modal header-->
+            <div class="modal-header">
+                <!--begin::Modal title-->
+                <h2 class="fw-bolder">Modal Distribusi</h2>
+                <!--end::Modal title-->
+                <!--begin::Close-->
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal" data-kt-users-modal-action="close" type="button">
+                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+                    <span class="svg-icon svg-icon-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                        </svg>
+                    </span>
+                    <!--end::Svg Icon-->
+                </div>
+                <!--end::Close-->
+            </div>
+            <!--end::Modal header-->
+            <!--begin::Modal body-->
+            <div class="modal-body scroll-y mx-10 my-2">
+                <div class="row">
+                    <div class="col-xl-12 col-md-12">
+                        <div class="d-flex flex-column mb-8 fv-row">
+                            <!--begin::Label-->
+                            <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                                <span class="required">Kelas</span>
+                            </label>
+                            <!--end::Label-->
+                            <div class="position-relative d-flex align-items-center">
+                                <div style="width:100vw;">
+                                    <select class="form-select form-select-solid" data-control="select2" data-placeholder="Pilih Kelas">
+                                        <option></option>
+                                        <option value="1">Kelas Abu Bakar</option>
+                                        <option value="2">Kelas Umar bin Khatab</option>
+                                        <option value="3">kelas Ustman bin Affan</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12 col-md-12">
+                        <div class="table-responsive">
+                            <table class="table align-middle gs-0 gy-4" id="kt_table_kelas_modal">
+                                <!--begin::Table head-->
+                                <thead>
+                                    <tr class="fw-bolder text-muted bg-light">
+                                        <th class="ps-4 w-100px rounded-start">
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
+                                                <input class="form-check-input" name="mainmodalcheckbox" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_table_kelas_modal .form-check-input" value="1" />
+                                            </div>
+                                        </th>
+                                        <th class="min-w-125px text-center">NIS</th>
+                                        <th class="min-w-200px text-center rounded-end">Nama Siswa</th>
+                                    </tr>
+                                </thead>
+                                <!--end::Table head-->
+                                <!--begin::Table body-->
+                                <tbody>
+                                    <tr class="anim-2" style="opacity: 0;">
+                                        <td class="ps-4">
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                                <input class="form-check-input deleteboxmodal" type="checkbox" value="1" />
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p class="text-center mb-0">12345</p>
+                                        </td>
+
+                                        <td>
+                                            <p class="text-center">
+                                                Jhon Doe
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="anim-2" style="opacity: 0;">
+                                        <td class="ps-4">
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                                <input class="form-check-input deleteboxmodal" type="checkbox" value="1" />
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p class="text-center mb-0">67890</p>
+                                        </td>
+
+                                        <td>
+                                            <p class="text-center">
+                                                Max Smith
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="anim-2" style="opacity: 0;">
+                                        <td class="ps-4">
+                                            <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                                <input class="form-check-input deleteboxmodal" type="checkbox" value="1" />
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p class="text-center mb-0">112233</p>
+                                        </td>
+
+                                        <td>
+                                            <p class="text-center">
+                                                Lisa On
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <!--end::Table body-->
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-primary">
+                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                            <span class="svg-icon svg-icon-2">
+                                <i class="fa-duotone fa-floppy-disk" style="font-size: 1.3rem;"></i>
+                            </span>
+                            <!--end::Svg Icon-->Simpan
+                        </button>
+                        <!--end::Add user-->
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal body-->
         </div>
         <!--end::Modal content-->
     </div>

@@ -13,6 +13,20 @@ $(function() {
 
 });
 
+$(function() {
+    $("#kt_table_kelas_modal").on("click", function() {
+        $("#deletemodalall").toggle($(this).find(".deleteboxmodal:checked").length > 0);
+        if($(this).find(".deleteboxmodal:checked").length < ($(this).find(".deleteboxmodal").length)){
+            $('input[name="mainmodalcheckbox"]').prop('checked', false);
+        }else if($(this).find(".deleteboxmodal:checked").length = ($(this).find(".deleteboxmodal").length)){
+            $('input[name="mainmodalcheckbox"]').prop('checked', true);
+        }
+    })
+    $('input[name="mainmodalcheckbox"]').on("click", function() {
+        $('.deleteboxmodal').prop('checked', this.checked);
+    });
+});
+
 setTimeout(function() {
     $('tr').each(function(i) {
         setTimeout(function() {
