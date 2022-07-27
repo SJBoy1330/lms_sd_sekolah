@@ -59,7 +59,7 @@
                                     <tr class=" text-white text-uppercase gs-0 align-middle text-center">
                                         <th class="min-w-50px bg-danger border border-white">Jam</th>
                                         <th class="min-w-50px bg-danger border border-white">Waktu</th>
-                                        <th class="min-w-225px bg-danger border border-white">Kelas XI IPA 1</th>
+                                        <th class="w-500px bg-danger border border-white">Kelas XI IPA 1</th>
                                     </tr>
                                     <!--end::Table row-->
                                 </thead>
@@ -69,12 +69,12 @@
                                     <tr class="align-middle text-center text-dark">
                                         <td class="border border-white">1</td>
                                         <td class="border border-white">07:00 - 07:45</td>
-                                        <td class="border border-white bg-light-danger">Tidak ada jadwal</td>
+                                        <td class="border border-white bg-light-danger cursor-pointer">Tidak ada jadwal</td>
                                     </tr>
                                     <tr class="align-middle text-dark">
                                         <td class="border text-center border-white">2</td>
                                         <td class="border text-center border-white">07:00 - 07:45</td>
-                                        <td class="border border-white">
+                                        <td class="border border-white cursor-pointer">
                                             <div class="row">
                                                 <div class="col-12 d-flex justify-content-center align-items-center wrapper-jadwal">
                                                     <ul class="list-group">
@@ -89,12 +89,12 @@
                                     <tr class="align-middle text-dark">
                                         <td class="border text-center border-white">3</td>
                                         <td class="border text-center border-white">07:00 - 07:45</td>
-                                        <td class="border text-center border-white bg-light-danger">Tidak ada jadwal</td>
+                                        <td class="border text-center border-white bg-light-danger cursor-pointer">Tidak ada jadwal</td>
                                     </tr>
                                     <tr class="align-middle text-dark">
                                         <td class="border text-center border-white">4</td>
                                         <td class="border text-center border-white">07:00 - 07:45</td>
-                                        <td class="border border-white">
+                                        <td class="border border-white cursor-pointer">
                                             <div class="row">
                                                 <div class="col-12 d-flex justify-content-center align-items-center wrapper-jadwal">
                                                     <ul class="list-group">
@@ -109,12 +109,12 @@
                                     <tr class="align-middle text-dark">
                                         <td class="border text-center border-white">5</td>
                                         <td class="border text-center border-white">07:00 - 07:45</td>
-                                        <td class="border text-center border-white bg-light-warning">Istirahat</td>
+                                        <td class="border text-center border-white bg-light-warning cursor-pointer">Istirahat</td>
                                     </tr>
                                     <tr class="align-middle text-dark">
                                         <td class="border text-center border-white">6</td>
                                         <td class="border text-center border-white">07:00 - 07:45</td>
-                                        <td class="border border-white">
+                                        <td class="border border-white cursor-pointer">
                                             <div class="row">
                                                 <div class="col-12 d-flex justify-content-center align-items-center wrapper-jadwal">
                                                     <ul class="list-group">
@@ -129,12 +129,12 @@
                                     <tr class="align-middle text-dark">
                                         <td class="border text-center border-white">7</td>
                                         <td class="border text-center border-white">07:00 - 07:45</td>
-                                        <td class="border text-center border-white bg-light-danger">Tidak ada jadwal</td>
+                                        <td class="border text-center border-white bg-light-danger cursor-pointer">Tidak ada jadwal</td>
                                     </tr>
                                     <tr class="align-middle text-dark">
                                         <td class="border text-center border-white">8</td>
                                         <td class="border text-center border-white">07:00 - 07:45</td>
-                                        <td class="border border-white">
+                                        <td class="border border-white cursor-pointer">
                                             <div class="row">
                                                 <div class="col-12 d-flex justify-content-center align-items-center wrapper-jadwal">
                                                     <ul class="list-group">
